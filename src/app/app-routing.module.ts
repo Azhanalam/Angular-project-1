@@ -6,10 +6,10 @@ import {HeaderComponent} from './header/header.component';
 import {HomepageComponent} from './homepage/homepage.component';
 import { RequestedFormComponent } from './requested-form/requested-form.component';
 const routes: Routes = [
-  {path:'',component:RequestedFormComponent},
+  {path:'requestedform',component:RequestedFormComponent},
   {path:'welcome',component:WelcomeComponent},
   {path:'header',component:HomepageComponent},
-  {path:'login',component:LoginComponent}
+  {path:'',component:LoginComponent}
 ];
 
 @NgModule({
