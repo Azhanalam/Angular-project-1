@@ -23,7 +23,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MatCardModule } from '@angular/material/card';
-import { RequestedFormComponent } from './requested-form/requested-form.component';
+import { ApplicationFormComponent } from './application-form/application-form.component';
+import { SummaryComponent } from './summary/summary.component';
+import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { RequestedFormComponent } from './requested-form/requested-form.componen
     FooterComponent,
     LoginComponent,
     WelcomeComponent,
-    RequestedFormComponent
+    ApplicationFormComponent,
+    SummaryComponent,
+    AcknowledgementComponent
   ],
   imports: [
     MatListModule,

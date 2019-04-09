@@ -125,15 +125,16 @@ p{
   padding-left: 20px;
 }
 .card{
-  height: 650px;
+  height:1200px;
   margin-top:5px;
+  width:12.5rem
 }
 .card-title{
   font-weight: bold;
 }
 
 .LIST{
-  width:85%;
+  width:60rem;
   margin-left:23%;
 }
 
@@ -203,9 +204,34 @@ p{
   padding:17px;
 }
 .form-control{
-  width:450px;
+  width:550px;
   height:30px !important;
 }
 .az{
   height:25px;
+}
+.abc
+  {
+      font-size: .8rem;
+      letter-spacing: 1px;
+  }
+
+.abc{
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+.abc {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width:600px;
+}
+
+.ABC {
+    display: block;
+    margin-bottom: 10px;
+    font-weight:bold;
+    margin-top: 10px;
 }
