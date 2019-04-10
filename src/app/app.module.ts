@@ -26,6 +26,7 @@ import { MatCardModule } from '@angular/material/card';
 import { ApplicationFormComponent } from './application-form/application-form.component';
 import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
+import { ApplicationForm2Component } from './application-form2/application-form2.component';
 import { ApplyCayeComponent } from './apply-caye/apply-caye.component';
 
 @NgModule({
@@ -39,6 +40,7 @@ import { ApplyCayeComponent } from './apply-caye/apply-caye.component';
     ApplicationFormComponent,
     SummaryComponent,
     AcknowledgementComponent,
+    ApplicationForm2Component,
     ApplyCayeComponent
   ],
   imports: [

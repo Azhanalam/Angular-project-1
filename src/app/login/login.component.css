@@ -6,7 +6,7 @@ body{
 background-image: url('https://image.freepik.com/free-photo/bright-scenic-day-environment-background_1253-545.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-height: 100%;
+height: 657px;
 font-family: 'Numans', sans-serif;
 }
 
@@ -17,7 +17,7 @@ align-content: center;
 
 .card{
 height: 370px;
-margin-top: auto;
+margin-top:150px;
 margin-bottom: auto;
 width:320px;
 background:#f7f8f9;

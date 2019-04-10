@@ -91,13 +91,13 @@ padding:1px 15px 600px 15px;
 
 }
 
-.box1 {
+/* .box1 {
   width: 100%;
   background: #49712d;
   padding:10px 42px 55px 10px;
   margin:5px;
   color:white;
-  /* line-height: 20px; */
+
 }
 .box2 {
   width: 100%;
@@ -123,7 +123,7 @@ padding:1px 15px 600px 15px;
      margin:5px;
      color:white;
     }
-}
+} */
 
 ul {
   list-style: none;
