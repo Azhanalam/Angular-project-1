@@ -9,8 +9,9 @@ import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
 import { ApplicationForm2Component } from './application-form2/application-form2.component';
 import {ApplyCayeComponent} from './apply-caye/apply-caye.component'
-
+import { Summary2Component } from './summary2/summary2.component';
 const routes: Routes = [
+  {path:'summary2',component:Summary2Component},
   {path:'applicationform2',component:ApplicationForm2Component},
   {path:'acknowledgement',component:AcknowledgementComponent},
   {path:'summary',component:SummaryComponent},
