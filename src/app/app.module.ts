@@ -26,6 +26,7 @@ import { MatCardModule } from '@angular/material/card';
 import { ApplicationFormComponent } from './application-form/application-form.component';
 import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
+import { ApplicationForm2Component } from './application-form2/application-form2.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { AcknowledgementComponent } from './acknowledgement/acknowledgement.comp
     WelcomeComponent,
     ApplicationFormComponent,
     SummaryComponent,
-    AcknowledgementComponent
+    AcknowledgementComponent,
+    ApplicationForm2Component
   ],
   imports: [
     MatListModule,
