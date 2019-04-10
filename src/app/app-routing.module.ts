@@ -8,13 +8,16 @@ import { ApplicationFormComponent } from './application-form/application-form.co
 import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
 import { ApplicationForm2Component } from './application-form2/application-form2.component';
+import {ApplyCayeComponent} from './apply-caye/apply-caye.component'
+
 const routes: Routes = [
   {path:'applicationform2',component:ApplicationForm2Component},
   {path:'acknowledgement',component:AcknowledgementComponent},
   {path:'summary',component:SummaryComponent},
   {path:'applicationform',component:ApplicationFormComponent},
+  {path:'applycaye',component:ApplyCayeComponent},
   {path:'welcome',component:WelcomeComponent},
-  {path:'header',component:HomepageComponent},
+  {path:'homepage',component:HomepageComponent},
   {path:'',component:LoginComponent}
 ];
 
