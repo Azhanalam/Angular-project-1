@@ -28,6 +28,7 @@ import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
 import { ApplicationForm2Component } from './application-form2/application-form2.component';
 import { ApplyCayeComponent } from './apply-caye/apply-caye.component';
+import { Summary2Component } from './summary2/summary2.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ApplyCayeComponent } from './apply-caye/apply-caye.component';
     SummaryComponent,
     AcknowledgementComponent,
     ApplicationForm2Component,
-    ApplyCayeComponent
+    ApplyCayeComponent,
+    Summary2Component
   ],
   imports: [
     MatListModule,
