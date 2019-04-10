@@ -15,12 +15,15 @@ import { MatDividerModule } from '@angular/material/divider';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { MatListModule } from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { MatCardModule } from '@angular/material/card';
+import { RequestedFormComponent } from './requested-form/requested-form.component';
 
 @NgModule({
   declarations: [
@@ -28,9 +31,13 @@ import {MatInputModule} from '@angular/material/input';
     HomepageComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    WelcomeComponent,
+    RequestedFormComponent
   ],
   imports: [
+    MatListModule,
+    MatCardModule,
     MatDividerModule,
     MatInputModule,
     FormsModule,

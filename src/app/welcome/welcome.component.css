@@ -1,0 +1,97 @@
+/*
+  .mat-toolbar-row, .mat-toolbar-single-row, #row1{
+    background: rgb(187, 186, 186);
+    height:40px;
+    color:black;
+    margin-top:0%;
+    margin-left:0px;
+    width:100%;
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row, #row2{
+    background: green;
+    height:40px;
+    margin-top:2%;
+    margin-left:50px;
+    color:white;
+    width:90%;
+  }
+
+
+  .mat-grid-tile .mat-figure {
+    justify-content:left !important;
+  }
+
+  .leftcolumn {
+    float: left;
+    width: 15%;
+    margin-left: 4%;
+  }
+
+  .rightcolumn {
+    width: 85%;
+    padding-left: 20px;
+  }
+  .example-card {
+    margin-top: 5px;
+    height: 1000px;
+    /* margin-left: 5%; */
+    /* border: 1px solid gray;
+    max-height: 450px;
+  }
+p{
+  font-weight: bold;
+}
+.LIST{
+  width:85%;
+  margin-left:24%;
+}
+.Item{
+  background: #fffbb7;
+}
+.DIV{
+  margin-top:100px;
+}  */
+
+.leftcolumn {
+  float: left;
+  width: 15%;
+  margin-left: 4%;
+}
+
+.rightcolumn {
+  width: 85%;
+  padding-left: 20px;
+}
+.card{
+  height: 500px;
+  margin-top:5px;
+}
+.card-title{
+  font-weight: bold;
+}
+.wel{
+  font-weight: bold;
+}
+.LIST{
+  width:85%;
+  margin-left:23%;
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+.H5{
+  margin-left: 5px;
+  color: #097c2c;
+}
+.P{
+  margin-top:3%;
+  background:#fbfca9;
+  font-size: 15px;
+}
+.row1{
+  background: rgb(187, 186, 186);
+  color:black;
+  height: 50px;
+  width:100%;
+}

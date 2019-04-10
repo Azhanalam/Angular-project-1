@@ -1,1 +1,48 @@
+<<<<<<< HEAD
  
+=======
+
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  /* .mat-toolbar  .mat-primary{
+    background: grey;
+    height:40px;
+
+  } */
+
+
+
+  .mat-toolbar-row, .mat-toolbar-single-row, #row1{
+    background: rgb(187, 186, 186);
+    height:40px;
+    color:black;
+    margin-top:0%;
+    margin-left:0px;
+    width:100%;
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row, #row2{
+    background: green;
+    height:40px;
+    margin-top:2%;
+    margin-left:50px;
+    color:white;
+    width:90%;
+  }
+
+
+  .mat-grid-tile .mat-figure {
+    justify-content:left !important;
+  }
+
+  .bg-secondary {
+    background-color: #b3bbc1!important;
+}
+
+.menuGreen {
+    background-color: #29a045!important;
+}
+>>>>>>> 408a8a091990a2c72ddb3ad64c161406bec32848
