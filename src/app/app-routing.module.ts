@@ -7,12 +7,15 @@ import {HomepageComponent} from './homepage/homepage.component';
 import { ApplicationFormComponent } from './application-form/application-form.component';
 import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
+import {ApplyCayeComponent} from './apply-caye/apply-caye.component'
+
 const routes: Routes = [
   {path:'acknowledgement',component:AcknowledgementComponent},
   {path:'summary',component:SummaryComponent},
   {path:'applicationform',component:ApplicationFormComponent},
+  {path:'applycaye',component:ApplyCayeComponent},
   {path:'welcome',component:WelcomeComponent},
-  {path:'header',component:HomepageComponent},
+  {path:'homepage',component:HomepageComponent},
   {path:'',component:LoginComponent}
 ];
 
