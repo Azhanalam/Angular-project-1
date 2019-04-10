@@ -16,4 +16,8 @@ Summary2()
 {
   this.router.navigate(["summary2"]);
 }
+goBack()
+{
+  this.router.navigate(["applicationform2"]);
+}
 }

@@ -16,4 +16,8 @@ acknowledge()
 {
   this.router.navigate(["acknowledgement"]);
 }
+goBack()
+{
+  this.router.navigate(["summary"]);
+}
 }
