@@ -102,6 +102,7 @@ padding:1px 15px 300px 15px
     .stepwizard{
       background:#bcbcb5;
       padding:17px;
+      /* position: fixed; */
     }
 }
 
@@ -286,10 +287,7 @@ padding:1px 15px 300px 15px
   width:350px;
   margin-left:10px;
 }
-/* .BUT{
-  margin-top:-15px;
-  width:80px;
-} */
+
 .P42{
   font-size:15px;
    color:gray;
@@ -315,11 +313,7 @@ padding:1px 15px 300px 15px
   margin-left:10px;
   color: gray;
 }
-/* .P11{
-  font-size:13px;
-  color:gray;
-  margin-left:288px;
-} */
+
 .L21{
   margin-top:10px;
   /* margin-left:250px; */
@@ -342,10 +336,8 @@ padding:1px 15px 300px 15px
     /* margin-top:10px; */
     margin-left:10px;
 }
-.HR{
-/* margin-left:280px; */
-/* width: 950px; */
-}
+
+
 .BUT2{
   margin-top:-15px;
   width:80px;
@@ -365,23 +357,35 @@ padding:1px 15px 300px 15px
     float:left;
     width:280px;
     color: gray;
-      margin-left:290px;
+    margin-left:279px;
+  }
+  .L32{
+    height:25px;
+    float:left;
+    width:280px;
+    color: gray;
+    margin-left:-133px;
+    margin-top: 14px;
   }
   .L41{
     height:25px;
     margin-top:-1px;
-    margin-left: 540px;
+    margin-left: 581px;
     width:280px;
     color: gray;
   }
-  /* .BUT{
-    margin-top:-15px;
-    width:80px;
-  } */
+  .L42{
+    height:25px;
+    margin-top:-1px;
+    margin-left: 581px;
+    width:280px;
+    color: gray;
+  }
+
   .P42{
     font-size:15px;
      color:gray;
-       margin-left:290px;
+       margin-left:280px;
   }
 
   .H1{
@@ -393,14 +397,14 @@ padding:1px 15px 300px 15px
     font-weight:bold;
     font-size:14px;
     margin-top: 30px;
-    margin-left:288px;
-    color: black;
+    margin-left:280px;
+    color: black !important;
 
   }
-  .P11{
+  .P12{
     font-size:13px;
     color:gray;
-    margin-left:288px;
+    margin-left:279px;
   }
   .L21{
     margin-top:-40px;
@@ -408,15 +412,25 @@ padding:1px 15px 300px 15px
     font-weight:bold;
 
   }
+  .L22{
+    margin-top:-24px;
+    margin-left:580px;
+    font-weight:bold;
+
+  }
   .L11{
     font-weight:bold;
-      margin-left:290px;
+      margin-left:279px;
+  }
+  .L12{
+    float: left;
+    margin-left: 280px;
   }
   .L51{
     font-weight:bold;
     margin-top:20px;
     margin-left:10px;
-      margin-left:290px;
+      margin-left:280px;
   }
   .HR{
   margin-left:280px;
