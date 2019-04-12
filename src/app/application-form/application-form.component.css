@@ -115,6 +115,11 @@ padding:1px 15px 300px 15px
       background:#bcbcb5;
       padding:17px;
     }
+
+    .Entity{
+      font-weight:bold;
+      margin-top:0%;
+    }
 }
 
 
