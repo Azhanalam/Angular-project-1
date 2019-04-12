@@ -15,6 +15,7 @@ import { MatDividerModule } from '@angular/material/divider';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
+import { HeaderAfterComponent } from './header-after/header-after.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatListModule } from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -36,6 +37,7 @@ import { Summary2Component } from './summary2/summary2.component';
     AppComponent,
     HomepageComponent,
     HeaderComponent,
+    HeaderAfterComponent,
     FooterComponent,
     LoginComponent,
     WelcomeComponent,

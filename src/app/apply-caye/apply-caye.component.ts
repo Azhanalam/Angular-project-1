@@ -15,5 +15,6 @@ export class ApplyCayeComponent implements OnInit {
 start()
 {
 this.router.navigate(["applicationform"]);
+window.scrollTo(0, 0);
 }
 }

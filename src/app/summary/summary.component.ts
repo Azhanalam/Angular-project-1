@@ -14,10 +14,12 @@ export class SummaryComponent implements OnInit {
   }
 Summary2()
 {
-  this.router.navigate(["acknowledgement"]);
+  this.router.navigate(["summary2"]);
+  window.scrollTo(0, 0);
 }
 goBack()
 {
   this.router.navigate(["applicationform2"]);
+  window.scrollTo(0, 0);
 }
 }
