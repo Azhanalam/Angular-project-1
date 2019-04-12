@@ -183,14 +183,15 @@ padding:1px 15px 300px 15px
 .L3{
   height:25px;
   width:350px;
-    margin-left:10px;
+  margin-left:10px;
+  color: gray;
 }
 .L4{
   height:25px;
   margin-top:-1px;
-  /* margin-left: 110px; */
+  color: gray;
   width:350px;
-    margin-left:10px;
+  margin-left:10px;
 }
 .L5{
   font-weight:bold;
@@ -205,12 +206,14 @@ padding:1px 15px 300px 15px
     height:25px;
     float:left;
     width:280px;
+    color: gray;
   }
   .L4{
     height:25px;
     margin-top:-1px;
     margin-left: 250px;
     width:280px;
+    color: gray;
   }
   .BUT{
     margin-top:-15px;
