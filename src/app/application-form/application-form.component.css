@@ -88,25 +88,27 @@ padding:1px 15px 300px 15px
         text-align: center;
         position: relative;
     }
-.btn-circle1{
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px !important;
-    border: 1px solid green;
-}
-    .btn-circle{
+
+    .btn-circle {
       width: 30px;
       height: 30px;
       text-align: center;
       padding: 6px 0;
       font-size: 12px;
       line-height: 1.428571429;
-      border-radius: 15px !important;
+      border-radius: 20px !important;
+      border: 1px solid rgb(75, 74, 74);;
+    }
 
+    .btn-circle1 {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 12px;
+      line-height: 1.428571429;
+      border-radius: 20px !important;
+      border: 1px solid green;
     }
 
     .stepwizard{
@@ -153,7 +155,19 @@ padding:1px 15px 300px 15px
   padding: 6px 0;
   font-size: 12px;
   line-height: 1.428571429;
-  border-radius: 15px !important;
+  border-radius: 20px !important;
+  border: 1px solid rgb(75, 74, 74);;
+}
+
+.btn-circle1 {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 20px !important;
+  border: 1px solid green;
 }
 .stepwizard{
   background:#bcbcb5;
@@ -260,7 +274,7 @@ padding:1px 15px 300px 15px
 
 }
 .P1{
-  font-size:13px;
+  font-size:15px;
   color:gray;
 
 }
@@ -395,7 +409,7 @@ padding:1px 15px 300px 15px
 
   }
   .P1{
-    font-size:13px;
+    font-size:15px;
     color:gray;
 
   }

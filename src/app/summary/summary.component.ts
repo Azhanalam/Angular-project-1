@@ -12,14 +12,16 @@ export class SummaryComponent implements OnInit {
 
   ngOnInit() {
   }
-  acknowledge()
-  {
-    this.router.navigate(["acknowledgement"]);
-    window.scrollTo(0, 0);
-  }
-  goBack()
-  {
-    this.router.navigate(["applicationform"]);
-    window.scrollTo(0, 0);
-  }
+
+
+acknowledge()
+{
+  this.router.navigate(["acknowledgement"]);
+  window.scrollTo(0, 0);
+}
+goBack()
+{
+  this.router.navigate(["summary"]);
+  window.scrollTo(0, 0);
+}
 }
