@@ -12,10 +12,10 @@
 
         <div class="stepwizard">
             <div class="stepwizard-row setup-panel">
-                <div class="stepwizard-step">
-                    <a href="#step-1"  class="btn btn-primary btn-circle">1</a>
+                <div class="stepwizard-step">step1
+                    <a href="#step-1"  class="btn btn-light btn-circle1">1</a>
                 </div>
-                <div class="stepwizard-step">
+                <div class="stepwizard-step">step2
                     <a href="#step-2"  class="btn btn-default btn-circle btn-light" disabled="disabled">2</a>
                 </div>
 
@@ -50,20 +50,70 @@
                                   <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
 
 
-                                <br>
-
-
-                                   <input class="I" type="checkbox" checked>Opt-in to recieve CPF information and news via SMS/Email
-
-                                  <hr>
-
-
-                              <button type="button" class="btn btn-secondary btn-sm BUT">Back</button>
-                              <button type="button" class="btn btn-primary btn-sm" style="margin-left:15px;margin-top:-15px;width:80px" (click)="Next()">Next</button>
 
 
 
                 </form>
+                <hr>
+                <div>
+                  <h6 class="H">Part 2: Entity Information</h6>
+                  <p class="P">Unique Entity Number</p>
+                  <p class="P1">1992123456</p>
+
+                  <!-- <h6 class="P2">Name</h6>
+                  <p class="P4">Name of PASSPORT-123-12345</p> -->
+
+                  <form role="form">
+
+                                      <!-- <label class="control-label L">Designation*</label>
+                                      <select class="form-control l">
+                                      <option>Select*</option>
+                                      <option>medium</option>
+                                      <option>large</option>
+                                  </select>
+                                  <br> -->
+                                      <!-- <label class="control-label L1">Telephone (Office)*</label>
+                                      <label class="control-label L2">Mobile*</label> -->
+                                      <p class=" L1">Entity Name*</p>
+                                        <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>
+                                      <p class="L2">CSN Name </p>
+                                       <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
+                                       <h6 class="P21">Contact Details*</h6>
+                                       <p class="p1">(Please provide at least one contact number)</p>
+
+
+                                          <p class=" L11">Telephone (Office)</p>
+                                            <input maxlength="100" type="text" required="required" class="form-control1 L31" placeholder="Please key here"/>
+                                          <p class="L21">Mobile</p>
+                                           <input maxlength="100" type="text" required="required" class="form-control1 La1" placeholder="Please key here"/>
+                                           <br>
+                                           <label class="control-label L51">Email*</label>
+                                           <br>
+                                           <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
+                                           <br>
+                                           <label class="ABC" for="story">Company Address*</label>
+
+                                           <textarea class="abc" id="story" name="story" rows="5" cols="33">Please key here
+                                             </textarea>
+                                        <br>
+
+
+                                           <!-- <input class="I" type="checkbox" checked>Opt-in to recieve CPF information and news<p class="p1"> via SMS/Email</p> -->
+
+                                           <br>
+
+
+                                              <input class="I" type="checkbox" checked>Opt-in to recieve CPF information and news via SMS/Email
+
+                                             <hr>
+
+
+                                         <button type="button" class="btn btn-secondary btn-sm BUT">Back</button>
+                                         <button type="button" class="btn btn-primary btn-sm BUT1" style="margin-left:15px;margin-top:-15px;width:80px" (click)="Next()">Next</button>
+
+
+                        </form>
+                </div>
         </div>
 
       </div>

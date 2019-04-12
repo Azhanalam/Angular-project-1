@@ -14,7 +14,7 @@ export class SummaryComponent implements OnInit {
   }
 Summary2()
 {
-  this.router.navigate(["summary2"]);
+  this.router.navigate(["acknowledgement"]);
 }
 goBack()
 {

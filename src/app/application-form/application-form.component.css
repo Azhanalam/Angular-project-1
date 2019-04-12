@@ -75,7 +75,7 @@ padding:1px 15px 300px 15px
     .stepwizard {
         display: table;
         width: 950px;
-        padding: ;
+
     }
 
     .stepwizard-step button[disabled] {
@@ -89,7 +89,7 @@ padding:1px 15px 300px 15px
         position: relative;
     }
 
-    .btn-circle {
+    .btn-circle1 {
       width: 30px;
       height: 30px;
       text-align: center;
@@ -97,6 +97,7 @@ padding:1px 15px 300px 15px
       font-size: 12px;
       line-height: 1.428571429;
       border-radius: 15px !important;
+      border: 1px solid green;
     }
     .stepwizard{
       background:#bcbcb5;
@@ -110,7 +111,6 @@ padding:1px 15px 300px 15px
 .stepwizard {
     display: table;
     width:100%;
-
 }
 
 .stepwizard-step button[disabled] {
@@ -146,7 +146,7 @@ padding:1px 15px 300px 15px
 .P{
   font-weight:bold;
   font-size:14px;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left:10px;
 }
 .P1{
@@ -251,6 +251,7 @@ padding:1px 15px 300px 15px
   }
   .L1{
     font-weight:bold;
+    margin-top:-2%;
   }
   .L{
     font-weight:bold;
@@ -263,7 +264,7 @@ padding:1px 15px 300px 15px
   .P{
     font-weight:bold;
     font-size:14px;
-    margin-top: 8%;
+    margin-top:4%;
 
   }
   .P1{
@@ -274,5 +275,72 @@ padding:1px 15px 300px 15px
   .l{
     width:650px;
     height:35px !important;
+  }
+  .P2{
+    margin-top:30px;
+  }
+  .P21{
+    margin-top:60px;
+    font-weight: bold;
+    margin-left: 18px;
+  }
+  .p{
+    margin-left:140px;
+    margin-top:-30px;
+  }
+  .p1{
+    margin-left:140px;
+    margin-top:-30px;
+  }
+  .L21{
+    margin-top:-40px;
+    margin-left:360px;
+    font-weight:bold;
+  }
+  .L11{
+    font-weight:bold;
+    margin-left: 10px;
+  }
+  .L31{
+    height:35px;
+    float:left;
+    width:300px;
+    margin-left: 10px;
+  }
+  .La1{
+    height:35px;
+    margin-top:-37px;
+    margin-left: 250px;
+    /* margin-right:10px; */
+    float: right;
+    width:300px;
+  }
+  .L51{
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:-300px;
+  }
+
+  .abc {
+    font-size: .8rem;
+    letter-spacing: 1px;
+      padding: 10px;
+      line-height: 1.5;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-shadow: 1px 1px 1px #999;
+      width:600px;
+      margin-left: 10px;
+  }
+
+  .ABC {
+      display: block;
+      margin-bottom: 10px;
+      font-weight:bold;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  .BUT1{
+    background: green;
   }
 }

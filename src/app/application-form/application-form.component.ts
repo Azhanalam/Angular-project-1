@@ -14,6 +14,6 @@ export class ApplicationFormComponent implements OnInit {
   }
 Next()
 {
-  this.router.navigate(["applicationform2"]);
+  this.router.navigate(["summary"]);
 }
 }
