@@ -15,5 +15,6 @@ export class ApplicationFormComponent implements OnInit {
 Next()
 {
   this.router.navigate(["applicationform2"]);
+  window.scrollTo(0, 0);
 }
 }

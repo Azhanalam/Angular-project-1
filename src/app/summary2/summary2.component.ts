@@ -15,9 +15,11 @@ export class Summary2Component implements OnInit {
 acknowledge()
 {
   this.router.navigate(["acknowledgement"]);
+  window.scrollTo(0, 0);
 }
 goBack()
 {
   this.router.navigate(["summary"]);
+  window.scrollTo(0, 0);
 }
 }

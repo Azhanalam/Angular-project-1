@@ -15,9 +15,11 @@ export class ApplicationForm2Component implements OnInit {
 Summary()
 {
   this.router.navigate(["summary"]);
+  window.scrollTo(0, 0);
 }
 goBack()
 {
   this.router.navigate(["applicationform"]);
+  window.scrollTo(0, 0);
 }
 }
