@@ -212,14 +212,20 @@ padding:1px 15px 300px 15px
       background:#bcbcb5;
       padding:17px;
     }
+    .stepwizard {
+        display: table;
+        width:99%;
+
+    }
 }
+
 .stepwizard-row {
     display: table-row;
 }
 
 .stepwizard {
     display: table;
-    width:99%;
+    width:100%;
 
 }
 
@@ -251,79 +257,146 @@ padding:1px 15px 300px 15px
 .H{
   font-weight: bold;
   margin-top:10px;
-    margin-left:10px;
+    margin-left:20px;
 }
 .P{
   font-weight:bold;
   font-size:14px;
   margin-top: 15%;
-  margin-left:10px;
+  margin-left:20px;
 }
 .P1{
   font-size:13px;
   color:gray;
-  margin-left:10px;
+  margin-left:20px;
 }
 .P2{
   font-weight:bold;
-  margin-left:10px;
+  margin-left:20px;
   margin-top: 0%;
 }
 .L{
   font-weight:bold;
-    margin-left:10px;
+    margin-left:20px;
 }
 .L1{
   font-weight:bold;
-    margin-left:10px;
+    margin-left:20px;
 }
 .L2{
   margin-top:10px;
   /* margin-left:250px; */
   font-weight:bold;
-    margin-left:10px;
+    margin-left:20px;
 }
 .L3{
   height:25px;
-  width:350px;
-    margin-left:10px;
+  width:330px;
+    margin-left:20px;
+}
+.La{
+  height:25px;
+  margin-top:-1px;
+    width:330px;
+    margin-left:20px;
 }
 .L4{
   height:25px;
   margin-top:-1px;
-  /* margin-left: 110px; */
-  width:350px;
-    margin-left:10px;
+  width:330px;
+    margin-left:20px;
 }
 .l{
-  width:350px;
-    margin-left:10px;
+  width:330px;
+    margin-left:20px;
 }
 .L5{
   font-weight:bold;
   margin-top:20px;
-    margin-left:10px;
+  margin-left:20px;
 }
 .L6{
    height:25px;
-    width:350px;
-      margin-left:10px;
+    width:330px;
+    margin-left:20px;
 }
 .P4{
   font-size:15px;
    color:gray;
-   margin-left: 10px;
+   margin-left: 20px;
 }
 .I{
-  margin-left: 10px;
+  margin-left:20px;
   margin-top: 10px;
 }
 .BUT{
   margin-top:-15px;
   width:80px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
+.abc
+  {
+      font-size: .6rem;
+      letter-spacing: 1px;
+  }
+
+.abc {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width:330px;
+    margin-left: 20px;
+}
+
+.ABC {
+    display: block;
+    margin-bottom: 10px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.p{
+  margin-left:145px;
+  margin-top:-30px;
+}
+.p1{
+  margin-left:35px;
+}
+
+
+
 @media (min-width: 768px) {
+  .p1{
+    margin-left:350px;
+    margin-top:-25px;
+  }
+  .abc
+    {
+        font-size: .8rem;
+        letter-spacing: 1px;
+    }
+
+  .abc{
+      font-size: .8rem;
+      letter-spacing: 1px;
+  }
+  .abc {
+      padding: 10px;
+      line-height: 1.5;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-shadow: 1px 1px 1px #999;
+      width:600px;
+  }
+
+  .ABC {
+      display: block;
+      margin-bottom: 10px;
+      font-weight:bold;
+      margin-top: 10px;
+  }
   .BUT{
     margin-top:-15px;
     width:80px;
@@ -339,24 +412,32 @@ padding:1px 15px 300px 15px
   .L5{
     font-weight:bold;
     margin-top:20px;
-    margin-left:-195px;
+    margin-left:-400px;
   }
   .L3{
     height:25px;
     float:left;
-    width:200px;
+    width:400px;
   }
   .L4{
     height:25px;
-    margin-top:-1px;
-    margin-left: 50px;
+    margin-top:-26px;
+    margin-left: 450px;
     /* margin-right:10px; */
     float: right;
-    width:200px;
+    width:400px;
+  }
+  .La{
+    height:25px;
+    margin-top:-27px;
+    margin-left: 250px;
+    /* margin-right:10px; */
+    float: right;
+    width:400px;
   }
   .L2{
     margin-top:-40px;
-    margin-left:250px;
+    margin-left:450px;
     font-weight:bold;
   }
   .L1{
@@ -379,9 +460,15 @@ padding:1px 15px 300px 15px
   .P1{
     font-size:13px;
     color:gray;
-
   }
   .l{
     width:450px;
+  }
+  .P2{
+    margin-top:60px;
+  }
+  .p{
+    margin-left:140px;
+    margin-top:-30px;
   }
 }

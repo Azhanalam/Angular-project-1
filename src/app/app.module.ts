@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+// import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +27,9 @@ import { MatCardModule } from '@angular/material/card';
 import { ApplicationFormComponent } from './application-form/application-form.component';
 import { SummaryComponent } from './summary/summary.component';
 import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
+import { ApplicationForm2Component } from './application-form2/application-form2.component';
+import { ApplyCayeComponent } from './apply-caye/apply-caye.component';
+import { Summary2Component } from './summary2/summary2.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,10 @@ import { AcknowledgementComponent } from './acknowledgement/acknowledgement.comp
     WelcomeComponent,
     ApplicationFormComponent,
     SummaryComponent,
-    AcknowledgementComponent
+    AcknowledgementComponent,
+    ApplicationForm2Component,
+    ApplyCayeComponent,
+    Summary2Component
   ],
   imports: [
     MatListModule,
@@ -58,6 +65,7 @@ import { AcknowledgementComponent } from './acknowledgement/acknowledgement.comp
     MatInputModule
   ],
   providers: [],
+  // {provide: LocationStrategy, useClass: HashLocationStrategy}
   bootstrap: [AppComponent]
 })
 export class AppModule { }
