@@ -16,6 +16,13 @@
     padding:5px 5px 30px 5px;
     width:78%;
   }
+  .submitbtn{
+    background-color:#49712d;
+    color:white;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+  }
 }
 
 .heading{
@@ -30,4 +37,18 @@ ul li{
   padding:5px 5px 10px 5px;
   width:100%;
   border:1px solid grey;
+}
+
+p{
+  padding:0px 0px 0px 10px; 
+  width:100%
+}
+
+.submitbtn{
+  background-color:#49712d;
+  color:white;
+  border:none;
+  padding:5px 40px 5px 40px;
+  font-size: 15px;
+  margin-left: 35%;
 }
