@@ -183,8 +183,8 @@ padding:1px 15px 300px 15px
 }
 .P{
   font-weight:bold;
-  font-size:14px;
-  margin-top: 15%;
+  /* font-size:14px; */
+  margin-top: 8%;
   margin-left:10px;
 }
 .P1{
@@ -269,12 +269,12 @@ padding:1px 15px 300px 15px
   }
   .P{
     font-weight:bold;
-    font-size:14px;
-    margin-top: 8%;
+    /* font-size:14px; */
+    margin-top: 6%;
 
   }
   .P1{
-    font-size:13px;
+    font-size:15px;
     color:gray;
 
   }
@@ -294,10 +294,15 @@ padding:1px 15px 300px 15px
 }
 
 
-
-
-
 .L31{
+  height:25px;
+  width:350px;
+  margin-left:10px;
+  color: gray;
+}
+
+
+.L32{
   height:25px;
   width:350px;
   margin-left:10px;
@@ -311,11 +316,21 @@ padding:1px 15px 300px 15px
   margin-left:10px;
 }
 
-.P42{
-  font-size:15px;
-   color:gray;
-   margin-left: 10px;
+.L42{
+  height:25px;
+  margin-top:-1px;
+  color: gray;
+  width:350px;
+  margin-left:10px;
 }
+.P43{
+  height:25px;
+  margin-top:-1px;
+  color: gray;
+  width:350px;
+  margin-left:10px;
+}
+
 
 .H1{
   font-weight: bold;
@@ -324,8 +339,8 @@ padding:1px 15px 300px 15px
 }
 .P11{
   font-weight:bold;
-  font-size:14px;
-  margin-top:20px;
+  /* font-size:14px; */
+  margin-top:8%;
   margin-left:10px;
 
 }
@@ -338,6 +353,13 @@ padding:1px 15px 300px 15px
 }
 
 .L21{
+  margin-top:10px;
+  /* margin-left:250px; */
+  font-weight:bold;
+    margin-left:10px;
+
+}
+.L22{
   margin-top:10px;
   /* margin-left:250px; */
   font-weight:bold;
@@ -405,7 +427,7 @@ padding:1px 15px 300px 15px
     color: gray;
   }
 
-  .P42{
+  .P43{
     font-size:15px;
      color:gray;
        margin-left:280px;
@@ -414,11 +436,11 @@ padding:1px 15px 300px 15px
   .H1{
     font-weight: bold;
     margin-top:10px;
-    margin-left: 286px;
+    margin-left: 280px;
   }
   .P11{
     font-weight:bold;
-    font-size:14px;
+    /* font-size:14px; */
     margin-top: 30px;
     margin-left:280px;
     color: black !important;

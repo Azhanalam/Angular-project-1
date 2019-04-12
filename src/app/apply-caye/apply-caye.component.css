@@ -16,13 +16,7 @@
     padding:5px 5px 30px 5px;
     width:78%;
   }
-  .submitbtn{
-    background-color:#49712d;
-    color:white;
-    border:none;
-    padding:5px 40px 5px 40px;
-    font-size: 15px;
-  }
+  
 }
 
 .heading{
@@ -51,4 +45,15 @@ p{
   padding:5px 40px 5px 40px;
   font-size: 15px;
   margin-left: 35%;
+}
+
+@media(min-width: 768px) {
+  .submitbtn{
+    background-color:#49712d;
+    color:white;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-left:0%;
+  }
 }
