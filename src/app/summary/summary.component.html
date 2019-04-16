@@ -11,10 +11,10 @@
 
         <div class="stepwizard">
             <div class="stepwizard-row setup-panel">
-                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);">Step</span><br/>
-                    <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);">1</span></a>
+                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP">Step</span><br/>
+                    <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);" >1</span></a>
                 </div>
-                <div class="stepwizard-step"><span style="color:green">Step</span><br/>
+                <div class="stepwizard-step"><span style="color:green" class="STEP1">Step</span><br/>
                     <a   class="btn btn-light btn-circle1"><span style="color:green">2</span></a>
                 </div>
 
@@ -46,39 +46,48 @@
 
 
 
-      </div>
+      
       <hr class="HR">
+      
       <div>
-        <h6 class="H1">Part 2: Entity Information</h6>
-        <p class="P11">Unique Entity Number</p>
-        <p class="P12">1992123456</p>
+        <h6 class="H">Part 2: Entity Information</h6>
+        <p class="P">Unique Entity Number</p>
+        <p class="P1">PASSPORT-123-12345</p>
 
-        <p class=" L11">Entity Name</p>
-        <p class="L31">Nanyang Polytechnic</p>
-        <p class="L21">CSN Name</p>
-        <p class="L41">School of Engineering</p>
+        <!-- <h6 class="P2">Name</h6>
+        <p class="P4">Name of PASSPORT-123-12345</p> -->
 
         <!-- <h6 class="P2">Designation</h6>
         <p class="P4">Director</p> -->
+        <p class=" L1">Entity Name </p>
+        <p class="L3">Nanyang Polytechnic</p>
+        <p class="L2">CSN Name</p>
+        <p class="L4">School of Engineering</p>
+        <p class=" L1">Telephone (Office)</p>
+        <p class="L3">61234567</p>
+        <p class="L2">Mobile</p>
+        <p class="L4">61234567</p>
+
+        <h6 class="L5">Email</h6>
+        <p class="P4">William@nyp.edu.sg</p>
+        <h6 class="L5">Company Address</h6>
+        <p class="P4">180 Ang Mo Kio Ave 8
+          Singapore 555180</p>
+
         <br>
-        <p class=" L12">Telephone (Office)</p>
-        <p class="L32">61234567</p>
-        <p class="L22">Mobile</p>
-        <p class="L42">8123432</p>
-
-        <h6 class="L51">Company Address</h6>
-        <p class="P43">180 Ang Mo Kio Ave 8 Singapore 555180</p>
-
-        <br>
-              <button type="button" class="btn btn-secondary btn-sm BUT1" (click)="goBack()">Back</button>
-
-              <button type="button" class="btn btn-primary btn-sm  BUT2"  (click)="acknowledge()">Submit</button>
+              <button type="button" class="btn btn-secondary btn-sm BUT" (click)="goBack()">Back</button>
+              <button type="button" class="btn btn-primary btn-sm" style="margin-left:15px;margin-top:-15px;width:80px" (click)=Summary2()>Next</button>
 
       </div>
 
+
+
+
+        
+
       <br/>
 
-
+    </div>
 
       </div>
 
