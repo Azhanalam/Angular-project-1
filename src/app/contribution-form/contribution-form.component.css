@@ -52,3 +52,29 @@
     margin-left:40%;
     border: 2px solid #49712d;
   }
+
+  .row1{
+    margin-left:50px
+  }
+
+  .row2{
+    margin-left:81px
+  }
+
+  .row3{
+    margin-left:85px
+  }
+
+  @media only screen and (min-width: 768px) {
+    .row1{
+        margin-left:100px
+      }
+    
+      .row2{
+        margin-left:132px
+      }
+    
+      .row3{
+        margin-left:135px
+      }
+  }
