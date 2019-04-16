@@ -10,7 +10,14 @@ import { AcknowledgementComponent } from './acknowledgement/acknowledgement.comp
 import { ApplicationForm2Component } from './application-form2/application-form2.component';
 import {ApplyCayeComponent} from './apply-caye/apply-caye.component'
 import { Summary2Component } from './summary2/summary2.component';
+import {UserpageComponent} from './userpage/userpage.component';
+import {CayeContributionComponent} from './caye-contribution/caye-contribution.component';
+import { ContributionFormComponent } from './contribution-form/contribution-form.component';
+
 const routes: Routes = [
+  {path:'contributionform',component:ContributionFormComponent},
+  {path:'cayecontribution',component:CayeContributionComponent},
+  {path:'userpage', component:UserpageComponent},
   {path:'summary2',component:Summary2Component},
   {path:'applicationform2',component:ApplicationForm2Component},
   {path:'acknowledgement',component:AcknowledgementComponent},

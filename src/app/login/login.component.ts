@@ -7,7 +7,8 @@ import {Router} from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
+username:string="";
+password:string;
   constructor(private router: Router) { }
 
   ngOnInit() {
@@ -15,6 +16,11 @@ export class LoginComponent implements OnInit {
 
 login()
 {
+  localStorage.setItem('username', this.username);
+  console.log("username: ",localStorage.getItem('username'));
+  // if(this.username=="sruthy@gmail.com")
+  // this.router.navigate(["userpage"]);
+  // else
 this.router.navigate(["homepage"]);
 }
 }

@@ -16,6 +16,8 @@ logout()
 {
   {
   this.router.navigate([""]);
+  localStorage.setItem('username',"");
+  // console.log("username: ",localStorage.getItem('username'));
   }
 }
 }
