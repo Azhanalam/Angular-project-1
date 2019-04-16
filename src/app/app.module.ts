@@ -31,6 +31,9 @@ import { AcknowledgementComponent } from './acknowledgement/acknowledgement.comp
 import { ApplicationForm2Component } from './application-form2/application-form2.component';
 import { ApplyCayeComponent } from './apply-caye/apply-caye.component';
 import { Summary2Component } from './summary2/summary2.component';
+import { UserpageComponent } from './userpage/userpage.component';
+import { CayeContributionComponent } from './caye-contribution/caye-contribution.component';
+import { ContributionFormComponent } from './contribution-form/contribution-form.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { Summary2Component } from './summary2/summary2.component';
     AcknowledgementComponent,
     ApplicationForm2Component,
     ApplyCayeComponent,
-    Summary2Component
+    Summary2Component,
+    UserpageComponent,
+    CayeContributionComponent,
+    ContributionFormComponent
   ],
   imports: [
     MatListModule,
