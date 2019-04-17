@@ -16,8 +16,12 @@ import { ContributionFormComponent } from './contribution-form/contribution-form
 import { TransactionStatusComponent } from './transaction-status/transaction-status.component';
 import { RefundRequestComponent } from './refund-request/refund-request.component';
 import { RefundRequest2Component } from './refund-request2/refund-request2.component';
+import { Acknowledgement2Component } from './acknowledgement2/acknowledgement2.component';
+import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.component';
 
 const routes: Routes = [
+  {path:'acknowledgement3',component:Acknowledgement3Component},
+  {path:'acknowledgement2',component:Acknowledgement2Component},
   {path:'Refund2',component:RefundRequest2Component},
   {path:'Refund',component:RefundRequestComponent},
   {path:'Transaction',component:TransactionStatusComponent},

@@ -37,6 +37,8 @@ import { ContributionFormComponent } from './contribution-form/contribution-form
 import { TransactionStatusComponent } from './transaction-status/transaction-status.component';
 import { RefundRequestComponent } from './refund-request/refund-request.component';
 import { RefundRequest2Component } from './refund-request2/refund-request2.component';
+import { Acknowledgement2Component } from './acknowledgement2/acknowledgement2.component';
+import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +60,9 @@ import { RefundRequest2Component } from './refund-request2/refund-request2.compo
     ContributionFormComponent,
     TransactionStatusComponent,
     RefundRequestComponent,
-    RefundRequest2Component
+    RefundRequest2Component,
+    Acknowledgement2Component,
+    Acknowledgement3Component
   ],
   imports: [
     MatListModule,
