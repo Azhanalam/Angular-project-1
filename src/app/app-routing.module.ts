@@ -13,8 +13,12 @@ import { Summary2Component } from './summary2/summary2.component';
 import {UserpageComponent} from './userpage/userpage.component';
 import {CayeContributionComponent} from './caye-contribution/caye-contribution.component';
 import { ContributionFormComponent } from './contribution-form/contribution-form.component';
+import { ContributionfilledComponent } from './contributionfilled/contributionfilled.component';
+import { TotalcontributionComponent } from './totalcontribution/totalcontribution.component';
 
 const routes: Routes = [
+  {path:'totalcontribution',component:TotalcontributionComponent},
+  {path:'filledform',component:ContributionfilledComponent},
   {path:'contributionform',component:ContributionFormComponent},
   {path:'cayecontribution',component:CayeContributionComponent},
   {path:'userpage', component:UserpageComponent},

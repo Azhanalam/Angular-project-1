@@ -34,6 +34,8 @@ import { Summary2Component } from './summary2/summary2.component';
 import { UserpageComponent } from './userpage/userpage.component';
 import { CayeContributionComponent } from './caye-contribution/caye-contribution.component';
 import { ContributionFormComponent } from './contribution-form/contribution-form.component';
+import { ContributionfilledComponent } from './contributionfilled/contributionfilled.component';
+import { TotalcontributionComponent } from './totalcontribution/totalcontribution.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { ContributionFormComponent } from './contribution-form/contribution-form
     Summary2Component,
     UserpageComponent,
     CayeContributionComponent,
-    ContributionFormComponent
+    ContributionFormComponent,
+    ContributionfilledComponent,
+    TotalcontributionComponent
   ],
   imports: [
     MatListModule,

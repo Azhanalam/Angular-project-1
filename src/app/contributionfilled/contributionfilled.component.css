@@ -117,16 +117,18 @@
       border: 1px solid black;
       margin: 2px 10px;
       font-weight:400;
+      
   }
 
   .datarow{
     outline:1px solid green;
     padding: 0px; 
     border: none;
+    text-align: center;
+    font-size: 13px;
   }
 
   
-
   .backbtn{
     background-color:#464846;
     color:white;
