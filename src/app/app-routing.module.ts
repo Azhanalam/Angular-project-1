@@ -13,8 +13,14 @@ import { Summary2Component } from './summary2/summary2.component';
 import {UserpageComponent} from './userpage/userpage.component';
 import {CayeContributionComponent} from './caye-contribution/caye-contribution.component';
 import { ContributionFormComponent } from './contribution-form/contribution-form.component';
+import { TransactionStatusComponent } from './transaction-status/transaction-status.component';
+import { RefundRequestComponent } from './refund-request/refund-request.component';
+import { RefundRequest2Component } from './refund-request2/refund-request2.component';
 
 const routes: Routes = [
+  {path:'Refund2',component:RefundRequest2Component},
+  {path:'Refund',component:RefundRequestComponent},
+  {path:'Transaction',component:TransactionStatusComponent},
   {path:'contributionform',component:ContributionFormComponent},
   {path:'cayecontribution',component:CayeContributionComponent},
   {path:'userpage', component:UserpageComponent},
