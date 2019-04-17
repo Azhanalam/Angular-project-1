@@ -16,9 +16,23 @@ import { ContributionFormComponent } from './contribution-form/contribution-form
 import { ContributionfilledComponent } from './contributionfilled/contributionfilled.component';
 import { TotalcontributionComponent } from './totalcontribution/totalcontribution.component';
 
+import { TransactionStatusComponent } from './transaction-status/transaction-status.component';
+import { RefundRequestComponent } from './refund-request/refund-request.component';
+import { RefundRequest2Component } from './refund-request2/refund-request2.component';
+import { Acknowledgement2Component } from './acknowledgement2/acknowledgement2.component';
+import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.component';
+import { EnetsComponent } from './enets/enets.component';
+ 
+
 const routes: Routes = [
+  {path:'enetspayment',component:EnetsComponent},
   {path:'totalcontribution',component:TotalcontributionComponent},
   {path:'filledform',component:ContributionfilledComponent},
+  {path:'acknowledgement3',component:Acknowledgement3Component},
+  {path:'acknowledgement2',component:Acknowledgement2Component},
+  {path:'Refund2',component:RefundRequest2Component},
+  {path:'Refund',component:RefundRequestComponent},
+  {path:'Transaction',component:TransactionStatusComponent},
   {path:'contributionform',component:ContributionFormComponent},
   {path:'cayecontribution',component:CayeContributionComponent},
   {path:'userpage', component:UserpageComponent},

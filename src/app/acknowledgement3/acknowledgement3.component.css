@@ -1,3 +1,11 @@
+
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -58,88 +66,70 @@ padding:1px 15px 300px 15px
   flex-wrap: wrap;
 
 }
-.wel{
+p{
   font-weight: bold;
 }
 .LIST{
-  width:95%;
+  width:92%;
   margin-left:3%;
 }
 
 .style1{
   border: 0.5px solid gray;
 }
-.Contribute{
-  font-weight: bold;
-  text-align: center;
+th{
+  background:#969691;
+
 }
-.GRID{
-  font-weight: bold;
-  font-size:17px;
-  color: green;
-  margin-left: 40px;
-  text-align: center;
+td{
+  background:#c6c6c0;
+
 }
-.statement{
-  height:100px;
-  width: 120px;
-  margin-left: 120px;
+.H5{
+  color:#077712;
+  font-size:30px;
+}
+.P{
+  font-weight: bold;
+}
+.P1{
+  font-weight: lighter;
 }
 
 
 @media (min-width: 768px) {
-  .wel{
+  
+  p{
     font-weight: bold;
   }
   .LIST{
     width:78%;
     margin-left:20%;
   }
-  
-  
+
   .style1{
     border: 0.5px solid gray;
   }
-  .Contribute{
-     margin-right: 405px;
-      font-weight: bold;
-      font-size: 20px;
-      color: rgb(53, 47, 47);
+  th{
+    background:#969691;
   }
-  .icol-4 {
-    grid-row-start: 1;
-    grid-row-end: 3;
+  td{
+    background:#c6c6c0;
   }
-  .grid-container {
-    display: grid;
-    grid-row-gap: 0px;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 0px;
-    width: 800px;
-    height: 220px;
-    margin-top: -10px;
-    margin-left: 130px;
+  .H5{
+    color:#077712;
+    font-size:30px;
   }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid lightgrey;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    
+  .P{
+    font-weight: bold;
   }
-  img{
-      margin-top: 20px;
+  .P1{
+    font-weight: lighter;
   }
-  .GRID{
-      font-weight: bold;
-      font-size:17px;
-      color: green;
-      margin-left: -10px;
+  .Service{
+      margin-top: -40px;
+      margin-left: 290px;
+      font-weight: 100;
   }
-  .statement{
-      height:80px;
-      height: 100px;
-      margin-left: -10px;
-  }
+
 }

@@ -36,6 +36,12 @@ import { CayeContributionComponent } from './caye-contribution/caye-contribution
 import { ContributionFormComponent } from './contribution-form/contribution-form.component';
 import { ContributionfilledComponent } from './contributionfilled/contributionfilled.component';
 import { TotalcontributionComponent } from './totalcontribution/totalcontribution.component';
+import { TransactionStatusComponent } from './transaction-status/transaction-status.component';
+import { RefundRequestComponent } from './refund-request/refund-request.component';
+import { RefundRequest2Component } from './refund-request2/refund-request2.component';
+import { Acknowledgement2Component } from './acknowledgement2/acknowledgement2.component';
+import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.component';
+import { EnetsComponent } from './enets/enets.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +62,13 @@ import { TotalcontributionComponent } from './totalcontribution/totalcontributio
     CayeContributionComponent,
     ContributionFormComponent,
     ContributionfilledComponent,
-    TotalcontributionComponent
+    TotalcontributionComponent,
+    TransactionStatusComponent,
+    RefundRequestComponent,
+    RefundRequest2Component,
+    Acknowledgement2Component,
+    Acknowledgement3Component,
+    EnetsComponent
   ],
   imports: [
     MatListModule,

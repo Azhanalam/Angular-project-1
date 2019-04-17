@@ -14,7 +14,7 @@ export class SummaryComponent implements OnInit {
   }
 
 
-acknowledge()
+Summary2()
 {
   this.router.navigate(["acknowledgement"]);
   window.scrollTo(0, 0);
