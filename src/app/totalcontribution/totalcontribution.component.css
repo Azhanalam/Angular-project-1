@@ -21,33 +21,7 @@
   margin-right:0%;
   color:rgb(49, 49, 218);
   }
-
-  @media only screen and (min-width: 768px) {
-    #container {
-      display: flex;
-      flex-wrap: wrap;
-      border-top:1px solid grey;
-      border-bottom:0px;
-      padding:5px 5px 0px 5px;
-      width:78%;
-    }
-
-    #container2 {
-        display: flex;
-        flex-wrap: wrap;
-        border-top:1px solid grey;
-        /* border-bottom:1px solid rgb(110, 228, 129); */
-        padding:5px 5px 5px 5px;
-        width:78%;
-      }
-
-      .links{
-        float:right; 
-        margin-right:23%;
-        color:rgb(49, 49, 218);
-        }
-    
-  }
+  
 
   .heading{
     padding:5px 0px 5px 0px; 
@@ -99,41 +73,6 @@
     margin-left:85px
   }
 
-  @media only screen and (min-width: 768px) {
-    .row1{
-        margin-left:100px
-      }
-    
-      .row2{
-        margin-left:132px
-      }
-    
-      .row3{
-        margin-left:135px
-      }
-  }
-
-  /* .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  } */
 
 
   
@@ -218,8 +157,87 @@
 
   .payment{
     float:right;
-    margin-right:4%;
+    margin-right:10%;
   }
+
+
+  .directdebit{
+    border:none; 
+    margin-left:50%;
+  }
+
+  .enets{
+    border:none;
+    margin-left:5%;
+  }
+
+  .deduction{
+    margin-left:18%;
+  }
+
+  .table {
+    border-bottom: 1px solid #49712d!important;
+    /* font-size:14px; */
+}
+  
+  .table thead th {
+    border-top: 1px solid #000!important;
+    border-bottom: 1px solid #000!important;
+  }
+
+
+
+tr.border_bottom td {
+border-bottom:1pt solid black;
+}
+tr.border_bottom th {
+border-bottom:1pt solid black;
+}
+
+  @media only screen and (min-width: 768px) {
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+      border-top:1px solid grey;
+      border-bottom:0px;
+      padding:5px 5px 0px 5px;
+      width:78%;
+    }
+
+    #container2 {
+        display: flex;
+        flex-wrap: wrap;
+        border-top:1px solid grey;
+        /* border-bottom:1px solid rgb(110, 228, 129); */
+        padding:5px 5px 5px 5px;
+        width:78%;
+      }
+
+      .links{
+        float:right; 
+        margin-right:23%;
+        color:rgb(49, 49, 218);
+        }
+
+      
+    
+  }
+
+  
+  @media only screen and (min-width: 768px) {
+    .row1{
+        margin-left:100px
+      }
+    
+      .row2{
+        margin-left:132px
+      }
+    
+      .row3{
+        margin-left:135px
+      }
+  }
+
 
   @media(min-width: 768px) {
     .custom-file-upload {
@@ -272,25 +290,23 @@
     float:right;
     margin-right:27%;
   }
+
+  .directdebit{
+    border:none; 
+    margin-left:58%;
+  }
+
+  .enets{
+    border:none;
+    margin-left:5%;
+  }
+
+  .deduction{
+    margin-left:46%;
+  }
+
     }
     
-    .table {
-        border-bottom: 1px solid #49712d!important;
-        /* font-size:14px; */
-    }
-      
-      .table thead th {
-        border-top: 1px solid #000!important;
-        border-bottom: 1px solid #000!important;
-      }
-
-
-
-tr.border_bottom td {
-    border-bottom:1pt solid black;
-  }
-  tr.border_bottom th {
-    border-bottom:1pt solid black;
-  }
+  
 
  

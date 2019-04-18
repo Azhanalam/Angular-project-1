@@ -24,7 +24,7 @@ Nextpage()
 
   this.username=localStorage.getItem('username');
   console.log(this.username);
-  if(this.username=="sruthy")
+  if(this.username=="reg_user")
   this.router.navigate(["userpage"]);
   else
   this.router.navigate(["welcome"]);
