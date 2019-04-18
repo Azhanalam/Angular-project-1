@@ -1,0 +1,51 @@
+.nextbtn{
+    background-color:red;
+    color:white;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-left: 30%;
+  }
+
+  
+  .enets1{
+    width:100%;
+}
+
+  .enets2{
+   width:100%;
+   margin-top:2%
+  }
+
+  .enets3{
+    width:100%
+}
+
+  @media(min-width: 768px) {
+    
+  .nextbtn{
+    background-color:red;
+    color:white;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-top:2%;
+    margin-left:20%;
+  }
+
+  .enets1{
+    width:50%;
+}
+
+  .enets2{
+    margin-top:-8%; 
+    width:50%;
+  }
+
+  .enets3{
+    float:right;
+    margin-right:8%;
+    margin-top:-8%;
+    width:40%;
+}
+}

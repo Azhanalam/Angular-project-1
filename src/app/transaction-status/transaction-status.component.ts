@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-transaction-status',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TransactionStatusComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
 
+  back(){
+this.router.navigate(["userpage"]);
+window.scrollTo(0, 0);
+  }
 }

@@ -16,6 +16,12 @@
     width:100%;
   }
 
+ .links{
+  float:right; 
+  margin-right:0%;
+  color:rgb(49, 49, 218);
+  }
+
   @media only screen and (min-width: 768px) {
     #container {
       display: flex;
@@ -34,11 +40,21 @@
         padding:5px 5px 5px 5px;
         width:78%;
       }
+
+      .links{
+        float:right; 
+        margin-right:23%;
+        color:rgb(49, 49, 218);
+        }
     
   }
 
   .heading{
-    padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:100%
+    padding:5px 0px 5px 0px; 
+    margin-left:10px; 
+    color:#49712d;
+    font-weight:545;
+    width:100%
   }
 
   p{
