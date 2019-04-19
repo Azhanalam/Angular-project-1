@@ -76,9 +76,9 @@
                                   <br> -->
                                       <!-- <label class="control-label L1">Telephone (Office)*</label>
                                       <label class="control-label L2">Mobile*</label> -->
-                                      <p class="L11">Entity Name*</p>
+                                      <p class="L11" >Entity Name*</p>
                                         <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>
-                                      <p class="L2">CSN Name </p>
+                                      <p class="L2">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
                                        <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
                                        <!-- <br/> -->
                                        <h6 class="P21">Contact Details*</h6>
@@ -111,7 +111,7 @@
                                              <hr>
 
 
-                                         <button type="button" class="btn btn-secondary btn-sm BUT">Back</button>
+                                         <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()">Back</button>
                                          <button type="button" class="btn btn-primary btn-sm BUT1" style="margin-left:15px;margin-top:-15px;width:80px" (click)="Next()">Next</button>
 
 

@@ -14,6 +14,7 @@ export class EnetsComponent implements OnInit {
   }
 next()
 {
-  this.router.navigate(["acknowledgement3"]);
+  this.router.navigate(["acknowledgement2"]);
+  window.scrollTo(0, 0);
 }
 }

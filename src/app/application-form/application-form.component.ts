@@ -17,4 +17,9 @@ Next()
   this.router.navigate(["summary"]);
   window.scrollTo(0, 0);
 }
+Back()
+{
+  this.router.navigate(["applycaye"]);
+  window.scrollTo(0, 0);
+}
 }

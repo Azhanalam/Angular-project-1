@@ -2,11 +2,18 @@
 <div>
     <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p>
     <div id="container">
-      <div style="background-color:#e7e5e5; width:100%; padding:1px 15px 0px 15px;">
-        <span style="margin-left:70px; color: grey; font-weight:500">Step</span> <span style="margin-left:40.5%; color:#49712d; font-weight:500">Step</span><br/> 
-        <span  class="dot1">1</span> <span class="dot2">2</span>
-     <br/>
-      </div>
+      <div class="stepwizard">
+        <div class="stepwizard-row setup-panel">
+          
+            <div class="stepwizard-step"><span style="color:rgb(75, 74, 74)" class="STEP">Step</span><br/>
+                <a   class="btn btn-light btn-circle1"><span style="color:rgb(75, 74, 74);">1</span></a>
+            </div>
+            <div class="stepwizard-step"><span style="color:green" class="STEP1">Step</span><br/>
+                <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:green">2</span></a>
+            </div>
+
+        </div>
+    </div>
       <span class="heading" >
        <span style="font-size: 1.5rem;">Make CAYE Contribution</span>   
         <a class="links" style="color:blue"><u >Download</u> | <u >Print</u></a>   
@@ -15,7 +22,7 @@
       <div style="line-height: 8px; margin-top:10px">
       <p><b>CPF Submission No.</b><span class="row1">1992123456-MSE-01</span></p>
       <p><b>Service Provider</b><span class="row2">Nanyang Polytechnic</span></p>
-      <p><b>Contribution on</b><span class="row3">15 September 2018</span></p>
+      <p><b>Contribution on</b><span class="row3">{{dateNow1}}</span></p>
     </div>  
  <div id="container2">
     <!-- <p style="margin-top:10px">Please key in the service fee for each Professional/freelancer
@@ -88,7 +95,7 @@
     <button class="backbtn" (click)="back()" type="submit">Back</button> 
     <!-- <button class="nextbtn" (click)="next()" type="submit">Next</button>  -->
    <span class="deduction" >Deduction on<br/>
-       <input type="text" value="15/09/2018" style="text-align:center;" size="10"><img src="../../assets/calendar.png" >
+       <input type="text" value="{{dateNow}}" style="text-align:center;" size="10"><img src="../../assets/calendar.png" >
       </span>
   </div>
 </div>

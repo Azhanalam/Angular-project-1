@@ -66,6 +66,70 @@
   }
 
   @media only screen and (min-width: 768px) {
+    .stepwizard-row {
+      display: table-row;
+  }
+
+  .stepwizard {
+      display: table;
+      width: 950px;
+
+  }
+
+  .stepwizard-step button[disabled] {
+      opacity: 1 !important;
+      filter: alpha(opacity=100) !important;
+  }
+
+  .stepwizard-step {
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      
+  }
+  .STEP{
+    margin-left: -80px !important;
+  }
+  .STEP1{
+    margin-left: -490px !important;
+  }
+
+  .btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 20px !important;
+    border: 1px solid rgb(75, 74, 74);
+    margin-left: -490px;
+  }
+
+  .btn-circle1 {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 20px !important;
+    border: 1px solid green;
+    margin-left: -80px;
+  }
+
+  .stepwizard{
+    background:#bcbcb5;
+    padding:17px;
+  }
+
+  .Entity{
+    font-weight:bold;
+    margin-top:0%;
+  }
+
+
+
     .row1{
         margin-left:100px
       }
@@ -173,6 +237,63 @@
     cursor: pointer;
     font-weight:500;
 }
+.btn-circle1{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px !important;
+    border: 1px solid green;
+}
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width:100%;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 20px !important;
+  border: 1px solid rgb(75, 74, 74);
+}
+
+.btn-circle1 {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 20px !important;
+  border: 1px solid green;
+}
+.stepwizard{
+  background:#bcbcb5;
+  padding:17px;
+}
+
+
 
   @media(min-width: 768px) {
     .custom-file-upload {
