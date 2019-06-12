@@ -22,7 +22,7 @@
   }
 
   .heading{
-    padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:100%
+    padding:5px 0px 5px 0px; margin-left:-5px; color:#49712d;font-weight:545;width:100%
   }
 
   p{
@@ -38,9 +38,9 @@
     display: inline-block;
     text-align: center;
     padding:5px;
-    margin-left:70px;
+    margin-left:0px;
     margin-bottom: 10px;
-   border: 2px solid #4b4a4a;
+   border: 2px solid #49712d;
   }
 
   .dot2 {
@@ -51,15 +51,35 @@
     display: inline-block;
     text-align: center;
     padding:5px;
-    margin-left:30%;
-    border: 2px solid #49712d;
+    margin-left:22%;
+    border: 2px solid rgba(0,0,0,.2);
+    color:rgba(0,0,0,.2);
   }
+
+  
+  .dot3 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:22%;
+    border: 2px solid rgba(0,0,0,.2);
+    color:rgba(0,0,0,.2);
+  }
+
 .step1{
-  margin-left:70px; color: #4b4a4a; font-weight:500
+  margin-left:0px; color: #49712d; font-weight:500
 }
 
 .step2{
-  margin-left:30.5%; color:#49712d; font-weight:500
+  margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
+}
+
+.step3{
+  margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 }
   .row1{
     margin-left:50px
@@ -348,11 +368,16 @@
   }
 
   .step1{
-    margin-left:200px; color: #4b4a4a;; font-weight:500
+    margin-left:0px; color: #49712d; font-weight:500
   }
   
+  
   .step2{
-    margin-left:30.5%; color:#49712d; font-weight:500
+    margin-left:19.5%; color:rgba(0,0,0,.2); font-weight:500
+  }
+
+  .step3{
+    margin-left:19%; color:rgba(0,0,0,.2); font-weight:500
   }
 
   .dot1 {
@@ -363,9 +388,9 @@
     display: inline-block;
     text-align: center;
     padding:5px;
-    margin-left:200px;
+    margin-left:0px;
     margin-bottom: 10px;
-   border: 2px solid #4b4a4a;
+   border: 2px solid #49712d;
   }
 
   .dot2 {
@@ -376,8 +401,22 @@
     display: inline-block;
     text-align: center;
     padding:5px;
-    margin-left:30%;
-    border: 2px solid #49712d;
+    margin-left:19%;
+    border: 2px solid rgba(0,0,0,.2);
+    color:rgba(0,0,0,.2);
+  }
+
+  .dot3 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:19%;
+    border: 2px solid rgba(0,0,0,.2);
+    color:rgba(0,0,0,.2);
   }
   
     }

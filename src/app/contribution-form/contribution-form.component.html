@@ -1,15 +1,20 @@
-<app-header-after></app-header-after>
+<app-header-makecaye></app-header-makecaye>
 <div>
-    <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p>
+    <!-- <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p> -->
     <div id="container">
-        <div style="background-color:#bcbcb5; width:100%; padding:1px 15px 0px 15px;">
+        <h4 class="heading">
+            Make CAYE Contribution      
+          </h4>
+        <div style="width:100%; padding:1px 15px 0px 15px;">
             <span class="step1" >Step</span>
-             <span class="step2" >Step</span><br/> 
-            <span  class="dot1">1</span> <span class="dot2">2</span>
+             <span class="step2" >Step</span>
+             <span class="step3" >Step</span><br/> 
+            <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
          <br/>
           </div>
+          <p style="background-color: #49712d; color: white; padding: 10px;">Key in the service fee for each individual and click Submit to compute their Medisave Payble</p>
     
-      <!-- <div class="stepwizard">
+      <!-- <div class="stepwizard" background-color:#bcbcb5;>
         <div class="stepwizard-row setup-panel">
           
             <div class="stepwizard-step"><span style="color:green" class="STEP">Step</span><br/>
@@ -21,23 +26,29 @@
 
         </div>
     </div> -->
-      <h4 class="heading">
-        Make CAYE Contribution      
-      </h4>
+      
       <div class="table-responsive">
         <table class="table table-borderless" style="width:100%">
           <tbody>
             <tr>
-                <th scope="row" style="padding-bottom:0%">CPF Submission No.</th>
-                <td style="padding-bottom:0%">1992123456-MSE-01</td>
+                <th scope="row" style="padding:0px">CSN Name</th>
+              </tr>
+              <tr>
+                <td style="padding:0px;">
+                  <select style="padding-left:10px; padding-right:50px;padding-top: 5px; padding-bottom: 5px;">
+                <option> School of Engineering</option>  
+                </select></td>
+              </tr>
+            <tr>
+                <td scope="row" style="padding:0px;padding-top:10px">Unique Entity Number</td>
+                </tr>
+                <tr>
+                <th style="padding:0px;">1992123456</th>
             </tr>
             <tr>
-                <th scope="row" style="padding-bottom:0%;">Service Provider</th>
-                <td style="padding-bottom:0%;">Nanyang Polytechnic</td>
-            </tr>
-            <tr>
-                <th scope="row" style="padding-bottom:0%;">Contribution on</th>
-                <td style="padding-bottom:0%;">{{dateNow}}</td>
+                <td scope="row" style="padding:0px;padding-top:10px">Contribution on</td>
+                </tr><tr>
+                <th style="padding:0px">1992123456-MSE-01</th>
             </tr>
           </tbody>
 </table>
@@ -49,58 +60,64 @@
       <p><b>Contribution on</b><span class="row3">{{dateNow}}</span></p>
     </div>   -->
   
-    <p style="margin-top:10px">Please key in the service fee for each <span style="background-color:#fcf379fb">Professional/freelancer</span> 
-      and click ‘Submit’ to compute their MediSave payable.</p>
+    <!-- <p style="margin-top:10px">Please key in the service fee for each <span style="background-color:#fcf379fb">Professional/freelancer</span> 
+      and click ‘Submit’ to compute their MediSave payable.</p> -->
       
       <div class="table-responsive" style="overflow-x: scroll;">
     <table class="table table-striped" style="width:100%;">
         <thead style="text-align:center">
           <tr>
+            <th><input type="checkbox"></th>
             <th scope="col">S/N</th>
-            <th scope="col"style="text-align:center">CPF Account No. 
-              (S/TXXXXXXXA)<span style="color:red">*</span></th>
-            <th scope="col">Service Fee ($)<span style="color:red">*</span></th>
-            <th scope="col" class="hasTooltip">Co. Payment Ref No <i class="fas fa-info-circle"></i>
+            <th scope="col"style="text-align:center">CPF Acc No. /NRIC
+            <span style="color:red">*</span></th>
+            <th scope="col">Service Fee<span style="color:red">*</span></th>
+            <th scope="col" class="hasTooltip">Payment Reference No <i class="fas fa-info-circle"></i>
               <span>You may input the invoice number in this field so that the freelancer can reconcile the payment</span></th>
-            
-            <th>   </th>
+<!--             
+            <th>   </th> -->
           </tr>
         </thead>
         <tbody style="text-align:center">
           <tr>
+            <td><input type="checkbox"></td>
             <th scope="row">1</th>
             <td style="text-align:center" ><input type="text" class="datarow"  ></td>
             <td><input type="text" class="datarow" ></td>
             <td><input type="text" class="datarow" ></td>
-            <td><i class="fas fa-trash-alt"></i></td>
+            <!-- <td><i class="fas fa-trash-alt"></i></td> -->
           </tr>
           <tr>
+            <td><input type="checkbox"></td>
             <th scope="row">2</th>
             <td style="text-align:center"><input type="text" class="datarow" ></td>
             <td><input type="text" class="datarow" ></td>
             <td><input type="text" class="datarow"  ></td>
-            <td><i class="fas fa-trash-alt"></i></td>
+            <!-- <td><i class="fas fa-trash-alt"></i></td> -->
           </tr>
           <tr>
+            <td><input type="checkbox"></td>
             <th scope="row">3</th>
             <td style="text-align:center"><input type="text" class="datarow" ></td>
             <td><input type="text" class="datarow"  ></td>
             <td><input type="text" class="datarow" ></td>
-            <td><i class="fas fa-trash-alt"></i></td>
+            <!-- <td><i class="fas fa-trash-alt"></i></td> -->
           </tr>
           <tr>
+              <td><input type="checkbox"></td>
               <th scope="row">4</th>
               <td style="text-align:center"><input type="text" class="datarow" ></td>
               <td><input type="text" class="datarow" ></td>
               <td><input type="text" class="datarow" ></td>
-              <td><i class="fas fa-trash-alt"></i></td>
+              <!-- <td><i class="fas fa-trash-alt"></i></td> -->
             </tr>
             <tr>
+                <td><input type="checkbox"></td>              
                 <th scope="row">5</th>
                 <td style="text-align:center"><input type="text" class="datarow" ></td>
                 <td><input type="text" class="datarow" ></td>
                 <td><input type="text" class="datarow" ></td>
-                <td><i class="fas fa-trash-alt"></i></td>
+                <!-- <td><i class="fas fa-trash-alt"></i></td> -->
               </tr>
         </tbody>
       </table>
