@@ -212,8 +212,8 @@
   }
 
   .datarow{
-    outline:1px solid green;
-    padding: 0px; 
+    outline:1px solid grey;
+    padding: 5px; 
     border: none;
   }
 
@@ -225,19 +225,29 @@
     border:none;
     padding:5px 40px 5px 40px;
     font-size: 15px;
-    margin-left: 1%;
+    margin-left: 18%;
     margin-top: 1%;
     margin-bottom:1%;
 
   }
 
   .nextbtn{
+    background-color:rgba(0,0,0,.26);
+    color:black;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-left: 3%;
+  }
+
+  
+  .submitbtn{
     background-color:#49712d;
     color:white;
     border:none;
     padding:5px 40px 5px 40px;
     font-size: 15px;
-    margin-left: 5%;
+    margin-left: 45%;
   }
 
   .limit{
@@ -253,7 +263,7 @@
     display: none;
 }
 .custom-file-upload {
-  background-color:#49712d;
+  background-color:rgb(48, 47, 47);
   color:white;
   border:none;
   padding:5px 40px 5px 40px;
@@ -325,7 +335,7 @@
 
   @media(min-width: 768px) {
     .custom-file-upload {
-      background-color:#49712d;
+      background-color:rgb(48, 47, 47);
       color:white;
       border:none;
       padding:5px 40px 5px 40px;
@@ -345,17 +355,26 @@
       border:none;
       padding:5px 40px 5px 40px;
       font-size: 15px;
-      margin-left: 1%;
+      margin-left: 18%;
       margin-top: 1%;
       margin-bottom:1%;
   }
   .nextbtn{
+    background-color:rgba(0,0,0,.26);
+    color:black;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-left:3%;
+  }
+
+  .submitbtn{
     background-color:#49712d;
     color:white;
     border:none;
     padding:5px 40px 5px 40px;
     font-size: 15px;
-    margin-left:5%;
+    margin-left:45%;
   }
 
   .limit{
@@ -443,4 +462,15 @@
 ::-webkit-scrollbar-track {
   border-radius: 10px;  
   background-color: #ffffff; 
+}
+
+.pagination {
+  /* display: inline-block; */
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 5px;
+  text-decoration: none;
 }

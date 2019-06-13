@@ -8,6 +8,7 @@ import {Router} from '@angular/router';
   styleUrls: ['./contribution-form.component.css']
 })
 export class ContributionFormComponent implements OnInit {
+  showthis:boolean=false;
   formatsDateTest: string[] = [
     'dd/MM/yyyy'
     ];
@@ -30,9 +31,19 @@ back()
   window.scrollTo(0, 0);
 }
 
-next()
+draft()
 {
-  this.router.navigate(["filledform"]);
+  this.router.navigate(["draftsubmission"]);
   window.scrollTo(0, 0);
+}
+
+submit()
+{
+  document.getElementById('colorchange').style.backgroundColor="rgba(240, 180, 180, 0.61)";
+  document.getElementById('colorchange').value="S1234567A"; 
+  document.getElementById('value1').value="500.00"; 
+  document.getElementById('value2').value="S9999567B"; 
+  document.getElementById('value3').value="350.00"; 
+  this.showthis=true;
 }
 }
