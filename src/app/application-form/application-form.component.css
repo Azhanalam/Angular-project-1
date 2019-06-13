@@ -74,6 +74,7 @@ padding:1px 15px 300px 15px
   .SEARCH{
     width: 300px;
     margin-left:10px;
+    margin-top: -6.5px;
   }
     .stepwizard-row {
         display: table-row;
@@ -82,6 +83,7 @@ padding:1px 15px 300px 15px
     .stepwizard {
         display: table;
         width: 950px;
+        
 
     }
 
@@ -98,22 +100,28 @@ padding:1px 15px 300px 15px
     }
     .STEP{
       margin-left: -80px !important;
+      font-weight: bold;
+      color: lightgrey;
     }
     .STEP1{
       margin-left: -330px !important;
+      font-weight: bold;
+      color: lightgrey;
     }
     .STEP2{
       margin-left: -490px !important;
+      font-weight: bold;
+      color: lightgrey;
     }
 
     .btn-circle {
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       text-align: center;
       padding: 6px 0;
       font-size: 12px;
       line-height: 1.428571429;
-      border-radius: 20px !important;
+      border-radius: 50px !important;
       border: 1px solid rgb(75, 74, 74);
       margin-left: -330px;
     }
@@ -142,7 +150,7 @@ padding:1px 15px 300px 15px
       margin-left: -490px;
     }
     .stepwizard{
-      background:#bcbcb5;
+      background:#fcfcfc;
       padding:17px;
     }
 
@@ -243,7 +251,7 @@ padding:1px 15px 300px 15px
   border: 1px solid green;
 }
 .stepwizard{
-  background:#bcbcb5;
+  background:#fcfcfc;
   padding:17px;
 }
 
@@ -265,7 +273,7 @@ padding:1px 15px 300px 15px
 }
 .P1{
   font-size:13px;
-  color:gray;
+  /* color:gray; */
   margin-left:10px;
 }
 .P2{
@@ -282,25 +290,33 @@ padding:1px 15px 300px 15px
   font-weight:bold;
     margin-left:10px;
     width: 300px;
+    margin-top: -3px;
 }
 .L2{
-  margin-top:10px;
+  margin-top:15px;
   /* margin-left:250px; */
   font-weight:bold;
     margin-left:10px;
     width: 300px;
 }
 .L3{
-  height:25px;
+  height:33px;
   width:350px;
   margin-left:10px;
+  margin-top:-2px;
 }
 .L4{
-  height:25px;
-  margin-top:-1px;
+  height: 33px;
+    margin-top: -4px;
+    margin-left: 10px;
+    width: 350px;
+
+}
+.MOBE{
+  height:33px;
+  margin-top:-4px;
   margin-left:10px;
   width:350px;
-
 }
 .l{
   width:350px;
@@ -312,14 +328,16 @@ padding:1px 15px 300px 15px
     margin-left:10px;
 }
 .L6{
-   height:25px;
+   height:33px;
     width:350px;
       margin-left:10px;
 }
 .P4{
+  font-weight:bold;
   font-size:15px;
-   color:gray;
+   /* color:gray; */
    margin-left: 10px;
+   margin-top: -3px;
 }
 .I{
   margin-left: 10px;
@@ -338,17 +356,25 @@ padding:1px 15px 300px 15px
 }
 .H{
   font-weight: bold;
-  margin-top:10px;
+  margin-top:21px;
 }
 .P{
-  font-weight:bold;
+  font-weight:400;
   font-size:16px;
   margin-top:4%;
 
 }
+.CSNNAME{
+  margin-top: 24px;
+    /* margin-bottom: 1rem; */
+    margin-left: 11px;
+    font-weight: bold;
+}
 .P1{
   font-size:15px;
-  color:gray;
+  /* color:gray; */
+  font-weight:bold;
+  margin-top: -7px;
 
 }
 .l{
@@ -356,10 +382,11 @@ padding:1px 15px 300px 15px
   height:35px !important;
 }
 .P2{
-  margin-top:30px;
+  margin-top:17px;
+  font-weight: 400;
 }
 .P21{
-  margin-top:10px;
+  margin-top:24px;
   /* margin-left:250px; */
   font-weight:bold;
     margin-left:10px;
@@ -487,67 +514,84 @@ padding:1px 15px 300px 15px
   }
   .P4{
     font-size:15px;
-     color:gray;
+     /* color:gray; */
+     margin-top: -5px;
+     font-weight:bold;
   }
   .L6{
      height:35px;
-      width:650px;
+      width:627px;
+      margin-top: -4px;
   }
   .L5{
     font-weight:bold;
-    margin-top:20px;
+    margin-top:25px;
     margin-left:-300px;
   }
   .L3{
     height:35px;
     float:left;
     width:300px;
+    margin-top:-10px;
   }
   .L4{
-    height:35px;
-    margin-top:-1px;
-    margin-left: 50px;
-    /* margin-right:10px; */
+    height: 35px;
+    margin-top: -11px;
+    margin-right: 1px;
     float: right;
-    width:300px;
+    width: 300px;
+  }
+  .MOBE{
+    height: 35px;
+    margin-top: -11px;
+    margin-right: 1px;
+    float: right;
+    width: 300px;
   }
   .L2{
     margin-top:-40px;
-    margin-left:360px;
+    margin-left:340px;
+    font-weight:bold;
+  }
+  .CSNNAME{
+    margin-top:-39px;
+    margin-left:340px;
     font-weight:bold;
   }
   .L1{
     font-weight:bold;
-    margin-top:-2%;
+    margin-top:-3px !important;
   }
   .L{
     font-weight:bold;
-
+    margin-top: -7px !important;
   }
   .H{
     font-weight: bold;
-    margin-top:10px;
+    margin-top:20px;
   }
   .P{
-    font-weight:bold;
-    font-size:16px;
-    margin-top:4%;
+    font-size:17px;
+    margin-top:18px;
 
   }
   .P1{
+    font-weight:bold;
     font-size:15px;
-    color:gray;
+    /* color:gray; */
+    margin-top: -14px;
 
   }
   .l{
-    width:650px;
+    width:627px;
     height:35px !important;
+    margin-top:-3px;
   }
   .P2{
-    margin-top:30px;
+    margin-top:15px;
   }
   .P21{
-    margin-top:70px;
+    margin-top:65px;
     font-weight: bold;
     margin-left: 10px;
   }
@@ -556,31 +600,31 @@ padding:1px 15px 300px 15px
     margin-top:-30px;
   }
   .p1{
-    margin-left:140px;
+    margin-left:130px;
     margin-top:-30px;
   }
   .L21{
     margin-top:-40px;
-    margin-left:360px;
+    margin-left:340px;
     font-weight:bold;
   }
   .L11{
     font-weight:bold;
     margin-left: 10px;
+    /* margin-top: 15px; */
   }
   .L31{
     height:35px;
     float:left;
     width:300px;
-    margin-left: 10px;
+    margin-top:-10px;
   }
   .La1{
-    height:35px;
-    margin-top:-37px;
-    margin-left: 250px;
-    /* margin-right:10px; */
+    height: 35px;
+    margin-top: -11px;
+    margin-right: 1px;
     float: right;
-    width:300px;
+    width: 300px;
   }
   .L51{
     font-weight:bold;
@@ -596,31 +640,32 @@ padding:1px 15px 300px 15px
     width:130px;
     margin-left:10px;
     height: 35px;
+    margin-top:-7px;
   }
 
   .STREET{
     font-weight:bold;
-    margin-top:8px;
+    margin-top:19px;
       margin-left:10px;
   }
   .street{
-    width:340px;
+    width:310px;
     margin-left:10px;
     height: 35px;
-    margin-top: 5px;
+    margin-top: -10px;
   }
 
 
   .LEVEL{
     font-weight:bold;
-    margin-top:-5px;
+      margin-top:10px;
       margin-left:20px;
   }
   .level{
     width:130px;
     margin-left:19px;
     height: 35px;
-    margin-top:5px;
+    margin-top:-10px;
     
   }
 
@@ -641,7 +686,7 @@ padding:1px 15px 300px 15px
       display: block;
       margin-bottom: 10px;
       font-weight:bold;
-      margin-top: 10px;
+      margin-top: 20px;
       margin-left: 10px;
   }
   .BUT1{

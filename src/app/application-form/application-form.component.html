@@ -7,8 +7,8 @@
 
 
 
-        <h5 style="padding:25px 0px 10px 0px; margin-left:10px; color:#49712d;font-weight:800">Apply for CAYE CPF Submission Number</h5>
-        <p style="font-size:13px;margin-left:15px">CAYECSN</p>
+        <h5 style="padding:25px 0px 10px 0px; margin-left:10px; color:#49712d;font-weight:400;font-size: 35px">Apply for CAYE CPF Submission Number (CSN)</h5>
+        <p style="font-size:20px;margin-left:15px;font-weight: bold">CAYECSN</p>
         <div id="container">
 
         <div class="stepwizard">
@@ -17,12 +17,12 @@
                 <div class="stepwizard-step"><span style="color:green" class="STEP">Step</span><br/>
                     <a   class="btn btn-light btn-circle1"><span style="color:green">1</span></a>
                 </div>
-                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP1">Step</span><br/>
-                    <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);">2</span></a>
+                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP1" disabled="disabled">Step</span><br/>
+                    <a   class="btn btn-default btn-circle " disabled="disabled"><span style="color:rgb(75, 74, 74);">2</span></a>
                 </div>
 
-                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP2">Step</span><br/>
-                  <a   class="btn btn-default btn-circle2 btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);">3</span></a>
+                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP2" disabled="disabled">Step</span><br/>
+                  <a   class="btn btn-default btn-circle2 " disabled="disabled"><span style="color:rgb(75, 74, 74);">3</span></a>
               </div>
 
             </div>
@@ -57,14 +57,14 @@
                                     <p class=" L1">Telephone (Office)* </p>
                                       <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>
                                     <p class="L2">Mobile*</p>
-                                     <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
+                                     <input maxlength="100" type="text" required="required" class="form-control1 MOBE" placeholder="Please key here"/>
                                       <br>
                                         <label class="control-label L5">Email*</label>
                                         <br>
                                         <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
       
                       </form>
-                      <hr>
+                      <!-- <hr> -->
                       <div>
                         <h6 class="H">Part 2: Entity Information</h6>
                         <p class="P">Unique Entity Number</p>
@@ -86,7 +86,7 @@
                                             <label class="control-label L2">Mobile*</label> -->
                                             <p class="L11" >Entity Name*</p>
                                               <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>
-                                            <p class="L2">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
+                                            <p class="CSNNAME">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
                                              <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
                                              <!-- <br/> -->
                                              <h6 class="P21">Contact Details*</h6>
@@ -111,7 +111,7 @@
                                                   </div>
                                                 </div>
       
-                                                <div style="margin-top: -20px;">
+                                                <div style="margin-top: -17px;">
                                                 <label class="control-label BLOCK">Block / House No*</label>
                                                  <br>
                                                  <input maxlength="100" type="text" required="required" class="form-control1 block" placeholder="  0"/>
@@ -141,7 +141,7 @@
       
                                                     <!-- <input class="I" type="checkbox" checked>Opt-in to recieve CPF information and news via SMS/Email -->
       
-                                                   <hr>
+                                                   <!-- <hr> -->
       
       
                                                <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()">Back</button>
