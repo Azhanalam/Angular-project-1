@@ -24,11 +24,13 @@ import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.c
 import { EnetsComponent } from './enets/enets.component';
 import { AppSuccessfulComponent } from './app-successful/app-successful.component';
 import { SubmitStatusComponent } from './submit-status/submit-status.component';
- 
+import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
+
 
 const routes: Routes = [
   {path:'SubmitStatus',component:SubmitStatusComponent},
   {path:'AppSuccess',component:AppSuccessfulComponent},
+  {path:'draftsubmission',component:DraftsubmissionComponent},
   {path:'enetspayment',component:EnetsComponent},
   {path:'totalcontribution',component:TotalcontributionComponent},
   {path:'filledform',component:ContributionfilledComponent},

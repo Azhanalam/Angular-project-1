@@ -1,29 +1,39 @@
-<app-header-after></app-header-after>
+<app-header-makecaye></app-header-makecaye>
 <div>
-  <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p>
+  <!-- <div><span class="dot" style="margin-left:66%"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span> 
+    <span class="dot"></span> </div>
+  <p style=" margin-left:18%;margin-bottom:0px"><b> Welcome NANYANG POLYTECHNIC </b>(UEN:1992123456) </p> -->
   <div id="container">
     <h4 class="heading">
       Make CAYE Contribution      
     </h4>
-    <p >CAYECON</p>
+    <p style="margin-bottom:0px"><b>CAYECON</b></p>
     <p >This form is only applicable if you wish to make CAYE contributions to the 
       Self-Employed Persons (SEPs) engaged by you. This form is not applicable to you 
       if you wish to make contributions via our appointed bank, which will compute, 
       split and credit the service fee and MA contribution on your behalf.  
     </p>
     <p ><b>Important Notes</b></p>
-    <ul>
-      <li>This form may take you 10 minutes to complete.</li>
-      <br/>
-      <li>Your request will be processed within xx working days.</li>
-      <br/>
-      <li>Payment can be made via direct debit or eNets.</li>
-      <br/>
-      <li>All fields marked with <span style="color:red">*</span> are mandatory.</li>
+    <div class="notes">
+    <ul style="margin-bottom:0px">
+      <li style="margin-bottom: 5px;">This form may take you 10 minutes to complete.</li>
+      <!-- <br/> -->
+      <li style="margin-bottom: 5px;">Your request will be processed within xx working days.</li>
+      <!-- <br/> -->
+      <li style="margin-bottom: 5px;">Payment can be made via direct debit or eNets.</li>
+      <!-- <br/> -->
+      <li >All fields marked with <span style="color:red">*</span> are mandatory.</li>
     </ul>
-    <p>If you encounter any problems with this e-Service,
+  </div>
+    <p style="margin-top:10px">If you encounter any problems with this e-Service,
         please <span style="color:rgba(84, 177, 231, 0.959)"><u>contact us</u></span>.</p>
   </div>
   <br/>
   <button class="submitbtn" (click)="start()" type="submit">Start</button>
+  <button class="Draftbtn"  type="submit">Go to Draft (2)</button>
+  <button class="Deductionbtn"  type="submit">Pending Deduction (2)</button>
+  <div style="margin-bottom:2%"></div>
 </div>

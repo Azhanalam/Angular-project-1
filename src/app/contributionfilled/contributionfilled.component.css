@@ -52,6 +52,13 @@
     margin-left:40%;
     border: 2px solid #49712d;
   }
+  .step1{
+    margin-left:70px; color: #4b4a4a; font-weight:500
+  }
+  
+  .step2{
+    margin-left:30.5%; color:#49712d; font-weight:500
+  }
 
   .row1{
     margin-left:50px
@@ -168,7 +175,7 @@
   border:none;
   padding:5px 40px 5px 40px;
   font-size: 15px;
-  margin-left: 20%;
+  /* margin-left: 20%; */
     /* border: 1px solid #ccc; */
     display: inline-block;
     padding: 6px 12px;
@@ -186,7 +193,7 @@
   border-radius: 15px !important;
     border: 1px solid green;
 }
-.stepwizard-row {
+/* .stepwizard-row {
     display: table-row;
 }
 
@@ -204,7 +211,7 @@
     display: table-cell;
     text-align: center;
     position: relative;
-}
+} */
 
 .btn-circle {
   width: 30px;
@@ -227,14 +234,14 @@
   border-radius: 20px !important;
   border: 1px solid green;
 }
-.stepwizard{
+/* .stepwizard{
   background:#bcbcb5;
   padding:17px;
-}
+} */
 
 
   @media(min-width: 768px) {
-    .stepwizard-row {
+    /* .stepwizard-row {
       display: table-row;
   }
 
@@ -260,7 +267,7 @@
   }
   .STEP1{
     margin-left: -490px !important;
-  }
+  } */
 
   .btn-circle {
     width: 30px;
@@ -286,10 +293,10 @@
     margin-left: -80px;
   }
 
-  .stepwizard{
+  /* .stepwizard{
     background:#bcbcb5;
     padding:17px;
-  }
+  } */
 
     .custom-file-upload {
       background-color:#49712d;
@@ -333,6 +340,63 @@
     font-weight:500;
     font-size:13px;
   }
+
+  
+  .step1{
+    margin-left:200px; color: #4b4a4a;; font-weight:500
+  }
+  
+  .step2{
+    margin-left:30.5%; color:#49712d; font-weight:500
+  }
+
+  .dot1 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:200px;
+    margin-bottom: 10px;
+   border: 2px solid #4b4a4a;
+  }
+
+  .dot2 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:30%;
+    border: 2px solid #49712d;
+  }
+    }
+
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+    
+    ::-webkit-scrollbar:vertical {
+      width: 12px;
+    }
+    
+    ::-webkit-scrollbar:horizontal {
+      height: 12px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, .5);
+      border-radius: 10px;
+      border: 2px solid #ffffff;
+    }
+    
+    ::-webkit-scrollbar-track {
+      border-radius: 10px;  
+      background-color: #ffffff; 
     }
     
   

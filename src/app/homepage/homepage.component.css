@@ -113,7 +113,7 @@ ul {
   margin-top:-25px;
   margin-left:10px;
   color:black;
-  background:white;
+  background:#f1f2f3;
   padding:2px 10px;
 }
 
@@ -130,7 +130,10 @@ ul {
     margin-top:-25px;
     margin-left:10px;
     color:black;
-    background:white;
+    background:#f1f2f3;
     padding:2px 10px;
   }
+
+  
 }
+

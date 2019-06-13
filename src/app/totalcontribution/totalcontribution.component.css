@@ -36,6 +36,14 @@
     width:100%
   }
 
+.step1{
+  margin-left:70px; color: #4b4a4a; font-weight:500
+}
+
+.step2{
+  margin-left:30.5%; color:#49712d; font-weight:500
+}
+
   .dot1 {
     height: 35px;
     width: 35px;
@@ -46,7 +54,7 @@
     padding:5px;
     margin-left:70px;
     margin-bottom: 10px;
-   border: 2px solid grey;
+   border: 2px solid #4b4a4a;
   }
 
   .dot2 {
@@ -110,7 +118,7 @@
     padding:5px 40px 5px 40px;
     font-size: 15px;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-bottom:1%;
 
   }
@@ -162,23 +170,29 @@
 
 
   .directdebit{
-    border:none; 
-    margin-left:50%;
+    /* border:none; 
+    margin-left:50%; */
+    width:45%;
+    cursor: pointer;
+
   }
 
   .enets{
-    border:none;
-    margin-left:5%;
+    /* border:none; */
+    margin-left: 10%;
+    width: 38%;
+    cursor: pointer;
   }
 
   .deduction{
     margin-left:18%;
   }
 
-  .table {
+
+  /* .table {
     border-bottom: 1px solid #49712d!important;
-    /* font-size:14px; */
-}
+    
+} */
   
   .table thead th {
     border-top: 1px solid #000!important;
@@ -205,7 +219,7 @@ border-bottom:1pt solid black;
   border-radius: 15px !important;
     border: 1px solid green;
 }
-.stepwizard-row {
+/* .stepwizard-row {
     display: table-row;
 }
 
@@ -223,7 +237,7 @@ border-bottom:1pt solid black;
     display: table-cell;
     text-align: center;
     position: relative;
-}
+} */
 
 .btn-circle {
   width: 30px;
@@ -247,13 +261,13 @@ border-bottom:1pt solid black;
   border: 1px solid rgb(75, 74, 74);
   
 }
-.stepwizard{
+/* .stepwizard{
   background:#bcbcb5;
   padding:17px;
-}
+} */
 
   @media only screen and (min-width: 768px) {
-    .stepwizard-row {
+    /* .stepwizard-row {
       display: table-row;
   }
 
@@ -279,7 +293,7 @@ border-bottom:1pt solid black;
   }
   .STEP1{
     margin-left: -490px !important;
-  }
+  } */
 
   .btn-circle {
     width: 30px;
@@ -306,16 +320,16 @@ border-bottom:1pt solid black;
     margin-left: -80px;
   }
 
-  .stepwizard{
+  /* .stepwizard{
     background:#bcbcb5;
     padding:17px;
-  }
+  } */
 
     #container {
       display: flex;
       flex-wrap: wrap;
-      border-top:1px solid grey;
-      border-bottom:0px;
+      /* border-top:1px solid grey; */
+      /* border-bottom:0px; */
       padding:5px 5px 0px 5px;
       width:78%;
     }
@@ -323,15 +337,15 @@ border-bottom:1pt solid black;
     #container2 {
         display: flex;
         flex-wrap: wrap;
-        border-top:1px solid grey;
+        /* border-top:1px solid grey; */
         /* border-bottom:1px solid rgb(110, 228, 129); */
         padding:5px 5px 5px 5px;
-        width:78%;
+        width:100%;
       }
 
       .links{
         float:right; 
-        margin-right:23%;
+        /* margin-right:23%; */
         color:rgb(49, 49, 218);
         }
 
@@ -377,7 +391,7 @@ border-bottom:1pt solid black;
       padding:5px 40px 5px 40px;
       font-size: 15px;
       margin-left: 1%;
-      margin-top: 1%;
+      margin-top: 5%;
       margin-bottom:1%;
   }
   .nextbtn{
@@ -408,21 +422,79 @@ border-bottom:1pt solid black;
   }
 
   .directdebit{
-    border:none; 
-    margin-left:58%;
+    /* border:none;  */
+    /* margin-left:58%; */
+    width:17%;
+    cursor: pointer;
   }
 
   .enets{
-    border:none;
+    /* border:none; */
     margin-left:5%;
+    width:15%;
+    cursor: pointer;
   }
 
   .deduction{
     margin-left:46%;
   }
 
+  .step1{
+    margin-left:200px; color: #4b4a4a;; font-weight:500
+  }
+  
+  .step2{
+    margin-left:30.5%; color:#49712d; font-weight:500
+  }
+
+  .dot1 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:200px;
+    margin-bottom: 10px;
+   border: 2px solid #4b4a4a;
+  }
+
+  .dot2 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:30%;
+    border: 2px solid #49712d;
+  }
+
     }
     
   
-
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+    
+    ::-webkit-scrollbar:vertical {
+      width: 12px;
+    }
+    
+    ::-webkit-scrollbar:horizontal {
+      height: 12px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, .5);
+      border-radius: 10px;
+      border: 2px solid #ffffff;
+    }
+    
+    ::-webkit-scrollbar-track {
+      border-radius: 10px;  
+      background-color: #ffffff; 
+    }
  

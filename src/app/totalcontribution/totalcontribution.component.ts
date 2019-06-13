@@ -1,12 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router'
-var date1 = new Date(new Date().setUTCDate(new Date().getDate()+3));
-
-var day = date1.getDate()
-var month = date1.getMonth()+1
-var year = date1.getFullYear()
-
-var fullDate = day + '/' +month+ '/'+year;
 
 @Component({
   selector: 'app-totalcontribution',
@@ -17,15 +10,26 @@ export class TotalcontributionComponent implements OnInit {
   formatsDateTest: string[] = [
     'dd/MM/yyyy'
     ];
+
+    date1:any  = new Date(new Date().setUTCDate(new Date().getDate()+3));
+    
+    //  datenew= this.date1.getDate()+" "+ this.date1.toLocaleString('en-us', { month: 'long' }) + " " + this.date1.getFullYear();
+     day = this.date1.getDate();
+     month = this.date1.getMonth()+1;
+     year = this.date1.getFullYear();
    
+     fullDate = this.day + '/' +this.month+ '/'+this.year;
       dateNow1 : String  = new Date().getDate() + " " + new Date().toLocaleString('en-us', { month: 'long' }) + " " + new Date().getFullYear();
       
-    dateNow : String  = fullDate;
+    // dateNow : String  = this.fullDate;
+
+    // datenew1: String = this.datenew;
     
 
   constructor(private router:Router) { }
 
   ngOnInit() {
+    
   }
 
  back()

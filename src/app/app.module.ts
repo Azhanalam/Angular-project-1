@@ -44,6 +44,9 @@ import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.c
 import { EnetsComponent } from './enets/enets.component';
 import { AppSuccessfulComponent } from './app-successful/app-successful.component';
 import { SubmitStatusComponent } from './submit-status/submit-status.component';
+import { HeaderMakecayeComponent } from './header-makecaye/header-makecaye.component';
+import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
+
 
 @NgModule({
   declarations: [
@@ -72,7 +75,9 @@ import { SubmitStatusComponent } from './submit-status/submit-status.component';
     Acknowledgement3Component,
     EnetsComponent,
     AppSuccessfulComponent,
-    SubmitStatusComponent
+    SubmitStatusComponent,
+    HeaderMakecayeComponent,
+    DraftsubmissionComponent
   ],
   imports: [
     MatListModule,
