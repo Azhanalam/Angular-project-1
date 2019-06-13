@@ -25,7 +25,7 @@ Nextpage()
   this.username=localStorage.getItem('username');
   console.log(this.username);
   if(this.username=="reguser")
-  this.router.navigate(["userpage"]);
+  this.router.navigate(["AppSuccess"]);
   else
   this.router.navigate(["welcome"]);
 }

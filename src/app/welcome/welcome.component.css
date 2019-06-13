@@ -145,8 +145,11 @@ p{
   color: #10962d;
 }
 .P{
-  background:#f9f39a;
+  background:#f39b3e47;
   margin-top: 30px;
+  color: #4a2b0b91;
+  padding: 5px;
+  font-weight: 500;
 }
 .style1{
   border: 0.5px solid gray;
@@ -174,8 +177,11 @@ p{
     color: #10962d;
   }
   .P{
-    background:#f9f39a;
+    background:#f39b3e47;
     margin-top: 30px;
+    color: #4a2b0b91;
+    padding: 5px;
+    font-weight: 500;
   }
   .style1{
     border: 0.5px solid gray;
