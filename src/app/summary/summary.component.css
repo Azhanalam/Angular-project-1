@@ -92,7 +92,10 @@ padding:1px 15px 300px 15px
       margin-left: -80px;
     }
     .STEP1{
-      margin-left: -490px;
+      margin-left: -330px;
+    }
+    .STEP2{
+      margin-left: -500px;
     }
 
     .btn-circle{
@@ -116,18 +119,95 @@ padding:1px 15px 300px 15px
       line-height: 1.428571429;
       border-radius: 15px !important;
       border: 1px solid green;
-      margin-left: -490px;
+      margin-left: -330px;
+    }
+
+    .btn-circle2{
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 12px;
+      line-height: 1.428571429;
+      border-radius: 15px !important;
+      border:1px solid rgb(75, 74, 74);
+      margin-left: -500px;
     }
     .stepwizard{
       background:#bcbcb5;
       padding:17px;
-      /* position: fixed; */
-      
+      /* position: fixed; */ 
     }
-    
+    /* .verify{
+      padding-top:10px;
+      color: white;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .VERIFY{
+      background: green;
+      height: 50px;
+      margin-top:2px;
+    } */
+    .LEVEL{
+      margin-left: 160px;
+      font-weight:800;
+      margin-top:-66px;
+    }
+    .level{
+      margin-left: 160px;
+      color:grey;
+    }
+    .STREET{
+      margin-left: 288px;
+      font-weight:800;
+      margin-top:-67px;
+    }
+    .street{
+      margin-left: 288px;
+      color:grey;
+    }
+    .H5{
+      color:white;
+      font-size:30px;
+      margin-left: 10px;
+      padding-top: 5px;
+      text-align: start;
+     
+    }
+    .ACK{
+      background: #077712;
+      margin-top: 5px;
+      height: 50px;
+      width: 1080px;
+    }
 }
 
-
+.H5{
+  color:white;
+  font-size:30px;
+  margin-left: 10px;
+  padding-top: 5px;
+  /* text-align: center; */
+}
+.ACK{
+  background: green;
+  margin-top: 5px;
+  height: 50px;
+  width: 100%;
+}
+.verify{
+  padding-top:10px;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.VERIFY{
+  background: green;
+      height: 50px;
+      margin-top:2px;
+  width: 370px !important;
+}
 
 .stepwizard-row {
     display: table-row;
@@ -171,7 +251,18 @@ padding:1px 15px 300px 15px
   border-radius: 15px !important;
   border: 1px solid green;
 }
-.btn-circle1 {
+
+.btn-circle2{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px !important;
+  border: 1px solid rgb(75, 74, 74);
+}
+/* .btn-circle1 {
   width: 30px;
   height: 30px;
   text-align: center;
@@ -180,7 +271,7 @@ padding:1px 15px 300px 15px
   line-height: 1.428571429;
   border-radius: 15px !important;
   border: 1px solid green;
-}
+} */
 .stepwizard{
   background:#bcbcb5;
   padding:17px;

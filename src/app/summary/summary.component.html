@@ -4,7 +4,6 @@
       <div>
 
 
-
         <h5 style="padding:25px 0px 10px 0px; margin-left:10px; color:#49712d;font-weight:800">Apply for CAYE CPF Submission Number</h5>
         <p style="font-size:13px;margin-left:15px">CAYECSN</p>
         <div id="container">
@@ -18,11 +17,24 @@
                     <a   class="btn btn-light btn-circle1"><span style="color:green">2</span></a>
                 </div>
 
+                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP2">Step</span><br/>
+                  <a   class="btn btn-light btn-circle2" disabled="disabled"><span style="color:rgb(75, 74, 74);">3</span></a>
+              </div>
+
             </div>
         </div>
+        
+        <div class="ACK">
+            <h5 class="H5">Verify & Submit Particulars</h5>
+          </div>
+
         <div>
+                
+          <!-- <div class="VERIFY">
+            <p class="verify">Verify & Submit Particulars</p>
+          </div> -->
           <h6 class="H">Part 1: Requestor’s Particulars</h6>
-          <p class="P">NRIC/Foreign Identification Number</p>
+          <p class="P" style="margin-top:28px">NRIC/Foreign Identification Number</p>
           <p class="P1">PASSPORT-123-12345</p>
 
           <h6 class="P2">Name</h6>
@@ -70,9 +82,17 @@
 
         <h6 class="L5">Email</h6>
         <p class="P4">William@nyp.edu.sg</p>
-        <h6 class="L5">Company Address</h6>
-        <p class="P4">180 Ang Mo Kio Ave 8
-          Singapore 555180</p>
+        <h6 class="L5">SG Address Postal Code</h6>
+        <p class="P4">666102</p>
+
+        <h6 style="margin-left: 10px;font-weight:800">Block/House No</h6>
+        <p style="margin-left: 10px;color:grey">23</p>
+
+        <h6 class="LEVEL">Level/Unit NO</h6>
+        <p class="level">#01-01</p>
+
+        <h6 class="STREET">Street Name</h6>
+        <p class="street">Ang Mo Kio Avenue 2</p>
 
         <br>
               <button type="button" class="btn btn-secondary btn-sm BUT" (click)="goBack()">Back</button>

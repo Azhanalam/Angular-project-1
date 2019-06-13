@@ -22,9 +22,13 @@ import { RefundRequest2Component } from './refund-request2/refund-request2.compo
 import { Acknowledgement2Component } from './acknowledgement2/acknowledgement2.component';
 import { Acknowledgement3Component } from './acknowledgement3/acknowledgement3.component';
 import { EnetsComponent } from './enets/enets.component';
+import { AppSuccessfulComponent } from './app-successful/app-successful.component';
+import { SubmitStatusComponent } from './submit-status/submit-status.component';
  
 
 const routes: Routes = [
+  {path:'SubmitStatus',component:SubmitStatusComponent},
+  {path:'AppSuccess',component:AppSuccessfulComponent},
   {path:'enetspayment',component:EnetsComponent},
   {path:'totalcontribution',component:TotalcontributionComponent},
   {path:'filledform',component:ContributionfilledComponent},
