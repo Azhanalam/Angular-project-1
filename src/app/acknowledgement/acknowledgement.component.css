@@ -213,9 +213,9 @@ padding:17px;
   flex-wrap: wrap;
 
 }
-p{
+/* p{
   font-weight: bold;
-}
+} */
 .LIST{
   width:92%;
   margin-left:3%;
@@ -289,9 +289,9 @@ table{
     font-size: 17px;
     font-weight: 600;
   }
-  p{
+  /* p{
     font-weight: bold;
-  }
+  } */
   .LIST{
     width:78%;
     margin-left:20%;
