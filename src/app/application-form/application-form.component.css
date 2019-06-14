@@ -17,7 +17,14 @@
 html {
   font-family: "Lucida Sans", sans-serif;
 }
-
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:5px 5px 5px 5px;
+  width:100%;
+}
 
 .aside {
   /* background-color: #33b5e5; */
@@ -42,6 +49,16 @@ padding:1px 15px 50px 15px
 @media only screen and (min-width: 768px) {
 .sidebar{
 padding:1px 15px 300px 15px
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:5px 5px 30px 5px;
+  width:78%;
+  margin-bottom:-20px;
+  margin-top: 10px;
 }
 }
 
@@ -205,7 +222,13 @@ padding:1px 15px 300px 15px
   .step3{
     margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
   }
-
+  .style1{
+    border: 0.5px solid gray;
+    margin-top: -14px;
+    width: 70%;
+    margin-left:270px;
+  }
+  
     .Entity{
       font-weight:bold;
       margin-top:0%;

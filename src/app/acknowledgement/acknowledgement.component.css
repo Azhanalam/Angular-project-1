@@ -47,149 +47,19 @@ padding:1px 15px 300px 15px
   color: #077712;
   font-size:25px;
   font-weight: 400;
+  font-size: 35px;
+  margin-top: -7px
 }
-/* .stepwizard-row {
-  display: table-row;
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:5px 5px 30px 5px;
+  width:78%;
+  margin-bottom:-20px;
+  margin-top: 10px;
 }
-
-.stepwizard {
-  display: table;
-  width: 950px;
-
-}
-
-.stepwizard-step button[disabled] {
-  opacity: 1 !important;
-  filter: alpha(opacity=100) !important;
-}
-
-.stepwizard-step {
-  display: table-cell;
-  text-align: center;
-  position: relative;
-  
-}
-.STEP{
-margin-left: -80px !important;
-}
-.STEP1{
-margin-left: -330px !important;
-}
-.STEP2{
-margin-left: -490px !important;
-}
-
-.btn-circle {
-width: 30px;
-height: 30px;
-text-align: center;
-padding: 6px 0;
-font-size: 12px;
-line-height: 1.428571429;
-border-radius: 20px !important;
-border: 1px solid rgb(75, 74, 74);
-margin-left: -330px;
-}
-
-.btn-circle1 {
-width: 30px;
-height: 30px;
-text-align: center;
-padding: 6px 0;
-font-size: 12px;
-line-height: 1.428571429;
-border-radius: 20px !important;
-border: 1px solid rgb(75, 74, 74);
-margin-left: -80px;
-}
-
-.btn-circle2 {
-width: 30px;
-height: 30px;
-text-align: center;
-padding: 6px 0;
-font-size: 12px;
-line-height: 1.428571429;
-border-radius: 20px !important;
-border: 1px solid green;
-margin-left: -490px;
-}
-.stepwizard{
-background:#bcbcb5;
-padding:17px;
-}
-.button{
-  background: #969691;
-}
-
-}
-
-.btn-circle1{
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px !important;
-    border: 1px solid rgb(75, 74, 74);
-}
-.stepwizard-row {
-    display: table-row;
-}
-
-.stepwizard {
-    display: table;
-    width:100%;
-}
-
-.stepwizard-step button[disabled] {
-    opacity: 1 !important;
-    filter: alpha(opacity=100) !important;
-}
-
-.stepwizard-step {
-    display: table-cell;
-    text-align: center;
-    position: relative;
-}
-
-.btn-circle {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 20px !important;
-  border: 1px solid rgb(75, 74, 74);
-}
-
-.btn-circle2 {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 20px !important;
-  border: 1px solid green;
-}
-
-.btn-circle1 {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 20px !important;
-  border: 1px solid rgb(75, 74, 74);
-}
-.stepwizard{
-  background:#bcbcb5;
-  padding:17px;
-} */
 
 .dot1 {
   height: 35px;
@@ -213,7 +83,7 @@ padding:17px;
   display: inline-block;
   text-align: center;
   padding:5px;
-  margin-left:22%;
+  margin-left:28.20%;
   border: 2px solid rgba(0,0,0,.2);
  
   color:rgba(0,0,0,.2);
@@ -228,7 +98,7 @@ padding:17px;
   display: inline-block;
   text-align: center;
   padding:5px;
-  margin-left:22%;
+  margin-left:28.20%;
   border: 2px solid #49712d;
   color:#49712d;
 }
@@ -238,11 +108,11 @@ margin-left:0px; color: rgba(0,0,0,.2); font-weight:500
 }
 
 .step2{
-margin-left:22%; color: rgba(0,0,0,.2); font-weight:500
+margin-left:28.20%; color: rgba(0,0,0,.2); font-weight:500
 }
 
 .step3{
-margin-left:22%; color:#49712d; font-weight:500
+margin-left:28.20%; color:#49712d; font-weight:500
 }
 }
 
@@ -272,11 +142,14 @@ margin-left:22%; color:#49712d; font-weight:500
 } */
 .LIST{
   width:92%;
-  margin-left:3%;
+  /* margin-left:3%; */
 }
 
 .style1{
-  border: 0.5px solid gray;
+   border: 0.5px solid gray;
+    margin-top: 10px;
+    width: 100%;
+    /* margin-left:270px; */
 }
 th{
   background:#969691;
@@ -298,6 +171,7 @@ td{
  background: #49712d;
   margin-top: 5px;
   height: 50px;
+  width:950px;
 }
 .P{
   font-weight: lighter;
@@ -313,6 +187,7 @@ table{
   background-color: rgb(199, 239, 199);
   height: 100px;
   margin-top: 5px;
+  
 }
 .transaction{
   color: #49712d;
@@ -333,6 +208,7 @@ table{
   .TRANSACTION{
     background-color: rgb(199, 239, 199);
     height: 50px;
+    width:1042px;
   }
   .transaction{
     color: #49712d;
@@ -349,7 +225,7 @@ table{
   } */
   .LIST{
     width:78%;
-    margin-left:20%;
+    /* margin-left:20%; */
   }
 
   .style1{
@@ -374,6 +250,7 @@ table{
     background: #49712d;
     margin-top: 5px;
     height: 50px;
+   width:1042px;
   }
   .P{
     font-weight: lighter;
