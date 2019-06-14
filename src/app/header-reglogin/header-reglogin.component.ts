@@ -20,3 +20,4 @@ export class HeaderRegloginComponent implements OnInit {
     // console.log("username: ",localStorage.getItem('username'));
     }
 }
+}
