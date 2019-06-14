@@ -46,6 +46,8 @@ import { AppSuccessfulComponent } from './app-successful/app-successful.componen
 import { SubmitStatusComponent } from './submit-status/submit-status.component';
 import { HeaderMakecayeComponent } from './header-makecaye/header-makecaye.component';
 import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
+import { HeaderRegloginComponent } from './header-reglogin/header-reglogin.component';
+import { DeductionComponent } from './deduction/deduction.component';
 
 
 @NgModule({
@@ -77,7 +79,9 @@ import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.comp
     AppSuccessfulComponent,
     SubmitStatusComponent,
     HeaderMakecayeComponent,
-    DraftsubmissionComponent
+    DraftsubmissionComponent,
+    HeaderRegloginComponent,
+    DeductionComponent
   ],
   imports: [
     MatListModule,

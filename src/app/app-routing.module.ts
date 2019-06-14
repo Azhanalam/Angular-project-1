@@ -25,9 +25,11 @@ import { EnetsComponent } from './enets/enets.component';
 import { AppSuccessfulComponent } from './app-successful/app-successful.component';
 import { SubmitStatusComponent } from './submit-status/submit-status.component';
 import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
+import { DeductionComponent } from './deduction/deduction.component';
 
 
 const routes: Routes = [
+  {path:'deduction',component:DeductionComponent},
   {path:'SubmitStatus',component:SubmitStatusComponent},
   {path:'AppSuccess',component:AppSuccessfulComponent},
   {path:'draftsubmission',component:DraftsubmissionComponent},
