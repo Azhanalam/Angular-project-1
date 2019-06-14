@@ -233,7 +233,7 @@ padding:1px 15px 300px 15px
      
     }
     .ACK{
-      background: #077712;
+      background: #49712d;
       margin-top: 5px;
       height: 50px;
       width: 1080px;
@@ -248,7 +248,7 @@ padding:1px 15px 300px 15px
   /* text-align: center; */
 }
 .ACK{
-  background: green;
+  background: #49712d;
   margin-top: 5px;
   height: 50px;
   width: 100%;
@@ -260,7 +260,7 @@ padding:1px 15px 300px 15px
   font-size: 20px;
 }
 .VERIFY{
-  background: green;
+  background: #49712d;
       height: 50px;
       margin-top:2px;
   width: 370px !important;
@@ -306,7 +306,7 @@ padding:1px 15px 300px 15px
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 15px !important;
-  border: 1px solid green;
+  border: 1px solid #49712d;
 }
 
 .btn-circle2{

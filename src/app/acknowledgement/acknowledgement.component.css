@@ -294,7 +294,8 @@ td{
   text-align: center;
 }
 .ACK{
-  background: green;
+  /* background-color:rgb(199, 239, 199); */
+ background: #49712d;
   margin-top: 5px;
   height: 50px;
 }
@@ -309,12 +310,12 @@ table{
   font-size:13.5px;
 }
 .TRANSACTION{
-  background: rgb(218, 213, 213);
+  background-color: rgb(199, 239, 199);
   height: 100px;
   margin-top: 5px;
 }
 .transaction{
-  color: #077712;
+  color: #49712d;
   padding-top: 15px;
   margin-left:10px;
   font-weight: 500;
@@ -330,11 +331,11 @@ table{
 
   }
   .TRANSACTION{
-    background: rgb(218, 213, 213);
+    background-color: rgb(199, 239, 199);
     height: 50px;
   }
   .transaction{
-    color: #077712;
+    color: #49712d;
     padding-top: 15px;
     margin-left:10px;
     font-weight: 500;
@@ -369,7 +370,8 @@ table{
    
   }
   .ACK{
-    background: #077712;
+    /* background-color:rgb(199, 239, 199); */
+    background: #49712d;
     margin-top: 5px;
     height: 50px;
   }
