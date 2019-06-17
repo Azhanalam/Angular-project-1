@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-acknowledgement2',
@@ -13,9 +14,14 @@ export class Acknowledgement2Component implements OnInit {
       dateNow1 : String  = new Date().getDate() + " " + new Date().toLocaleString('en-us', { month: 'long' }) + " " + new Date().getFullYear();
       
 
-  constructor() { }
+      constructor(private router:Router) { }
 
   ngOnInit() {
   }
 
+  AppSuccess()
+  {
+    this.router.navigate(["AppSuccess"]);
+    window.scrollTo(0, 0);
+  }
 }

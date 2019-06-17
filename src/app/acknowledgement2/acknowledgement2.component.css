@@ -30,6 +30,58 @@ html {
 }
 
 
+.dot1 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:0px;
+  margin-bottom: 10px;
+ border: 2px solid grey;
+}
+
+.dot2 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:22%;
+  border: 2px solid grey;
+  color:grey;
+}
+
+
+.dot3 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:22%;
+  border: 2px solid #49712d;
+  color:#49712d;
+}
+
+.step1{
+margin-left:0px; color: grey; font-weight:500
+}
+
+.step2{
+margin-left:22.5%; color:grey; font-weight:500
+}
+
+.step3{
+margin-left:22%; color: #49712d; font-weight:500
+}
+
 /* For mobile phones: */
 [class*="column-"] {
   width: 100%;
@@ -66,9 +118,9 @@ padding:1px 15px 300px 15px
   flex-wrap: wrap;
 
 }
-p{
+/* p{
   font-weight: bold;
-}
+} */
 .LIST{
   width:92%;
   margin-left:3%;
@@ -99,12 +151,12 @@ td{
 
 @media (min-width: 768px) {
   
-  p{
+  /* p{
     font-weight: bold;
-  }
+  } */
   .LIST{
     width:78%;
-    margin-left:20%;
+    margin-left:18%;
   }
 
   .style1{
@@ -132,4 +184,55 @@ td{
       font-weight: 100;
   }
 
+  .dot1 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:0px;
+    margin-bottom: 10px;
+   border: 2px solid grey;
+  }
+
+  .dot2 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:22%;
+    border: 2px solid grey;
+    color:grey;
+  }
+
+  
+  .dot3 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:22%;
+    border: 2px solid #49712d;
+    color:#49712d;
+  }
+
+.step1{
+  margin-left:0px; color: grey; font-weight:500
+}
+
+.step2{
+  margin-left:22.5%; color:grey; font-weight:500
+}
+
+.step3{
+  margin-left:22%; color:#49712d; font-weight:500
+}
 }

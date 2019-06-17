@@ -17,4 +17,14 @@ export class CayeContributionComponent implements OnInit {
   this.router.navigate(["contributionform"]);
   window.scrollTo(0, 0);
   }
+
+  draft(){
+    this.router.navigate(["draftsubmission"]);
+    window.scrollTo(0, 0);
+  }
+
+  deduction(){
+    this.router.navigate(["deduction"]);
+    window.scrollTo(0, 0);
+  }
 }
