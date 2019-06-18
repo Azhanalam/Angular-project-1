@@ -1,0 +1,126 @@
+<app-header-after></app-header-after>
+<div>
+    <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p>
+    <div id="container">
+        <div style="background-color:#bcbcb5; width:100%; padding:1px 15px 0px 15px;">
+            <span class="step1">Step</span> 
+            <span class="step2">Step</span><br/> 
+            <span  class="dot1">1</span> <span class="dot2">2</span>
+         <br/>
+          </div>
+    
+      <!-- <div class="stepwizard">
+        <div class="stepwizard-row setup-panel">
+          
+            <div class="stepwizard-step"><span style="color:green" class="STEP">Step</span><br/>
+                <a   class="btn btn-light btn-circle1"><span style="color:green">1</span></a>
+            </div>
+            <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP1">Step</span><br/>
+                <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);">2</span></a>
+            </div>
+
+        </div>
+    </div> -->
+      <h4 class="heading">
+        Make CAYE Contribution      
+      </h4>
+      <div class="table-responsive">
+          <table class="table table-borderless" style="width:100%">
+            <tbody>
+              <tr>
+                  <th scope="row" style="padding-bottom:0%">CPF Submission No.</th>
+                  <td style="padding-bottom:0%">1992123456-MSE-01</td>
+              </tr>
+              <tr>
+                  <th scope="row" style="padding-bottom:0%;">Service Provider</th>
+                  <td style="padding-bottom:0%;">Nanyang Polytechnic</td>
+              </tr>
+              <tr>
+                  <th scope="row" style="padding-bottom:0%;">Contribution on</th>
+                  <td style="padding-bottom:0%;">{{dateNow}}</td>
+              </tr>
+            </tbody>
+  </table>
+        </div>
+  
+      <!-- <div style="line-height: 8px; margin-top:10px">
+      <p><b>CPF Submission No.</b><span class="row1">1992123456-MSE-01</span></p>
+      <p><b>Service Provider</b><span class="row2">Nanyang Polytechnic</span></p>
+      <p><b>Contribution on</b><span class="row3">{{dateNow}}</span></p>
+    </div>   -->
+  
+    <p style="margin-top:10px">Please key in the service fee for each Professional/freelancer
+      and click ‘Submit’ to compute their MediSave payable.</p>
+      
+      <div class="table-responsive">
+    <table class="table table-striped" style="width:100%;margin-bottom:0%">
+        <thead style="text-align:center">
+          <tr>
+            <th scope="col">S/N</th>
+            <th scope="col" style="text-align:center">CPF Account No. 
+              (S/TXXXXXXXA)<span style="color:red">*</span></th>
+            <th scope="col">Service Fee ($)<span style="color:red">*</span></th>
+            <th scope="col" class="hasTooltip">Co. Payment Ref No <i class="fas fa-info-circle"></i>
+              <span>You may input the invoice number in this field so that the freelancer can reconcile the payment</span></th>
+            
+            <th>   </th>
+          </tr>
+        </thead>
+        <tbody style="text-align:center">
+          <tr>
+            <th scope="row">1</th>
+            <td style="text-align:center"><input type="text" class="datarow" value="ST1234567A"></td>
+            <td><input type="text" class="datarow" value="100.00"></td>
+            <td><input type="text" class="datarow" value="TX12345SH"></td>
+            <td><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          <tr >
+            <th scope="row">2</th>
+            <td style="text-align:center"><input type="text" class="datarow" value="S1234567B"></td>
+            <td><input type="text" class="datarow" value="200.00"></td>
+            <td><input type="text" class="datarow"  value="TX12344AH"></td>
+            <td><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td style="text-align:center"><input type="text" class="datarow" value="S1234567C"></td>
+            <td><input type="text" class="datarow" value="300.00"></td>
+            <td><input type="text" class="datarow" value="TX99999AH"></td>
+            <td><i class="fas fa-trash-alt"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td style="font-weight: 500;margin-top: 5px;"><i class="fas fa-plus-circle"></i>ADD NEW RECORD</td>
+              <td style="text-align:right;padding-bottom:0%">
+                  <label class="custom-file-upload">
+                      <input type="file" id="file" (change)="importfile()"/>
+                      +&nbsp;&nbsp;Import file
+                  </label>
+              </td>
+              
+            </tr>
+            <tr>
+                <td></td>
+                <td style="color:red;text-align:right;font-weight:500;font-size:13px;padding-top:0%">
+                  File limit: 36MB</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    <!-- <span style="margin-left: 10px;font-size: 20px;font-weight: 500;margin-top: 5px;"><i class="fas fa-plus-circle"></i></span>
+    <span style="margin-top: 8px;margin-left: 7px;font-size: 15px;font-weight: 500;">ADD NEW RECORD</span>
+<label class="custom-file-upload">
+    <input type="file" id="file" (change)="importfile()"/>
+    +&nbsp;&nbsp;Import file
+</label>
+<p class="limit">File limit: 36MB</p> -->
+    </div>
+    <button class="backbtn" (click)="back()" type="submit">Back</button> 
+    <button class="nextbtn" (click)="next()" type="submit">Next</button> 
+  </div>

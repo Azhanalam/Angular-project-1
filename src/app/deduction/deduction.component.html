@@ -1,0 +1,55 @@
+<app-header-makecaye></app-header-makecaye>
+<div id="container">
+    <h4 class="heading">
+        CAYE Contribution Submissions
+      </h4>
+      <p style="color: #2878c3;background-color: rgb(211, 231, 236); 
+      padding:10px 676px 10px 10px; margin-bottom:10px">
+        You have <b><u>2</u></b> CAYE Contributions pending deduction</p>
+      <p ><b>Important Notes</b></p>
+      <div class="notes">
+      <ul style="margin-bottom:0px;padding-left:20px">
+        <li style="margin-bottom: 5px;">Please select the 'CSN' if you would like to ammend.</li>
+        <!-- <br/> -->
+        <li style="margin-bottom: 5px;">All submissions will no longer be available for ammend <b>2 days before deduction date.</b> </li>
+        <!-- <br/> -->
+        <li style="margin-bottom: 5px;">All submissions will be cancelled once the submission has been deleted.</li>
+      </ul>
+    </div>
+    
+    <table class="table table-striped table-bordered" style="margin-top:20px; margin-bottom:10px">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">S/N</th>
+            <th scope="col">CSN No.</th>
+            <th scope="col">Submission Date</th>
+            <th scope="col">Deduction Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-light" >
+            <th style="background-color:rgb(199, 235, 239);" scope="row">1</th>
+            <td style="background-color:rgb(199, 235, 239);"><a href="totalcontribution" style="text-decoration:underline">199213456-MSE-01</a></td>
+            <td style="background-color:rgb(199, 235, 239);">01/08/2018</td>
+            <td style="background-color:rgb(199, 235, 239);">01/08/2018<img src="../assets/trash3.png" width="5%" style="float:right"></td>
+           
+          </tr>
+          <tr class="table-light">
+            <th style="background-color:rgb(199, 235, 239);" scope="row">2</th>
+            <td style="background-color:rgb(199, 235, 239);"><a href="" style="text-decoration:underline">199213456-MSE-03</a></td>
+            <td style="background-color:rgb(199, 235, 239);">01/08/2018</td>
+            <td style="background-color:rgb(199, 235, 239);">01/08/2018<img src="../assets/trash3.png" width="5%" style="float:right"></td>
+           
+          </tr>
+        </tbody>
+      </table>
+
+      
+      </div>
+
+      <button style="
+          margin-left: 250px;
+          margin-top: 10px;
+          padding: 2px 15px 2px 15px;
+          border: none;
+          background-color: gray;" (click)="AppSuccess()" type="submit">Back to Main</button>

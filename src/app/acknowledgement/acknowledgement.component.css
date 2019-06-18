@@ -1,0 +1,265 @@
+
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+[class*="column-"] {
+  float: left;
+  padding: 15px 15px 15px 5px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+
+.aside {
+  /* background-color: #33b5e5; */
+  /* padding: 15px; */
+  /* color: #ffffff; */
+  /* text-align: center; */
+  font-size: 10px;
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+  border: 1px solid grey;
+}
+
+
+/* For mobile phones: */
+[class*="column-"] {
+  width: 100%;
+}
+
+.sidebar{
+padding:1px 15px 50px 15px
+}
+
+@media only screen and (min-width: 768px) {
+.sidebar{
+padding:1px 15px 300px 15px
+}
+.CSN_SUBMISSION{
+  color: #077712;
+  font-size:25px;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: -7px
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:5px 5px 30px 5px;
+  width:78%;
+  margin-bottom:-20px;
+  margin-top: 10px;
+}
+
+.dot1 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:0px;
+  margin-bottom: 10px;
+  border: 2px solid rgba(0,0,0,.2);
+  color:rgba(0,0,0,.2);
+}
+
+.dot2 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:28.20%;
+  border: 2px solid rgba(0,0,0,.2);
+ 
+  color:rgba(0,0,0,.2);
+}
+
+
+.dot3 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:28.20%;
+  border: 2px solid #49712d;
+  color:#49712d;
+}
+
+.step1{
+margin-left:0px; color: rgba(0,0,0,.2); font-weight:500
+}
+
+.step2{
+margin-left:28.20%; color: rgba(0,0,0,.2); font-weight:500
+}
+
+.step3{
+margin-left:28.20%; color:#49712d; font-weight:500
+}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .column-1 {width: 8.33%;}
+  .column-2 {width: 16.66%;}
+  .column-3 {width: 12%;}
+  .column-4 {width: 33.33%;}
+  .column-5 {width: 41.66%;}
+  .column-6 {width: 50%;}
+  .column-7 {width: 58.33%;}
+  .column-8 {width: 66.66%;}
+  .column-9 {width: 75%;}
+  .column-10 {width: 83.33%;}
+  .column-11 {width: 91.66%;}
+  .column-12 {width: 100%;}
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+/* p{
+  font-weight: bold;
+} */
+.LIST{
+  width:92%;
+  /* margin-left:3%; */
+}
+
+.style1{
+   border: 0.5px solid gray;
+    margin-top: 10px;
+    width: 100%;
+    /* margin-left:270px; */
+}
+th{
+  background:#969691;
+
+}
+td{
+  background:#c6c6c0;
+
+}
+.H5{
+  color:white;
+  font-size:30px;
+  margin-left: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+.ACK{
+  /* background-color:rgb(199, 239, 199); */
+ background: #49712d;
+  margin-top: 5px;
+  height: 50px;
+  width:950px;
+}
+.P{
+  font-weight: lighter;
+}
+.P1{
+  font-weight: lighter;
+}
+table{
+  width:5%;
+  font-size:13.5px;
+}
+.TRANSACTION{
+  background-color: rgb(199, 239, 199);
+  height: 100px;
+  margin-top: 5px;
+  
+}
+.transaction{
+  color: #49712d;
+  padding-top: 15px;
+  margin-left:10px;
+  font-weight: 500;
+}
+.BOLD{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  table{
+    width:100%;
+
+  }
+  .TRANSACTION{
+    background-color: rgb(199, 239, 199);
+    height: 50px;
+    width:1042px;
+  }
+  .transaction{
+    color: #49712d;
+    padding-top: 15px;
+    margin-left:10px;
+    font-weight: 500;
+  }
+  .BOLD{
+    font-size: 17px;
+    font-weight: 600;
+  }
+  /* p{
+    font-weight: bold;
+  } */
+  .LIST{
+    width:78%;
+    /* margin-left:20%; */
+  }
+
+  .style1{
+    border: 0.5px solid gray;
+  }
+  th{
+    background:#969691;
+  }
+  td{
+    background:#c6c6c0;
+  }
+  .H5{
+    color:white;
+    font-size:30px;
+    margin-left: 10px;
+    padding-top: 5px;
+    text-align: start;
+   
+  }
+  .ACK{
+    /* background-color:rgb(199, 239, 199); */
+    background: #49712d;
+    margin-top: 5px;
+    height: 50px;
+   width:1042px;
+  }
+  .P{
+    font-weight: lighter;
+  }
+  .P1{
+    font-weight: lighter;
+  }
+  /* .WIDTH{
+    width: 98%;
+  } */
+
+}

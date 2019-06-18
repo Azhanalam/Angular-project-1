@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="column-"] {
+  float: left;
+  padding: 15px 15px 15px 5px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+
+.aside {
+ 
+  font-size: 10px;
+
+  border: 1px solid grey;
+}
+
+
+/* For mobile phones: */
+[class*="column-"] {
+  width: 100%;
+}
+
+.sidebar{
+padding:1px 15px 50px 15px
+}
+
+@media only screen and (min-width: 768px) {
+.sidebar{
+padding:1px 15px 300px 15px
+}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .column-1 {width: 8.33%;}
+  .column-2 {width: 16.66%;}
+  .column-3 {width: 12%;}
+  .column-4 {width: 33.33%;}
+  .column-5 {width: 41.66%;}
+  .column-6 {width: 50%;}
+  .column-7 {width: 58.33%;}
+  .column-8 {width: 66.66%;}
+  .column-9 {width: 75%;}
+  .column-10 {width: 83.33%;}
+  .column-11 {width: 91.66%;}
+  .column-12 {width: 100%;}
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+@media (min-width: 768px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    padding:5px 5px 30px 5px;
+    width:78%;
+    margin-bottom:-20px;
+    margin-top: 10px;
+  }
+    .dot1 {
+      height: 35px;
+      width: 35px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      padding:5px;
+      margin-left:0px;
+      margin-bottom: 10px;
+      color:rgba(0,0,0,.2);
+      border: 2px solid rgba(0,0,0,.2);
+    }
+  
+    .dot2 {
+      height: 35px;
+      width: 35px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      padding:5px;
+      margin-left:22%;
+      border: 2px solid #49712d;
+     
+      color:#49712d;
+    }
+  
+    
+    .dot3 {
+      height: 35px;
+      width: 35px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      padding:5px;
+      margin-left:22%;
+      border: 2px solid rgba(0,0,0,.2);
+      color:rgba(0,0,0,.2);
+    }
+  
+  .step1{
+    margin-left:0px; color: rgba(0,0,0,.2); font-weight:500
+  }
+  
+  .step2{
+    margin-left:22%; color:#49712d; font-weight:500
+  }
+  
+  .step3{
+    margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
+  }
+  .style1{
+    border: 0.5px solid gray;
+    margin-top: 10px;
+  
+  }
+
+    .LEVEL{
+      margin-left: 220px;
+      font-weight:400;
+      margin-top:-60px;
+    }
+    .level{
+      margin-left: 220px;
+      margin-top:-5px;
+      font-weight:bold;
+    }
+    .STREET{
+      margin-left: 398px;
+      font-weight:400;
+      margin-top:-63px;
+    }
+    .street{
+      margin-left: 398px;
+      margin-top:-5px;
+      font-weight:bold;
+    }
+    .H5{
+      color:white;
+      font-size:30px;
+      margin-left: 10px;
+      padding-top: 5px;
+      text-align: start;
+     
+    }
+    .ACK{
+      background: #49712d;
+      margin-top: 5px;
+      height: 50px;
+      width: 1080px;
+    }
+}
+
+.H5{
+  color:white;
+  font-size:30px;
+  margin-left: 10px;
+  padding-top: 5px;
+  /* text-align: center; */
+}
+.ACK{
+  background: #49712d;
+  margin-top: 5px;
+  height: 50px;
+  width: 100%;
+}
+.verify{
+  padding-top:10px;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.VERIFY{
+  background: #49712d;
+      height: 50px;
+      margin-top:2px;
+  width: 370px !important;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width:99%;
+
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px !important;
+  border: 1px solid rgb(75, 74, 74);
+}
+
+.btn-circle1{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px !important;
+  border: 1px solid #49712d;
+}
+
+.btn-circle2{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px !important;
+  border: 1px solid rgb(75, 74, 74);
+}
+
+.stepwizard{
+  background:#bcbcb5;
+  padding:17px;
+}
+
+.H{
+  font-weight: bold;
+  margin-top:-10px;
+    margin-left:10px;
+}
+.P1{
+  font-size:13px;
+  margin-top: -14px;
+  margin-left:10px;
+}
+.P2{
+  font-weight:400;
+  margin-left:10px;
+  margin-top: 0%;
+}
+
+.P4{
+  font-weight:bold;
+  font-size:15px;
+  margin-top: -5px;
+   margin-left: 10px;
+}
+
+.BUT{
+  margin-top:-15px;
+  width:80px;
+  margin-left: 10px;
+}
+.L1{
+  font-weight:400;
+    margin-left:10px;
+}
+.L2{
+  margin-top:10px;
+  /* margin-left:250px; */
+  font-weight:400;
+    margin-left:10px;
+}
+.L3{
+  font-weight:bold;
+  height:25px;
+  width:350px;
+  margin-left:10px;
+  /* color: gray; */
+}
+.L4{
+  font-weight:bold;
+  height:25px;
+  margin-top:-1px;
+  /* color: gray; */
+  width:350px;
+  margin-left:10px;
+}
+.L5{
+  font-weight:400;
+  margin-top:20px;
+    margin-left:10px;
+}
+
+
+
+@media (min-width: 768px) {
+  .L3{
+    font-weight:bold;
+    height:25px;
+    float:left;
+    width:280px;
+   margin-top: -14px;
+  }
+  .L4{
+    height:25px;
+    margin-top:-1px;
+    margin-left: 250px;
+    width:280px;
+    font-weight:bold;
+    margin-top: -14px;
+  }
+  .BUT{
+    margin-top:-15px;
+    width:80px;
+  }
+  .P4{
+    font-size:15px;
+     /* color:gray; */
+  }
+
+  .H{
+    font-weight: bold;
+    margin-top:20px;
+  }
+  .P{
+   
+    margin-top:18px;
+    margin-left:10px;
+    font-size: 17px;
+
+  }
+  .P1{
+    font-weight:bold;
+    font-size:15px;
+    /* color:gray; */
+
+  }
+  .L2{
+    margin-top:-40px;
+    margin-left:290px;
+    font-weight:400;
+  }
+  .L1{
+    font-weight:400;
+    margin-right: 31.5%;
+  }
+  /* .L11{
+    float:left;
+  } */
+  .L5{
+    font-weight:400;
+    margin-top:20px;
+    margin-left:10px;
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+  
+  .HR{
+  /* margin-left:20%; */
+  width: 100%;
+  border: hidden;
+  margin-top: -10px;
+  }
+  
+}

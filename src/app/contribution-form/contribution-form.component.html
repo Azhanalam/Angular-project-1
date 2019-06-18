@@ -1,0 +1,224 @@
+<app-header-makecaye></app-header-makecaye>
+<div>
+    <!-- <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p> -->
+    <div id="container">
+        <h4 class="heading">
+            Make CAYE Contribution      
+          </h4>
+        <div style="width:100%; padding:1px 15px 0px 15px;">
+            <span class="step1" >Step</span>
+             <span class="step2" >Step</span>
+             <span class="step3" >Step</span><br/> 
+            <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
+         <br/>
+          </div>
+          <p style="background-color: #49712d; color: white; padding: 10px;">Key in the service fee for each individual and click Submit to compute their Medisave Payble</p>
+    <div *ngIf="showthis">
+      <p style="color:#ce3c3c; background-color:rgba(240, 180, 180, 0.61);padding: 10px 746px 10px 10px;"><b>Error:</b>Please check the highlighted fields</p>
+    </div>
+      <!-- <div class="stepwizard" background-color:#bcbcb5;>
+        <div class="stepwizard-row setup-panel">
+          
+            <div class="stepwizard-step"><span style="color:green" class="STEP">Step</span><br/>
+                <a   class="btn btn-light btn-circle1"><span style="color:green">1</span></a>
+            </div>
+            <div class="stepwizard-step"><span style="color:#4b4a4a;" class="STEP1">Step</span><br/>
+                <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);">2</span></a>
+            </div>
+
+        </div>
+    </div> -->
+      
+      <div class="table-responsive">
+        <table class="table table-borderless" style="width:100%">
+          <tbody>
+            <tr>
+                <th scope="row" style="padding:0px">CSN Name</th>
+              </tr>
+              <tr>
+                <td style="padding:0px;">
+                  <select style="padding-left:10px; padding-right:50px;padding-top: 5px; padding-bottom: 5px;">
+                <option> School of Engineering</option>  
+                </select></td>
+              </tr>
+            <tr>
+                <td scope="row" style="padding:0px;padding-top:10px">Unique Entity Number</td>
+                </tr>
+                <tr>
+                <th style="padding:0px;">1992123456</th>
+            </tr>
+            <tr>
+                <td scope="row" style="padding:0px;padding-top:10px">Contribution on</td>
+                </tr><tr>
+                <th style="padding:0px">1992123456-MSE-01</th>
+            </tr>
+          </tbody>
+</table>
+      </div>
+
+      <!-- <div style="line-height: 8px; margin-top:10px">
+      <p><b>CPF Submission No.</b><span class="row1">1992123456-MSE-01</span></p>
+      <p><b>Service Provider</b><span class="row2">Nanyang Polytechnic</span></p>
+      <p><b>Contribution on</b><span class="row3">{{dateNow}}</span></p>
+    </div>   -->
+  
+    <!-- <p style="margin-top:10px">Please key in the service fee for each <span style="background-color:#fcf379fb">Professional/freelancer</span> 
+      and click ‘Submit’ to compute their MediSave payable.</p> -->
+      
+      <div class="table-responsive" style="overflow-x: scroll;">
+    <table class="table table-striped" style="width:100%;">
+        <thead style="text-align:center">
+          <tr>
+            <th><input type="checkbox" style="zoom:1.5;"></th>
+            <th scope="col">S/N</th>
+            <th scope="col"style="text-align:center">CPF Acc No. /NRIC
+            <span style="color:red">*</span></th>
+            <th scope="col">Service Fee<span style="color:red">*</span></th>
+            <th scope="col" class="hasTooltip">Payment Reference No <i class="fas fa-info-circle"></i>
+              <span>You may input the invoice number in this field so that the freelancer can reconcile the payment</span></th>
+<!--             
+            <th>   </th> -->
+          </tr>
+        </thead>
+        <tbody style="text-align:center">
+          <tr>
+            <td><input type="checkbox" style="zoom:1.5;" #chkEnable ngModel></td>
+            <th scope="row">1</th>
+            <td style="text-align:center" ><input type="text" class="datarow" placeholder="S/TXXXXXXXA" id="colorchange" ></td>
+            <td><input type="text" class="datarow" value="$                                    0.00"  id="value1"></td>
+            <td><input type="text" class="datarow" ></td>
+            <!-- <td><i class="fas fa-trash-alt"></i></td> -->
+          </tr>
+          <tr>
+            <td><input type="checkbox" style="zoom:1.5;"  ></td>
+            <th scope="row">2</th>
+            <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA" id="value2"></td>
+            <td><input type="text" class="datarow" value="$                                   0.00" id="value3"></td>
+            <td><input type="text" class="datarow"  ></td>
+            <!-- <td><i class="fas fa-trash-alt"></i></td> -->
+          </tr>
+          <tr>
+            <td><input type="checkbox" style="zoom:1.5;"></td>
+            <th scope="row">3</th>
+            <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA" ></td>
+            <td><input type="text" class="datarow" value="$                                   0.00" ></td>
+            <td><input type="text" class="datarow" ></td>
+            <!-- <td><i class="fas fa-trash-alt"></i></td> -->
+          </tr>
+          <tr>
+              <td><input type="checkbox" style="zoom:1.5;"></td>
+              <th scope="row">4</th>
+              <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA"></td>
+              <td><input type="text" class="datarow" value="$                                   0.00"></td>
+              <td><input type="text" class="datarow" ></td>
+              <!-- <td><i class="fas fa-trash-alt"></i></td> -->
+            </tr>
+            <tr>
+                <td><input type="checkbox" style="zoom:1.5;"></td>              
+                <th scope="row">5</th>
+                <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA"></td>
+                <td><input type="text" class="datarow" value="$                                   0.00" ></td>
+                <td><input type="text" class="datarow" ></td>
+                <!-- <td><i class="fas fa-trash-alt"></i></td> -->
+              </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div style="margin-top:5px">
+      <button [disabled]="!chkEnable.checked">Clear Row(s)</button>
+      <div class="pagination" style="   
+      margin-top: -34px;
+      margin-left: 135%;
+      width: 100%;">
+        <a href="#">First</a>
+        <a href="#">&lt;&lt;</a>
+        <a href="#">&lt;</a>
+        <a href="#">Page</a>
+        <a href="#" style="background-color:white; 
+        padding-left:8px; padding-right:8px;padding-top:5px;padding-bottom:5px;
+        margin-top:3px;">1</a>
+        <a href="#">of 1</a>
+        <a href="#" style="background-color:#49712d; color:white;
+        padding-left:8px; padding-right:8px;padding-top:5px;padding-bottom:5px;
+        margin-top:3px;">Go</a>
+        <a href="#">&gt;</a>
+        <a href="#">&gt;&gt;</a>
+        <a href="#">Last</a>
+        <span style="background-color:grey; color:white;
+        padding-left:8px; padding-right:8px;padding-top:5px;padding-bottom:5px;
+        margin-top:3px;margin-left: 35px;">+</span>
+        <span style="background-color:red; color:white;
+        padding-left:11px; padding-right:11px;padding-top:5px;padding-bottom:5px;
+        margin-top:3px;margin-left:3px">-</span>
+      </div>
+      <span>Showing 1-5 of 5</span>
+      <!-- <p>First | << | < Page 1 of 1 Go > | >> | Last</p> -->
+  
+
+
+
+    </div>
+    <div class="table-responsive">
+    <table class="table table-borderless" style="margin-bottom:0%; margin-top:10px">
+      <tbody>
+        <tr>
+          <!-- <td style="font-weight: 500;margin-top: 5px;"><i class="fas fa-plus-circle"></i>ADD NEW RECORD</td> -->
+          <td style="padding:0">
+              <label class="custom-file-upload">
+                  <input type="file" id="file" (change)="importfile()"/>
+                  +&nbsp;&nbsp;Import file
+              </label>
+              <a href="" style="text-decoration:underline;margin-left:5px;">Download Template Sample</a><span>(CSV, 0.45KB)</span>
+          </td>
+          
+        </tr>
+        <!-- <tr>
+            <td></td>
+            <td style="color:red;text-align:right;font-weight:500;font-size:13px;padding-top:0%">
+              File limit: 36MB</td>
+        </tr> -->
+      </tbody>
+    </table>
+  </div>
+    <!-- <span style="margin-left: 10px;font-size: 20px;font-weight: 500;margin-top: 5px;"><i class="fas fa-plus-circle"></i></span>
+    <span style="margin-top: 8px;margin-left: 7px;font-size: 15px;font-weight: 500;">ADD NEW RECORD</span>
+<label class="custom-file-upload">
+    <input type="file" id="file" (change)="importfile()"/>
+    +&nbsp;&nbsp;Import file
+</label>
+<p class="limit">File limit: 36MB</p> -->
+    </div>
+    <button class="backbtn" (click)="back()" type="submit">Back</button> 
+    <button class="nextbtn" type="submit" data-toggle="modal" data-target="#exampleModal">Save as Draft</button> 
+    <button class="submitbtn" (click)="submit()" type="submit" >Submit</button>
+  </div>
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="top:25%; left:5%">
+      <div class="modal-content" style="width:80%; border-radius:0">
+        <div class="modal-header" style="border-bottom:0px">
+          <h5 class="modal-title" id="exampleModalLabel">Save as draft?</h5>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body" style="padding:0; padding-left:16px">
+          You are about to save the transaction as draft.
+        </div>
+        <div class="modal-footer" style="border-top:0px">
+          <button type="button"  data-dismiss="modal" style="margin-right:165px;background-color: #b9b6b6; 
+          padding:5px;    
+          padding-left: 25px;
+          padding-right: 25px; border:none">Cancel</button>
+          <button type="button" style="margin-right:15px; padding:5px;    padding-left: 25px;
+          padding-right: 25px; background-color:#49712d; color:white; border:none" data-dismiss="modal" (click)="draft()">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
