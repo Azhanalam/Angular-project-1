@@ -57,6 +57,83 @@ padding:1px 15px 300px 15px
 
 }
 
+.dot1 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:0px;
+  margin-bottom: 10px;
+  color:rgba(0,0,0,.2);
+  border: 2px solid rgba(0,0,0,.2);
+}
+
+.dot2 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:22%;
+  border: 2px solid #49712d;
+ 
+  color:#49712d;
+}
+
+
+.dot3 {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  margin-left:22%;
+  border: 2px solid rgba(0,0,0,.2);
+  color:rgba(0,0,0,.2);
+}
+
+.step1{
+margin-left:0px; color: rgba(0,0,0,.2); font-weight:500
+}
+
+.step2{
+margin-left:22%; color:#49712d; font-weight:500
+}
+
+.step3{
+margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
+}
+
+.LEVEL{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight:400;
+}
+.level{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.STREET{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight:400;
+}
+.street{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
 @media (min-width: 768px) {
   #container {
     display: flex;
@@ -250,14 +327,33 @@ padding:1px 15px 300px 15px
 
 .H{
   font-weight: bold;
-  margin-top:-10px;
+  margin-top:4px;
     margin-left:10px;
 }
+
+.P{
+  
+   margin-top:18px;
+   margin-left:10px;
+   font-size: 17px;
+
+ }
+ 
 .P1{
-  font-size:13px;
+  /* font-size:13px; */
   margin-top: -14px;
   margin-left:10px;
+  font-weight:bold;
+  font-size:15px;
 }
+
+/* .P1{
+  font-weight:bold;
+  font-size:15px;
+  /* color:gray; */
+/*
+} */
+
 .P2{
   font-weight:400;
   margin-left:10px;
@@ -279,18 +375,21 @@ padding:1px 15px 300px 15px
 .L1{
   font-weight:400;
     margin-left:10px;
+    margin-bottom: 0px;
 }
 .L2{
   margin-top:10px;
   /* margin-left:250px; */
   font-weight:400;
     margin-left:10px;
+    margin-bottom: 0px;
 }
 .L3{
   font-weight:bold;
   height:25px;
   width:350px;
   margin-left:10px;
+  font-size:15px;
   /* color: gray; */
 }
 .L4{
@@ -316,6 +415,7 @@ padding:1px 15px 300px 15px
     float:left;
     width:280px;
    margin-top: -14px;
+   
   }
   .L4{
     height:25px;
@@ -355,10 +455,12 @@ padding:1px 15px 300px 15px
     margin-top:-40px;
     margin-left:290px;
     font-weight:400;
+    margin-bottom: 16px;
   }
   .L1{
     font-weight:400;
     margin-right: 31.5%;
+    margin-bottom: 16px;
   }
   /* .L11{
     float:left;
@@ -382,4 +484,20 @@ padding:1px 15px 300px 15px
   margin-top: -10px;
   }
   
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    padding:5px 5px 30px 5px;
+    width:66%;
+    margin-bottom:-20px;
+    margin-top: 10px;
+  }
+
+ 
 }
