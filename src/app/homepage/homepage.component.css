@@ -154,4 +154,13 @@ margin: 5px;
 color: white;
 margin-left: 20px;
 }
+
+.componentWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+  padding: 15px 10px 10px;
+  width: 66%;
+  height: 235px;
+}
 }
