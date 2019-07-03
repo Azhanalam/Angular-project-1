@@ -1,11 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 /* html, body { height: 100%; } */
-body { 
+body ,html{ 
     margin: 0; 
     font-family: Roboto,"Helvetica Neue", sans-serif;
     /* background-color: #e6eaef75; */
-    background-color:  #f1f2f3 }
+    background-color:  #f1f2f3;
+    /* height: 120%; */
+    position: relative;
+     }
 
 
 /* .customTile.mat-grid-tile .mat-figure{

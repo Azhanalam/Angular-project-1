@@ -113,7 +113,9 @@ padding:1px 15px 300px 15px
   margin-bottom:-20px;
   margin-top: 10px;
 }
+
 }
+
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -140,13 +142,28 @@ padding:1px 15px 300px 15px
   width: 350px;
   margin-left:10px;
 }
+.LEVEL1{
+  margin-top: -95px;
+  margin-left:150px;
+}
+.STREET1{
+  margin-top: -80px;
+  margin-left:320px;
+}
 @media (min-width: 768px) {
   .SEARCH{
     width: 300px;
     margin-left:10px;
     margin-top: -6.5px;
   }
-    
+    .LEVEL1{
+      margin-top: -95px;
+      margin-left:150px;
+    }
+    .STREET1{
+      margin-top: -80px;
+      margin-left:320px;
+    }
 
     .dot1 {
       height: 35px;
@@ -342,7 +359,7 @@ padding:1px 15px 300px 15px
   font-weight:bold;
     margin-left:10px;
     width: 300px;
-    margin-top: -3px;
+    margin-top: 5px;
 }
 .L2{
   margin-top:15px;
@@ -350,6 +367,12 @@ padding:1px 15px 300px 15px
   font-weight:bold;
     margin-left:10px;
     width: 300px;
+}
+.ENTITY{
+  height:33px;
+  width:350px;
+  margin-left:10px;
+  margin-top:-2px;
 }
 .L3{
   height:33px;
@@ -377,6 +400,11 @@ padding:1px 15px 300px 15px
 .L5{
   font-weight:bold;
   margin-top:20px;
+    margin-left:10px;
+}
+.EMAIL{
+  height:33px;
+  width:350px;
     margin-left:10px;
 }
 .L6{
@@ -561,14 +589,20 @@ padding:1px 15px 300px 15px
 
 @media (min-width: 768px) {
   .BUT{
-    margin-top:-15px;
+    margin-top:4px;
     width:80px;
   }
+  
   .P4{
     font-size:15px;
      /* color:gray; */
      margin-top: -5px;
      font-weight:bold;
+  }
+  .EMAIL{
+    height:35px;
+    width:627px;
+    margin-top: -4px;
   }
   .L6{
      height:35px;
@@ -579,6 +613,12 @@ padding:1px 15px 300px 15px
     font-weight:bold;
     margin-top:25px;
     margin-left:-300px;
+  }
+  .ENTITY{
+    height:35px;
+    float:left;
+    width:300px;
+    margin-top:-10px;
   }
   .L3{
     height:35px;
@@ -612,7 +652,7 @@ padding:1px 15px 300px 15px
   }
   .L1{
     font-weight:bold;
-    margin-top:-3px !important;
+    margin-top:5px !important;
   }
   .L{
     font-weight:bold;
@@ -686,7 +726,7 @@ padding:1px 15px 300px 15px
   .BLOCK{
     font-weight:bold;
     margin-top:20px;
-      margin-left:10px;
+      margin-left:11px;
   }
   .block{
     width:130px;
@@ -743,22 +783,176 @@ padding:1px 15px 300px 15px
   }
   .BUT1{
     background: #49712d;
+    margin-top: 4px !important;
   }
 }
-
+.heading{
+  padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:100%;
+}
+.box1{
+  width:100%; 
+  padding:1px 15px 0px 15px;
+  margin-left: 10px;
+ }
 @media only screen and (max-width: 768px) and (min-width: 400px) {
-  #container {
+  #container{
     display: flex;
     flex-wrap: wrap;
-    border-top:1px solid grey;
-    border-bottom:1px solid grey;
-    padding:5px 5px 30px 5px;
-    width:66%;
-    margin-bottom:-20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 5px 5px 30px 5px;
+    width: 69%;
+    margin-bottom: -20px;
     margin-top: 10px;
-  }
+}
+.DIV{
+  /* position: fixed; */
+    width: 788px;
+    margin-left: 223px;
+    overflow-y: scroll !important;
+}
+.box1{
+ width:100%; 
+ padding:1px 15px 0px 15px;
+ margin-left: 10px;
+}
 
- 
+.H5{
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+  .l{
+    width: 480px !important;
+    height: 35px !important;
+    margin-top: -3px;
+  }
+  
+.MOBE{
+  height: 35px;
+  width: 480px;
+  margin-top: -11px;
+  margin-left: 2.1%;
+}
+.L11{
+  font-weight: bold;
+    margin-top: 17px !important;
+    margin-left: 11px;
+}
+.L2{
+  font-weight: bold;
+  margin-top: 55px !important;
+  margin-left: 11px;
+}
+.ENTITY{
+  height: 35px;
+  width: 480px;
+  margin-top: -11px;
+  margin-left: 2.1%;
+}
+.L3{
+  height: 35px;
+  width: 480px;
+  margin-top: -11px;
+  margin-left: 2.1%;
+  }
+  .EMAIL{
+    height: 35px;
+    width: 480px;
+    margin-top: -11px;
+    margin-left: 2.1%;
+  }
+  
+  .L6{
+  height: 35px;
+  width: 480px;
+  margin-top: -11px;
+  margin-left: 2.1%;
+  }
+  .L5{
+    margin-left: 10px;
+    margin-top: 16px;
+  }
+  .L4{
+    height: 35px;
+    width: 480px;
+    margin-top: -11px;
+    margin-left: 2.1%;
+  }
+  .CSNNAME{
+    font-weight: bold;
+    margin-top: 55px !important;
+    margin-left: 11px;
+  }
+  
+  .L31{
+    height: 35px;
+    width: 480px;
+    margin-top: -11px;
+    margin-left: 2.1%;
+}
+.L21{
+  font-weight: bold;
+  margin-top: 55px !important;
+  margin-left: 11px;
+}
+.La1{
+  height: 35px;
+  width: 480px;
+  margin-top: -11px;
+  margin-left: 2.1%;
+}
+.L51{
+  margin-left: 10px;
+  margin-top: 16px;
+}
+.street{
+  width: 480px;
+    margin-left: -308px;
+    height: 35px;
+    margin-top: -10px;
+}
+.STREET{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: -307px;
+}
+.L1{
+  margin-top: 10px !important;
+}
+.STREET1{
+  margin-top: 10px;
+}
+.LEVEL1{
+  margin-top: -11px;
+  margin-left: 6px;
+}
+.LEVEL{
+  margin-left: 7px;
+    margin-top: 8px;
+}
+.level{
+  height: 35px;
+  width: 480px;
+  margin-top: -11px;
+  margin-left: 1.1%;
+}
+.BLOCK{
+  font-weight: bold;
+  margin-top: 17px;
+  margin-left: 11px;
+}
+.block{
+  width: 480px;
+  margin-left: 12px;
+}
+.BUT{
+margin-top: 7px;
+}
+.BUT1{
+  margin-top: 7px !important;
+}
 }
 
 /* .stepwizard-row {
