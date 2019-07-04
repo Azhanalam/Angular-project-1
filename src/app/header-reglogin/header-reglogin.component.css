@@ -163,6 +163,18 @@
     padding:2px 10px;
   }
   
+  .serprovider{
+    padding:15px 15px 0px 0px;
+    font-size:22px;
+    margin-left:0px;
+  }
+  
+  .onlineser{
+    padding:0px 15px 1px 0px;
+    font-size:22px;
+    margin-left:0px;
+  }
+
   @media (min-width: 768px) {
     .componentWrapper {
       display: flex;
@@ -182,6 +194,36 @@
       /* border-radius:10px; */
       padding:2px 10px;
     }
+
+    .serprovider{
+      padding:15px 15px 0px 0px;
+      font-size:22px;
+      margin-left:0px;
+    }
+    
+    .onlineser{
+      padding:0px 15px 1px 0px;
+      font-size:22px;
+      margin-left:0px;
+    }
+
+    .dot1{
+      height: 25px;
+      width: 25px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top:1%;
+      margin-right:10px;
+      margin-left:66% !important;
+    }
+
+    .services{
+      margin-right: 25px; 
+      color: #49712d; 
+      border-bottom: 3px solid #49712d;
+      font-weight:bold;
+    }
   }
   
   a:hover{
@@ -197,7 +239,58 @@
     margin-top:1%;
     margin-right:10px;
   }
+
+  .dot1{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top:1%;
+    margin-right:10px;
+    margin-left:28%;
+  }
   
+  .services{
+    margin-right: 310px; 
+    color: #49712d; 
+    border-bottom: 3px solid #49712d;
+    font-weight:bold;
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 400px) {
+    .column-3 {width: 30%;}
+  
+    .dot1{height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 10px;
+    margin-left: 45% !important;
+    }
+  
+    .serprovider{
+      padding:15px 15px 0px 0px;
+      font-size:22px;
+      margin-left:0px;
+    }
+  
+    .onlineser{
+      padding:0px 15px 1px 0px;
+      font-size:22px;
+      margin-left:0px;
+    }
+  
+  .services{
+      margin-right: 92%;
+      color: #49712d;
+      border-bottom: 3px solid #49712d;
+      font-weight: bold;
+  }
+  }
+
   /* .box1 {
     width: 100%;
     background: #49712d;

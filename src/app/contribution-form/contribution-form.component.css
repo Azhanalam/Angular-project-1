@@ -223,9 +223,9 @@
     background-color:#464846;
     color:white;
     border:none;
-    padding:5px 40px 5px 40px;
+    padding:5px 20px 5px 20px;
     font-size: 15px;
-    margin-left: 18%;
+    margin-left: 1%;
     margin-top: 1%;
     margin-bottom:1%;
 
@@ -235,9 +235,9 @@
     background-color:rgba(0,0,0,.26);
     color:black;
     border:none;
-    padding:5px 40px 5px 40px;
+    padding:5px 20px 5px 20px;
     font-size: 15px;
-    margin-left: 3%;
+    margin-left: 1%;
   }
 
   
@@ -245,9 +245,9 @@
     background-color:#49712d;
     color:white;
     border:none;
-    padding:5px 40px 5px 40px;
+    padding:5px 20px 5px 20px;
     font-size: 15px;
-    margin-left: 45%;
+    margin-left: 21%;
   }
 
   .limit{
@@ -437,6 +437,20 @@
     border: 2px solid rgba(0,0,0,.2);
     color:rgba(0,0,0,.2);
   }
+
+  .pagination {
+    /* display: inline-block; */
+    margin-top: -34px;
+    margin-left: 190%;
+    width: 100%;
+  }
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 5px;
+  text-decoration: none;
+}
   
     }
     
@@ -464,13 +478,70 @@
   background-color: #ffffff; 
 }
 
+
 .pagination {
   /* display: inline-block; */
+  
 }
 
 .pagination a {
-  color: black;
-  float: left;
-  padding: 8px 5px;
-  text-decoration: none;
+color: black;
+float: left;
+padding: 8px 2px;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid grey;
+    padding: 5px 5px 0px 5px;
+    width: 68%;
+    margin-bottom: -20px;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 5px;
+    text-decoration: none;
+   
+  }
+
+  .pagination {
+    /* display: inline-block; */
+    margin-top: -34px;
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  .backbtn{
+    background-color:#464846;
+    color:white;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-left: 18%;
+    margin-top: 4%;
+    margin-bottom:1%;
+    margin-left: 30%;
+}
+.nextbtn{
+  background-color:rgba(0,0,0,.26);
+  color:black;
+  border:none;
+  padding:5px 40px 5px 40px;
+  font-size: 15px;
+  margin-left:3%;
+}
+
+.submitbtn{
+  background-color:#49712d;
+  color:white;
+  border:none;
+  padding:5px 40px 5px 40px;
+  font-size: 15px;
+  margin-left:3%;
+}
+ 
 }
