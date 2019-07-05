@@ -3,46 +3,90 @@
 <div>
 
   
-    <div id="container">
+  <div id="container">
       
 
-        <h4 style="padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:100%;margin-top:0px">Apply for CAYE CPF Submission Number (CSN)</h4>
+      <h4 class="heading">
+        Apply for CAYE CPF Submission Number (CSN)
+      </h4>
         <p style="font-size:20px;margin-left:10px;font-weight: 500">CAYE CSN</p>
         
 
-        <!-- <div class="stepwizard">
-            <div class="stepwizard-row setup-panel">
-                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP">Step</span><br/>
-                    <a   class="btn btn-default btn-circle btn-light" disabled="disabled"><span style="color:rgb(75, 74, 74);" >1</span></a>
-                </div>
-                <div class="stepwizard-step"><span style="color:green" class="STEP1">Step</span><br/>
-                    <a   class="btn btn-light btn-circle1"><span style="color:green">2</span></a>
-                </div>
-
-                <div class="stepwizard-step"><span style="color:rgb(75, 74, 74);" class="STEP2">Step</span><br/>
-                  <a   class="btn btn-light btn-circle2" disabled="disabled"><span style="color:rgb(75, 74, 74);">3</span></a>
-              </div>
-
-            </div>
-        </div> -->
-
-        <div style="width:100%; padding:1px 15px 0px 15px;margin-left: 10px">
-            <span class="step1" >Step</span>
-             <span class="step2" >Step</span>
-             <span class="step3" >Step</span><br/> 
-            <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
-         <br/>
-          </div>
-        
+        <div class="box1">
+          <span class="step1" >Step</span>
+           <span class="step2" >Step</span>
+           <span class="step3" >Step</span><br/> 
+          <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
+       <br/>
+        </div>
         <div class="ACK">
-            <h5 class="H5">Verify & Submit Particulars</h5>
-          </div>
-
+          <h5 class="H5">Verify & Submit Particulars</h5>
+        </div>
+        
+  
         <div>
+             
+          <h6 class="H">Part 1: Requestor’s Particulars</h6>
+          <p class="P">NRIC/Foreign Identification Number</p>
+          <p class="P1">PASSPORT-123-12345</p>
+
+          <h6 class="P2">Name</h6>
+          <p class="P4">Name of PASSPORT-123-12345</p>
+          <h6 class="P2">Designation</h6>
+          <p class="P4">Director</p>
+          <p class=" L1">Telephone (Office)* </p>
+          <p class="L3">61234567</p>
+          <p class="L2">Mobile*</p>
+          <p class="L4">61234567</p>
+          <!-- <p class="L4">61234567</p> -->
+
+          <h6 class="L5">Email</h6>
+          <p class="EMAIL">William@nyp.edu.sg</p>
+
+          <!-- <hr class="HR"> -->
+          <h6 class="HE">Part 2: Entity Information</h6>
+
+          <p class="P">Unique Entity Number</p>
+          <p class="P1">PASSPORT-123-12345</p>
+  
+          <p class=" L1">Entity Name </p>
+          <p class="L3">Nanyang Polytechnic</p>
+          <p class="L2">CSN Name</p>
+          <p class="L4">School of Engineering</p>
+
+          <p class=" L1">Telephone (Office)</p>
+        <p class="L3">61234567</p>
+        <p class="L2">Mobile</p>
+        <p class="L4">61234567</p>
+
+        <h6 class="L5">Email</h6>
+        <p class="EMAIL">William@nyp.edu.sg</p>
+
+        <h6 class="SG_ADDRESS" style="margin-left: 8px">SG Address Postal Code</h6>
+        <p class="HG_CODE">666102</p>
+
+        <h6 style="margin-left: 10px;font-weight:400">Block/House No</h6>
+        <p style="margin-left: 10px;font-weight:bold;margin-top: -5px">23</p>
+
+        <h6 class="LEVEL">Level/Unit NO</h6>
+        <p class="level">#01-01</p>
+
+        <h6 class="STREET">Street Name</h6>
+        <p class="street">Ang Mo Kio Avenue 2</p>
+
+    <br>
+    <button type="button" class="btn btn-secondary btn-sm BUT" (click)="goBack()" style="border: none;
+     border-radius: 0;">Back</button>
+    <button type="button" class="btn btn-primary btn-sm BUT1" style="margin-left:15px;margin-top:-15px;width:80px;border: none;
+      border-radius: 0;" (click)="acknowledge()">Next</button>
+     
+    </div>
+
+
+
+        <!-- <div>
                 
-          <!-- <div class="VERIFY">
-            <p class="verify">Verify & Submit Particulars</p>
-          </div> -->
+         
           <h6 class="H">Part 1: Requestor’s Particulars</h6>
           <p class="P">NRIC/Foreign Identification Number</p>
                 <p class="P1">PASSPORT-123-12345</p>
@@ -59,27 +103,18 @@
           <h6 class="L5">Email</h6>
           <p class="P4">William@nyp.edu.sg</p>
 
-          <!-- <br>
-                <button type="button" class="btn btn-secondary btn-sm BUT" (click)="goBack()">Back</button>
-                <button type="button" class="btn btn-primary btn-sm" style="margin-left:15px;margin-top:-15px;width:80px" (click)=Summary2()>Next</button> -->
-
-        </div>
+        </div> -->
 
 
 
       
       <hr class="HR">
       
-      <div>
+      <!-- <div>
         <h6 class="H">Part 2: Entity Information</h6>
         <p class="P">Unique Entity Number</p>
         <p class="P1">PASSPORT-123-12345</p>
 
-        <!-- <h6 class="P2">Name</h6>
-        <p class="P4">Name of PASSPORT-123-12345</p> -->
-
-        <!-- <h6 class="P2">Designation</h6>
-        <p class="P4">Director</p> -->
         <p class=" L1">Entity Name </p>
         <p class="L3">Nanyang Polytechnic</p>
         <p class="L2">CSN Name</p>
@@ -107,7 +142,7 @@
               <button type="button" class="btn btn-secondary btn-sm BUT" (click)="goBack()" style="border:none; border-radius:0;">Back</button>
               <button type="button" class="btn btn-primary btn-sm" style="margin-left:15px;margin-top:-15px;width:80px;background-color:#49712d; border:none; border-radius:0;" (click)=acknowledge()>Submit</button>
 
-      </div>
+      </div> -->
 
 
 
@@ -116,7 +151,7 @@
 
       <br/>
 
-    </div>
+   
 
       </div>
 

@@ -2,16 +2,142 @@
 <app-header-after></app-header-after>
 
 
-
       <div>
 
-       
-        
         <div id="container">
-            <h4 style="padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:100%;margin-top:0px">Apply for CAYE CPF Submission Number (CSN)</h4>
-            <p style="font-size:20px;margin-left:10px;font-weight: 500">CAYE CSN</p>
+          <h4 class="heading">
+            Apply for CAYE CPF Submission Number (CSN)
+          </h4>
+          <p style="font-size:20px;margin-left:10px;font-weight: 500">CAYE CSN</p>
 
-          <div style="width:100%; padding:1px 15px 0px 15px;margin-left: 10px">
+          <div class="box1">
+            <span class="step1" >Step</span>
+             <span class="step2" >Step</span>
+             <span class="step3" >Step</span><br/> 
+            <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
+         <br/>
+          </div>
+
+          <div class="ACK">
+            <h5 class="H5">Update Particulars</h5>
+          </div>
+          
+          <div>
+              
+
+            <h6 class="H">Part 1: Requestor’s Particulars</h6>
+            <p class="P">NRIC/Foreign Identification Number</p>
+            <p class="P1">PASSPORT-123-12345</p>
+  
+            <h6 class="P2">Name</h6>
+            <p class="P4">Name of PASSPORT-123-12345</p>
+
+            <form role="form">
+      
+              <label class="control-label L">Designation*</label>
+              <select class="form-control l">
+              <option>Select*</option>
+              <option>medium</option>
+              <option>large</option>
+          </select>
+        </form>
+        <form role="form">
+          <p class=" L1">Telephone (Office)* </p>
+           <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>               
+      </form>  
+      <form role="form">
+       <p class="L2">Mobile*</p>
+        <input maxlength="100" type="text" required="required" class="form-control1 MOBE" placeholder="Please key here"/>
+                              
+    </form>  
+    <form role="form">
+      <label class="control-label L5">Email*</label>
+       <br>
+       <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
+                       
+   </form>     
+   <h6 class="H">Part 2: Entity Information</h6>
+   <p class="P">Unique Entity Number</p>
+   <p class="P1">1992123456</p>
+
+  <form role="form">
+    <p class="L11" >Entity Name*</p>
+    <input maxlength="100" type="text" required="required" class="form-control1 ENTITY" placeholder="Please key here"/>
+                                                   
+</form> 
+<form role="form">
+  <p class="CSNNAME">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
+   <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
+                                                                                      
+</form> 
+<h6 class="P21">Contact Details*</h6>
+<p class="p1">(Please provide at least one contact number)</p>
+
+<form role="form">
+  <p class=" L11">Telephone (Office)</p>
+   <input maxlength="100" type="text" required="required" class="form-control1 L31" placeholder="Please key here"/>
+                                                                                                                             
+</form> 
+<form role="form">
+<p class="L21">Mobile</p>
+ <input maxlength="100" type="text" required="required" class="form-control1 La1" placeholder="Please key here"/>
+   </form> 
+   
+   <form role="form">
+    <label class="control-label L51">Email*</label>
+    <br>
+     <input maxlength="100" type="text" required="required" class="form-control1 EMAIL" placeholder="Please key here"/>
+     </form> 
+
+     <label class="ABC" for="story">SG Address Postal Code*</label>
+
+     <form role="form">
+     
+      <div class="input-group mb-3 SEARCH">
+        <input type="text" class="form-control" placeholder="EG 12345" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-success" type="button" id="button-addon2" ><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    
+    </form> 
+
+    <form role="form">
+      <div style="margin-top: -17px;">
+        <label class="control-label BLOCK">Block / House No*</label>
+         <br>
+         <input maxlength="100" type="text" required="required" class="form-control1 block" placeholder="  0"/>
+        </div>
+        <br>
+      </form>
+        <form role="form">
+        <div class="LEVEL1" >
+        <label class="control-label LEVEL">Level / Unit No*</label>
+        <br>
+        <input maxlength="100" type="text" required="required" class="form-control1 level" placeholder=" # 01-01"/>
+       </div>
+      </form>
+      <form role="form">
+       <div class="STREET1" >
+        <label class="control-label STREET">Street Name*</label>
+        <br>
+        <input maxlength="100" type="text" required="required" class="form-control1 street" placeholder=" Street Name"/>
+       </div>
+      </form> 
+      <br>
+      <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()" style="border: none;
+       border-radius: 0;">Back</button>
+      <button type="button" class="btn btn-primary btn-sm BUT1" style="margin-left:15px;margin-top:-15px;width:80px;border: none;
+        border-radius: 0;" (click)="Next()">Next</button>
+        </div>
+
+
+        
+        <!-- <div id="container">
+            <h4 class="heading">Apply for CAYE CPF Submission Number (CSN)</h4>
+            <p style="font-size:20px;font-weight: 500;margin-left:17px">CAYE CSN</p>
+
+          <div class="box1">
             <span class="step1" >Step</span>
              <span class="step2" >Step</span>
              <span class="step3" >Step</span><br/> 
@@ -42,10 +168,9 @@
                                     <option>medium</option>
                                     <option>large</option>
                                 </select>
-                                <br>
-                                    <!-- <label class="control-label L1">Telephone (Office)*</label>
-                                    <label class="control-label L2">Mobile*</label> -->
-                                    <p class=" L1">Telephone (Office)* </p>
+                                <br> -->
+                                   
+                                    <!-- <p class=" L1">Telephone (Office)* </p>
                                       <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>
                                     <p class="L2">Mobile*</p>
                                      <input maxlength="100" type="text" required="required" class="form-control1 MOBE" placeholder="Please key here"/>
@@ -54,32 +179,22 @@
                                         <br>
                                         <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
       
-                      </form>
-                      <!-- <hr> -->
-                      <div>
+                      </form> -->
+                      
+                      <!-- <div>
                         <h6 class="H">Part 2: Entity Information</h6>
                         <p class="P">Unique Entity Number</p>
                         <p class="P1">1992123456</p>
-                        <!-- <br/> -->
-                        <!-- <h6 class="P2">Name</h6>
-                        <p class="P4">Name of PASSPORT-123-12345</p> -->
+                       
       
-                        <form role="form">
+                        <form role="form"> -->
       
-                                            <!-- <label class="control-label L">Designation*</label>
-                                            <select class="form-control l">
-                                            <option>Select*</option>
-                                            <option>medium</option>
-                                            <option>large</option>
-                                        </select>
-                                        <br> -->
-                                            <!-- <label class="control-label L1">Telephone (Office)*</label>
-                                            <label class="control-label L2">Mobile*</label> -->
+<!--                                            
                                             <p class="L11" >Entity Name*</p>
-                                              <input maxlength="100" type="text" required="required" class="form-control1 L3" placeholder="Please key here"/>
+                                              <input maxlength="100" type="text" required="required" class="form-control1 ENTITY" placeholder="Please key here"/>
                                             <p class="CSNNAME">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
                                              <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
-                                             <!-- <br/> -->
+                                             
                                              <h6 class="P21">Contact Details*</h6>
                                              <p class="p1">(Please provide at least one contact number)</p>
       
@@ -91,7 +206,7 @@
                                                  <br>
                                                  <label class="control-label L51">Email*</label>
                                                  <br>
-                                                 <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
+                                                 <input maxlength="100" type="text" required="required" class="form-control1 EMAIL" placeholder="Please key here"/>
                                                  <br>
                                                  <label class="ABC" for="story">SG Address Postal Code*</label>
       
@@ -119,7 +234,7 @@
                                                  <br>
                                                  <input maxlength="100" type="text" required="required" class="form-control1 street" placeholder=" Street Name"/>
                                                 </div>
-      
+       -->
                                                  <!-- <textarea class="abc" id="story" name="story" rows="5" cols="33" placeholder="Please key here"></textarea> -->
                                                    
                                               <br>
@@ -135,7 +250,7 @@
                                                    <!-- <hr> -->
       
       
-                                               <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()" style="border: none;
+                                               <!-- <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()" style="border: none;
                                                border-radius: 0;">Back</button>
                                                <button type="button" class="btn btn-primary btn-sm BUT1" style="margin-left:15px;margin-top:-15px;width:80px;border: none;
                                                border-radius: 0;" (click)="Next()">Next</button>
@@ -146,7 +261,7 @@
               </div>
       
             </div>
-            <br/>
+            <br/> -->
       
       
       

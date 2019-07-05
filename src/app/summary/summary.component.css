@@ -29,9 +29,32 @@ html {
 padding:1px 15px 50px 15px
 }
 
+.box1{
+  width:100%; 
+  padding:1px 15px 0px 15px;
+  margin-left: 10px;
+ }
+ #container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:5px 5px 5px 5px;
+  width:100%;
+}
 @media only screen and (min-width: 768px) {
 .sidebar{
 padding:1px 15px 300px 15px
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:5px 5px 30px 5px;
+  width:78%;
+  margin-bottom:-20px;
+  margin-top: 10px;
 }
 }
 
@@ -135,16 +158,7 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 }
 
 @media (min-width: 768px) {
-  #container {
-    display: flex;
-    flex-wrap: wrap;
-    border-top:1px solid grey;
-    border-bottom:1px solid grey;
-    padding:5px 5px 30px 5px;
-    width:78%;
-    margin-bottom:-20px;
-    margin-top: 10px;
-  }
+ 
     .dot1 {
       height: 35px;
       width: 35px;
@@ -238,6 +252,7 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
       height: 50px;
       width: 1080px;
     }
+    
 }
 
 .H5{
@@ -330,6 +345,11 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
   margin-top:4px;
     margin-left:10px;
 }
+.HE{
+  font-weight: bold;
+  margin-top:4px;
+    margin-left:10px;
+}
 
 .P{
   
@@ -366,12 +386,24 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
   margin-top: -5px;
    margin-left: 10px;
 }
-
+.HG_CODE{
+  font-weight:bold;
+  font-size:15px;
+  margin-top: -5px;
+   margin-left: 10px;
+}
+.EMAIL{
+  font-weight:bold;
+  font-size:15px;
+  margin-top: -5px;
+   margin-left: 10px;
+}
 .BUT{
   margin-top:-15px;
   width:80px;
   margin-left: 10px;
 }
+
 .L1{
   font-weight:400;
     margin-left:10px;
@@ -405,7 +437,14 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
   margin-top:20px;
     margin-left:10px;
 }
-
+.HG_ADDRESS{
+  font-weight:400;
+  margin-top:20px;
+    margin-left:10px;
+}
+.BUT1{
+  background: #49712d;
+}
 
 
 @media (min-width: 768px) {
@@ -433,8 +472,18 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
     font-size:15px;
      /* color:gray; */
   }
+  .HG_CODE{
+    font-size:15px;
+  }
+  .EMAIL{
+    font-size:15px;
+  }
 
   .H{
+    font-weight: bold;
+    margin-top:20px;
+  }
+  .HE{
     font-weight: bold;
     margin-top:20px;
   }
@@ -470,6 +519,11 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
     margin-top:20px;
     margin-left:10px;
   }
+  .HG_ADDRESS{
+    font-weight:400;
+    margin-top:20px;
+    margin-left:10px;
+  }
 }
 
 
@@ -483,9 +537,11 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
   border: hidden;
   margin-top: -10px;
   }
-  
+ 
 }
-
+.heading{
+  padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:100%;
+}
 
 @media only screen and (max-width: 768px) and (min-width: 400px) {
   #container {
@@ -494,10 +550,88 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
     border-top:1px solid grey;
     border-bottom:1px solid grey;
     padding:5px 5px 30px 5px;
-    width:66%;
+    width:69%;
     margin-bottom:-20px;
     margin-top: 10px;
   }
-
- 
+  .box1{
+    width:100%; 
+    padding:1px 15px 0px 15px;
+    margin-left: 10px;
+   }
+   .H5{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+  .BUT{
+    margin-top: -7px;
+    margin-left: 11px;
+    }
+    .BUT1{
+      margin-top: -8px !important;
+      margin-left: 25px !important;
+    }
+    .L2{
+      margin-top: -40px;
+      margin-left: 220px;
+      font-weight: 400;
+      margin-bottom: 16px;
+  }
+  .L4{
+    height: 25px;
+    float: right;
+    font-weight: bold;
+    margin-top: -44px;
+    margin-left: 38px;
+}
+.L5{
+  font-weight: 400;
+    margin-top: -4px;
+    margin-left: 10px !important;
+    float: left;
+}
+.EMAIL{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-left: -39px;
+  float: left;
+}
+.HR{
+  width: 100%;
+  border: hidden;
+  margin-top: -10px;
+}
+.HE{
+  margin-top: 97px;
+}
+.SG_ADDRESS{
+  font-weight: 400;
+  margin-top: 51px;
+  margin-left: -138px !important;
+  float: left;
+}
+.HG_CODE{
+  margin-top: 121px;
+}
+.LEVEL{
+  margin-left: 190px;
+}
+.STREET{
+  margin-left: 346px;
+}
+.level{
+  font-weight: bold;
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 190px;
+}
+.street{
+  font-weight: bold;
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 346px;
+}
 }
