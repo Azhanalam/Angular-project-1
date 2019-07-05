@@ -198,6 +198,7 @@
     /* border:none; */
     margin-left: 10%;
     width: 38%;
+    margin-top:0%;
     cursor: pointer;
   }
 
@@ -507,6 +508,13 @@ border-bottom:1pt solid black;
 .step3{
   margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 }
+
+.tabwidth{
+  width:50%;
+}
+/* table tbody tr th{
+  width:50%;
+} */
     }
     
   
@@ -533,3 +541,35 @@ border-bottom:1pt solid black;
       background-color: #ffffff; 
     }
  
+    @media only screen and (max-width: 768px) and (min-width: 400px) {
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+        border-top:1px solid grey;
+        border-bottom:1px solid grey;
+        padding:5px 5px 30px 5px;
+        width:67%;
+        margin-bottom:-20px;
+        margin-top: 10px;
+      }
+
+      table{
+        width:68%;
+        margin-left:30%;
+      }
+
+      .directdebit{
+        /* border:none;  */
+        /* margin-left:58%; */
+        width:25%;
+        cursor: pointer;
+      }
+    
+      .enets{
+        /* border:none; */
+        margin-left:5%;
+        width: 24%;
+        margin-top: 4%;
+        cursor: pointer;
+      }
+    }
