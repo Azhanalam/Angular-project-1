@@ -48,6 +48,8 @@ import { HeaderMakecayeComponent } from './header-makecaye/header-makecaye.compo
 import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
 import { HeaderRegloginComponent } from './header-reglogin/header-reglogin.component';
 import { DeductionComponent } from './deduction/deduction.component';
+import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
+import { HeaderTransactionComponent } from './header-transaction/header-transaction.component';
 
 
 @NgModule({
@@ -81,7 +83,9 @@ import { DeductionComponent } from './deduction/deduction.component';
     HeaderMakecayeComponent,
     DraftsubmissionComponent,
     HeaderRegloginComponent,
-    DeductionComponent
+    DeductionComponent,
+    TransactionHistoryComponent,
+    HeaderTransactionComponent
   ],
   imports: [
     MatListModule,

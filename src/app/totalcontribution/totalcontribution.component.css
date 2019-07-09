@@ -98,7 +98,9 @@
     margin-left:85px
   }
 
-
+  .tabmargin{
+    margin-left:0%;
+  }
 
   
   .hasTooltip span {
@@ -189,7 +191,7 @@
   .directdebit{
     /* border:none; 
     margin-left:50%; */
-    width:45%;
+    width:23%;
     cursor: pointer;
 
   }
@@ -197,9 +199,12 @@
   .enets{
     /* border:none; */
     margin-left: 10%;
-    width: 38%;
-    margin-top:0%;
+    width: 45%;
+    margin-top: 5%;
     cursor: pointer;
+    padding-top: 10px;
+    margin-left: 18%;
+    margin-top: -4px;
   }
 
   .deduction{
@@ -451,6 +456,8 @@ border-bottom:1pt solid black;
     margin-left:5%;
     width:15%;
     cursor: pointer;
+    margin-left: 18%;
+    margin-top: -17px;
   }
 
   .deduction{
@@ -512,6 +519,11 @@ border-bottom:1pt solid black;
 .tabwidth{
   width:50%;
 }
+
+.tabmargin{
+  margin-left:18%;
+}
+
 /* table tbody tr th{
   width:50%;
 } */
@@ -540,6 +552,7 @@ border-bottom:1pt solid black;
       border-radius: 10px;  
       background-color: #ffffff; 
     }
+
  
     @media only screen and (max-width: 768px) and (min-width: 400px) {
       #container {
@@ -555,7 +568,7 @@ border-bottom:1pt solid black;
 
       table{
         width:68%;
-        margin-left:30%;
+        /* margin-left:30%; */
       }
 
       .directdebit{
@@ -571,5 +584,12 @@ border-bottom:1pt solid black;
         width: 24%;
         margin-top: 4%;
         cursor: pointer;
+        margin-left: 18%;
+        margin-top: -4px;
+       
+      }
+
+      .tabmargin{
+        margin-left:29%;
       }
     }

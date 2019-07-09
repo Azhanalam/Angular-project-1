@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -26,9 +26,11 @@ import { AppSuccessfulComponent } from './app-successful/app-successful.componen
 import { SubmitStatusComponent } from './submit-status/submit-status.component';
 import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
 import { DeductionComponent } from './deduction/deduction.component';
+import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 
 
 const routes: Routes = [
+  {path:'transactionhistory',component:TransactionHistoryComponent},
   {path:'deduction',component:DeductionComponent},
   {path:'SubmitStatus',component:SubmitStatusComponent},
   {path:'AppSuccess',component:AppSuccessfulComponent},
