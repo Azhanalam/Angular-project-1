@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-header-transaction',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderTransactionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
-
+  logout()
+  {
+    {
+    this.router.navigate([""]);
+    localStorage.setItem('username',"");
+    // console.log("username: ",localStorage.getItem('username'));
+    }
+}
 }
