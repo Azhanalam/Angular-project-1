@@ -90,29 +90,6 @@ margin-left:22%; color: #49712d; font-weight:500
 .sidebar{
 padding:1px 15px 50px 15px
 }
-
-@media only screen and (min-width: 768px) {
-.sidebar{
-padding:1px 15px 300px 15px
-}
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .column-1 {width: 8.33%;}
-  .column-2 {width: 16.66%;}
-  .column-3 {width: 12%;}
-  .column-4 {width: 33.33%;}
-  .column-5 {width: 41.66%;}
-  .column-6 {width: 50%;}
-  .column-7 {width: 58.33%;}
-  .column-8 {width: 66.66%;}
-  .column-9 {width: 75%;}
-  .column-10 {width: 83.33%;}
-  .column-11 {width: 91.66%;}
-  .column-12 {width: 100%;}
-}
-
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -147,6 +124,36 @@ td{
 .P1{
   font-weight: lighter;
 }
+
+.message{
+  color:#49712d; 
+  background-color:rgb(199, 239, 199);
+   padding:10px 465px 10px 10px; 
+   margin-bottom:20px
+}
+
+@media only screen and (min-width: 768px) {
+.sidebar{
+padding:1px 15px 300px 15px
+}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .column-1 {width: 8.33%;}
+  .column-2 {width: 16.66%;}
+  .column-3 {width: 12%;}
+  .column-4 {width: 33.33%;}
+  .column-5 {width: 41.66%;}
+  .column-6 {width: 50%;}
+  .column-7 {width: 58.33%;}
+  .column-8 {width: 66.66%;}
+  .column-9 {width: 75%;}
+  .column-10 {width: 83.33%;}
+  .column-11 {width: 91.66%;}
+  .column-12 {width: 100%;}
+}
+
 
 
 @media (min-width: 768px) {
@@ -235,4 +242,25 @@ td{
 .step3{
   margin-left:22%; color:#49712d; font-weight:500
 }
+
+.message{
+  color:#49712d; 
+  background-color:rgb(199, 239, 199);
+   padding:10px 465px 10px 10px; 
+   margin-bottom:20px
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  .LIST{
+    width:68%;
+    margin-left:30%;
+  }
+
+  .message{
+    color:#49712d; 
+    background-color:rgb(199, 239, 199);
+     padding:10px 4px 10px 10px; 
+     margin-bottom:20px
+  }
 }

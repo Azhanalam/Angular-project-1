@@ -319,7 +319,13 @@ a:hover{
     font-size:22px;
     margin-left:0px;
   }
-
+  
+  .services{
+    margin-right: 92%;
+    color: #49712d;
+    border-bottom: 3px solid #49712d;
+    font-weight: bold;
+}
 }
 /*
   .spacer {

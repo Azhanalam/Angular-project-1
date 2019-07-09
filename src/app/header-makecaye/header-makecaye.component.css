@@ -175,6 +175,18 @@
     margin-left:0px;
   }
 
+  .loginicon{
+    margin-left:0px; 
+    margin-right:25px;
+    color:#4d4de6
+  }
+
+  .employee{
+    margin-left:0px;
+    margin-right: 25px;
+    font-weight:bold;
+  }
+
   @media (min-width: 768px) {
     .componentWrapper {
       display: flex;
@@ -221,6 +233,17 @@
       margin-right: 25px; 
       color: #49712d; 
       border-bottom: 3px solid #49712d;
+      font-weight:bold;
+    }
+    .loginicon{
+      margin-left:25px; 
+      margin-right:25px;
+      color:#4d4de6
+    }
+
+    .employee{
+      margin-left:25px;
+      margin-right: 25px;
       font-weight:bold;
     }
   }
@@ -287,6 +310,18 @@
       color: #49712d;
       border-bottom: 3px solid #49712d;
       font-weight: bold;
+  }
+
+  .loginicon{
+    margin-left:0px; 
+    margin-right:25px;
+    color:#4d4de6
+  }
+
+  .employee{
+    margin-left:0px;
+    margin-right: 25px;
+    font-weight:bold;
   }
   }
 

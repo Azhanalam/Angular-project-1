@@ -175,6 +175,12 @@
     margin-left:0px;
   }
 
+  .employee{
+    margin-left:0px;
+    margin-right: 25px;
+    font-weight:bold;
+  }
+
   @media (min-width: 768px) {
     .componentWrapper {
       display: flex;
@@ -218,11 +224,22 @@
       margin-left:66% !important;
     }
 
+    .employee{
+      margin-left:25px;
+      margin-right: 25px;
+      font-weight:bold;
+    }
     .services{
       margin-right: 25px; 
       color: #49712d; 
       border-bottom: 3px solid #49712d;
       font-weight:bold;
+    }
+    
+    .loginicon{
+      margin-left:25px; 
+      margin-right:25px;
+      color:#4d4de6
     }
   }
   
@@ -256,6 +273,12 @@
     color: #49712d; 
     border-bottom: 3px solid #49712d;
     font-weight:bold;
+  }
+
+  .loginicon{
+    margin-left:0px; 
+    margin-right:25px;
+    color:#4d4de6
   }
 
   @media only screen and (max-width: 768px) and (min-width: 400px) {

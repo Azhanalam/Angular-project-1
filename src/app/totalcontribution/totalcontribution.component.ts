@@ -34,7 +34,7 @@ export class TotalcontributionComponent implements OnInit {
 
  back()
  {
-this.router.navigate(["filledform"]);
+this.router.navigate(["deduction"]);
 window.scrollTo(0, 0);
  } 
 
@@ -44,7 +44,7 @@ window.scrollTo(0, 0);
  }
 
  enets(){
-  this.router.navigate(["enetspayment"]);
+  this.router.navigate(["acknowledgement2"]);
   window.scrollTo(0, 0);
    }
 }
