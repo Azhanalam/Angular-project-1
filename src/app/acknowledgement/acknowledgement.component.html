@@ -1,4 +1,6 @@
-<app-header-after></app-header-after>
+
+<div class="bodywidth">
+  <app-header-after></app-header-after>
 <div>
   <div id=container>
 <!-- <div class="rightcolumn"> -->
@@ -6,52 +8,54 @@
   <!-- <p class="wel">Welcome, NANYANG POLYTECHNIC (UEN:1992123456)</p> -->
  
 
-  <h4 style="padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:103%;margin-top:0px">Apply for CAYE CPF Submission Number (CSN)</h4>
-  <p style="font-size:20px;margin-left:10px;font-weight: 500">CAYE CSN</p>
+  <!-- <h4 style="padding:5px 0px 5px 0px; margin-left:10px; color:#49712d;font-weight:545;width:103%;margin-top:0px">Apply for CAYE CPF Submission Number (CSN)</h4> -->
+  <!-- <p style="font-size:20px;margin-left:10px;font-weight: 500">CAYE CSN</p> -->
   
-<div style="width:100%; padding:1px 15px 0px 15px;margin-left: 10px">
+<!-- <div style="width:100%; padding:1px 15px 0px 15px;margin-left: 10px">
   <span class="step1" >Step</span>
    <span class="step2" >Step</span>
    <span class="step3" >Step</span><br/> 
   <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
 <br/>
-</div>
-<div class="ACK">
-  <h5 class="H5">Acknowledgement</h5>
-</div>
+</div> -->
+<!-- <div class="ACK"> class="H5" -->
+  <h5 style="color:#077712" >Acknowledgement</h5>
+<!-- </div> -->
   
 
   <div class="TRANSACTION">
     <p class="transaction"><b class="BOLD">Transaction Successful: </b> You have successfully submitted your application
     for CAYE CSN</p>
   </div>
-    <br>
-    <h5>Thank You</h5>
+
+  
+  <table class="table table-bordered ">
+      <thead>
+        <tr>
+          <th scope="col">Service Name</th>
+          <th scope="col">Transaction Number</th>
+          <th scope="col">Transaction Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apply for CAYE CPF Submission Number</td>
+          <td>CAYECSN1234567D</td>
+          <td>01/01/2020 12:34:56PM</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- <br> -->
+    <p><b>Thank You</b></p>
     <div>
         <!-- class="P" -->
       <p >This application will take <b>XX</b> days to process.</p>
     </div>
     <div>
         <!-- class="P1" -->
-      <p >Meanwhile, you may check the <a href="SubmitStatus">status</a> of your application or view our <a href="" style="text-decoration:underline;">Service Standards</a> online.</p>
+      <p >Meanwhile, you may check the <a href="SubmitStatus" style="text-decoration:underline;">status</a> of your application or view our <a href="" style="text-decoration:underline;">Service Standards</a> online.</p>
     </div>
 
-  <table class="table table-bordered ">
-    <thead>
-      <tr>
-        <th scope="col">Service Name</th>
-        <th scope="col">Transaction Number</th>
-        <th scope="col">Transaction Date</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Apply for CAYE CPF Submission Number</td>
-        <td>CAYECSN1234567D</td>
-        <td>01/01/2020 12:34:56PM</td>
-      </tr>
-    </tbody>
-  </table>
       <!-- <div>
         <p class="P">This application will take xx days to process.</p>
       </div>
@@ -66,12 +70,14 @@
       <div>
           <!-- class="P1" -->
         <p >If you have any questions about CAYE or the Self-Employed Scheme,
-          please visit <a href="#">www.cpf.gov.sg </a>or call us on 1800-227 1188
+          please visit <a href="#" style="text-decoration:underline;">www.cpf.gov.sg </a>or call us on 1800-227 1188
           from Mondays to Fridays (8am to 5.30pm).</p>
       </div>
       <hr class="style1">
       <div>
-       <button class="button"><a style="color: black" href="homepage">Back to Main</a></button> 
+       <!-- <button class="button"> -->
+         <a style="text-decoration:underline;" href="homepage">Back to Main</a>
+        <!-- </button>  -->
       </div>
 
       <!-- <div>
@@ -81,4 +87,5 @@
       <br><br>
 </div>
 <!-- </div> -->
+</div>
 </div>

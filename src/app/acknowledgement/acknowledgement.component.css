@@ -18,6 +18,9 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
+.bodywidth{
+  width:100%; margin-left:0%; background-color:#f2f2f3;
+}
 
 .aside {
   /* background-color: #33b5e5; */
@@ -110,7 +113,7 @@ padding:1px 15px 300px 15px
   border-top:1px solid grey;
   border-bottom:1px solid grey;
   padding:5px 5px 30px 5px;
-  width:78%;
+  width:68%;
   margin-bottom:-20px;
   margin-top: 10px;
 }
@@ -168,6 +171,10 @@ margin-left:28.20%; color: rgba(0,0,0,.2); font-weight:500
 .step3{
 margin-left:28.20%; color:#49712d; font-weight:500
 }
+
+.bodywidth{
+  width:65%; margin-left:17.5%; background-color:#f2f2f3;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -189,7 +196,12 @@ margin-left:28.20%; color:#49712d; font-weight:500
 #container {
   display: flex;
   flex-wrap: wrap;
-
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  /* padding:5px 5px 30px 5px;
+  width:100%;
+  margin-bottom:-20px;
+  margin-top: 10px; */
 }
 /* p{
   font-weight: bold;
@@ -239,14 +251,15 @@ table{
 }
 .TRANSACTION{
   background-color: rgb(199, 239, 199);
-  height: 100px;
+  /* height: 100px; */
   margin-top: 5px;
   
 }
 .transaction{
   color: #49712d;
-  padding-top: 15px;
-  margin-left:10px;
+  padding:2px;
+  /* padding-top: 15px; */
+  /* margin-left:10px; */
   font-weight: 500;
 }
 .BOLD{
@@ -261,13 +274,15 @@ table{
   }
   .TRANSACTION{
     background-color: rgb(199, 239, 199);
-    height: 50px;
-    width:1042px;
+    /* height: 50px; */
+    width:100%;
+    /* width:1042px; */
   }
   .transaction{
     color: #49712d;
-    padding-top: 15px;
-    margin-left:10px;
+    padding:2px;
+    /* padding-top: 15px; */
+    /* margin-left:10px; */
     font-weight: 500;
   }
   .BOLD{
@@ -278,7 +293,7 @@ table{
     font-weight: bold;
   } */
   .LIST{
-    width:78%;
+    width:100%;
     /* margin-left:20%; */
   }
 
