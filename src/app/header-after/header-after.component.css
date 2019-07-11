@@ -1,6 +1,6 @@
 
 .imagepos{
-  margin-left:-15px;
+  margin-left:-7px;
 }
 
 
@@ -11,7 +11,7 @@
 }
 
   .bg-secondary {
-    background-color: #b3bbc1!important;
+    background-color: #f2f2f3!important;
 }
 
 .bg-light {
@@ -73,7 +73,7 @@ padding:1px 15px 50px 15px
 
 @media only screen and (min-width: 768px) {
 .sidebar{
-padding:1px 15px 300px 15px;
+padding:1px 15px 200px 15px;
 /* height:80vh */
 }
 }
@@ -82,10 +82,10 @@ padding:1px 15px 300px 15px;
   /* For desktop: */
   .column-1 {width: 8.33%;}
   .column-2 {width: 16.66%;}
-  .column-3 {width: 20%;}
+  .column-3 {width: 25%;}
   .column-4 {width: 33.33%;}
   .column-5 {width: 41.66%;}
-  .column-6 {width: 50%;}
+  .column-6 {width: 50%;} 
   .column-7 {width: 58.33%;}
   .column-8 {width: 66.66%;}
   .column-9 {width: 75%;}
@@ -131,16 +131,31 @@ ul {
 }
 
 .serprovider{
-  padding:15px 15px 0px 0px;
-  font-size:22px;
+  padding:15px 45px 0px 0px;
+  font-size:18px;
   margin-left:0px;
 }
 
 .onlineser{
-  padding:0px 15px 1px 0px;
-  font-size:22px;
+  padding:0px 45px 1px 0px;
+  font-size:18px;
   margin-left:0px;
 }
+
+.barheight{
+  height:35px
+}
+
+.caye{
+  margin-top: 6%;
+  padding: 7px 6px;
+  background-color: #464545;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  text-align: left;
+  font-size:13px;
+  }
 
 @media (min-width: 768px) {
   .componentWrapper {
@@ -180,11 +195,11 @@ ul {
     display: inline-block;
     margin-top:1%;
     margin-right:10px;
-    margin-left:66% !important;
+    margin-left:55% !important;
   }
 
   .services{
-    margin-right: 25px; 
+    margin-right: 235px !important; 
     color: #49712d; 
     border-bottom: 3px solid #49712d;
     font-weight:bold;
@@ -193,25 +208,40 @@ ul {
   .loginicon{
     margin-left:25px; 
     margin-right:25px;
-    color:#4d4de6
+    color:#49712d
   }
 
   .employee{
     margin-left:70px;
     margin-right: 25px;
     font-weight:bold;
+    width:130px;
   }
 
   .serprovider{
     padding:15px 15px 0px 0px;
-    font-size:22px;
+    font-size:20px;
     margin-left:0px;
   }
   
   .onlineser{
     padding:0px 15px 1px 0px;
-    font-size:22px;
+    font-size:20px;
     margin-left:0px;
+  }
+
+  .barheight{
+    height:25px;
+  }
+
+  .caye{
+  margin-top: 6%;
+  padding: 7px 6px;
+  background-color: #464545;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  text-align: left;
   }
 }
 
@@ -250,7 +280,7 @@ a:hover{
 .loginicon{
   margin-left:0px; 
   margin-right:25px;
-  color:#4d4de6
+  color:#49712d
 }
 
 .employee{

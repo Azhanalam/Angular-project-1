@@ -7,9 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TransactionHistoryComponent implements OnInit {
 
+  buttonlabel:string;
+  showfilter:boolean=false;
   constructor() { }
 
   ngOnInit() {
+    if(this.showfilter==false){
+this.buttonlabel="+ Show Filters";
+    }
+    else{
+      this.buttonlabel="-  Hide Filters"; 
+    }
+  }
+
+  toggle(){
+if(this.showfilter==true){
+  this.showfilter=false;
+  this.buttonlabel="+ Show Filters";
+}
+
+else{
+  this.showfilter=true;
+  this.buttonlabel="-  Hide Filters";
+}
   }
 
 }

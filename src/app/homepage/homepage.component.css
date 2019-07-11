@@ -117,6 +117,10 @@ ul {
   padding:2px 10px;
 }
 
+.bodywidth{
+  width:100%; background-color:#dee5ea; margin-left:0%
+}
+
 @media (min-width: 768px) {
   .componentWrapper {
     display: flex;
@@ -134,6 +138,9 @@ ul {
     padding:2px 10px;
   }
 
+  .bodywidth{
+    width:80%; background-color:#dee5ea; margin-left:10%
+  }
   
 }
 
