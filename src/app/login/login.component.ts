@@ -21,6 +21,9 @@ login()
   // if(this.username=="sruthy@gmail.com")
   // this.router.navigate(["userpage"]);
   // else
-this.router.navigate(["homepage"]);
+  if(this.username=="reguser")
+  this.router.navigate(["AppSuccess"]);
+  else
+  this.router.navigate(["welcome"]);
 }
 }
