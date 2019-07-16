@@ -2,10 +2,29 @@
   <div class="bodywidth">
 
 
-<!-- <div class="ng-view" autoscroll="false"> -->
-    <app-header-after></app-header-after>
-    
-    
+      <div>
+
+        <div id="container">
+          <h4 class="heading">
+            Apply for CAYE CPF Submission Number (CSN)
+          </h4>
+          <p style="font-size:20px;margin-left:10px;font-weight: 500">CAYE CSN</p>
+
+          <div class="box1">
+            <!-- <span class="step1" >Step</span> -->
+             <span class="step2" >Step</span>
+             <span class="step3" >Step</span><br/> 
+           <span class="dot2">1</span><span class="dot3">2</span>
+           <!-- <span  class="dot1">1</span>  -->
+         <br/>
+          </div>
+
+        
+          <hr class="horizontal1">
+          <!-- <div class="ACK">
+            <h5 class="H5">Update Particulars</h5>
+          </div> -->
+          
           <div>
     
             <div id="container">
@@ -29,12 +48,15 @@
                 <h5 class="H5">Update Particulars</h5>
               </div> -->
               
-              <div>
-                  
-    
-                <h6 class="H">Part 1: Requestor’s Particulars</h6>
-                <p class="P">NRIC/Foreign Identification Number</p>
-                <p class="P1">PASSPORT-123-12345</p>
+
+            <h6 class="H">Part 1: Requestor’s Particulars</h6>
+            <p class="P">NRIC/Foreign Identification Number</p>
+            <p class="P1">PASSPORT-123-12345</p>
+  
+            <h6 class="P2">Name</h6>
+            <p class="P4">Name of PASSPORT-123-12345</p>
+
+            <!-- <form role="form">
       
                 <h6 class="P2">Name</h6>
                 <p class="P4">Name of PASSPORT-123-12345</p>
@@ -84,68 +106,192 @@
     
     
     <form role="form">
-      <p class="CSNNAME">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
-       <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
-                                                                                          
-    </form> 
-    
-    
-    
-    <h6 class="P21">Contact Details*</h6>
-    <p class="p1">(Please provide at least one contact number)</p>
-    
-    
-    
-    <form role="form">
-      <p class=" L11">Telephone (Office)</p>
-       <input maxlength="100" type="text" required="required" class="form-control1 L31" placeholder="Eg. 6124567"/>
-                                                                                                                                 
-    </form> 
-    
-    
-    
-    <form role="form">
-    <p class="L21">Mobile</p>
-     <input maxlength="100" type="text" required="required" class="form-control1 La1" placeholder="Eg. 9124567"/>
-       </form> 
-       
-    
-    
-       <form role="form">
-        <label class="control-label L51">Email*</label>
-        <br>
-        <input maxlength="100" type="text" required="required" 
-        class="form-control1 EMAIL" 
-         placeholder="Eg. William@nyp.edu.sg"/>
-         <br><br>
-    
-        <div *ngFor="let t of input; let in=index">
-         <input maxlength="100" type="text" required="required" 
-         class="form-control1 EMAIL2" 
-         [(ngModel)]="input[in].value" [name]="'something' + in"
-          placeholder="Eg. William@nyp.edu.sg"/>
-          <br><br>
-    
-          <div class="EmailAddress">
-              <a class="REMOVE" (click)="remove()">Remove</a>
-        </div>
+      <label class="control-label L5">Email*</label>
+       <br>
+       <input maxlength="100" type="text" required="required" class="form-control1 L6" placeholder="Please key here"/>
+                       
+   </form>      -->
+
+
+<hr class="horizontal">
+
+   <h6 class="H">Part 2: Entity Information</h6>
+   <p class="P">Unique Entity Number</p>
+   <p class="P1">1992123456</p>
+
+
+
+  <form role="form">
+    <p class="L11" >Entity Name*</p>
+    <p class="CAYE-" >CAYE-</p>
+    <div class="CayeInput">
+    <input maxlength="100" type="text" required="required" class="form-control1 ENTITY" placeholder="Please key here"/>
+  </div>                                             
+</form> 
+
+
+
+<form role="form">
+  <p class="CSNNAME">CSN Name<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="You may use this field to differentiate CSNs applied under this UEN"></i> </p>
+   <input maxlength="100" type="text" required="required" class="form-control1 L4" placeholder="Please key here"/>
+                                                                                      
+</form> 
+
+
+
+<h6 class="P21">Contact Details*</h6>
+<p class="p1">(Please provide at least one contact number)</p>
+
+
+
+<form role="form">
+  <p class=" L11">Telephone (Office)</p>
+   <input maxlength="100" type="text" required="required" class="form-control1 L31" placeholder="Eg. 6124567"/>
+                                                                                                                             
+</form> 
+
+
+
+<form role="form">
+<p class="L21">Mobile</p>
+ <input maxlength="100" type="text" required="required" class="form-control1 La1" placeholder="Eg. 9124567"/>
+   </form> 
+   
+
+
+   <form role="form">
+    <label class="control-label L51">Email*</label>
     <br>
-        </div>
-    
-        </form> 
-    
-        <div style="margin-top: -13px">
-          <a (click)="add()"  style="margin-left: 10px;
-          color: steelblue ;cursor: pointer;
-          text-decoration: underline;">Add email address</a>
-    
+    <input maxlength="100" type="text" required="required" 
+    class="form-control1 EMAIL" 
+     placeholder="Eg. William@nyp.edu.sg"/>
+     <br><br>
+
+    <div *ngFor="let t of input; let in=index">
+     <input maxlength="100" type="text" required="required" 
+     class="form-control1 EMAIL2" 
+     [(ngModel)]="input[in].value" [name]="'something' + in"
+      placeholder="Eg. William@nyp.edu.sg"/>
+      <br><br>
+
+      <div class="EmailAddress">
+          <a class="REMOVE" (click)="remove()">Remove</a>
     </div>
-    
-          <h6 class="BusinessAddress">Business Address*</h6>
-          <p class="Address">(Please provide at least one address)</p>
-    
-          <div class="radio">
-              <label><input type="radio" name="optradio" checked (click)="toggle1()">Local Singapore Addres</label>
+<br>
+    </div>
+
+    </form> 
+
+    <div style="margin-top: -13px">
+      <a (click)="add()"  style="margin-left: 10px;
+      color: steelblue ;cursor: pointer;
+      text-decoration: underline;">Add email address</a>
+
+</div>
+
+      <h6 class="BusinessAddress">Business Address*</h6>
+      <p class="Address">(Please provide at least one address)</p>
+
+      <div class="radio">
+          <label><input type="radio" name="optradio" checked (click)="toggle1()">Local Singapore Addres</label>
+        </div>
+        <div class="Radio">
+          <label><input type="radio" name="optradio" (click)="toggle()">Oversease Address</label>
+        </div>
+        <ng-container *ngIf="show">
+
+
+     <label class="ABC" for="story">SG Address Postal Code*</label>
+
+
+     <form role="form">
+     
+      <div class="input-group mb-3 SEARCH">
+        <input type="text" class="form-control" placeholder="EG 12345" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-success" type="button" id="button-addon2" ><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </form> 
+  
+
+    <form role="form">
+        <div class="STREET1" >
+         <label class="control-label STREET">Street Name*</label>
+         <br>
+         <input maxlength="100" type="text" required="required" class="form-control1 street" placeholder=" Street Name"/>
+        </div>
+       </form> 
+
+
+
+
+    <form role="form">
+      <div style="margin-top: -17px;">
+        <label class="control-label BLOCK">Block / House No*</label>
+         <br>
+         <input maxlength="100" type="text" required="required" class="form-control1 block" placeholder="  0"/>
+        </div>
+        <br>
+      </form>
+        <form role="form">
+        <div class="LEVEL1" >
+        <label class="control-label LEVEL">Level / Unit No*</label>
+        <br>
+        <input maxlength="100" type="text" required="required" class="form-control1 level" placeholder=" # 01-01"/>
+       </div>
+      </form>
+    </ng-container>
+
+
+<ng-container *ngIf="show1">
+    <form role="form">
+        <div class="STREET1" >
+         <label class="control-label STREET">Oversease Address*</label>
+         <br>
+         <input maxlength="100" type="text" required="required" class="form-control1 street" placeholder=" Street Name"/>
+         <br><br>
+         <div *ngFor="let t of input1; let in=index">
+         <input maxlength="100" type="text" required="required" 
+         [(ngModel)]="input1[in].value" [name]="'something' + in"
+         class="form-control1 street" placeholder=""/>
+         <br><br>
+        </div>
+
+        </div>
+       </form> 
+
+       <div style="margin-top: -17px">
+          <a (click)="add1()" style="margin-left: 10px;
+          color: steelblue;cursor: pointer;
+          text-decoration: underline;">Add line</a>
+    </div>
+  </ng-container>
+
+      <br>
+      <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()" style="border: none;
+       border-radius: 0;">Back</button>
+      <button type="button" class="btn btn-primary btn-sm BUT1" style="margin-left:15px;margin-top:-15px;width:80px;border: none;
+        border-radius: 0;" (click)="Next()">Next</button>
+        </div>
+
+
+      
+        <!-- <div id="container">
+            <h4 class="heading">Apply for CAYE CPF Submission Number (CSN)</h4>
+            <p style="font-size:20px;font-weight: 500;margin-left:17px">CAYE CSN</p>
+
+          <div class="box1">
+            <span class="step1" >Step</span>
+             <span class="step2" >Step</span>
+             <span class="step3" >Step</span><br/> 
+            <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
+         <br/>
+          </div>
+        
+        
+          <div class="ACK">
+              <h5 class="H5">Update Particulars</h5>
             </div>
             <div class="Radio">
               <label><input type="radio" name="optradio" (click)="toggle()">Oversease Address</label>

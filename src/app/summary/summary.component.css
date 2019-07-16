@@ -225,17 +225,9 @@ margin-left:22%; color:#49712d; font-weight:500
     margin-top: 10px;
   
   }
-  hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 96%;               
-    background-color:gray;
-    height: 1px;
-  }
   .horizontal{
     border: .30px solid gray !important;
-    width: 110% !important;
+    width: 195% !important;
     margin-right: 218px !important;
   }
   .horizontal1{

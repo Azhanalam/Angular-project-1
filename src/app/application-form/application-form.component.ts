@@ -11,19 +11,21 @@ export class ApplicationFormComponent implements OnInit {
   input: {value: string}[];
   input1: {value: string}[];
 
+
   public show:boolean = true;
   public show1:boolean = false;
   public No:any='';
   public Yes:any='';
 
-  constructor(private router:Router) {
+  constructor(private router:Router) { 
     this.input = [];
 
     this.input1 = [{value: ''},{value: ''}];
-   }
+  }
 
   ngOnInit() {
   }
+
   toggle1() {
     
     if(!this.show)  

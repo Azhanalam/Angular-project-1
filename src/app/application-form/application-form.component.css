@@ -100,9 +100,6 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 }
 
-.bodywidth{
-  width:100%; margin-left:0%; background-color:#f2f2f3;
-}
 
 
 
@@ -207,23 +204,15 @@ padding:1px 15px 300px 15px
       border: 2px solid #49712d;
       color:#49712d;
     }
-    hr {
-      border: 0;
-      clear:both;
-      display:block;
-      width: 96%;               
-      background-color:#FFFF00;
-      height: 1px;
-    }
   .horizontal{
     border: .30px solid gray !important;
-    width: 64% !important;
-    margin-right: 490px !important;
+    width: 97% !important;
+    margin-right: 218px !important;
   }
   .horizontal1{
-    border: .25px solid gray ;
+    border: .25px solid gray;
     width: 105%;
-   margin-left: -3px ;
+   margin-left: -3px;
   }
     
     .dot3 {
@@ -669,12 +658,12 @@ padding:1px 15px 300px 15px
   }
   .EMAIL{
     height: 35px;
-    width: 584px;
+    width: 740px;
     margin-top: -4px;
   }
   .EMAIL2{
     height: 35px !important;
-    width: 500px !important;
+    width: 666px !important;
     margin-left: 10px !important;
     margin-top: -4px !important;
   }
@@ -691,7 +680,7 @@ padding:1px 15px 300px 15px
   .ENTITY{
     height: 35px;
     float: left;
-    width: 525px;
+    width: 679px;
     margin-top: -46px;
     margin-left: 68px;
   }
@@ -706,7 +695,7 @@ padding:1px 15px 300px 15px
     margin-top: -9px;
     margin-right: 327px;
     /* float: right; */
-    width: 584px;
+    width: 740px;
   }
   /* .MOBE{
     height: 35px;
@@ -772,7 +761,7 @@ padding:1px 15px 300px 15px
   }
   .L21{
     margin-top: -40px;
-    margin-left: 327px;
+    margin-left: 404px;
     font-weight: bold;
   }
   .CAYE-{
@@ -788,20 +777,20 @@ padding:1px 15px 300px 15px
   .L31{
     height: 35px;
     float: left;
-    width: 265px;
+    width: 344px;
     margin-top: -10px;
   }
   .La1{
     height: 35px;
     margin-top: -12px;
-    margin-right: 330px;
+    margin-right: 329px;
     float: right;
-    width: 265px;
+    width: 344px;
   }
   .L51{
     font-weight: bold;
     margin-top: 46px;
-    margin-left: -265px;
+    margin-left: -343px;
   }
   .BLOCK{
     font-weight: bold;
@@ -809,7 +798,7 @@ padding:1px 15px 300px 15px
     margin-left: 10px;
   }
   .block{
-    width: 265px;
+    width: 344px;
     margin-left: 10px;
     height: 35px;
     margin-top: -7px;
@@ -821,7 +810,7 @@ padding:1px 15px 300px 15px
       margin-left:5px;
   }
   .street{
-    width:584px;
+    width:739px;
     margin-left:5px;
     height: 35px;
     margin-top: -10px;
@@ -831,11 +820,11 @@ padding:1px 15px 300px 15px
   .LEVEL{
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 181px;
+    margin-left: 255px;
   }
   .level{
-    width: 265px;
-    margin-left: 181px;
+    width: 344px;
+    margin-left: 255px;
     height: 35px;
     margin-top: -10px;
     
@@ -882,7 +871,7 @@ padding:1px 15px 300px 15px
   }
 
   .REMOVE{
-    margin-left: 525px !important;
+    margin-left: 689px !important;
     color: steelblue !important;
     text-decoration: underline !important;
     cursor: pointer !important;
