@@ -30,6 +30,10 @@
   .sidebar{
   padding:1px 15px 50px 15px
   }
+
+  .bodywidth{
+    width:100%; margin-left:0%; background-color:#f2f2f3;
+  }
   
   @media only screen and (min-width: 768px) {
   .sidebar{
@@ -111,6 +115,10 @@
     }
     .AMOUNT2{
         font-weight:400;
+    }
+
+    .bodywidth{
+      width:65%; margin-left:17.5%; background-color:#f2f2f3;
     }
      
   }

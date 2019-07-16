@@ -15,7 +15,7 @@
       border-top:1px solid grey;
       /* border-bottom:1px solid grey; */
       padding:5px 5px 0px 5px;
-      width:78%;
+      width:68%;
       margin-bottom:-20px;
     }
     
@@ -77,6 +77,10 @@ p{
    margin-right:10px;
   }
 
+  .bodywidth{
+    width:100%; margin-left:0%; background-color:#f2f2f3;
+  }
+
   @media(min-width: 768px) {
     .submitbtn{
       background-color:#49712d;
@@ -113,6 +117,10 @@ p{
       display: inline-block;
       margin-top:1%;
       margin-right:10px;
+    }
+
+    .bodywidth{
+      width:65%; margin-left:17.5%; background-color:#f2f2f3;
     }
   }
 
