@@ -100,7 +100,9 @@ margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 margin-left:22%; color:rgba(0,0,0,.2); font-weight:500
 }
 
-
+.bodywidth{
+  width:100%; margin-left:0%; background-color:#f2f2f3;
+}
 
 
 @media only screen and (min-width: 768px) {
