@@ -93,21 +93,30 @@
         margin-left: 10px;
       }
       .quick{
-        font-size: 19px;
+        font-size: 15px;
         font-weight: 550;
       }
+      .TotalService{
+        font-weight: 700;
+      }
+     .thead{
+      background-color: rgb(189, 188, 188);
+     }
+      .statement{
+        margin-left: -47px;
+     }
       .statement1{
-         margin-left: -150px;
+         margin-left: -64px;
       }
       .statement2{
-        margin-left: -299px;
+        margin-left: -94px;
      }
      .table{
-         width: 78%;
+         width: 90%;
          margin-top:17px;
      }
      .AMOUNT{
-         text-align:end;
+         text-align:start;
      }
      .AMOUNT1{
         text-align:end;
@@ -122,7 +131,25 @@
     }
      
   }
-  
+  .MyCaye{
+    margin-left: 3px;
+    font-weight: 500;
+    margin-top: 17px;
+  }
+  .card{
+    margin-left: -205px;
+    margin-top: 43px;
+    width: 42%;
+    height: 50px;
+  }
+  .card-body{
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+  /* .Digit{
+    text-decoration: underline;
+    color: rgb(83, 83, 212);
+  } */
   .row{
     text-align: center;
   }
