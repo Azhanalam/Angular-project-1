@@ -81,7 +81,8 @@
       }
       .CAYE{
         color: green;
-        font-size: 28px;
+        font-size: 26px;
+        margin-left: -13px;
         
       }
       .style1{
@@ -94,7 +95,9 @@
       }
       .quick{
         font-size: 15px;
-        font-weight: 550;
+        font-weight: 500;
+        margin-top: -16px;
+        margin-left: -11px;
       }
       .TotalService{
         font-weight: 700;
@@ -113,7 +116,10 @@
      }
      .table{
          width: 90%;
-         margin-top:17px;
+         margin-top:6px;
+     }
+     .TableFooter{
+      background-color: rgb(189, 188, 188);
      }
      .AMOUNT{
          text-align:start;
@@ -129,23 +135,49 @@
     .bodywidth{
       width:65%; margin-left:17.5%; background-color:#f2f2f3;
     }
-     
-  }
-  .MyCaye{
-    margin-left: 3px;
+    .MyCaye{
+      margin-left: 3px;
     font-weight: 500;
     margin-top: 17px;
+    font-size: 15px;
+    }
+    .MyPending{
+      font-weight: 500;
+    margin-top: 18px;
+    font-size: 15px;
+    margin-left: 14px;
+    }
+    .cardTransaction{
+      width: 44% !important;
+      margin-left: 303px !important;
+      margin-top: -51px !important;
+    }
+    .card{
+      margin-left: -192px;
+      margin-top: 43px;
+      width: 44%;
+      height: 50px;
+    }
+    .card-body{
+      margin-left: -10px;
+      margin-top: -7px;
+    }
+    .SuccessfulPayment{
+      margin-top: 17px;
+      margin-left: 1px;
+      font-size: 15px;
+    }
+    #rcorners3 {
+      background: #73AD21;
+      padding: 1.5px;
+      width: 111%;
+      height: 1px;
+      margin-top: -9px;
+      margin-left: -9px;
+    } 
+     
   }
-  .card{
-    margin-left: -205px;
-    margin-top: 43px;
-    width: 42%;
-    height: 50px;
-  }
-  .card-body{
-    margin-left: -10px;
-    margin-top: -7px;
-  }
+ 
   /* .Digit{
     text-decoration: underline;
     color: rgb(83, 83, 212);
@@ -153,6 +185,11 @@
   .row{
     text-align: center;
   }
+
+
+
+
+
 
   @media only screen and (max-width: 768px) and (min-width: 400px) {
     
@@ -170,5 +207,40 @@
   .table {
     width: 98%;
     margin-top: 17px;
+}
+.TableFooter{
+  background-color: rgb(189, 188, 188) !important;
+ }
+ .thead{
+  background-color: rgb(189, 188, 188) !important;
+ }
+ .MyCaye{
+  margin-left: 3px !important;
+  font-weight: 500 !important;
+  margin-top: 17px !important;
+}
+.MyPending{
+  font-weight: 500 !important;
+  margin-top: 18px !important;
+  margin-left: 61px !important;
+}
+.cardTransaction{
+  width: 42%;
+  margin-left: 324px;
+  margin-top: -51px;
+}
+.card{
+  margin-left: -205px !important;
+  margin-top: 43px !important;
+  width: 40% !important;
+  height: 50px !important;
+}
+.card-body{
+  margin-left: -10px !important;
+  margin-top: -7px !important;
+}
+.SuccessfulPayment{
+  margin-top: 17px !important;
+  margin-left: 2px !important;
 }
      }

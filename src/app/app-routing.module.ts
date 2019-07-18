@@ -27,9 +27,13 @@ import { SubmitStatusComponent } from './submit-status/submit-status.component';
 import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
 import { DeductionComponent } from './deduction/deduction.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
+import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
+import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
 
 
 const routes: Routes = [
+  {path:'viewcayerefund',component:ViewCayeRefundReqComponent},
+  {path:'viewcayecontribution',component:ViewCayeContributionComponent},
   {path:'transactionhistory',component:TransactionHistoryComponent},
   {path:'deduction',component:DeductionComponent},
   {path:'SubmitStatus',component:SubmitStatusComponent},

@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  [class*="column-"] {
+    float: left;
+    padding: 15px 15px 15px 5px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  
+  .aside {
+   
+    font-size: 10px;
+  
+    border: 1px solid grey;
+  }
+  
+  
+  /* For mobile phones: */
+  [class*="column-"] {
+    width: 100%;
+  }
+  
+  .sidebar{
+  padding:1px 15px 50px 15px
+  }
+  
+  .box1{
+    width: 100%;
+    padding: 12px 15px 0px 15px;
+    margin-left: 10px;
+    background: white;
+    height: 93px;
+   }
+   #container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    padding:5px 5px 5px 5px;
+    width:100%;
+  }
+  .bodywidth{
+    width:100%; margin-left:0%; background-color:#f2f2f3;
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    .sidebar{
+    padding:1px 15px 300px 15px
+    }
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+      border-top:1px solid grey;
+      border-bottom:1px solid grey;
+      padding:5px 5px 30px 5px;
+      width:68%;
+      margin-bottom:-20px;
+      margin-top: 10px;
+    }
+    .bodywidth{
+        width:65%; margin-left:17.5%; background-color:#f2f2f3;
+      }
+    }
+  
+
+@media (min-width: 768px) {
+.ViewTransaction{
+    font-size: 25px;
+    color: rgb(38, 122, 38);
+        }
+.CayeContribution
+  {
+    margin-top: 2px;
+    margin-left: -5%
+  }
+.DownloadPdf{
+    margin-left: 64%;
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+  }
+.Submitter{
+    margin-left: -4%;
+    font-weight: 500;
+    font-size: 15px;
+   }
+.submitterNo{
+    margin-left: -4%;
+    margin-top: -17px;
+    font-size: 14px;
+   }
+.BankAccount{
+    margin-left: -36%;
+    font-weight: 500;
+    font-size: 15px;
+   }
+.AccountNo{
+    margin-left: -36%;
+    margin-top: -17px;
+    font-size: 14px;
+   }
+.TABLE{
+    margin-top: 8px;
+}
+th{
+    font-size: 12px;
+}
+td{
+    font-size: 12px;
+}
+.TableHead{
+    background: rgb(143, 143, 143);
+}
+.BUT{
+    margin-top: 5px;
+    margin-left: 2px;
+  }
+
+    }
+
+
+
+
+
+    @media only screen and (max-width: 768px) and (min-width: 400px) {
+        #container {
+          display: flex;
+          flex-wrap: wrap;
+          border-top:1px solid grey;
+          border-bottom:1px solid grey;
+          padding:5px 5px 30px 5px;
+          width:69%;
+          margin-bottom:-20px;
+          margin-top: 10px;
+        }
+    
+    }

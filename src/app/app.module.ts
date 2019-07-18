@@ -50,6 +50,8 @@ import { HeaderRegloginComponent } from './header-reglogin/header-reglogin.compo
 import { DeductionComponent } from './deduction/deduction.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 import { HeaderTransactionComponent } from './header-transaction/header-transaction.component';
+import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
+import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
 
 
 @NgModule({
@@ -85,7 +87,9 @@ import { HeaderTransactionComponent } from './header-transaction/header-transact
     HeaderRegloginComponent,
     DeductionComponent,
     TransactionHistoryComponent,
-    HeaderTransactionComponent
+    HeaderTransactionComponent,
+    ViewCayeContributionComponent,
+    ViewCayeRefundReqComponent
   ],
   imports: [
     MatListModule,

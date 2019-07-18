@@ -94,18 +94,19 @@ padding:1px 15px 300px 15px;
   display: inline-block;
   margin-top:1%;
   margin-right:10px;
-  margin-left:66% !important;
+  margin-left:55% !important;
+  /* margin-left:66% !important; */
 }
 
 .serprovider{
   padding:15px 15px 0px 0px;
-  font-size:22px;
+  font-size:20px;
   margin-left:0px !important;
 }
 
 .onlineser{
   padding:0px 15px 1px 0px;
-  font-size:22px;
+  font-size:20px;
   margin-left:0px !important;
 }
 
@@ -196,7 +197,22 @@ ul {
   padding:2px 10px;
 }
 
-@media  (min-width: 768px) {
+.barheight{
+  height:35px
+}
+
+.caye{
+  margin-top: 6%;
+  padding: 7px 6px;
+  background-color: #464545;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  text-align: left;
+  font-size:13px;
+  }
+
+@media (min-width: 768px) {
   .componentWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -219,7 +235,8 @@ ul {
   
 
   .services{
-    margin-right: 25px; 
+    margin-right: 235px !important; 
+    /* margin-right: 25px;  */
     color: #49712d; 
     border-bottom: 3px solid #49712d;
     font-weight:bold;
@@ -228,13 +245,27 @@ ul {
   .loginicon{
     margin-left:25px; 
     margin-right:25px;
-    color:#4d4de6
+    color:#49712d
   }
 
   .employee{
     margin-left:70px;
     margin-right: 25px;
     font-weight:bold;
+    width:130px;
+  }
+  .barheight{
+    height:25px;
+  }
+
+  .caye{
+  margin-top: 6%;
+  padding: 7px 6px;
+  background-color: #464545;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  text-align: left;
   }
 }
 
@@ -274,7 +305,7 @@ a:hover{
 .loginicon{
   margin-left:0px; 
   margin-right:25px;
-  color:#4d4de6
+  color:#49712d
 }
 
 .employee{

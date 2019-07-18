@@ -1,0 +1,223 @@
+<div class="bodywidth">
+
+  <app-header-after></app-header-after>
+  <div id="container">
+
+    <p class="ViewTransaction">View Transaction</p>
+    <!-- <h6 class="CayeContribution">CAYE Contribution</h6> -->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h6 class="CayeContribution">CAYE Contribution</h6>
+          </div>
+          <div class="col-sm">
+           <p class="DownloadPdf">Download PDF</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <p class="CPFSubmit">CPF Submission No.</p>
+            <p class="CPFNumber">1992123456-MSE-01</p>
+          </div>
+          <div class="col-sm">
+           <p class="TransactionId">Transaction ID</p>
+           <p class="TransactionIdNo">CAYEPMT00001</p>
+          </div>
+          <div class="col-sm">
+           <p class="PaymentMode">Payment Mode</p>
+          <p class="Bank">Bank</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <p class="EntityName">Entity Name</p>
+              <p class="NanyangPolytechnic">CAYE Nanyang Polytechnic</p>
+            </div>
+            <div class="col-sm">
+             <p class="TransactionDate">Transaction Date</p>
+             <p class="Date">10 Aug 2018</p>
+            </div>
+            <div class="col-sm">
+             <p class="DeductionDate">Deduction Date</p>
+            <p class="Date2">24 Aug 2018</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <p class="Submitter">Submitter NRIC/FIN</p>
+                <p class="submitterNo">S1234123A</p>
+              </div>
+              <div class="col-sm">
+               <p class="BankAccount">Bank Account</p>
+               <p class="AccountNo">POSB account:xxx-xx123-4</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+              <div class="card-body">
+                Successful Payments
+              </div>
+              <div class="hyphen">
+                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="window-minimize"
+                   class="svg-inline--fa fa-window-minimize fa-w-16 ICON" role="img" 
+                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" (click)="minimize()">
+                   <path fill="currentColor" 
+                   d="M480 480H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h448c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
+                  </path></svg>
+              </div>
+             
+            </div>
+
+<ng-container *ngIf="show">
+
+  <table class="table table-bordered table-striped table-responsive TABLE">
+    <thead class="TableHead">
+      <tr>
+        <th scope="col">S/N</th>
+        <th scope="col">NRIC</th>
+        <th scope="col">Service Fee</th>
+        <th scope="col">Medisave Payble</th>
+        <th scope="col">Net Service Fee</th>
+        <th scope="col">Payment Ref No.</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr> 
+        <td>1</td>
+        <td>S1234567A</td>
+        <td>$ 100.00</td>
+        <td>$ 5.00</td>
+        <td>$ 95.00</td>
+        <td>TX12345SH</td>
+      </tr>
+      <tr> 
+        <td>2</td>
+        <td>S1234567A</td>
+        <td>$ 100.00</td>
+        <td>$ 5.00</td>
+        <td>$ 95.00</td>
+        <td>TX12345SH</td>
+      </tr>
+      <tr> 
+        <td>3</td>
+        <td>S1234567A</td>
+        <td>$ 100.00</td>
+        <td>$ 5.00</td>
+        <td>$ 95.00</td>
+        <td>TX12345SH</td>
+      </tr>
+      <tr> 
+        <td>4</td>
+        <td>S1234567A</td>
+        <td>$ 100.00</td>
+        <td>$ 5.00</td>
+        <td>$ 95.00</td>
+        <td>TX12345SH</td>
+      </tr>
+      <tr> 
+        <td>5</td>
+        <td>S1234567A</td>
+        <td>$ 100.00</td>
+        <td>$ 5.00</td>
+        <td>$ 95.00</td>
+        <td>TX12345SH</td>
+      </tr>              
+      </tbody>
+      <thead class="TableHead">
+          <tr>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+            <th scope="col">$ 500.00</th>
+            <th scope="col">$ 25.00</th>
+            <th scope="col">$ 475.00</th>
+            <th scope="col">Records: 5</th>
+          </tr>
+        </thead>
+    </table>
+    </ng-container>
+            
+
+    <div class="card CARD">
+        <div class="card-body">
+          Rejected Payments
+        </div>
+        <div class="hyphen">
+            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="window-minimize"
+             class="svg-inline--fa fa-window-minimize fa-w-16 ICON" role="img" 
+             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" (click)="minimize1()">
+             <path fill="currentColor" 
+             d="M480 480H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h448c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
+            </path></svg>
+        </div>
+       
+      </div>
+      
+<ng-container *ngIf="show1">
+
+<table class="table table-bordered table-striped table-responsive TABLE">
+<thead class="TableHead">
+<tr>
+  <th scope="col">S/N</th>
+  <th scope="col">NRIC</th>
+  <th scope="col">Service Fee</th>
+  <th scope="col">Medisave Payble</th>
+  <th scope="col">Net Service Fee</th>
+  <th scope="col">Payment Ref No.</th>
+</tr>
+</thead>
+<tbody>
+ <tr> 
+  <td>1</td>
+  <td>S1234567A</td>
+  <td>$ 100.00</td>
+  <td>$ 5.00</td>
+  <td>$ 95.00</td>
+  <td>TX12345SH</td>
+</tr>
+<tr> 
+  <td>2</td>
+  <td>S1234567A</td>
+  <td>$ 100.00</td>
+  <td>$ 5.00</td>
+  <td>$ 95.00</td>
+  <td>TX12345SH</td>
+</tr>
+<tr> 
+  <td>3</td>
+  <td>S1234567A</td>
+  <td>$ 100.00</td>
+  <td>$ 5.00</td>
+  <td>$ 95.00</td>
+  <td>TX12345SH</td>
+</tr>
+<tr> 
+               
+</tbody>
+<thead class="TableHead">
+    <tr>
+      <th scope="col">Total</th>
+      <th scope="col"></th>
+      <th scope="col">$ 300.00</th>
+      <th scope="col">$ 15.00</th>
+      <th scope="col">$ 2855.00</th>
+      <th scope="col">Records: 3</th>
+    </tr>
+  </thead>
+</table>
+</ng-container>
+
+<button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()" style="border: none;
+       border-radius: 0;">Back</button>
+  </div>
+</div>
