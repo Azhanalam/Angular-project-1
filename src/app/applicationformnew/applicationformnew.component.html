@@ -1,0 +1,246 @@
+
+<div class="telephonemobile">
+<div>
+<p class="heading">
+  Apply for CAYE CPF Submission Number (CSN)
+</p>
+</div>
+<div class="box1">
+  <!-- <span class="step1" >Step</span> -->
+   <span class="step2" >Step</span>
+   <span class="step3" >Step</span><br/> 
+ <span class="dot2">1</span><span class="dot3">2</span>
+ <!-- <span  class="dot1">1</span>  -->
+<br/>
+</div>
+
+<hr>
+
+<div class="part1">
+  <p class="requesterparticulars">Part 1: Requestor's Particulars</p>
+</div>
+
+<div class="nric">
+  <p class="nricidentification">NRIC / Foreign Identification No.</p>
+  <p class="passportnumber">Passport - 123 - 12345</p>
+</div>
+
+<div class="nameofpassport">
+  <p class="name">Name</p>
+  <p class="passportname">Name of Passport - 123 - 12345</p>
+</div>
+
+<hr class="horizontal">
+
+<div class="part2">
+  <p class="entityinformation">Part 2: Entity Information</p>
+</div>
+<div class="unique">
+  <p class="uniqueentity">Unique Entity No.</p>
+  <p class="entityno">1992123456</p>
+</div>
+<div class="Name">
+  <p class="Entityname">Entity Name*</p>
+</div>
+
+<div class="cayeinput">
+  <p class="cayehyphen">CAYE -</p>
+</div>
+<form role="form">
+  <div class="inputentity">
+  <input maxlength="100" type="text" required="required" class="form-control1 ENTITY" placeholder=" Please key here"/>
+</div>
+</form>
+
+<div class="Name">
+  <p class="Entityname">CSN Name</p>
+</div>
+<div class="icon">
+  <span class="glyphicon glyphicon-question-sign questionicon"></span>
+</div>
+<form role="form">
+  <div class="csnnameinput">
+  <input maxlength="100" type="text" required="required" class="form-control1 csninput" placeholder=" Please key here"/>
+</div>
+</form>
+
+<div class="contact">
+  <p class="contactdetails">Contact Details*</p>
+</div>
+<div class="contactnum">
+  <p class="contactnumber">(Please provide at least one contact number)</p>
+</div>
+
+<!-- <div class="telephonemobile"> -->
+<div class="telephone">
+  <p class="telephoneoffice">Telephone (Office)</p>
+</div>
+
+<form role="form">
+  <div class="telephoneinput">
+  <input maxlength="100" type="text" required="required" class="form-control1 teleinput" placeholder=" Please key here"/>
+</div>
+ 
+</form>
+<p class="telephonenumber">Eg. 61234567</p>
+
+<div class="Mobile">
+  <p class="mobile">Mobile</p>
+</div>
+
+<form role="form">
+  <div class="telephoneinput">
+  <input maxlength="100" type="text" required="required" class="form-control1 mobileinput" placeholder=" Please key here"/>
+</div>
+</form>
+<p class="mobilenumber">Eg. 91234567</p>
+<!-- </div> -->
+
+
+
+<div class="email">
+  <p class="emailaddress">Email Address*</p>
+</div>
+<form role="form">
+  <div class="Email">
+  <input maxlength="100" type="text" required="required" class="form-control1 emailinput" placeholder=" Eg. William@nyp.edu.sg"/>
+</div>
+
+<div *ngFor="let t of input; let in=index" class="EMAILINPUT2">
+  <input maxlength="100" type="text" required="required" 
+  class="form-control1 EMAIL2" 
+  [(ngModel)]="input[in].value" [name]="'something' + in"
+   placeholder=" Eg. William@nyp.edu.sg"/>
+   <br><br>
+
+   <div class="EmailAddress">
+       <a class="REMOVE" (click)="remove()">Remove</a>
+ </div>
+<br>
+ </div>
+
+ </form> 
+
+ <div>
+   <a class="addmail" (click)="add()">Add email address</a>
+
+</div>
+<!-- </div> -->
+
+
+<div class="business">
+  <p class="businessaddress">Business Address*</p>
+</div>
+<div class="contactadd">
+  <p class="oneaddress">(Please provide at least one address)</p>
+</div>
+
+<div class="radio Radio1">
+  <label class="localaddress"><input type="radio" name="optradio" checked (click)="toggle1()">Local Singapore Addres</label>
+</div>
+<div class="Radio radio">
+  <label class="overseaseaddress"><input type="radio" name="optradio" (click)="toggle()"> Oversease Address</label>
+</div>
+<ng-container *ngIf="show">
+
+
+<label class="sgaddresscode" for="story">SG Address Postal Code*</label>
+
+
+<form role="form">
+
+<div class="input-group mb-3 SEARCH">
+<input type="text" class="form-control INPUTADDRESS" placeholder=" EG 12345" aria-label="Recipient's username" aria-describedby="button-addon2">
+<div class="input-group-append">
+  <button class="btn btn-outline-success searchbutton" type="button" id="button-addon2" ><i class="fas fa-search searchicon"></i></button>
+</div>
+</div>
+
+</form> 
+<p class="pincode">Eg. 123202</p>
+
+
+<form role="form">
+<div class="STREET1" >
+ <label class="control-label STREET">Street Name*</label>
+ <br>
+ <input maxlength="100" type="text" required="required" class="form-control1 street" placeholder=" Street Name"/>
+</div>
+</form> 
+
+
+<!-- <div class="telephonemobile"> -->
+  <div class="telephone">
+    <p class="telephoneoffice">Block / House No*</p>
+  </div>
+  
+  <form role="form">
+    <div class="telephoneinput">
+    <input maxlength="100" type="text" required="required" class="form-control1 teleinput" placeholder="  0"/>
+  </div>
+   
+  </form>
+  
+  <div class="LEVEL">
+    <p class="level">Level / Unit No*</p>
+  </div>
+  
+  <form role="form">
+    <div class="telephoneinput">
+    <input maxlength="100" type="text" required="required" class="form-control1 mobileinput" placeholder="  # 01-01"/>
+  </div>
+  </form>
+  <!-- </div> -->
+</ng-container>
+
+<ng-container *ngIf="show1">
+    <form role="form">
+        <div class="STREET1" >
+         <label class="control-label STREET">Oversease Address*</label>
+         <br>
+         <input maxlength="100" type="text" required="required" class="form-control1 street2" placeholder=" Street Name"/>
+         <br><br>
+         <div *ngFor="let t of input1; let in=index">
+         <input maxlength="100" type="text" required="required" 
+         [(ngModel)]="input1[in].value" [name]="'something' + in"
+         class="form-control1 street2" placeholder=""/>
+         <br><br>
+        </div>
+
+        </div>
+       </form> 
+
+       <div class="addline">
+          <a (click)="add1()" class="ADDLINE">Add line</a>
+    </div>
+  </ng-container>
+
+  <div class="BUTTON">
+      <button type="button" class="btn btn-secondary btn-sm BUT" (click)="Back()" style="border: none;
+      border-radius: 0;">Back</button>
+     <button type="button" class="btn btn-primary btn-sm BUT1" (click)="Next()">Next</button>
+  </div>
+  
+
+
+</div>
+<!-- <form role="form">
+<div class="block">
+<label class="control-label BLOCK">Block / House No*</label>
+ <br>
+ <input maxlength="100" type="text" required="required" class="form-control1 block" placeholder="  0"/>
+</div>
+<br>
+</form>
+<form role="form">
+<div class="LEVEL1" >
+<label class="control-label LEVEL">Level / Unit No*</label>
+<br>
+<input maxlength="100" type="text" required="required" class="form-control1 level" placeholder=" # 01-01"/>
+</div>
+</form>
+</ng-container> -->
+
+
+
+

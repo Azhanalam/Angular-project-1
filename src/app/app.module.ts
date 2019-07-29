@@ -52,6 +52,11 @@ import { TransactionHistoryComponent } from './transaction-history/transaction-h
 import { HeaderTransactionComponent } from './header-transaction/header-transaction.component';
 import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
 import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
+import { ApplyCayeSubmissionNewComponent } from './apply-caye-submission-new/apply-caye-submission-new.component';
+import { ApplicationformnewComponent } from './applicationformnew/applicationformnew.component';
+import { SummarynewComponent } from './summarynew/summarynew.component';
+import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
+import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 
 
 @NgModule({
@@ -89,7 +94,12 @@ import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-ref
     TransactionHistoryComponent,
     HeaderTransactionComponent,
     ViewCayeContributionComponent,
-    ViewCayeRefundReqComponent
+    ViewCayeRefundReqComponent,
+    ApplyCayeSubmissionNewComponent,
+    ApplicationformnewComponent,
+    SummarynewComponent,
+    AcknowledgenewComponent,
+    RequeststatusnewComponent
   ],
   imports: [
     MatListModule,
