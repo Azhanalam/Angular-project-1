@@ -1,22 +1,22 @@
 .imagepos{
     margin-left:-15px;
   }
-  
-  
+
+
   @media (min-width: 768px) {
     .imagepos{
       margin-left:0px;
     }
   }
-  
+
     .bg-secondary {
       background-color: #dee5ea!important;
   }
-  
+
   .bg-light {
     background-color: white!important;
   }
-  
+
   .menuGreen {
       background-color: #4F8208!important;
   }
@@ -31,52 +31,59 @@
   /* border-left: 4px solid white; */
   margin-top: -9px;
   }
-  
+
   * {
     box-sizing: border-box;
   }
-  
-  
+
+
   [class*="column-"] {
     float: left;
     /* padding: 15px 15px 15px 5px; */
   }
-  
+
   html {
     font-family: "Lucida Sans", sans-serif;
   }
-  
-  
+
+
   .aside {
     /* background-color: #33b5e5; */
     /* padding: 15px; */
     /* color: #ffffff; */
+    /* text-align: center; */
+    /* font-size: 10px; */
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    /* border: 0.5px solid #707070; */
+    /* margin-left:10px; */
+    /* background-color: white; */
+    /* width:100%; */
+    /* height:382px; */
     text-align: center;
     font-size: 10px;
-    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
     border: 0.5px solid #707070;
-    /* margin-left:10px; */
     background-color: white;
-    width:212.5px;
-    height:382px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
-  
-  
+
+
   /* For mobile phones: */
   [class*="column-"] {
     width: 100%;
   }
-  
+
   .sidebar{
   padding:1px 15px 50px 15px
   }
-  
+
   @media only screen and (min-width: 768px) {
   .sidebar{
   padding:1px 15px 300px 15px;
   /* height:80vh */
   }
-  
+
   .dot {
     height: 21px;
     width: 21px;
@@ -86,7 +93,7 @@
     margin-top:1%;
     margin-right:5px;
   }
-  
+
   .dot1 {
     height: 21px;
     width: 21px;
@@ -95,10 +102,10 @@
     display: inline-block;
     margin-top:1%;
     margin-right:5px;
-    margin-left: 596.5px !important;;
+    margin-left: 611.5px !important;;
     /* margin-left:66% !important; */
   }
-  
+
   .serprovider{
     /* padding:15px 15px 0px 0px; */
     font-size:22px;
@@ -107,15 +114,15 @@
     margin-top: 15px;
     font-weight: 400;
   }
-  
+
   .onlineser{
     /* padding:0px 15px 1px 0px; */
     font-size:22px;
     margin-left:0px !important;
   }
-  
+
   }
-  
+
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .column-1 {width: 8.33%;}
@@ -131,20 +138,20 @@
     .column-11 {width: 91.66%;}
     .column-12 {width: 100%;}
   }
-  
+
   #container {
     display: flex;
     flex-wrap: wrap;
-  
+
   }
-  
+
   /* .box1 {
     width: 100%;
     background: #4F8208;
     padding:10px 42px 55px 10px;
     margin:5px;
     color:white;
-  
+
   }
   .box2 {
     width: 100%;
@@ -152,9 +159,9 @@
     padding:10px 42px 55px 10px;
     margin:5px;
     color:white;
-  
+
   }
-  
+
   @media (min-width: 768px) {
     .box1 {
       width: 30%;
@@ -171,16 +178,16 @@
        color:white;
       }
   } */
-  
+
   ul {
     list-style: none;
         padding: 0px;
   }
-  
+
   .box2 ul li:before {
     content: "\27A2";
   }
-  
+
   .componentWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -190,7 +197,7 @@
     width: 95%;
     height:70px;
   }
-  
+
   .componentWrapper .header {
     /* position:absolute; */
     margin-top:-25px;
@@ -200,11 +207,11 @@
     /* border-radius:10px; */
     padding:2px 10px;
   }
-  
+
   .barheight{
     height:35px
   }
-  
+
   .caye{
     margin-top: 10px;
     /* padding: 7px 6px; */
@@ -213,7 +220,7 @@
     margin-right: 7.5px;
     color: white;
     text-align: left;
-    
+
 
     width: 198px;
     height: 50px;
@@ -234,7 +241,7 @@
     .imagesize{
       width:9%;
     }
-  
+
   @media (min-width: 768px) {
     .componentWrapper {
       display: flex;
@@ -254,33 +261,46 @@
       /* border-radius:10px; */
       padding:2px 10px;
     }
-   
-    
-  
+
+
+
     .services{
       /* margin-right: 235px !important;  */
       /* margin-right: 25px;  */
-      color: #4F8208; 
-      border-bottom: 3px solid #4F8208;
-      font-weight:bold;
+      margin-right: 22px !important;
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: bold;
+      color: #4F8208;
+      margin-top: 36px;
+      margin-bottom: 0px;
+      border-bottom: 5px solid #4F8208;
+      padding-bottom: 20px;
     }
-    
+
     .loginicon{
-      margin-left:25px; 
+      margin-left:25px;
       margin-right:22px;
-      color:#4F8208
+      color:#4F8208;
+      margin-top:44px;
+      margin-bottom:15px;
     }
-  
+
     .employee{
-      margin-left:70px;
-      margin-right: 25px;
-      font-weight:bold;
-      width:130px;
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 55px;
+      margin-right: 22px;
+      margin-top: 36px;
+      margin-bottom: 15px;
+      padding-left: 0;
+      padding-right: 0;
     }
     .barheight{
       height:25px;
     }
-  
+
     .caye{
     margin-top: 10px;
     /* padding: 7px 6px; */
@@ -309,12 +329,43 @@
     .imagesize{
       width:5%;
     }
+
+    .tools{
+      margin-right: 30px;font-family:Arial;font-size:16px;font-weight:bold;margin-top: 36px;
+      margin-bottom: 15px;
+    }
+
+    .loginbut{
+      margin-right:22px;font-family:Arial;font-size:16px;font-weight:bold;    margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .searchicon{
+      margin-right:25px;margin-top:44px;
+        margin-bottom:22px;
+    }
+
+    .aside {
+      /* background-color: #33b5e5; */
+      /* padding: 15px; */
+      /* color: #ffffff; */
+      text-align: center;
+      font-size: 10px;
+      /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+      border: 0.5px solid #707070;
+      /* margin-left:10px; */
+      background-color: white;
+      width:212.5px;
+      height:382px;
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
-  
+
   a:hover{
     text-decoration: none;
   }
-  
+
   .dot {
     height: 21px;
     width: 21px;
@@ -324,7 +375,7 @@
     margin-top:1%;
     margin-right:5px;
   }
-  
+
   .dot1 {
     height: 21px;
     width: 21px;
@@ -333,38 +384,64 @@
     display: inline-block;
     margin-top:1%;
     margin-right:5px;
-    margin-left:28%;
+    /* margin-left:58%; */
   }
-  
-  
+
+
   .services{
-    /* margin-right: 310px;  */
-    color: #4F8208; 
-    border-bottom: 3px solid #4F8208;
-    font-weight:bold;
+    margin-right: 81%;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4F8208;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid #4F8208;
+    padding-bottom: 20px;
   }
-  
+
   .loginicon{
-    margin-left:0px; 
-    margin-right:22px;
-    color:#4F8208
-  }
-  
-  .employee{
     margin-left:0px;
-    margin-right: 25px;
-    font-weight:bold;
+    margin-right:22px;
+    color:#4F8208;
+    margin-top:0px;
+        margin-bottom:0px;
   }
-  
+
+  .employee{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .serprovider{
     /* padding:15px 15px 0px 0px; */
     font-size:22px;
     /* margin-left:0px; */
   }
-  
+
   .onlineser{
     /* padding:0px 15px 1px 0px; */
     font-size:22px;
     /* margin-left:0px; */
   }
-  
+
+  .tools{
+    margin-right: 0px;font-family:Arial;font-size:16px;font-weight:bold;margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .loginbut{
+    margin-right: 0px;font-family:Arial;font-size:16px;font-weight:bold;    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .searchicon{
+    margin-right:0px;margin-top:0px;
+      margin-bottom:0px;
+  }
