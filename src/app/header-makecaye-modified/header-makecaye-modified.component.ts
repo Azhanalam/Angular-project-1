@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HostListener } from "@angular/core";
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-header-makecaye-modified',
@@ -12,7 +13,7 @@ export class HeaderMakecayeModifiedComponent implements OnInit {
   screenHeight:any;
   screenWidth:any;
 
-  constructor() {
+  constructor(private router: Router) {
       this.getScreenSize();
   }
 
@@ -41,4 +42,7 @@ export class HeaderMakecayeModifiedComponent implements OnInit {
 
   }
 
+  logout(){
+    this.router.navigate([""]);
+  }
 }
