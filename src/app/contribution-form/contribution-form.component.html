@@ -1,3 +1,4 @@
+<div class="bodywidth">
 <app-header-makecaye></app-header-makecaye>
 <div>
     <!-- <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p> -->
@@ -5,14 +6,15 @@
         <h4 class="heading">
             Make CAYE Contribution      
           </h4>
-        <div style="width:100%; padding:1px 15px 0px 15px;">
+        <div style="width:100%; padding:15px 15px 15px 15px; background-color:white;">
             <span class="step1" >Step</span>
-             <span class="step2" >Step</span>
-             <span class="step3" >Step</span><br/> 
-            <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
+             <span class="step2" >Step</span><br/>
+             <!-- <span class="step3" >Step</span><br/>  -->
+            <span  class="dot1">1</span> <span class="dot2">2</span>
+            <!-- <span class="dot3">3</span> -->
          <br/>
           </div>
-          <p style="background-color: #49712d; color: white; padding: 10px;">Key in the service fee for each individual and click Submit to compute their Medisave Payble</p>
+          <!-- <p style="background-color: #49712d; color: white; padding: 10px;">Key in the service fee for each individual and click Submit to compute their Medisave Payble</p> -->
     <div *ngIf="showthis">
       <p class="errorfield" ><b>Error:</b>Please check the highlighted fields</p>
     </div>
@@ -33,7 +35,7 @@
         <table class="table table-borderless" style="width:100%">
           <tbody>
             <tr>
-                <th scope="row" style="padding:0px">CSN Name</th>
+                <th scope="row" style="padding:0px;padding-top:12px">CSN Name</th>
               </tr>
               <tr>
                 <td style="padding:0px;">
@@ -41,16 +43,16 @@
                 <option> School of Engineering</option>  
                 </select></td>
               </tr>
-            <tr>
+            <!-- <tr>
                 <td scope="row" style="padding:0px;padding-top:10px">Unique Entity Number</td>
                 </tr>
                 <tr>
                 <th style="padding:0px;">1992123456</th>
-            </tr>
+            </tr> -->
             <tr>
-                <td scope="row" style="padding:0px;padding-top:10px">Contribution on</td>
+                <th scope="row" style="padding:0px;padding-top:10px">CPF Submission No.</th>
                 </tr><tr>
-                <th style="padding:0px">1992123456-MSE-01</th>
+                <td style="padding:0px">1992123456-MSE-01</td>
             </tr>
           </tbody>
 </table>
@@ -63,18 +65,18 @@
     </div>   -->
   
     <!-- <p style="margin-top:10px">Please key in the service fee for each <span style="background-color:#fcf379fb">Professional/freelancer</span> 
-      and click ‘Submit’ to compute their MediSave payable.</p> -->
+      and click ‘Submit’ to compute their MediSave payable.</p> style="text-align:center"-->
       
       <div class="table-responsive" style="overflow-x: scroll;">
     <table class="table table-striped" style="width:100%;">
-        <thead style="text-align:center">
+        <thead >
           <tr>
             <th><input type="checkbox" style="zoom:1.5;"></th>
             <th scope="col">S/N</th>
-            <th scope="col"style="text-align:center">CPF Acc No. /NRIC
+            <th scope="col">NRIC
             <span style="color:red">*</span></th>
             <th scope="col">Service Fee<span style="color:red">*</span></th>
-            <th scope="col" class="hasTooltip">Payment Reference No <i class="fas fa-info-circle"></i>
+            <th scope="col" class="hasTooltip">Payment Reference No. <i class="fas fa-question-circle"></i>
               <span>You may input the invoice number in this field so that the freelancer can reconcile the payment</span></th>
 <!--             
             <th>   </th> -->
@@ -128,8 +130,9 @@
     <div style="margin-top:5px">
       <button [disabled]="!chkEnable.checked">Clear Row(s)</button>
       <div class="pagination" >
-        <a href="#">First</a>
+        
         <a href="#">&lt;&lt;</a>
+        <a href="#">|</a>
         <a href="#">&lt;</a>
         <a href="#">Page</a>
         <a href="#" style="background-color:white; 
@@ -140,14 +143,16 @@
         padding-left:8px; padding-right:8px;padding-top:5px;padding-bottom:5px;
         margin-top:3px;">Go</a>
         <a href="#">&gt;</a>
+        <a href="#">|</a>
         <a href="#">&gt;&gt;</a>
-        <a href="#">Last</a>
-        <span style="background-color:grey; color:white;
+      
+        <!-- <span style="background-color:grey; color:white;
         padding-left:8px; padding-right:8px;padding-top:5px;padding-bottom:5px;
         margin-top:3px;margin-left: 35px;">+</span>
         <span style="background-color:red; color:white;
         padding-left:11px; padding-right:11px;padding-top:5px;padding-bottom:5px;
-        margin-top:3px;margin-left:3px">-</span>
+        margin-top:3px;margin-left:3px">-</span> -->
+        <a href="" style="text-decoration:underline;margin-left:5px;color:#007bff">Add Page</a>
       </div>
       <span>Showing 1-5 of 5</span>
       <!-- <p>First | << | < Page 1 of 1 Go > | >> | Last</p> -->
@@ -156,19 +161,34 @@
 
 
     </div>
-    <div class="table-responsive">
+    <div class="table-responsive" style="background-color:white">
     <table class="table table-borderless" style="margin-bottom:0%; margin-top:10px">
       <tbody>
         <tr>
           <!-- <td style="font-weight: 500;margin-top: 5px;"><i class="fas fa-plus-circle"></i>ADD NEW RECORD</td> -->
-          <td style="padding:0">
+          <td style="padding:0;">
               <label class="custom-file-upload">
                   <input type="file" id="file" (change)="importfile()"/>
                   +&nbsp;&nbsp;Import file
               </label>
-              <a href="" style="text-decoration:underline;margin-left:5px;">Download Template Sample</a><span>(CSV, 0.45KB)</span>
+              <!-- <a href="" style="text-decoration:underline;margin-left:45%;">Download Template Sample</a> -->
+              
+              <!-- <span>Last updated on</span> -->
           </td>
-          
+          <td style="float:right; padding-bottom:0%;padding-top:0%">
+            <a href="" style="text-decoration:underline;">Download Template Sample</a>
+            <br/> Last Updated on 10/08/2018
+
+          </td>
+        </tr>
+        <tr style="padding-top:0%;">
+          <td style="padding-top:0%;">
+            <span>Max-size:10MB</span>
+          </td>
+          <td style="float:right; padding-top:0%;">
+           
+            (CSV, 0.45KB)
+          </td>
         </tr>
         <!-- <tr>
             <td></td>
@@ -195,24 +215,25 @@
     Launch demo modal
   </button> -->
   
-  <!-- Modal -->
+  <!-- Modal border-bottom:0px -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document" style="top:25%; left:5%">
       <div class="modal-content" style="width:80%; border-radius:0">
-        <div class="modal-header" style="border-bottom:0px">
-          <h5 class="modal-title" id="exampleModalLabel">Save as draft?</h5>
+        <div class="modal-header" style="padding-top: 7px;padding-bottom: 7px;background-color: lightgrey;">
+          <h6 class="modal-title" id="exampleModalLabel">Save as draft</h6>
           <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button> -->
         </div>
-        <div class="modal-body" style="padding:0; padding-left:16px">
-          You are about to save the transaction as draft.
+        <div class="modal-body" style="padding:0; padding-left:16px;padding-top: 7px;">
+          <h6>Do you want to save as draft?</h6>
         </div>
         <div class="modal-footer" style="border-top:0px">
-          <button type="button"  data-dismiss="modal" class="cancelbutton" >Cancel</button>
+          <button type="button"  data-dismiss="modal" class="cancelbutton" >Back</button>
           <button type="button" style="margin-right:15px; padding:5px;    padding-left: 25px;
           padding-right: 25px; background-color:#49712d; color:white; border:none" data-dismiss="modal" (click)="draft()">Save</button>
         </div>
       </div>
     </div>
   </div>
+</div>

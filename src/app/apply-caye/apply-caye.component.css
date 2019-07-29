@@ -82,7 +82,7 @@ p{
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 400px) {
+/* @media only screen and (max-width: 768px) and (min-width: 400px) {
   #container {
     display: flex;
     flex-wrap: wrap;
@@ -103,4 +103,29 @@ p{
     font-size: 15px;
     margin-left:30%;
   }
+} */
+
+@media only screen and (min-width: 600px) and (max-width:768px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    padding:5px 5px 30px 5px;
+    width:100%;
+    margin-bottom:-20px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .submitbtn{
+    background-color:#49712d;
+    color:white;
+    border:none;
+    padding:5px 40px 5px 40px;
+    font-size: 15px;
+    margin-left:30%;
+  }
+
 }
+

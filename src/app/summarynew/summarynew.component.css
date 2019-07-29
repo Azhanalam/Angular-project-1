@@ -20,12 +20,24 @@
   
   }
 
-  @media (min-width: 697.5px) {
-      .maxdesktopwidth{
-        width: 697.5px;
+  @media (min-width: 970px) {
+    .wholesummary{
+      width: 970px;
+      margin:auto;
+    }
+  .maxdesktopwidth{
+    width: 697.5px;
+    margin: auto;
+    background: #F9F9F9;
+    padding: 10px;
+    margin-left: 231px;
+      }
+      .applyheading{
+        /* margin-top: 20px; */
+        margin-left: 12px;
       }
     .heading{
-        margin-left: 15px;
+        /* margin-left: 15px; */
         font-size: 28px;
         width: 602px;
         height: 31px;
@@ -73,9 +85,9 @@
           }
           hr {
             border: 0;
-            clear:both;
+            /* clear:both; */
             display:block;
-            width: 698px;               
+            width: 696px;               
             background-color:#707070;
             height: 1px;
             margin-top: 0px;
@@ -83,9 +95,9 @@
           }
           .horizontal{
             border: 0;
-            clear:both;
+            /* clear:both; */
             display:block;
-            width: 698px;               
+            width: 696px;               
             background-color:#707070;
             height: 1px;
             margin-top: 20.5px;
@@ -209,7 +221,7 @@
     color: #464642;
     }
     .TELEPHONE{
-        margin-left: -79px;
+        margin-left: 0px;
     }
    .telephoneoffice{
     width: 140px;
@@ -225,7 +237,7 @@
         font-size: 16px;
         font-family: 'Arial';
         color: #464642;
-        margin-left: 4px;
+        margin-left: 1px;
         margin-top: 5px;
     }
     .MOBILE{
@@ -293,7 +305,7 @@
      margin-top: 20px;
     }
     .HOUSE{
-        margin-left: -79px;
+        margin-left: 0px;
     }
     .blockhouseno{
         width: 137px;
@@ -309,7 +321,7 @@
         font-size: 16px;
         font-family: 'Arial';
         color: #464642;
-        margin-left: 4px;
+        margin-left: 1px;
         margin-top: 5px;
     }
     .LEVEL{
@@ -338,6 +350,7 @@
         width: 78px;
         height: 40px;
         color: #FFFFFF;
+        font-size: 16px;
       }
       .BUT1{
         width: 78px;
@@ -349,5 +362,6 @@
         border: none;
         border-radius: 0;
         background: #4F8208;
+        font-size: 16px;
       }
 }

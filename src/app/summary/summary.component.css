@@ -559,7 +559,7 @@ margin-left:22%; color:#49712d; font-weight:500
    font-size: 16px;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 400px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
   #container {
     display: flex;
     flex-wrap: wrap;

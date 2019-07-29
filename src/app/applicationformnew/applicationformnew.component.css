@@ -20,9 +20,20 @@
   
   }
 
-  @media (min-width: 697.5px) {
+  @media (min-width: 970px) {
+    .wholeapplicationform{
+      width: 970px;
+      margin:auto;
+    }
+    .telephonemobile{
+      width: 697.5px;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      margin-left: 240px;
+    }
     .heading{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     font-size: 28px;
     width: 602px;
     height: 31px;
@@ -74,29 +85,29 @@
       }
       hr {
         border: 0;
-        clear:both;
+        /* clear:both; */
         display:block;
-        width: 670px;               
+        width: 705px;               
         background-color:#707070;
         height: 1px;
         margin-top: 0px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
       }
       .horizontal{
         border: 0;
-        clear:both;
+        /* clear:both; */
         display:block;
-        width: 670px;               
+        width: 705px;               
         background-color:#707070;
         height: 1px;
         margin-top: 20.5px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
       }
       .part1{
         margin-top: 21px;
       }
       .requesterparticulars{
-        margin-left: 15px;
+        /* margin-left: 15px; */
         font-size: 18px;
         font-weight: bold;
         width: 263px;
@@ -108,7 +119,7 @@
         margin-top: 20.5px;
       }
       .entityinformation{
-        margin-left: 15px;
+        /* margin-left: 15px; */
         font-size: 18px;
         font-weight: bold;
         width: 215px;
@@ -120,7 +131,7 @@
         width: 246px;
         height: 17px;
         font-size: 16px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
         font-family: 'Arial';
         color: #464642;
         font-weight: bold;
@@ -131,7 +142,7 @@
       .passportnumber,.entityno{
        width: 163px;
        height: 17px;
-       margin-left: 15px;
+       /* margin-left: 15px; */
        font-size: 16px;
        font-family: 'Arial';
        color: #464642;
@@ -145,7 +156,7 @@
       width: 44px;
       height: 17px;
       font-size: 16px;
-      margin-left: 15px;
+      /* margin-left: 15px; */
       font-family: 'Arial';
       color: #464642;
       font-weight: bold;
@@ -153,7 +164,7 @@
     .passportname{
       width: 229px;
       height: 17px;
-      margin-left: 15px;
+      /* margin-left: 15px; */
       font-size: 16px;
       font-family: 'Arial';
       color: #464642;
@@ -165,7 +176,7 @@
     font-size: 16px;
     font-family: 'Arial';
     font-weight: bold;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     color: #464642;
     }
   .Name{
@@ -176,7 +187,7 @@
     height: 17px;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     color: #464642;
     font-family: 'Arial';
   }
@@ -192,11 +203,11 @@
     font-family: 'Arial';
   }
   .inputentity{
-    margin-left: 74px;
+    margin-left: 58px;
     margin-top: -33px;
   }
   .icon{
-    margin-left: 105px;
+    margin-left: 86px;
     margin-top: -21px;
   }
   .questionicon{
@@ -205,7 +216,7 @@
     border-radius: 50%;
   }
   .csnnameinput{
-    margin-left: 15px;
+    margin-left: 0;
   }
   .csninput{
     width: 410.5px;
@@ -216,7 +227,7 @@
     font-family: 'Arial';
   }
   .Email{
-    margin-left: 15px;
+    margin-left: 0;
   }
   .emailinput{
     width: 410.5px;
@@ -247,7 +258,7 @@
     color: #0070C0 !important;
   }
   .EMAILINPUT2{
-    margin-left: 15px;
+    margin-left: 0;
   }
   .contactdetails{
     width: 139px;
@@ -267,18 +278,18 @@
   }
   .contact,.business{
     margin-top: 20px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
   }
   .contactnum{
-    margin-left: 161px;
+    margin-left: 144px;
     margin-top: -29px;
   }
   .contactadd{
-    margin-left: 186px;
+    margin-left: 170px;
     margin-top: -29px;
   }
   .Radio1{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 20px;
   }
   .Radio{
@@ -307,15 +318,10 @@
     font-size: 16px;
     color: #464642;
   }
-  .telephonemobile{
-    width: 697.5px;
-    margin: auto;
-    background: #F9F9F9;
-    padding: 10px;
-  }
+  
   .telephone{
     margin-top: 21px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
   }
   .telephoneoffice{
     width: 140px;
@@ -326,10 +332,10 @@
     color: #464642;
   }
   .telephoneinput{
-    margin-left: 15px;
+    margin-left: 0;
   }
   .unitno{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: -40px;
   }
   .teleinput{
@@ -341,7 +347,7 @@
     font-family: 'Arial';
   }
   .mobileinput{
-    margin-left: 31.7%;
+    margin-left: 31.2%;
     width: 200px;
     border: .5px solid #707070;
     height: 40px;
@@ -351,7 +357,7 @@
     font-family: 'Arial';
   }
   .Mobile{
-    margin-left: 33%;
+    margin-left: 31.2%;
     margin-top: -13.6%;
   }
   .mobile{
@@ -363,7 +369,7 @@
     color: #464642;
   }
   .LEVEL{
-    margin-left: 33%;
+    margin-left: 31.2%;
     margin-top: -9.7%;
   }
   .level{
@@ -375,7 +381,7 @@
     color: #464642;
   }
   .telephonenumber{
-    margin-left: 114px;
+    margin-left: 100px;
     width: 100px;
     height: 17px;
     font-size: 16px;
@@ -383,7 +389,7 @@
     font-family: 'Arial';
   }
   .pincode{
-    margin-left: 153px;
+    margin-left: 140px;
     width: 100px;
     height: 17px;
     font-size: 16px;
@@ -392,7 +398,7 @@
     font-family: 'Arial';
   }
   .mobilenumber{
-    margin-left: 322px;
+    margin-left: 310px;
     width: 100px;
     height: 17px;
     font-size: 16px;
@@ -400,7 +406,7 @@
     font-family: 'Arial';
   }
   .email{
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 10px;
   }
   .emailaddress{
@@ -412,7 +418,7 @@
     color: #464642;
   }
   .addmail{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     width: 133px;
     height: 17px;
     font-size: 16px;
@@ -423,7 +429,7 @@
   }
   .sgaddresscode{
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 0px;
     width: 195px;
     height: 17px;
     font-size: 16px;
@@ -433,16 +439,19 @@
   }
   .SEARCH{
     width: 222px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 10px;
   }
   .searchbutton{
     width: 40px;
     height: 40px;
+    color: #F1F1F1;
+    border: .5px solid #707070;
   }
   .searchicon{
     width: 16.31px;
     height: 15.72px;
+    color: #464642;
   }
   .INPUTADDRESS{
     height: 40px;
@@ -450,7 +459,7 @@
     font-family: 'Arial';
   }
   .STREET1{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 10px;
   }
   .STREET{
@@ -462,7 +471,7 @@
     color: #464642;
   }
   .street{
-    width: 660px;
+    width: 696px;
     border: .5px solid #707070;
     height: 40px;
     color: #FFFFFF;
@@ -470,7 +479,7 @@
     font-family: 'Arial';
   }
   .street2{
-    width: 410.5px;
+    width: 696px;
     border: .5px solid #707070;
     height: 40px;
     color: #FFFFFF;
@@ -479,7 +488,7 @@
   }
   .addline{
     margin-top: -11px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
   }
   .ADDLINE{
    width: 133px;
@@ -491,7 +500,7 @@
   text-decoration: underline !important;
   }
   .block{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 18px;
   }
   .BLOCK{
@@ -503,13 +512,14 @@
     color: #464642;
   }
   .BUTTON{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 25px;
   }
   .BUT{
     width: 78px;
     height: 40px;
     color: #FFFFFF;
+    font-size: 16px;
   }
   .BUT1{
     width: 78px;
@@ -521,5 +531,6 @@
     border: none;
     border-radius: 0;
     background: #4F8208;
+    font-size: 16px;
   }
   }

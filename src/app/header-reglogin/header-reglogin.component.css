@@ -150,7 +150,7 @@
     /* For desktop: */
     .column-1 {width: 8.33%;}
     .column-2 {width: 16.66%;}
-    .column-3 {width: 25%;}
+    .column-3 {width: 27%;}
     .column-4 {width: 33.33%;}
     .column-5 {width: 41.66%;}
     .column-6 {width: 50%;}
@@ -257,13 +257,13 @@
 
     .serprovider{
       padding:15px 15px 0px 0px;
-      font-size:22px;
+      font-size:20px;
       margin-left:0px;
     }
     
     .onlineser{
       padding:0px 15px 1px 0px;
-      font-size:22px;
+      font-size:20px;
       margin-left:0px;
     }
 
@@ -275,7 +275,7 @@
       display: inline-block;
       margin-top:1%;
       margin-right:10px;
-      margin-left:54% !important;
+      margin-left:52% !important;
     }
 
     .employee{
@@ -378,13 +378,13 @@
   
     .serprovider{
       padding:15px 15px 0px 0px;
-      font-size:22px;
+      font-size:20px;
       margin-left:0px;
     }
   
     .onlineser{
       padding:0px 15px 1px 0px;
-      font-size:22px;
+      font-size:20px;
       margin-left:0px;
     }
   

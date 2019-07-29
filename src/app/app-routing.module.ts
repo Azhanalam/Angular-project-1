@@ -27,6 +27,7 @@ import { SubmitStatusComponent } from './submit-status/submit-status.component';
 import { DraftsubmissionComponent } from './draftsubmission/draftsubmission.component';
 import { DeductionComponent } from './deduction/deduction.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
+import { HeaderModifiedComponent } from './header-modified/header-modified.component';
 import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
 import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
 
@@ -36,9 +37,11 @@ import { ApplicationformnewComponent } from './applicationformnew/applicationfor
 import { SummarynewComponent } from './summarynew/summarynew.component';
 import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
+import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 
 const routes: Routes = [
+  {path:'applycayenew',component:ApplycayenewComponent},
   {path:'requeststatus',component:RequeststatusnewComponent},
   {path:'acknowledgenew',component:AcknowledgenewComponent},
   {path:'summarynew',component:SummarynewComponent},
@@ -47,6 +50,7 @@ const routes: Routes = [
 
 
 
+  {path:'header',component:HeaderModifiedComponent},
   {path:'viewcayerefund',component:ViewCayeRefundReqComponent},
   {path:'viewcayecontribution',component:ViewCayeContributionComponent},
   {path:'transactionhistory',component:TransactionHistoryComponent},

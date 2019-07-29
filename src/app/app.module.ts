@@ -57,6 +57,8 @@ import { ApplicationformnewComponent } from './applicationformnew/applicationfor
 import { SummarynewComponent } from './summarynew/summarynew.component';
 import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
+import {HeaderModifiedComponent} from './header-modified/header-modified.component';
+import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 
 @NgModule({
@@ -100,6 +102,9 @@ import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.c
     SummarynewComponent,
     AcknowledgenewComponent,
     RequeststatusnewComponent
+    HeaderModifiedComponent
+    ViewCayeRefundReqComponent,
+    ApplycayenewComponent
   ],
   imports: [
     MatListModule,

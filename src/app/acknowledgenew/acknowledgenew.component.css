@@ -20,15 +20,20 @@
   
   }
 
-  @media (min-width: 697.5px) {
+  @media (min-width: 970px) {
+    .wholeacknowledge{
+      width: 970px;
+      margin:auto;
+    }
     .acknowledgementwhole{
       width: 697.5px;
       margin: auto;
       background: #F9F9F9;
       padding: 10px;
+      margin-left: 241px;
     }
     .acknowledge{
-      margin-left: 15px;
+      margin-left: 0px;
     }
     .acknowledgement{
       width: 229px;
@@ -50,14 +55,14 @@
   .transaction{
     width: 697.5px;
     height: 44px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 23px;
     background: #DFF0D8;
     border: .5px solid #D6E9C6;
     }
     .TABLEDIV{
       margin-top: 20px;
-      margin-left: 15px;
+      /* margin-left: 15px; */
     }
     .Table{
       width: 697.5px;
@@ -78,7 +83,7 @@
       columns: #464642;
     }
     .thank{
-      margin-left: 15px;
+      margin-left: 0px;
       margin-top: 20px;
     }
     .thankyou{
@@ -90,7 +95,7 @@
       font-size: 16px;
     }
     .gridcontainer{
-      margin-left: 4px;
+      margin-left: -10px;
       margin-top: 10px;
     }
     .yourapplication{
@@ -123,16 +128,16 @@
     }
     hr {
       border: 0;
-      clear:both;
+      /* clear:both; */
       display:block;
       width: 698px;               
       background-color:#707070;
       height: 1px;
       margin-top:0;
-      margin-left: 15px;
+      /* margin-left: 15px; */
     }
     .BACKTOMAIN{
-      margin-left: 15px;
+      /* margin-left: 15px; */
       margin-top: 20px;
     }
     .backtomain{

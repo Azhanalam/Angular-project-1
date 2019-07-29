@@ -57,7 +57,9 @@ export class ApplicationformnewComponent implements OnInit {
   {
     this.input.pop();
   }
-  
+  add1() {
+    this.input1.push({value: ''});
+  }
 
   
 }

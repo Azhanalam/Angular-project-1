@@ -20,18 +20,28 @@
   
   }
 
-  @media (min-width: 697.5px) {
+  @media (min-width: 970px) {
+    .wholeregistration{
+      width: 970px;
+      margin: auto;
+    }
+    .registration{
+    width: 697.5px;
+    margin: auto;
+    background: #F9F9F9;
+    padding: 10px;
+    margin-left: 240px;
+    }
 .ContributeAsYou{
     font-size: 28px;
     text-align: left;
     color: #4F8208;
     font-family: 'Arial';
     width: 503px;
-    font-weight: 'Regular';
 }
 .cayeheight{
     height: 31px;
-    margin-left: 15px;
+    /* margin-left: 23.5px; */
 }
 .requestprocess{
     color: #8A6D3B;
@@ -39,35 +49,41 @@
     width: 666px;
     font-family: 'Arial';
     height: 25px;
-    font-weight: 'Regular';
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .requestprocessdiv{
     margin-top: 20px;
-    height: 21.5px;
-    margin-left: 25px;
+    /* margin-left: 23.5px; */
+    width: 697.5px;
+    height: 44px;
+    border: .5px solid #FAEBCC;
+    color: #FCF8E3
 }
-hr {
+.horizontal{
     border: 0;
-    clear:both;
+    /* clear:both; */
     display:block;
-    width: 96%;               
+    width: 696px;               
     background-color:#707070;
     height: 1px;
     margin-top: 40.5px;
-    margin-left: 15px;
+    /* margin-left: 23.5px; */
   }
   .link{
-    margin-left: 15px;
+    width: 105px;
+    height: 17px;
     font-weight: bold;
     font-family: 'Arial';
     color: #464642;
-    height: 17px;
+    font-size: 16px;
   }
   .relatedlink{
       margin-top: 12.5px;
+      /* margin-left: 23.5px; */
   }
   .symbol{
-    margin-left: 15px;
+    /* margin-left: 23.5px; */
     color: #4F8208;
     width: 271px;
     height: 11.9px;
