@@ -92,6 +92,7 @@ import {HeaderModifiedComponent} from './header-modified/header-modified.compone
     ViewCayeContributionComponent,
     ViewCayeRefundReqComponent,
     HeaderModifiedComponent
+    ViewCayeRefundReqComponent
   ],
   imports: [
     MatListModule,
