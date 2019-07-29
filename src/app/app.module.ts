@@ -91,7 +91,7 @@ import {HeaderModifiedComponent} from './header-modified/header-modified.compone
     HeaderTransactionComponent,
     ViewCayeContributionComponent,
     ViewCayeRefundReqComponent,
-    HeaderModifiedComponent
+    HeaderModifiedComponent,
     ViewCayeRefundReqComponent
   ],
   imports: [

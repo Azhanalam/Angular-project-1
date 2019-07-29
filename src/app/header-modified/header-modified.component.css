@@ -225,6 +225,15 @@
     font-size: 16px;
     line-height: 1.2;
     }
+
+    .screenwidth{
+      width:100%;
+      margin:auto;
+    }
+
+    .imagesize{
+      width:9%;
+    }
   
   @media (min-width: 768px) {
     .componentWrapper {
@@ -290,6 +299,15 @@
     padding-right: 28px;
     font-size: 16px;
     line-height: 1.2;
+    }
+
+    .screenwidth{
+      width:970px;
+      margin:auto;
+    }
+
+    .imagesize{
+      width:5%;
     }
   }
   
