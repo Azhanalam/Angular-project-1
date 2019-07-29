@@ -225,16 +225,24 @@ margin-left:22%; color:#49712d; font-weight:500
     margin-top: 10px;
   
   }
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:black;
+    height: 1px;
+  }
   .horizontal{
     border: .30px solid gray !important;
-    width: 122% !important;
+    width: 109% !important;
     margin-right: 218px !important;
   }
-  .horizontal1{
-    border: .25px solid gray;
-    width: 105%;
-   margin-left: -3px;
-  }
+  /* .horizontal1{
+    border: .25px solid gray !important;
+    width: 60% !important;
+   margin-left: -3px !important;
+  } */
     .LEVEL{
       margin-left: 220px;
       font-weight:400;
@@ -281,9 +289,9 @@ margin-left:22%; color:#49712d; font-weight:500
   margin-right: 218px !important;
 } */
 .horizontal1{
-  border: .25px solid gray !important;
-  width: 105% !important;
- margin-left: -3px !important;
+  border: .25px solid gray ;
+  width: 105% ;
+ margin-left: -3px ;
 }
 
 .H5{
@@ -333,43 +341,7 @@ margin-left:22%; color:#49712d; font-weight:500
     position: relative;
 }
 
-.btn-circle{
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px !important;
-  border: 1px solid rgb(75, 74, 74);
-}
-
-.btn-circle1{
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px !important;
-  border: 1px solid #49712d;
-}
-
-.btn-circle2{
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px !important;
-  border: 1px solid rgb(75, 74, 74);
-}
-
-.stepwizard{
-  background:#bcbcb5;
-  padding:17px;
-}
+/*  */
 
 .H{
   font-weight: bold;
@@ -605,6 +577,15 @@ margin-left:22%; color:#49712d; font-weight:500
     background: white;
     height: 93px;
    }
+   hr {
+    border: 0 !important;
+    clear:both;
+    display:block;
+    width: 96% !important;               
+    background-color:black;
+    height: 1px;
+  }
+  
    .H5{
     color: white;
     font-size: 30px;

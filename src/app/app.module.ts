@@ -50,8 +50,9 @@ import { HeaderRegloginComponent } from './header-reglogin/header-reglogin.compo
 import { DeductionComponent } from './deduction/deduction.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 import { HeaderTransactionComponent } from './header-transaction/header-transaction.component';
-import { HeaderModifiedComponent } from './header-modified/header-modified.component';
-
+import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
+import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
+import {HeaderModifiedComponent} from './header-modified/header-modified.component';
 
 
 @NgModule({
@@ -88,6 +89,8 @@ import { HeaderModifiedComponent } from './header-modified/header-modified.compo
     DeductionComponent,
     TransactionHistoryComponent,
     HeaderTransactionComponent,
+    ViewCayeContributionComponent,
+    ViewCayeRefundReqComponent,
     HeaderModifiedComponent
   ],
   imports: [
