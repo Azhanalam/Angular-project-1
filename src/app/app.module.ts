@@ -50,6 +50,8 @@ import { HeaderRegloginComponent } from './header-reglogin/header-reglogin.compo
 import { DeductionComponent } from './deduction/deduction.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 import { HeaderTransactionComponent } from './header-transaction/header-transaction.component';
+import { HeaderModifiedComponent } from './header-modified/header-modified.component';
+
 
 
 @NgModule({
@@ -85,7 +87,8 @@ import { HeaderTransactionComponent } from './header-transaction/header-transact
     HeaderRegloginComponent,
     DeductionComponent,
     TransactionHistoryComponent,
-    HeaderTransactionComponent
+    HeaderTransactionComponent,
+    HeaderModifiedComponent
   ],
   imports: [
     MatListModule,

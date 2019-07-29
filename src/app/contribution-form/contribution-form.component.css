@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     border-top:1px solid grey;
-    border-bottom:1px solid grey;
+    border-bottom:3px solid #49712d;
     padding:5px 5px 5px 5px;
     width:100%;
   }
@@ -12,9 +12,9 @@
       display: flex;
       flex-wrap: wrap;
       border-top:1px solid grey;
-      border-bottom:1px solid grey;
+      border-bottom:3px solid #49712d;
       padding:5px 5px 0px 5px;
-      width:78%;
+      width:68%;
     }
 
     
@@ -91,6 +91,10 @@
 
   .row3{
     margin-left:85px
+  }
+
+  .bodywidth{
+    width:65%; margin-left:17.5%; background-color:#f2f2f3;
   }
 
   @media only screen and (min-width: 768px) {
@@ -174,7 +178,7 @@
       {
         color:#ce3c3c; 
         background-color:rgba(240, 180, 180, 0.61);
-        padding: 10px 746px 10px 10px;
+        padding: 10px 291px 10px 10px !important;
       }
       .cancelbutton{
         margin-right:165px;
@@ -183,6 +187,10 @@
         padding-left: 25px;
         padding-right: 25px; 
         border:none
+      }
+
+      .bodywidth{
+        width:65%; margin-left:17.5%; background-color:#f2f2f3;
       }
   }
 
@@ -301,6 +309,7 @@
     padding: 6px 12px;
     cursor: pointer;
     font-weight:500;
+    margin-left:2%
 }
 .btn-circle1{
   width: 30px;
@@ -382,7 +391,7 @@
       border:none;
       padding:5px 40px 5px 40px;
       font-size: 15px;
-      margin-left: 18%;
+      margin-left: 27%;
       margin-top: 1%;
       margin-bottom:1%;
   }
@@ -401,7 +410,7 @@
     border:none;
     padding:5px 40px 5px 40px;
     font-size: 15px;
-    margin-left:45%;
+    margin-left:18%;
   }
 
   .limit{
@@ -414,7 +423,7 @@
   }
 
   .step1{
-    margin-left:0px; color: #49712d; font-weight:500
+    margin-left:30%; color: #49712d; font-weight:500
   }
   
   
@@ -434,7 +443,7 @@
     display: inline-block;
     text-align: center;
     padding:5px;
-    margin-left:0px;
+    margin-left:30%;
     margin-bottom: 10px;
    border: 2px solid #49712d;
   }
@@ -468,7 +477,7 @@
   .pagination {
     /* display: inline-block; */
     margin-top: -34px;
-    margin-left: 190%;
+    margin-left: 100%;
     width: 100%;
   }
 

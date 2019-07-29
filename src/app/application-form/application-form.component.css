@@ -929,7 +929,7 @@ padding:1px 15px 300px 15px
 
 
 
-@media only screen and (max-width: 768px) and (min-width: 400px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
   #container{
     display: flex;
     flex-wrap: wrap;
@@ -1098,6 +1098,8 @@ hr {
   height: 1px;
 }
 }
+
+
 
 /* .stepwizard-row {
         display: table-row;
