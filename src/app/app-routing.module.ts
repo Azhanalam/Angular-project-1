@@ -31,9 +31,11 @@ import { HeaderModifiedComponent } from './header-modified/header-modified.compo
 import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
 import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
 
+import { HeaderMakecayeModifiedComponent } from './header-makecaye-modified/header-makecaye-modified.component';
+
 
 const routes: Routes = [
-  {path:'header',component:HeaderModifiedComponent},
+  {path:'header',component:HeaderMakecayeModifiedComponent},
   {path:'viewcayerefund',component:ViewCayeRefundReqComponent},
   {path:'viewcayecontribution',component:ViewCayeContributionComponent},
   {path:'transactionhistory',component:TransactionHistoryComponent},

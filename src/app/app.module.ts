@@ -53,6 +53,8 @@ import { HeaderTransactionComponent } from './header-transaction/header-transact
 import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
 import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
 import {HeaderModifiedComponent} from './header-modified/header-modified.component';
+import { HeaderMakecayeModifiedComponent } from './header-makecaye-modified/header-makecaye-modified.component';
+import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/header-reglogin-modified.component';
 
 
 @NgModule({
@@ -92,7 +94,9 @@ import {HeaderModifiedComponent} from './header-modified/header-modified.compone
     ViewCayeContributionComponent,
     ViewCayeRefundReqComponent,
     HeaderModifiedComponent,
-    ViewCayeRefundReqComponent
+    ViewCayeRefundReqComponent,
+    HeaderMakecayeModifiedComponent,
+    HeaderRegloginModifiedComponent
   ],
   imports: [
     MatListModule,
