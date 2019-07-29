@@ -1,0 +1,102 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  @media (min-width: 970px) {
+    .wholeregistration{
+      width: 970px;
+      margin: auto;
+    }
+    .registration{
+    width: 697.5px;
+    margin: auto;
+    background: #F9F9F9;
+    padding: 10px;
+    margin-left: 240px;
+    }
+.ContributeAsYou{
+    font-size: 28px;
+    text-align: left;
+    color: #4F8208;
+    font-family: 'Arial';
+    width: 503px;
+}
+.cayeheight{
+    height: 31px;
+    /* margin-left: 23.5px; */
+}
+.requestprocess{
+    color: #8A6D3B;
+    font-size: 16px;
+    width: 666px;
+    font-family: 'Arial';
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.requestprocessdiv{
+    margin-top: 20px;
+    /* margin-left: 23.5px; */
+    width: 697.5px;
+    height: 44px;
+    border: .5px solid #FAEBCC;
+    color: #FCF8E3
+}
+.horizontal{
+    border: 0;
+    /* clear:both; */
+    display:block;
+    width: 696px;               
+    background-color:#707070;
+    height: 1px;
+    margin-top: 40.5px;
+    /* margin-left: 23.5px; */
+  }
+  .link{
+    width: 105px;
+    height: 17px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #464642;
+    font-size: 16px;
+  }
+  .relatedlink{
+      margin-top: 12.5px;
+      /* margin-left: 23.5px; */
+  }
+  .symbol{
+    /* margin-left: 23.5px; */
+    color: #4F8208;
+    width: 271px;
+    height: 11.9px;
+    font-size: 16px;
+  }
+  .applylinkforcaye{
+    /* width: 259px; */
+    /* margin-left: 5px; */
+    height: 11.9px;
+    font-size: 16px;
+    font-family: 'Arial';
+  }
+  .applylink{
+      margin-top: 16px;
+  }
+  }

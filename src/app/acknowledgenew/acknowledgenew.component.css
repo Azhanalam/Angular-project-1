@@ -1,0 +1,315 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  @media (min-width: 768px) {
+    .wholeacknowledge{
+      width: 970px;
+      margin:auto;
+    }
+    .acknowledgementwhole{
+      width: 697.5px;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      margin-left: 241px;
+    }
+    .acknowledge{
+      margin-left: 0px;
+    }
+    .acknowledgement{
+      width: 229px;
+      height: 31px;
+      font-size: 28px;
+      font-family: 'Arial';
+      color: #4F8208;
+      font-weight: normal;
+    }
+  .transactionsuccessful{
+    width: 681px;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #436F07;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+  .transaction{
+    width: 697.5px;
+    height: 44px;
+    /* margin-left: 15px; */
+    margin-top: 23px;
+    background: #DFF0D8;
+    border: .5px solid #D6E9C6;
+    }
+    .TABLEDIV{
+      margin-top: 20px;
+      /* margin-left: 15px; */
+    }
+    .Table{
+      width: 697.5px;
+    }
+    th{
+      height: 36px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+      background: #D2D2D2;
+    }
+    td{
+      width: 199px;
+      height: 35px;
+      font-size: 16px;
+      font-family: 'Arial';
+      columns: #464642;
+    }
+    .thank{
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    .thankyou{
+      width: 86px;
+      height: 17px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+    }
+    .gridcontainer{
+      margin-left: -10px;
+      margin-top: 10px;
+    }
+    .yourapplication{
+    width: 681px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .GRID{
+      margin-left: 10px;
+    }
+    .checkstatus{
+      width: 681px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 30px;
+    }
+    .visitwebsite{
+      width: 681px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 30px;
+    }
+    .status{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .servicestandard{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .horizontalline{
+      margin-top: 51.5px;
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 698px;               
+      background-color:#707070;
+      height: 1px;
+      margin-top:0;
+      /* margin-left: 15px; */
+    }
+    .BACKTOMAIN{
+      /* margin-left: 15px; */
+      margin-top: 20px;
+    }
+    .backtomain{
+      width: 93px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+      font-weight: normal;
+    }
+  }
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .wholeacknowledge{
+      width: 100%;
+      margin:auto;
+    }
+    .acknowledgementwhole{
+      width: 100%;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      /* margin-left: 241px; */
+    }
+    .acknowledge{
+      margin-left: 0px;
+    }
+    .acknowledgement{
+      width: 100%;
+      height: 31px;
+      font-size: 28px;
+      font-family: 'Arial';
+      color: #4F8208;
+      font-weight: normal;
+    }
+  .transactionsuccessful{
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #436F07;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    }
+  .transaction{
+    width: 100%;
+    height: 70px;
+    /* margin-left: -9px; */
+    margin-top: 23px;
+    background: #DFF0D8;
+    border: .5px solid #D6E9C6;
+    margin: auto;
+    }
+    .TABLEDIV{
+      margin-top: 20px;
+      /* margin-left: 15px; */
+    }
+    .Table{
+      width: 100%;
+    }
+    th{
+      height: 36px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+      background: #D2D2D2;
+    }
+    td{
+      width: 100%;
+      height: 35px;
+      font-size: 16px;
+      font-family: 'Arial';
+      columns: #464642;
+    }
+    .thank{
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    .thankyou{
+      width: 100%;
+      height: 17px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+    }
+    .gridcontainer{
+      margin-left: -10px;
+      margin-top: 10px;
+    }
+    .yourapplication{
+      width: 100%;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .GRID{
+      margin-left: 10px;
+    }
+    .checkstatus{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 20px;
+    }
+    .visitwebsite{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 48px;
+    }
+    .status{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .servicestandard{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .horizontalline{
+      margin-top: 85px;
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 100%;               
+      background-color:#707070;
+      height: 1px;
+      margin-top:0;
+      /* margin-left: 15px; */
+    }
+    .BACKTOMAIN{
+      /* margin-left: 15px; */
+      margin-top: 10px;
+    }
+    .backtomain{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+      font-weight: normal;
+    }
+
+  }
+  

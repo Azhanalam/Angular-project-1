@@ -52,9 +52,17 @@ import { TransactionHistoryComponent } from './transaction-history/transaction-h
 import { HeaderTransactionComponent } from './header-transaction/header-transaction.component';
 import { ViewCayeContributionComponent } from './view-caye-contribution/view-caye-contribution.component';
 import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-refund-req.component';
+import { ApplyCayeSubmissionNewComponent } from './apply-caye-submission-new/apply-caye-submission-new.component';
+import { ApplicationformnewComponent } from './applicationformnew/applicationformnew.component';
+import { SummarynewComponent } from './summarynew/summarynew.component';
+import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
+import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 import {HeaderModifiedComponent} from './header-modified/header-modified.component';
+
 import { HeaderMakecayeModifiedComponent } from './header-makecaye-modified/header-makecaye-modified.component';
 import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/header-reglogin-modified.component';
+
+import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 
 @NgModule({
@@ -93,6 +101,14 @@ import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/head
     HeaderTransactionComponent,
     ViewCayeContributionComponent,
     ViewCayeRefundReqComponent,
+    ApplyCayeSubmissionNewComponent,
+    ApplicationformnewComponent,
+    SummarynewComponent,
+    AcknowledgenewComponent,
+    RequeststatusnewComponent,
+    HeaderModifiedComponent,
+    ViewCayeRefundReqComponent,
+    ApplycayenewComponent,
     HeaderModifiedComponent,
     ViewCayeRefundReqComponent,
     HeaderMakecayeModifiedComponent,

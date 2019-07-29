@@ -1,0 +1,724 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  @media (min-width: 768px) {
+    .wholesummary{
+      width: 970px;
+      margin:auto;
+    }
+  .maxdesktopwidth{
+    width: 697.5px;
+    margin: auto;
+    background: #F9F9F9;
+    padding: 10px;
+    margin-left: 231px;
+      }
+      .applyheading{
+        /* margin-top: 20px; */
+        margin-left: 12px;
+      }
+    .heading{
+        /* margin-left: 15px; */
+        font-size: 28px;
+        width: 602px;
+        height: 31px;
+        color: #4F8208;
+        font-family: 'Arial';
+        }
+        .box1{
+            width: 698px;
+            padding: 12px 15px 0px 15px;
+            margin-left: 10px;
+            background: white;
+            height: 102px;
+            margin-top: 40px;
+           }
+           .dot2 {
+            height: 40px;
+            width: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            padding:9px;
+            margin-left:30%;
+            border: 2px solid #D2D2D2;
+            color:#D2D2D2;
+          }
+          .dot3 {
+            height: 40px;
+            width: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            padding:9px;
+            margin-left:22%;
+            border: 2px solid #49712d;
+            color:#4F8208;
+          }
+          .step2{
+            margin-left:31%; color:#D2D2D2;  font-weight:500
+          }
+          
+          .step3{
+            margin-left:25%;color: #4F8208;font-weight:500
+          }
+          hr {
+            border: 0;
+            /* clear:both; */
+            display:block;
+            width: 696px;               
+            background-color:#707070;
+            height: 1px;
+            margin-top: 0px;
+            margin-left: 15px;
+          }
+          .horizontal{
+            border: 0;
+            /* clear:both; */
+            display:block;
+            width: 696px;               
+            background-color:#707070;
+            height: 1px;
+            margin-top: 20.5px;
+            margin-left: 15px;
+          }
+          .part1{
+            margin-top: 21px;
+          }
+          .requesterparticulars{
+            margin-left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            width: 263px;
+            height: 21px;
+            font-family: 'Arial';
+            color: #464642;
+          }
+          .part2{
+            margin-top: 20.5px;
+          }
+          .entityinformation{
+            margin-left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            width: 215px;
+            height: 20px;
+            font-family: 'Arial';
+            color: #464642;
+          }
+          .nricidentification,.uniqueentity{
+            width: 246px;
+            height: 17px;
+            font-size: 16px;
+            margin-left: 15px;
+            font-family: 'Arial';
+            color: #464642;
+            font-weight: bold;
+          }
+          .nric{
+            margin-top: 20px;
+          }
+          .unique{
+            margin-top: 19px;
+          }
+          .passportnumber,.entityno{
+           width: 163px;
+           height: 17px;
+           margin-left: 15px;
+           font-size: 16px;
+           font-family: 'Arial';
+           color: #464642;
+           margin-top: 5px;
+          }
+        .nameofpassport
+        {
+          margin-top: 20px;
+        }
+        .name{
+          width: 44px;
+          height: 17px;
+          font-size: 16px;
+          margin-left: 15px;
+          font-family: 'Arial';
+          color: #464642;
+          font-weight: bold;
+        }
+        .passportname{
+          width: 229px;
+          height: 17px;
+          margin-left: 15px;
+          font-size: 16px;
+          font-family: 'Arial';
+          color: #464642;
+          margin-top: 0px;
+        }
+        .entityname{
+            margin-left: 15px;
+            margin-top: 19px;
+        }
+        .Enitity{
+            width: 93px;
+            height: 17px;
+            font-family: 'Arial';
+            font-size: 16px;
+            font-weight: bold;
+            color: #464642;
+        }
+        .cayenanyang{
+            width: 207px;
+            height: 17px;
+            font-family: 'Arial';
+            font-size: 16px;
+            color: #464642;
+            margin-top: 5px !important;
+        }
+        .csnname{
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        .CSNNAME{
+            width: 83px;
+            height: 17px;
+            font-family: 'Arial';
+            font-size: 16px;
+            font-weight: bold;
+            color: #464642;
+        }
+        .icon{
+            margin-left: 103px;
+            margin-top: -21px;
+        }
+    .school{
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+   .schoolofengineering{
+    width: 157px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .TELEPHONE{
+        margin-left: 0px;
+    }
+   .telephoneoffice{
+    width: 140px;
+    height: 17px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .telephonenumber{
+        width: 71px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .MOBILE{
+        margin-left: -232px;
+    }
+    .mobile{
+    width: 51px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #464642;
+    }
+    .mobilenumber{
+    width: 71px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .contactdetails{
+        margin-top: 20px;
+    }
+    .EMAIL{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .emailaddress{
+    width: 112px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #464642;
+    }
+    .emailid{
+    width: 143px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    margin-top: 5px;
+    }
+    .STREET{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .streetname{
+        width: 94px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        font-weight: bold;
+        color: #464642;
+    }
+    .streetdetail{
+    width: 155px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    margin-top: 5px;
+    }
+    .addressdetails{
+     margin-top: 20px;
+    }
+    .HOUSE{
+        margin-left: 0px;
+    }
+    .blockhouseno{
+        width: 137px;
+        height: 17px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Arial';
+        color: #464642;
+    }
+    .houseno{
+        width: 19px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .LEVEL{
+        margin-left: -232px;
+    }
+    .levelunitno{
+        width: 117px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        font-weight: bold;
+        color: #464642;
+    }
+    .unitnumber{
+        width: 55px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+    }
+    .BUTTON{
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+      .BUT{
+        width: 78px;
+        height: 40px;
+        color: #FFFFFF;
+        font-size: 16px;
+      }
+      .BUT1{
+        width: 78px;
+        height: 40px;
+        color: #FFFFFF;
+        margin-left:15px;
+        margin-top:0;
+        width:80px;
+        border: none;
+        border-radius: 0;
+        background: #4F8208;
+        font-size: 16px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+  .wholesummary{
+    width:100%;
+    margin:auto;
+  }
+.maxdesktopwidth{
+  width:100%;
+  margin: auto;
+  background: #F9F9F9;
+  padding: 10px;
+  /* margin-left: 231px; */
+    }
+    .applyheading{
+      /* margin-top: 20px; */
+      margin-left: 12px;
+    }
+  .heading{
+      /* margin-left: 15px; */
+      font-size: 28px;
+      width: 100%;
+      height: 31px;
+      color: #4F8208;
+      font-family: 'Arial';
+      }
+      .box1{
+          width: 100%;
+          padding: 12px 15px 0px 15px;
+          margin-left: 10px;
+          background: white;
+          height: 102px;
+          margin-top: 40px;
+         }
+         .dot2 {
+          height: 40px;
+          width: 40px;
+          background-color: white;
+          border-radius: 50%;
+          display: inline-block;
+          text-align: center;
+          padding:7px;
+          margin-left:25%;
+          border: 2px solid #D2D2D2;
+          color:#D2D2D2;
+          font-size: 16px;
+        }
+        .dot3 {
+          height: 40px;
+          width: 40px;
+          background-color: white;
+          border-radius: 50%;
+          display: inline-block;
+          text-align: center;
+          padding:7px;
+          margin-left:22%;
+          border: 2px solid #49712d;
+          color:#4F8208;
+          font-size: 16px;
+        }
+        .step2{
+          margin-left:26%; color:#D2D2D2;  font-weight:500;font-size: 16px;
+        }
+        
+        .step3{
+          margin-left:24%;color: #4F8208;font-weight:500;font-size: 16px;
+        }
+        hr {
+          border: 0;
+          /* clear:both; */
+          display:block;
+          width: 100%;               
+          background-color:#707070;
+          height: 1px;
+          margin-top: 0px;
+          margin-left: 15px;
+        }
+        .horizontal{
+          border: 0;
+          /* clear:both; */
+          display:block;
+          width: 100%;               
+          background-color:#707070;
+          height: 1px;
+          margin-top: 20.5px;
+          margin-left: 15px;
+        }
+        .part1{
+          margin-top: 21px;
+        }
+        .requesterparticulars{
+          margin-left: 15px;
+          font-size: 18px;
+          font-weight: bold;
+          width: 100%;
+          height: 21px;
+          font-family: 'Arial';
+          color: #464642;
+        }
+        .part2{
+          margin-top: 20.5px;
+        }
+        .entityinformation{
+          margin-left: 15px;
+          font-size: 18px;
+          font-weight: bold;
+          width: 100%;
+          height: 20px;
+          font-family: 'Arial';
+          color: #464642;
+        }
+        .nricidentification,.uniqueentity{
+          width: 100%;
+          height: 17px;
+          font-size: 16px;
+          margin-left: 15px;
+          font-family: 'Arial';
+          color: #464642;
+          font-weight: bold;
+        }
+        .nric{
+          margin-top: 20px;
+        }
+        .unique{
+          margin-top: 19px;
+        }
+        .passportnumber,.entityno{
+         width: 100%;
+         height: 17px;
+         margin-left: 15px;
+         font-size: 16px;
+         font-family: 'Arial';
+         color: #464642;
+         margin-top: 5px;
+        }
+      .nameofpassport
+      {
+        margin-top: 20px;
+      }
+      .name{
+        width: 100%;
+        height: 17px;
+        font-size: 16px;
+        margin-left: 15px;
+        font-family: 'Arial';
+        color: #464642;
+        font-weight: bold;
+      }
+      .passportname{
+        width: 100%;
+        height: 17px;
+        margin-left: 15px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        margin-top: 0px;
+      }
+      .entityname{
+          margin-left: 15px;
+          margin-top: 19px;
+      }
+      .Enitity{
+          width: 100%;
+          height: 17px;
+          font-family: 'Arial';
+          font-size: 16px;
+          font-weight: bold;
+          color: #464642;
+      }
+      .cayenanyang{
+          width: 100%;
+          height: 17px;
+          font-family: 'Arial';
+          font-size: 16px;
+          color: #464642;
+          margin-top: 5px !important;
+      }
+      .csnname{
+          margin-left: 15px;
+          margin-top: 20px;
+      }
+      .CSNNAME{
+          width: 100%;
+          height: 17px;
+          font-family: 'Arial';
+          font-size: 16px;
+          font-weight: bold;
+          color: #464642;
+      }
+      .icon{
+          margin-left: 103px;
+          margin-top: -21px;
+      }
+  .school{
+      margin-left: 15px;
+      margin-top: 5px;
+  }
+ .schoolofengineering{
+  width: 100%;
+  height: 17px;
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #464642;
+  }
+  .TELEPHONE{
+      margin-left: 0px;
+  }
+ .telephoneoffice{
+  width: 100%;
+  height: 17px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Arial';
+  color: #464642;
+  }
+  .telephonenumber{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-left: 1px;
+      margin-top: 5px;
+  }
+  .MOBILE{
+      margin-left: 0;
+  }
+  .mobile{
+  width:100%;
+  height: 17px;
+  font-size: 16px;
+  font-family: 'Arial';
+  font-weight: bold;
+  color: #464642;
+  }
+  .mobilenumber{
+  width:100%;
+  height: 17px;
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #464642;
+  }
+  .contactdetails{
+      margin-top: 20px;
+  }
+  .EMAIL{
+      margin-left: 15px;
+      margin-top: 10px;
+  }
+  .emailaddress{
+  width: 100%;
+  height: 17px;
+  font-size: 16px;
+  font-family: 'Arial';
+  font-weight: bold;
+  color: #464642;
+  }
+  .emailid{
+  width:100%;
+  height: 17px;
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #464642;
+  margin-top: 5px;
+  }
+  .STREET{
+      margin-left: 15px;
+      margin-top: 20px;
+  }
+  .streetname{
+      width:100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      font-weight: bold;
+      color: #464642;
+  }
+  .streetdetail{
+  width:100%;
+  height: 17px;
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #464642;
+  margin-top: 5px;
+  }
+  .addressdetails{
+   margin-top: 20px;
+  }
+  .HOUSE{
+      margin-left: 0px;
+  }
+  .blockhouseno{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: 'Arial';
+      color: #464642;
+  }
+  .houseno{
+      width: 19px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-left: 1px;
+      margin-top: 5px;
+  }
+  .LEVEL{
+      margin-left: 0;
+  }
+  .levelunitno{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      font-weight: bold;
+      color: #464642;
+  }
+  .unitnumber{
+      width:100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+  }
+  .BUTTON{
+      margin-left: 15px;
+      margin-top: 25px;
+    }
+    .BUT{
+      width:100%;
+      height: 40px;
+      color: #FFFFFF;
+      font-size: 16px;
+    }
+    .BUT1{
+      width:100%;
+      height: 40px;
+      color: #FFFFFF;
+      margin-left:0;
+      margin-top:10px;
+      border: none;
+      border-radius: 0;
+      background: #4F8208;
+      font-size: 16px;
+    }
+}
