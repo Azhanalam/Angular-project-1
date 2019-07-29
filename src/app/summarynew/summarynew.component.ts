@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-summarynew',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SummarynewComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  Next(){
+    this.router.navigate(["acknowledgenew"]);
+  }
+
+  Back()
+  {
+    this.router.navigate(["applicationformnew"]);
+  }
 }

@@ -103,6 +103,16 @@
         margin-top: 20.5px;
         /* margin-left: 15px; */
       }
+      .horizontal1{
+        border: 0;
+        /* clear:both; */
+        display:block;
+        width: 705px;               
+        background-color:#707070;
+        height: 1px;
+        margin-top: 20.5px;
+        /* margin-left: 15px; */
+      }
       .part1{
         margin-top: 21px;
       }
@@ -679,6 +689,16 @@
         background-color:#707070;
         height: 1px;
         margin-top: 20.5px;
+        /* margin-left: 15px; */
+      }
+      .horizontal1{
+        border: 0;
+        /* clear:both; */
+        display:block;
+        width: 100%;              
+        background-color:#707070;
+        height: 1px;
+        /* margin-top: 20.5px; */
         /* margin-left: 15px; */
       }
       .part1{

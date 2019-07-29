@@ -20,7 +20,7 @@
   
   }
 
-  @media (min-width: 970px) {
+  @media (min-width: 768px) {
     .wholeregistration{
       width: 970px;
       margin: auto;
@@ -60,6 +60,16 @@
     border: .5px solid #FAEBCC;
     color: #FCF8E3
 }
+.horizontal1{
+  border: 0;
+  /* clear:both; */
+  display:block;
+  width: 696px;                
+  background-color:#707070;
+  height: 1px;
+  /* margin-top: 40.5px; */
+  /* margin-left: 23.5px; */
+}
 .horizontal{
     border: 0;
     /* clear:both; */
@@ -86,6 +96,101 @@
     /* margin-left: 23.5px; */
     color: #4F8208;
     width: 271px;
+    height: 11.9px;
+    font-size: 16px;
+  }
+  .applylinkforcaye{
+    /* width: 259px; */
+    /* margin-left: 5px; */
+    height: 11.9px;
+    font-size: 16px;
+    font-family: 'Arial';
+  }
+  .applylink{
+      margin-top: 16px;
+  }
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .wholeregistration{
+      width: 100%;
+      margin: auto;
+    }
+    .registration{
+    width: 100%;
+    margin: auto;
+    background: #F9F9F9;
+    padding: 10px;
+    /* margin-left: 240px; */
+    }
+.ContributeAsYou{
+    font-size: 28px;
+    text-align: left;
+    color: #4F8208;
+    font-family: 'Arial';
+    width: 100%;
+}
+.cayeheight{
+    height: 31px;
+    /* margin-left: 23.5px; */
+}
+.requestprocess{
+    color: #8A6D3B;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Arial';
+    height: 25px;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+.requestprocessdiv{
+    margin-top: 60px;
+    /* margin-left: 23.5px; */
+    width: 100%;
+    height: 44px;
+    border: .5px solid #FAEBCC;
+    color: #FCF8E3
+}
+.horizontal{
+    border: 0;
+    /* clear:both; */
+    display:block;
+    width: 100%;               
+    background-color:#707070;
+    height: 1px;
+    margin-top: 40.5px;
+    /* margin-left: 23.5px; */
+  }
+  .horizontal1{
+    border: 0;
+    /* clear:both; */
+    display:block;
+    width: 100%;               
+    background-color:#707070;
+    height: 1px;
+    /* margin-top: 40.5px; */
+    /* margin-left: 23.5px; */
+  }
+  .link{
+    width: 100%;
+    height: 17px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #464642;
+    font-size: 16px;
+  }
+  .relatedlink{
+      margin-top: 12.5px;
+      /* margin-left: 23.5px; */
+  }
+  .symbol{
+    /* margin-left: 23.5px; */
+    color: #4F8208;
+    width: 100%;
     height: 11.9px;
     font-size: 16px;
   }
