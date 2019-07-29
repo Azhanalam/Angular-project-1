@@ -20,7 +20,7 @@
   
   }
 
-  @media (min-width: 970px) {
+  @media (min-width: 768px) {
     .wholeapplycaye{
       width: 970px;
       margin:auto;
@@ -178,4 +178,182 @@
           color: #FFFFFF;
           font-family: 'Arial';
       }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+  [class*="col-"] {
+    width: 100%;
+  }
+  .wholeapplycaye{
+    width: 100%;
+    margin:auto;
+  }
+  .applycayehtml{
+    width: 100%;
+    margin: auto;
+    background: #F9F9F9;
+    padding: 10px;
+   
+  }
+  .heading{
+    font-size: 26px;
+    width: 100%;
+    height: 42px;
+    color: #4F8208;
+    font-family: 'Arial';
+      }
+  .CAYECSN{
+   margin-top: 43px;
+  }
+  .cayecsn{
+   width:100%;
+   height: 17px;
+   font-family: 'Arial';
+   font-weight: bold;
+   color: #464642;
+   font-size: 16px;
+  }
+  .important{
+      margin-top: 66px;
+  }
+  .CAYESEP{
+    margin-top: 66px;
+}
+  .cayesep{
+     width: 100%;
+     height: 46px;
+     font-family: 'Arial';
+     font-size: 16px;
+     color: #464642;
+     font-weight: normal;
+     margin-top: -47px;
+  }
+  .importantnote{
+    width: 100%;
+    height: 20px;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #464642;
+    font-size: 16px;
+  }
+  .gridcontainer{
+      margin-left: 0px;
+      margin-top: 10px;
+      background: #FFFFFF;
+    }
+    .yourrequest{
+      width: 100%;
+      height: 25px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 10px;
+      }
+      .completeform{
+          width: 100%;
+          height: 25px;
+          font-size: 16px;
+          color: #464642;
+          font-family: 'Arial';
+          margin-top: 10px;
+      }
+  .servicebuyers{
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    margin-top: 30px;
+  }
+  .allfields{
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    margin-top: 55px;
+  }
+  .list {
+      font-size: 15px;
+      margin-left: -20px;
+  }
+  .status{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .servicestandard{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .problems{
+      margin-top: 20px;
+    }
+    .problemseservice{
+      width:100%;
+      height: 43px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+    }
+    .AUTOFILL{
+      margin-top: 42px;
+    }
+    .autofillrequest{
+      width: 100%;
+      height: 20px;
+      font-size: 18px;
+      font-family: 'Arial';
+      color: #464642;
+      font-weight: bold;
+    }
+    .autofillapplication{
+        width: 100%;
+        height: 28px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        margin-top: 17px;
+    }
+    .yesradiobutton{
+      width: 100%;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #464642;
+    margin-top: 20px;
+    }
+    .noradiobutton{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      font-weight: bold;
+      color: #464642;
+      margin-left: 71px;
+      margin-top: -31px;
+    }
+    .BUTTON{
+        margin-top: 20px;
+    }
+    .BUT1{
+        width: 100%;
+        height: 40px;
+        background: #49712D;
+        font-size: 16px;
+        color: #FFFFFF;
+        font-family: 'Arial';
+    }
 }

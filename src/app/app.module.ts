@@ -101,10 +101,12 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
     ApplicationformnewComponent,
     SummarynewComponent,
     AcknowledgenewComponent,
-    RequeststatusnewComponent
-    HeaderModifiedComponent
+    RequeststatusnewComponent,
+    HeaderModifiedComponent,
     ViewCayeRefundReqComponent,
-    ApplycayenewComponent
+    ApplycayenewComponent,
+    HeaderModifiedComponent,
+    ViewCayeRefundReqComponent
   ],
   imports: [
     MatListModule,
