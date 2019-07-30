@@ -33,7 +33,8 @@ import { ViewCayeRefundReqComponent } from './view-caye-refund-req/view-caye-ref
 
 import { HeaderMakecayeModifiedComponent } from './header-makecaye-modified/header-makecaye-modified.component';
 
-
+import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/header-reglogin-modified.component';
+import { HeaderTransactionModifiedComponent } from './header-transaction-modified/header-transaction-modified.component';
 import { ApplyCayeSubmissionNewComponent } from './apply-caye-submission-new/apply-caye-submission-new.component';
 import { ApplicationformnewComponent } from './applicationformnew/applicationformnew.component';
 import { SummarynewComponent } from './summarynew/summarynew.component';
@@ -43,7 +44,7 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 
 const routes: Routes = [
-  {path:'header',component:HeaderMakecayeModifiedComponent},
+  {path:'header',component:HeaderTransactionModifiedComponent},
   {path:'applycayenew',component:ApplycayenewComponent},
   {path:'requeststatus',component:RequeststatusnewComponent},
   {path:'acknowledgenew',component:AcknowledgenewComponent},
