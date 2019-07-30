@@ -9,7 +9,7 @@
      <div style=" box-shadow: 1px 1px 2px #a7a2a2; background-color:#FFFFFF">
 
      </div>
-
+<div style="background-color:white;">
      <nav class="navbar navbar-expand-lg navbar-light bg-light  screenwidth" style="padding:0;" >
             <a class="navbar-brand" ><img src='../../assets/CPF_Board.png' width=150px; height=70px; style="padding:0;height:52px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,9 @@
                 </form>
               </div>
           </nav>
+        </div>
 <div *ngIf="screenflag==false" class="screenwidth">
+  <br/>
 <div class="column-3">
     <div class="aside">
 <ul class="nav flex-column " style="display:block;border-bottom:0.5px solid #707070;">
@@ -100,10 +102,14 @@ Contribute As You Earn Scheme</p></a>
     </li>
 
 <li class="nav-item">
-  <a  [routerLink]="" (click)="Nextpage()" style="padding:1px 0px 4px 0px;font-size:15px; color:black; ">
-    <p class="caye" style=" width:290px;padding:15px;margin-left: auto;
-margin-right: auto;text-align:center">  Make CAYE Contributions</p></a>
+  <a>
+    <p class="caye" style=" width:290px;
+    /* padding:15px; */
+    margin-left: auto;
+margin-right: auto;
+text-align:center">  Make CAYE Contributions</p></a>
 </li>
+<!-- [routerLink]="" (click)="Nextpage()" style="padding:1px 0px 4px 0px;font-size:15px; color:black; " -->
 
     <li class="nav-item">
     <a  style="
