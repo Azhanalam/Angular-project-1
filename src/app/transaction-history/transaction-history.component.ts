@@ -16,7 +16,7 @@ export class TransactionHistoryComponent implements OnInit {
 this.buttonlabel="+ Show Filters";
     }
     else{
-      this.buttonlabel="-  Hide Filters"; 
+      this.buttonlabel="- Hide Filters"; 
     }
   }
 
@@ -28,7 +28,7 @@ if(this.showfilter==true){
 
 else{
   this.showfilter=true;
-  this.buttonlabel="-  Hide Filters";
+  this.buttonlabel="- Hide Filters";
 }
   }
 
