@@ -63,6 +63,7 @@ import { HeaderMakecayeModifiedComponent } from './header-makecaye-modified/head
 import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/header-reglogin-modified.component';
 
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
+import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 
 
 @NgModule({
@@ -112,7 +113,8 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
     HeaderModifiedComponent,
     ViewCayeRefundReqComponent,
     HeaderMakecayeModifiedComponent,
-    HeaderRegloginModifiedComponent
+    HeaderRegloginModifiedComponent,
+    TransactionhistorynewComponent
   ],
   imports: [
     MatListModule,

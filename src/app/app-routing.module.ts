@@ -40,9 +40,11 @@ import { SummarynewComponent } from './summarynew/summarynew.component';
 import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
+import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 
 
 const routes: Routes = [
+  {path:'transactionhistorynew',component:TransactionhistorynewComponent},
   {path:'header',component:HeaderMakecayeModifiedComponent},
   {path:'applycayenew',component:ApplycayenewComponent},
   {path:'requeststatus',component:RequeststatusnewComponent},

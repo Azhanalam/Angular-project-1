@@ -1,0 +1,97 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  @media (min-width: 768px) {
+    .wholetransactionhistory{
+        width: 970px;
+        margin: auto;
+    }
+    .transactionhistory{
+        width: 697.5px;
+        margin: auto;
+        background: #F9F9F9;
+        padding: 10px;
+        margin-left: 245px;
+    }
+    hr {
+        border: 0;
+        /* clear:both; */
+        display:block;
+        width: 705px;               
+        background-color:#707070;
+        height: 1px;
+        margin-top: 0px;
+        /* margin-left: 15px; */
+      }
+      .horizontal{
+        border: 0;
+        /* clear:both; */
+        display:block;
+        width: 705px;               
+        background-color:#707070;
+        height: 1px;
+        margin-top: 20.5px;
+        /* margin-left: 15px; */
+      }
+      .horizontal1{
+        border: 0;
+        /* clear:both; */
+        display:block;
+        width: 705px;               
+        background-color:#707070;
+        height: 1px;
+        margin-top: 20.5px;
+        /* margin-left: 15px; */
+      }
+      .viewtransaction{
+        margin-top: 10px;
+      }
+      .viewtransactionhistory{
+        width: 309px;
+        height: 31px;
+        font-size: 28px;
+        font-family: 'Arial';
+        color: #4F8208;
+      }
+      .showhidebutton{
+        margin-left: 555.5px;
+        margin-top: 20px;
+      }
+    .BUTTON{
+    width: 145px;
+    height: 40px;
+    font-size: 16px;
+    color: #464642;
+    background: #D2D2D2;
+    font-family: 'Arial';
+  }
+.transactionhistorydate{
+    margin-top: 10px;
+    }
+.transactionhistorydateaugust{
+    width: 458px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+}
+  }
