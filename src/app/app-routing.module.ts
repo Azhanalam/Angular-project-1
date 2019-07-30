@@ -44,7 +44,10 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 
 const routes: Routes = [
-  {path:'header',component:HeaderTransactionModifiedComponent},
+  {path:'header-reglogin',component:HeaderRegloginModifiedComponent}
+  {path:'header',component:HeaderModifiedComponent},
+  {path:'header-makecaye',component:HeaderMakecayeModifiedComponent},
+  {path:'header-transaction',component:HeaderTransactionModifiedComponent},
   {path:'applycayenew',component:ApplycayenewComponent},
   {path:'requeststatus',component:RequeststatusnewComponent},
   {path:'acknowledgenew',component:AcknowledgenewComponent},

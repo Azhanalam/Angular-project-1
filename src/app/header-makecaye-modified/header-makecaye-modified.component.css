@@ -2,9 +2,10 @@
     margin-left:-15px;
   }
 
-.navbar-collapse{
+/* .navbar-collapse{
   height:310px !important;
-}
+} */
+
   @media (min-width: 768px) {
     .imagepos{
       margin-left:0px;

@@ -1,5 +1,6 @@
-<div class="wholeapplicationform">
+
 <app-header-modified></app-header-modified>
+<div class="wholeapplicationform">
 
 <div class="telephonemobile">
     <hr class="horizontal1">
@@ -11,7 +12,7 @@
 <div class="box1">
   <!-- <span class="step1" >Step</span> -->
    <span class="step2" >Step</span>
-   <span class="step3" >Step</span><br/> 
+   <span class="step3" >Step</span><br/>
  <span class="dot2">1</span><span class="dot3">2</span>
  <!-- <span  class="dot1">1</span>  -->
 <br/>
@@ -83,7 +84,7 @@
   <div class="telephoneinput">
   <input maxlength="100" type="text" required="required" class="form-control1 teleinput" placeholder=" Please key here"/>
 </div>
- 
+
 </form>
 <p class="telephonenumber">Eg. 61234567</p>
 
@@ -110,8 +111,8 @@
 </div>
 
 <div *ngFor="let t of input; let in=index" class="EMAILINPUT2">
-  <input maxlength="100" type="text" required="required" 
-  class="form-control1 EMAIL2" 
+  <input maxlength="100" type="text" required="required"
+  class="form-control1 EMAIL2"
   [(ngModel)]="input[in].value" [name]="'something' + in"
    placeholder=" Eg. William@nyp.edu.sg"/>
    <br><br>
@@ -122,7 +123,7 @@
 <br>
  </div>
 
- </form> 
+ </form>
 
  <div>
    <a class="addmail" (click)="add()">Add email address</a>
@@ -173,7 +174,7 @@
       </div>
     </div>
 
-</form> 
+</form>
 <p class="pincode">Eg. 123202</p>
 
 
@@ -183,25 +184,25 @@
  <br>
  <input maxlength="100" type="text" required="required" class="form-control1 street" placeholder=" Street Name"/>
 </div>
-</form> 
+</form>
 
 
 <!-- <div class="telephonemobile"> -->
   <div class="telephone">
     <p class="telephoneoffice">Block / House No*</p>
   </div>
-  
+
   <form role="form">
     <div class="telephoneinput">
     <input maxlength="100" type="text" required="required" class="form-control1 teleinput" placeholder="  0"/>
   </div>
-   
+
   </form>
-  
+
   <div class="LEVEL">
     <p class="level">Level / Unit No*</p>
   </div>
-  
+
   <form role="form">
     <div class="telephoneinput">
     <input maxlength="100" type="text" required="required" class="form-control1 mobileinput" placeholder="  # 01-01"/>
@@ -218,14 +219,14 @@
          <input maxlength="100" type="text" required="required" class="form-control1 street2" placeholder=" Street Name"/>
          <br><br>
          <div *ngFor="let t of input1; let in=index">
-         <input maxlength="100" type="text" required="required" 
+         <input maxlength="100" type="text" required="required"
          [(ngModel)]="input1[in].value" [name]="'something' + in"
          class="form-control1 street2" placeholder=""/>
          <br><br>
         </div>
 
         </div>
-       </form> 
+       </form>
 
        <div class="addline">
           <a (click)="add1()" class="ADDLINE">Add line</a>
@@ -237,7 +238,7 @@
       border-radius: 0;">Back</button>
      <button type="button" class="btn btn-primary btn-sm BUT1" (click)="Next()">Next</button>
   </div>
-  
+
 
 </div>
 </div>
@@ -257,7 +258,3 @@
 </div>
 </form>
 </ng-container> -->
-
-
-
-
