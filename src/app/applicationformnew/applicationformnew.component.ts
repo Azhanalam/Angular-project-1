@@ -61,5 +61,12 @@ export class ApplicationformnewComponent implements OnInit {
     this.input1.push({value: ''});
   }
 
-  
+  Next(){
+    this.router.navigate(["summarynew"]);
+  }
+
+  Back()
+  {
+    this.router.navigate(["registrationcayenew"]);
+  }
 }

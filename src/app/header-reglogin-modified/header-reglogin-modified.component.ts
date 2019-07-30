@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HostListener } from "@angular/core";
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-header-reglogin-modified',
@@ -12,7 +13,7 @@ export class HeaderRegloginModifiedComponent implements OnInit {
     screenHeight:any;
     screenWidth:any;
 
-    constructor() {
+    constructor(private router: Router) {
         this.getScreenSize();
     }
 
@@ -41,5 +42,9 @@ export class HeaderRegloginModifiedComponent implements OnInit {
 
     }
 
+    logout(){
+      this.router.navigate([""]);
+    }
+  
 
 }

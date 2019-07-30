@@ -20,12 +20,27 @@
   
   }
 
-  @media (min-width: 697.5px) {
+  @media (min-width: 768px) {
+    .wholestatus{
+      width:970px;
+      margin: auto;
+    }
     .statuswhole{
       width: 697.5px;
       margin: auto;
       background: #F9F9F9;
       padding: 10px;
+      margin-left: 225px;
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 696.5px;               
+      background-color:#707070;
+      height: 1px;
+      margin-top: 0px;
+      margin-left: 10px;
     }
     .CAYE{
       margin-left: 15px;
