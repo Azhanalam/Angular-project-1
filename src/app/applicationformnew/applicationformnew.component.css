@@ -20,7 +20,7 @@
   
   }
 
-  @media (min-width: 970px) {
+  @media (min-width: 768px) {
     .wholeapplicationform{
       width: 970px;
       margin:auto;
@@ -30,10 +30,10 @@
       margin: auto;
       background: #F9F9F9;
       padding: 10px;
-      margin-left: 240px;
+      margin-left: 245px;
     }
     .heading{
-    /* margin-left: 15px; */
+    /* margin-left: 12px; */
     font-size: 28px;
     width: 602px;
     height: 31px;
@@ -41,13 +41,13 @@
     font-family: 'Arial';
     }
     .box1{
-        width: 698px;
-        padding: 12px 15px 0px 15px;
-        margin-left: 10px;
-        background: white;
-        height: 102px;
-        margin-top: 40px;
-       }
+      width: 698px;
+      padding: 12px 15px 0px 15px;
+      /* margin-left: 10px; */
+      background: white;
+      height: 102px;
+      margin-top: 40px;
+     }
        .dot2 {
         height: 40px;
         width: 40px;
@@ -631,10 +631,10 @@
     .box1{
         width: 100%;
         padding: 12px 15px 0px 15px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         background: white;
         height: 102px;
-        margin-top: 40px;
+        margin-top: 50px;
        }
        .dot2 {
         height: 40px;
