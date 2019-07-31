@@ -172,6 +172,11 @@
       cursor: pointer !important;
       color: #0070C0 !important;
     }
+    .TABLE{
+      margin-top: 20px;
+      width: 696.5px;
+      margin-left: 15px;
+      }
     /* .servicestandard{
       text-decoration: underline !important;
       cursor: pointer !important;
@@ -205,3 +210,230 @@
       font-weight: normal;
     } */
   }
+
+
+
+
+
+  @media (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+    .wholestatus{
+      width:100%;
+      margin: auto;
+    }
+    .statuswhole{
+      width: 100%;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      /* margin-left: 225px; */
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 100%;               
+      background-color:#707070;
+      height: 1px;
+      margin-top: 0px;
+      /* margin-left: 10px; */
+    }
+    .CAYE{
+      margin-left: 0;
+    }
+    .contributeasuearn{
+      width: 100%;
+      height: 31px;
+      font-size: 24px;
+      font-family: 'Arial';
+      color: #4F8208;
+      font-weight: normal;
+    }
+  .yourrequestsubmission{
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #0070C0;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    }
+  .yourrequest{
+    width: 105%;
+    height: 95px;
+    margin-left: -8px;
+    margin-top: 23px;
+    background: #D9EDF7;
+    border: .5px solid #ADE3EE;
+    margin-top: 60px;
+    }
+    .CAYEAPPLICATION,.ENTITYNAME,.NRICFIN{
+     margin-top: 20px;
+     /* margin-left: 15px; */
+    }
+    .cayeapplication{
+        width: 100%;
+        height: 20px;
+        font-size: 18px;
+        font-family: 'Arial';
+        color: #464642;
+        font-weight: bold;
+    }
+    .entityname{
+        width: 100%;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        font-weight: bold;
+    }
+    .nanyangpolytechnic{
+        width: 100%;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        margin-top: 5px;
+    }
+    .submitternricfin{
+        width: 100%;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        font-weight: bold;
+    }
+    .nricnumber{
+        width:100%;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        margin-top: 5px;
+    }
+    .TABLEDIV{
+      margin-top: 20px;
+      /* margin-left: 15px; */
+      /* width: 100%; */
+    }
+    .Table{
+      width: 100%;
+    }
+    th{
+      height: 36px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+      background: #D2D2D2;
+    }
+    td{
+      width: 100%;
+      height: 35px;
+      font-size: 16px;
+      font-family: 'Arial';
+      columns: #464642;
+    }
+    .thank{
+      /* margin-left: 15px; */
+      margin-top: 20px;
+    }
+    .thankyou{
+      width: 100%;
+      height: 17px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+    }
+    .gridcontainer{
+      margin-left: 4px;
+      margin-top: 10px;
+    }
+    .yourapplication{
+    width: 100%;
+    height: 10px;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .checkstatus{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 30px;
+    }
+    .status{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .TABLE{
+      margin-top: 20px;
+      }
+  }
+
+
+  @media
+  only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+    
+  /* tr:nth-child(odd) {
+    background: #ccc;
+  }
+   */
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 45%;
+    height: 55px;
+    margin-top: 0px;
+    /* margin: auto; */
+  }
+
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 40%;
+    height: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial';
+    background-color: #D2D2D2;
+  }
+
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: "UEN No."; }
+  td:nth-of-type(2):before { content: "Transaction No."; }
+  td:nth-of-type(3):before { content: "Transaction Date"; }
+  td:nth-of-type(4):before { content: "Status"; }
+  
+}

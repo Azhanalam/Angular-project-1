@@ -42,9 +42,11 @@ import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.compone
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
+import { HeadernicoleComponent } from './headernicole/headernicole.component';
 
 
 const routes: Routes = [
+  {path:'headernicole',component:HeadernicoleComponent},
   {path:'transactionhistorynew',component:TransactionhistorynewComponent},
   {path:'header',component:HeaderMakecayeModifiedComponent},
   {path:'header-reglogin',component:HeaderRegloginModifiedComponent},

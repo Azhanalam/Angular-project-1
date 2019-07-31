@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./transactionhistorynew.component.css']
 })
 export class TransactionhistorynewComponent implements OnInit {
+  isNameSelected: boolean;
 
   constructor() { }
 
@@ -16,14 +17,25 @@ export class TransactionhistorynewComponent implements OnInit {
   hide: any;
 
   toggle() {
-  this.show = !this.show
+  this.show = !this.show;
 
   if(this.show) {
-  this.buttonName = '- Hide Filters'
-  console.log(this.show)
+  this.buttonName = '- Hide Filters';
+  console.log(this.show);
   }
   else {
-  this.buttonName = '+ Show Filters'
+  this.buttonName = '+ Show Filters';
   }
   }
+
+
+  all(event) {
+    let selected = event.target.value;
+    if (selected == "Refund/Request") {
+      this.isNameSelected = true;
+    } else {
+      this.isNameSelected = false;
+    }
+  }
+ 
 }

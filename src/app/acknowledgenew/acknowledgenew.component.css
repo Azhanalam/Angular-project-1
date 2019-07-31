@@ -62,6 +62,7 @@
     }
     .TABLEDIV{
       margin-top: 20px;
+      width: 697.5px;
       /* margin-left: 15px; */
     }
     .Table{
@@ -161,6 +162,10 @@
       color: #0070C0 !important;
       font-weight: normal;
     }
+    .TABLE{
+      width: 696.5px;
+    margin-top: 20px;
+    }
   }
 
 
@@ -186,28 +191,25 @@
     .acknowledgement{
       width: 100%;
       height: 31px;
-      font-size: 28px;
+      font-size: 24px;
       font-family: 'Arial';
       color: #4F8208;
       font-weight: normal;
     }
   .transactionsuccessful{
     width: 100%;
-    height: 25px;
-    font-size: 16px;
+    height: 20px;
+    font-size: 15px;
     font-family: 'Arial';
     color: #436F07;
     margin-top: 10px;
-    /* margin-left: 10px; */
     }
   .transaction{
     width: 100%;
-    height: 70px;
-    /* margin-left: -9px; */
-    margin-top: 23px;
+    height: 79px;
+    margin-top: 20px;
     background: #DFF0D8;
     border: .5px solid #D6E9C6;
-    margin: auto;
     }
     .TABLEDIV{
       margin-top: 20px;
@@ -310,6 +312,73 @@
       color: #0070C0 !important;
       font-weight: normal;
     }
+    .TABLE{
+    margin-top: 20px;
+    }
 
   }
   
+
+
+
+  /*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+  only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+    
+  /* tr:nth-child(odd) {
+    background: #ccc;
+  }
+   */
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 45%;
+    height: 55px;
+    margin-top: 0px;
+    /* margin: auto; */
+  }
+
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 40%;
+    height: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial';
+    background-color: #D2D2D2;
+  }
+
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: "Service Name"; }
+  td:nth-of-type(2):before { content: "Transaction No"; }
+  td:nth-of-type(3):before { content: "Transaction Date"; }
+  
+}
