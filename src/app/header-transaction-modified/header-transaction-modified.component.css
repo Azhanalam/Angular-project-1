@@ -5,9 +5,20 @@
 /* .navbar-collapse{
   height:310px !important;
 } */
+
+.brand-adjust{
+  height:70px;
+  width:50%;
+}
+
   @media (min-width: 768px) {
     .imagepos{
       margin-left:0px;
+    }
+
+    .brand-adjust{
+      height:70px;
+      width:200px !important;
     }
   }
 

@@ -14,6 +14,6 @@ export class ApplycayenewComponent implements OnInit {
   }
   Next()
   {
-    this.router.navigate(["registrationcayenew"]);
+    this.router.navigate(["applicationformnew"]);
   }
 }

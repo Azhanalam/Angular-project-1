@@ -46,10 +46,13 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
+// import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 
 
 const routes: Routes = [
-  {path:'header-old',component:HeaderComponent}
+
+  {path:'header-old',component:HeaderComponent},
+
   {path:'headernicole',component:HeadernicoleComponent},
   {path:'transactionhistorynew',component:TransactionhistorynewComponent},
   {path:'header-caye',component:HeaderMakecayeModifiedComponent},

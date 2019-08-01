@@ -132,27 +132,7 @@
 
   }
 
-  .pagination{
-    margin-top: 11px;
-}
 
-.pageleft{
-    padding: 5px;
-    color: #464642;
-}
-.pageleftgo{
-    padding: 5px;
-    color: #FFFFFF;
-    background: #4F8208;
-}
-.paginatio{
-    margin-left: 134px;
-    width: 100%;
-    height: 30px;
-    font-size: 16px;
-    font-family: 'Arial';
-    /* margin-top: -36px; */
-}
 
 .leftfile{
   width:100%;
@@ -163,6 +143,14 @@
   margin-left:0;
   float:right;
 }
+
+
+
+
+
+
+
+
 
   @media only screen and (min-width: 768px) {
     .leftfile{
@@ -246,33 +234,16 @@
         /* background-color:#f2f2f3; */
       }
 
-
-      .pageleft{
-          padding: 5px;
-          color: #464642;
-      }
-      .pageleftgo{
-          padding: 5px;
-          color: #FFFFFF;
-          background: #4F8208;
-      }
-      .paginatio{
-        margin-left: 257px;
-    height: 30px;
-    font-size: 16px;
-    font-family: 'Arial';
-    width: 38%;
+     
           /* margin-left: 265px;
           /* width: 281.5px; */
           /*height: 30px;
           font-size: 16px;
           font-family: 'Arial'; */
           /* margin-top: -36px; */
-      }
+      
 
-      .pagination{
-          margin-top: 11px;
-      }
+      
 
 .steps{
   width:698px;
@@ -488,9 +459,71 @@ margin-top: 10px;
   padding:17px;
 } */
 
+@media (max-width:768px)
+{
+  .pageleft{
+    padding: 5px;
+    color: #464642;
+}
+.pageleftgo{
+    padding: 5px;
+    color: #FFFFFF;
+    background: #4F8208;
+}
+.paginatio{
+  margin-left: 53px;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Arial';
+  margin-top: 10px;
+}
 
+.addpage2{
+  text-decoration: underline !important;
+  margin-left: 10px;
+  color: #0070C0 !important;
+  margin-right: 0;
+}
+.addpage{
+  margin-left: 244px;
+  margin-top: -90px;
+  font-size: 15px;
+  font-family: 'Arial';
+}
 
-  @media(min-width: 768px) {
+}
+
+  @media (min-width: 768px) {
+    .pageleft{
+      padding: 5px;
+      color: #464642;
+  }
+  .pageleftgo{
+      padding: 5px;
+      color: #FFFFFF;
+      background: #4F8208;
+  }
+  .paginatio{
+    margin-left: 345px;
+    width: 281.5px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-top: -60px;
+  }
+  .addpage2{
+    text-decoration: underline !important;
+    margin-left: 10px;
+    color: #0070C0 !important;
+    margin-right: 0;
+  }
+  .addpage{
+  margin-left: 605px;
+  margin-top: -60px;
+  font-size: 16px;
+  font-family: 'Arial';
+  }
     .custom-file-upload {
       background-color:rgb(48, 47, 47);
       color:white;
@@ -739,3 +772,69 @@ text-decoration: none;
   border:none
 }
 } */
+
+
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+  only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+    
+  /* tr:nth-child(odd) {
+    background: #ccc;
+  }
+   */
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 48% !important;
+    height: 55px;
+    margin-top: 0px;
+    /* margin: auto; */
+  }
+
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 45%;
+    height: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial';
+    background-color: #D2D2D2;
+    margin-left: -6px;
+  }
+
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: ""; }
+  td:nth-of-type(2):before { content: "S/N"; }
+  td:nth-of-type(3):before { content: "NRIC"; }
+  td:nth-of-type(4):before { content: "Gross Service Fee"; }
+  td:nth-of-type(5):before { content: " Invoice No."; }
+  
+}

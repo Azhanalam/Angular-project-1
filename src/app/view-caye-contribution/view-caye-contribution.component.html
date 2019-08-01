@@ -1,12 +1,13 @@
-<div class="bodywidth">
 
-  <app-header-after></app-header-after>
-  <div id="container">
+  <app-header-transaction-modified></app-header-transaction-modified>
+  <div class="wholetransactionhistory">
+  <div class="transactionhistory">
+    <hr class="horizontal1">
 
     <p class="ViewTransaction">View Transaction</p>
     <!-- <h6 class="CayeContribution">CAYE Contribution</h6> -->
 
-    <div class="container">
+
         <div class="row">
           <div class="col-sm">
             <h6 class="CayeContribution">CAYE Contribution</h6>
@@ -15,10 +16,10 @@
            <p class="DownloadPdf">Download PDF</p>
           </div>
         </div>
-      </div>
 
-    <div class="container">
-        <div class="row">
+
+
+        <div class="row cpfsubmissionrow">
           <div class="col-sm">
             <p class="CPFSubmit">CPF Submission No.</p>
             <p class="CPFNumber">1992123456-MSE-01</p>
@@ -32,10 +33,10 @@
           <p class="Bank">Bank</p>
           </div>
         </div>
-      </div>
 
-      <div class="container">
-          <div class="row">
+
+
+          <div class="row cpfsubmissionrow">
             <div class="col-sm">
               <p class="EntityName">Entity Name</p>
               <p class="NanyangPolytechnic">CAYE Nanyang Polytechnic</p>
@@ -49,10 +50,10 @@
             <p class="Date2">24 Aug 2018</p>
             </div>
           </div>
-        </div>
 
-        <div class="container">
-            <div class="row">
+
+
+            <div class="row cpfsubmissionrow">
               <div class="col-sm">
                 <p class="Submitter">Submitter NRIC/FIN</p>
                 <p class="submitterNo">S1234123A</p>
@@ -62,7 +63,7 @@
                <p class="AccountNo">POSB account:xxx-xx123-4</p>
               </div>
             </div>
-          </div>
+
 
           <div class="card">
               <div class="card-body">
@@ -70,18 +71,19 @@
               </div>
               <div class="hyphen">
                   <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="window-minimize"
-                   class="svg-inline--fa fa-window-minimize fa-w-16 ICON" role="img" 
+                   class="svg-inline--fa fa-window-minimize fa-w-16 ICON" role="img"
                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" (click)="minimize()">
-                   <path fill="currentColor" 
+                   <path fill="currentColor"
                    d="M480 480H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h448c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
                   </path></svg>
               </div>
-             
+
             </div>
 
 <ng-container *ngIf="show">
+  <div class="table-responsive wholetable">
 
-  <table class="table table-bordered table-striped table-responsive TABLE">
+  <table class="table table-bordered table-stripedTABLE">
     <thead class="TableHead">
       <tr>
         <th scope="col">S/N</th>
@@ -93,7 +95,7 @@
       </tr>
     </thead>
     <tbody>
-       <tr> 
+       <tr>
         <td>1</td>
         <td>S1234567A</td>
         <td>$ 100.00</td>
@@ -101,7 +103,7 @@
         <td>$ 95.00</td>
         <td>TX12345SH</td>
       </tr>
-      <tr> 
+      <tr>
         <td>2</td>
         <td>S1234567A</td>
         <td>$ 100.00</td>
@@ -109,7 +111,7 @@
         <td>$ 95.00</td>
         <td>TX12345SH</td>
       </tr>
-      <tr> 
+      <tr>
         <td>3</td>
         <td>S1234567A</td>
         <td>$ 100.00</td>
@@ -117,7 +119,7 @@
         <td>$ 95.00</td>
         <td>TX12345SH</td>
       </tr>
-      <tr> 
+      <tr>
         <td>4</td>
         <td>S1234567A</td>
         <td>$ 100.00</td>
@@ -125,14 +127,14 @@
         <td>$ 95.00</td>
         <td>TX12345SH</td>
       </tr>
-      <tr> 
+      <tr>
         <td>5</td>
         <td>S1234567A</td>
         <td>$ 100.00</td>
         <td>$ 5.00</td>
         <td>$ 95.00</td>
         <td>TX12345SH</td>
-      </tr>              
+      </tr>
       </tbody>
       <thead class="TableHead">
           <tr>
@@ -145,8 +147,9 @@
           </tr>
         </thead>
     </table>
+  </div>
     </ng-container>
-            
+
 
     <div class="card CARD">
         <div class="card-body">
@@ -154,18 +157,19 @@
         </div>
         <div class="hyphen">
             <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="window-minimize"
-             class="svg-inline--fa fa-window-minimize fa-w-16 ICON" role="img" 
+             class="svg-inline--fa fa-window-minimize fa-w-16 ICON" role="img"
              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" (click)="minimize1()">
-             <path fill="currentColor" 
+             <path fill="currentColor"
              d="M480 480H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h448c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
             </path></svg>
         </div>
-       
+
       </div>
-      
+
 <ng-container *ngIf="show1">
 
-<table class="table table-bordered table-striped table-responsive TABLE">
+  <div class="table-responsive wholetable">
+<table class="table table-bordered table-striped TABLE">
 <thead class="TableHead">
 <tr>
   <th scope="col">S/N</th>
@@ -177,7 +181,7 @@
 </tr>
 </thead>
 <tbody>
- <tr> 
+ <tr>
   <td>1</td>
   <td>S1234567A</td>
   <td>$ 100.00</td>
@@ -185,7 +189,7 @@
   <td>$ 95.00</td>
   <td>TX12345SH</td>
 </tr>
-<tr> 
+<tr>
   <td>2</td>
   <td>S1234567A</td>
   <td>$ 100.00</td>
@@ -193,7 +197,7 @@
   <td>$ 95.00</td>
   <td>TX12345SH</td>
 </tr>
-<tr> 
+<tr>
   <td>3</td>
   <td>S1234567A</td>
   <td>$ 100.00</td>
@@ -201,8 +205,8 @@
   <td>$ 95.00</td>
   <td>TX12345SH</td>
 </tr>
-<tr> 
-               
+<tr>
+
 </tbody>
 <thead class="TableHead">
     <tr>
@@ -215,6 +219,7 @@
     </tr>
   </thead>
 </table>
+</div>
 </ng-container>
 
 <button type="button" class="btn btn-secondary btn-sm BUT" style="border: none;

@@ -24,6 +24,6 @@ login()
   if(this.username=="reguser")
   this.router.navigate(["AppSuccess"]);
   else
-  this.router.navigate(["applycayenew"]);
+  this.router.navigate(["registrationcayenew"]);
 }
 }

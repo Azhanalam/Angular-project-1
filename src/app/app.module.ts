@@ -66,6 +66,7 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 import { HeaderTransactionModifiedComponent } from './header-transaction-modified/header-transaction-modified.component';
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
+import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 
 // import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
 
@@ -123,7 +124,8 @@ import { HeadernicoleComponent } from './headernicole/headernicole.component';
 
     TransactionhistorynewComponent,
     HeaderTransactionModifiedComponent,
-    HeadernicoleComponent
+    HeadernicoleComponent,
+    TablehistoryComponent
   ],
   imports: [
     MatListModule,

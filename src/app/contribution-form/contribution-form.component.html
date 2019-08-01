@@ -78,7 +78,7 @@
 
       <div class="table-responsive" style="overflow-x: scroll;">
     <table class="table table-striped " style="width:696px; font-size: 16px;">
-        <thead >
+        <thead style="background-color:#D2D2D2">
           <tr>
             <th><input type="checkbox" style="zoom:1.5;"></th>
             <th scope="col">S/N</th>
@@ -94,7 +94,7 @@
         <tbody style="text-align:center">
           <tr>
             <td><input type="checkbox" style="zoom:1.5;" #chkEnable ngModel></td>
-            <th scope="row">1</th>
+            <td scope="row">1</td>
             <td (click)="submit()" style="text-align:center" ><input type="text" class="datarow" placeholder="S/TXXXXXXXA" id="colorchange" ></td>
             <td><input type="text" class="datarow" value="$                                    0.00"  id="value1"></td>
             <td><input type="text" class="datarow" ></td>
@@ -102,7 +102,7 @@
           </tr>
           <tr>
             <td><input type="checkbox" style="zoom:1.5;"  ></td>
-            <th scope="row">2</th>
+            <td scope="row">2</td>
             <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA" id="value2"></td>
             <td><input type="text" class="datarow" value="$                                   0.00" id="value3"></td>
             <td><input type="text" class="datarow"  ></td>
@@ -110,7 +110,7 @@
           </tr>
           <tr>
             <td><input type="checkbox" style="zoom:1.5;"></td>
-            <th scope="row">3</th>
+            <td scope="row">3</td>
             <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA" ></td>
             <td><input type="text" class="datarow" value="$                                   0.00" ></td>
             <td><input type="text" class="datarow" ></td>
@@ -118,7 +118,7 @@
           </tr>
           <tr>
               <td><input type="checkbox" style="zoom:1.5;"></td>
-              <th scope="row">4</th>
+              <td scope="row">4</td>
               <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA"></td>
               <td><input type="text" class="datarow" value="$                                   0.00"></td>
               <td><input type="text" class="datarow" ></td>
@@ -126,7 +126,7 @@
             </tr>
             <tr>
                 <td><input type="checkbox" style="zoom:1.5;"></td>
-                <th scope="row">5</th>
+                <td scope="row">5</td>
                 <td style="text-align:center"><input type="text" class="datarow" placeholder="S/TXXXXXXXA"></td>
                 <td><input type="text" class="datarow" value="$                                   0.00" ></td>
                 <td><input type="text" class="datarow" ></td>
@@ -141,7 +141,7 @@
       <div class="pagination" style="font-size:16px">
 
         <button style="width:86px;height:40px;background-color:#D2D2D2" [disabled]="!chkEnable.checked">Delete</button>
-
+      </div>
         <div class="paginatio">
             <a href="#" class="pageleft">&lt;&lt;</a>
             <a href="#" class="pageleft">|</a>
@@ -176,13 +176,10 @@
         <span style="background-color:red; color:white;
         padding-left:11px; padding-right:11px;padding-top:5px;padding-bottom:5px;
         margin-top:3px;margin-left:3px">-</span> -->
-        <div>
-        <a href="" style="text-decoration: underline;
-    margin-left: 10px;
-    color: #0070C0;
-    margin-right: 0;">Add Page</a>
+        <div class="addpage">
+        <a href="" class="addpage2">Add Page</a>
   </div>
-      </div>
+
       <p style="font-size:16px;padding-left:0">Showing 1-5 of 5</p>
       <!-- <p>First | << | < Page 1 of 1 Go > | >> | Last</p> -->
 

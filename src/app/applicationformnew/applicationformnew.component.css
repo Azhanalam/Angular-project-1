@@ -13,13 +13,28 @@
     .column-11 {width: 91.66%;}
     .column-12 {width: 100%;}
   }
-  
+
   #container {
     display: flex;
     flex-wrap: wrap;
-  
+
   }
 
+  .hasTooltip span {
+      display: none;
+      color: #000;
+      text-decoration: none;
+      padding: 3px;
+  }
+
+  .hasTooltip:hover span {
+      display: block;
+      position: absolute;
+      background-color: #FFF;
+      border: 1px solid black;
+      margin: 2px 10px;
+      font-weight:400;
+  }
   @media (min-width: 768px) {
     .wholeapplicationform{
       width: 970px;
@@ -79,7 +94,7 @@
       .step2{
         margin-left:30.5%; color: #4F8208; font-weight:500;font-size: 16px;font-family: 'Arial';
       }
-      
+
       .step3{
         margin-left:22.6%; color:#737373; font-weight:500;font-size: 16px;font-family: 'Arial';
       }
@@ -87,7 +102,7 @@
         border: 0;
         /* clear:both; */
         display:block;
-        width: 705px;               
+        width: 705px;
         background-color:#707070;
         height: 1px;
         margin-top: 0px;
@@ -97,7 +112,7 @@
         border: 0;
         /* clear:both; */
         display:block;
-        width: 705px;               
+        width: 705px;
         background-color:#707070;
         height: 1px;
         margin-top: 20.5px;
@@ -107,7 +122,7 @@
         border: 0;
         /* clear:both; */
         display:block;
-        width: 705px;               
+        width: 705px;
         background-color:#707070;
         height: 1px;
         margin-top: 20.5px;
@@ -328,7 +343,7 @@
     font-size: 16px;
     color: #464642;
   }
-  
+
   .telephone{
     margin-top: 21px;
     /* margin-left: 15px; */
@@ -667,7 +682,7 @@
       .step2{
         margin-left:25%; color: #4F8208; font-weight:500;font-size: 16px;font-family: 'Arial';
       }
-      
+
       .step3{
         margin-left:24%; color:#737373; font-weight:500;font-size: 16px;font-family: 'Arial';
       }
@@ -675,7 +690,7 @@
         border: 0;
         /* clear:both; */
         display:block;
-        width: 100%;              
+        width: 100%;
         background-color:#707070;
         height: 1px;
         margin-top: 0px;
@@ -685,7 +700,7 @@
         border: 0;
         /* clear:both; */
         display:block;
-        width: 100%;              
+        width: 100%;
         background-color:#707070;
         height: 1px;
         margin-top: 20.5px;
@@ -695,7 +710,7 @@
         border: 0;
         /* clear:both; */
         display:block;
-        width: 100%;              
+        width: 100%;
         background-color:#707070;
         height: 1px;
         /* margin-top: 20.5px; */
@@ -914,7 +929,7 @@
     font-size: 14px;
     color: #464642;
   }
-  
+
   .telephone{
     margin-top: 20px;
   }
@@ -1128,7 +1143,7 @@
     font-weight: bold;
     color: #464642;
   }
-  
+
   .BUTTON{
     margin-top: 25px;
   }

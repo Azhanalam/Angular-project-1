@@ -13,11 +13,11 @@
     .column-11 {width: 91.66%;}
     .column-12 {width: 100%;}
   }
-  
+
   #container {
     display: flex;
     flex-wrap: wrap;
-  
+
   }
 
   @media (min-width: 768px) {
@@ -142,7 +142,7 @@
       border: 0;
       /* clear:both; */
       display:block;
-      width: 698px;               
+      width: 698px;
       background-color:#707070;
       height: 1px;
       margin-top:0;
@@ -269,7 +269,7 @@
     }
     .visitwebsite{
       width: 100%;
-      height: 17px;
+      /* height: 17px; */
       font-size: 16px;
       font-family: 'Arial';
       color: #464642;
@@ -286,13 +286,13 @@
       color: #0070C0 !important;
     }
     .horizontalline{
-      margin-top: 85px;
+      margin-top: 0px;
     }
     hr {
       border: 0;
       /* clear:both; */
       display:block;
-      width: 100%;               
+      width: 100%;
       background-color:#707070;
       height: 1px;
       margin-top:0;
@@ -317,7 +317,7 @@
     }
 
   }
-  
+
 
 
 
@@ -325,8 +325,8 @@
 	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
 	*/
 	@media
-  only screen 
-  and (max-width: 760px), (min-device-width: 768px) 
+  only screen
+  and (max-width: 760px), (min-device-width: 768px)
   and (max-device-width: 1024px)  {
 
   /* Force table to not be like tables anymore */
@@ -344,7 +344,7 @@
   tr {
     margin: 0 0 1rem 0;
   }
-    
+
   /* tr:nth-child(odd) {
     background: #ccc;
   }
@@ -353,7 +353,7 @@
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-    padding-left: 45%;
+    padding-left: 46%;
     height: 55px;
     margin-top: 0px;
     /* margin: auto; */
@@ -363,7 +363,7 @@
     position: absolute;
     top: 0;
     left: 6px;
-    width: 40%;
+    width: 45%;
     height: 100%;
     padding-right: 10px;
     white-space: nowrap;
@@ -371,6 +371,7 @@
     font-weight: bold;
     font-family: 'Arial';
     background-color: #D2D2D2;
+    margin-left: -6px;
   }
 
   /*
@@ -380,5 +381,5 @@
   td:nth-of-type(1):before { content: "Service Name"; }
   td:nth-of-type(2):before { content: "Transaction No"; }
   td:nth-of-type(3):before { content: "Transaction Date"; }
-  
+
 }

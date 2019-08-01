@@ -2,12 +2,22 @@
     margin-left:-15px;
   }
 
+  .brand-adjust{
+    height:70px;
+    width:50%;
+  }
+
 /* .navbar-collapse{
   height:310px !important;
 } */
   @media (min-width: 768px) {
     .imagepos{
       margin-left:0px;
+    }
+
+    .brand-adjust{
+      height:70px;
+      width:200px !important;
     }
   }
 

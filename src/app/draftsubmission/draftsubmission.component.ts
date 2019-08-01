@@ -18,4 +18,10 @@ export class DraftsubmissionComponent implements OnInit {
     this.router.navigate(["AppSuccess"]);
     window.scrollTo(0, 0);
   }
+  
+  back()
+  {
+    this.router.navigate(["cayecontribution"]);
+    window.scrollTo(0, 0);
+  }
 }
