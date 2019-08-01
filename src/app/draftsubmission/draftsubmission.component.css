@@ -8,16 +8,27 @@
   }
 
   .dustbin{
-    width:23%;
+    width:15%;
     float:right;
   }
-
   .message{
+    margin-bottom: 10px;
+        width: 100%;
+        /* height: 44px; */
+        color: #436F07;
+        padding: 13px 6.5px 6px 10px;
+        background-color: #DFF0D8;
+        font-size:16px;
+        font-family:arial;
+        border:0.5px solid #D6E9C6;
+  }
+
+  /* .message{
     color:#49712d;
      background-color:rgb(199, 239, 199);
       padding:10px 70px 10px 10px;
        margin-bottom:10px;
-  }
+  } */
   /* .heading{
     padding:5px 0px 5px 0px; margin-left:-5px; color:#49712d;font-weight:545;width:100%
   } */
@@ -30,6 +41,29 @@
     padding: 0px 0px 0px 0px;
     letter-spacing: 0;
     font-family: arial;
+  }
+
+  .notes{
+    /* padding:10px 542px 10px 10px; */
+    width:100%;
+    /* height:124px; */
+    border:1px solid black;
+    background-color: white;
+    font-size:16px;
+    font-family:arial;
+
+  }
+
+  .backbtn{
+    margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 40px;
+        background-color: #464642;
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-family: arial;
   }
 
   @media only screen and (min-width: 768px) {
@@ -78,6 +112,18 @@
     .bodywidth{
       width:970px;
       margin:auto;
+    }
+
+    .backbtn{
+      margin-left: 258px;
+          margin-top: 18px;
+          width: 78px;
+          height: 40px;
+          background-color: #464642;
+          color: white;
+          border: none;
+          font-size: 16px;
+          font-family: arial;
     }
   }
 

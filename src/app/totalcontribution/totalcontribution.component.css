@@ -145,9 +145,24 @@
     font-size: 13px;
   }
 
-
-
   .backbtn{
+    background-color:#464846;
+    color:white;
+    border:none;
+    padding:0;
+
+    /* margin-left: 0; */
+    margin-top: 20px;
+    margin-bottom:0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  height: 40px;
+  font-size: 16px;
+  font-family: arial;
+  }
+
+  /* .backbtn{
     background-color:#464846;
     color:white;
     border:none;
@@ -157,7 +172,7 @@
     margin-top: 5%;
     margin-bottom:1%;
 
-  }
+  } */
 
   .nextbtn{
     background-color:#49712d;
@@ -402,8 +417,113 @@ border-bottom:1pt solid black;
 
   }
 
+  .steps{
+    width:100%;
+    height:110px;
+     padding-top:20px;
+     background-color:white;
+     border-bottom:0.5px solid #707070;
 
+  }
+
+  .step1{
+    margin-left:25%;
+    color: #737373;
+    /* font-weight:500; */
+    font-size:16px;
+  }
+
+  .step2{
+    margin-left: 25%;
+      color: #4F8208;
+      font-size: 16px;
+
+    /* margin-left:22%; color:rgba(0,0,0,.2); */
+     /* font-weight:500; */
+     /* font-size:16px; */
+  }
+
+  .dot1 {
+    font-size:15px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:25%;
+    margin-bottom: 10px;
+    color: #737373;
+    border: 2px solid #737373;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .dot2 {
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left:24%;
+    color: #4F8208;
+    border: 2px solid #4F8208;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+.payment1{
+  width: 100%;
+    border: 0.5px solid #707070;
+    border-bottom: 2px solid #4F8208;
+    height: 99px;
+}
+  .payment2{
+    width: 100%;
+    border: 0.5px solid #707070;
+    border-bottom: 2px solid #4F8208;
+    height: 99px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+.summary{
+  background-color: #D2D2D2;font-size:14px;font-weight: bold;
+  font-family:Arial;padding:10px;margin-top:20px;
+}
+
+.download{
+  margin-left:10%;text-decoration:underline;color:#0070C0;
+}
   @media only screen and (min-width: 768px) {
+    .download{
+      margin-left:430px;text-decoration:underline;color:#0070C0;
+    }
+    .summary{
+      background-color: #D2D2D2;font-size:16px;font-weight: bold;
+      font-family:Arial;padding:10px;margin-top:20px;
+    }
+    .payment1{
+    width:340px;border:0.5px solid #707070;border-bottom:2px solid #4F8208;height:99px;
+    }
+
+    .payment2{
+      width:340px;border:0.5px solid #707070;border-bottom:2px solid #4F8208;height:99px; margin-left:8px;margin-top:0;
+    }
+
+    .steps{
+      width:698px;
+      height:110px;
+       padding-top:20px;
+       background-color:white;
+       border-bottom:0.5px solid #707070;
+
+    }
+
     .row1{
         margin-left:100px
       }
@@ -441,12 +561,14 @@ border-bottom:1pt solid black;
 
       margin-left: 0;
       margin-top: 20px;
+      margin-right:0;
       margin-bottom:0;
       width: 78px;
     height: 40px;
     font-size: 16px;
     font-family: arial;
   }
+
   .nextbtn{
     background-color:#49712d;
     color:white;
@@ -648,7 +770,7 @@ border-bottom:1pt solid black;
     }
 
 
-    @media only screen and (max-width: 768px) and (min-width: 400px) {
+    /* @media only screen and (max-width: 768px) and (min-width: 400px) {
       #container {
         display: flex;
         flex-wrap: wrap;
@@ -662,18 +784,14 @@ border-bottom:1pt solid black;
 
       table{
         width:68%;
-        /* margin-left:30%; */
       }
 
       .directdebit{
-        /* border:none;  */
-        /* margin-left:58%; */
         width:25%;
         cursor: pointer;
       }
 
       .enets{
-        /* border:none; */
         margin-left:5%;
         width: 24%;
         margin-top: 4%;
@@ -686,4 +804,4 @@ border-bottom:1pt solid black;
       .tabmargin{
         margin-left:29%;
       }
-    }
+    } */

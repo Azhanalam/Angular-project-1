@@ -163,6 +163,8 @@ p{
       padding:8px 33px 8px 33px;
       font-size: 16px;
       width: 100px;
+      margin-left: 0;
+      margin-right: 0;
       /* height: 47px; */
     }
 

@@ -7,19 +7,16 @@
         <p class="heading">
             Make CAYE Contribution
           </p>
-        <div style="width:698px; height:110px;
-         padding-top:20px;
-         background-color:white;
-         border-bottom:0.5px solid #707070">
+        <div class="steps" >
             <span class="step1" >Step</span>
-             <span class="step2" >Step</span>
+             <span class="step2" >Step</span><br/>
              <!-- <span class="step3" >Step</span><br/>  -->
             <span  class="dot1">1</span> <span class="dot2">2</span>
             <!-- <span class="dot3">3</span> -->
          <!-- <br/> -->
           </div>
           <!-- <p style="background-color: #49712d; color: white; padding: 10px;">Key in the service fee for each individual and click Submit to compute their Medisave Payble</p> -->
-    <div *ngIf="showthis">
+    <div *ngIf="showthis" style="width:100%">
       <p class="errorfield" ><b>Error:</b>&nbsp;Please check the highlighted fields</p>
       <p style="color:#AA2B00;font-size:16px;padding-left:0;margin-bottom:5px;font-weight:bold">Total Error Fields: 2</p>
       <p style="color:#AA2B00;font-size:16px;padding-left:0;margin-bottom:0;">S/N 1 | S/N 6</p>
@@ -144,7 +141,21 @@
       <div class="pagination" style="font-size:16px">
 
         <button style="width:86px;height:40px;background-color:#D2D2D2" [disabled]="!chkEnable.checked">Delete</button>
-        <a class="paginationarrow1"  href="#">&lt;&lt;</a>
+
+        <div class="paginatio">
+            <a href="#" class="pageleft">&lt;&lt;</a>
+            <a href="#" class="pageleft">|</a>
+            <a href="#" class="pageleft">&lt;</a>
+            <a href="#" class="pageleft">Page</a>
+            <a href="#" class="pageleft">1</a>
+            <a href="#" class="pageleft">of 1</a>
+            <a href="#" class="pageleftgo">Go</a>
+            <a href="#" class="pageleft">&gt;</a>
+            <a href="#" class="pageleft">|</a>
+            <a href="#" class="pageleft">&gt;&gt;</a>
+          </div>
+
+        <!-- <a class="paginationarrow1"  href="#">&lt;&lt;</a>
         <a  href="#">|</a>
         <a  href="#">&lt;</a>
         <a style="font-weight:bold" href="#">Page</a>
@@ -157,7 +168,7 @@
         margin-top:3px;">Go</a>
         <a href="#">&gt;</a>
         <a href="#">|</a>
-        <a href="#">&gt;&gt;</a>
+        <a href="#">&gt;&gt;</a> -->
 
         <!-- <span style="background-color:grey; color:white;
         padding-left:8px; padding-right:8px;padding-top:5px;padding-bottom:5px;
@@ -165,21 +176,23 @@
         <span style="background-color:red; color:white;
         padding-left:11px; padding-right:11px;padding-top:5px;padding-bottom:5px;
         margin-top:3px;margin-left:3px">-</span> -->
+        <div>
         <a href="" style="text-decoration: underline;
-    margin-left: 17px;
+    margin-left: 10px;
     color: #0070C0;
     margin-right: 0;">Add Page</a>
+  </div>
       </div>
       <p style="font-size:16px;padding-left:0">Showing 1-5 of 5</p>
       <!-- <p>First | << | < Page 1 of 1 Go > | >> | Last</p> -->
 
-<div style="width:116px">
+<div class="leftfile">
   <button style="background-color:#D2D2D2;width:116px;height:40px;font-size:16px">Import File</button>
 
   <p style="font-size:16px;padding-left:0;margin-top:5px">Max Size: 10MB</p>
 </div>
-<div style="width:205px;margin-left:362px">
-  <span style="font-size:16px;color:#0070C0;text-decoration:underline">Download Template Sample </span>
+<div class="rightfile" >
+  <span style="font-size:16px;color:#0070C0;text-decoration:underline">Download Template Sample </span><br/>
   <span style="font-size:16px;">Last updated on 10/08/2018 (CSV, 0.45KB)</span>
 </div>
 
