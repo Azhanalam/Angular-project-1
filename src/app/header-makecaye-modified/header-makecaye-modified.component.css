@@ -6,6 +6,19 @@
   height:310px !important;
 } */
 
+.navbar-brand {
+    padding-top:0;
+  }
+
+.navbar{
+overflow-y:hidden;
+overflow-x: hidden;
+}
+
+.navbar {
+   padding-left:0 !important;
+}
+
   @media (min-width: 768px) {
     .imagepos{
       margin-left:0px;

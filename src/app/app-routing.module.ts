@@ -49,9 +49,10 @@ import { HeadernicoleComponent } from './headernicole/headernicole.component';
 
 
 const routes: Routes = [
+  {path:'header-old',component:HeaderComponent}
   {path:'headernicole',component:HeadernicoleComponent},
   {path:'transactionhistorynew',component:TransactionhistorynewComponent},
-  {path:'header',component:HeaderMakecayeModifiedComponent},
+  {path:'header-caye',component:HeaderMakecayeModifiedComponent},
   {path:'header-reglogin',component:HeaderRegloginModifiedComponent},
   {path:'header',component:HeaderModifiedComponent},
   {path:'header-makecaye',component:HeaderMakecayeModifiedComponent},
