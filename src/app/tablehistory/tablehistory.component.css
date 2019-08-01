@@ -1,0 +1,276 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  @media (min-width: 768px) {
+    .wholetransactionhistory{
+        width: 970px;
+        margin: auto;
+    }
+    .transactionhistory{
+        width: 697.5px;
+        margin: auto;
+        background: #F9F9F9;
+        padding: 10px;
+        margin-left: 245px;
+    }
+    th{
+        width: 120px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        background: #D2D2D2;
+    }
+    td{
+        width: 172px;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+    }
+    .TABLE{
+        height: 36px;  
+        width: 696.5px; 
+    }
+    .Table{
+        width: 696.5px;
+    }
+    .horizontalinegreen{
+        border: .5px solid #707070;
+        display:block;
+        width: 696px;               
+        background-color:#4F8208;
+        height: 3px;
+        margin-top:-5px;
+      }
+      .cayepmt{
+        widows: 35% !important;
+        }
+        .wholetable{
+            margin-top: 11px;
+            width: 696px;
+        }
+        .pagination{
+            margin-top: 11px;
+        }
+        .showing14{
+            width: 133px;
+            height: 17px;
+            font-size: 16px;
+            font-family: 'Arial';
+            color: #464642;
+        }
+        .pageleft{
+            padding: 5px;
+            color: #464642;
+        }
+        .pageleftgo{
+            padding: 5px;
+            color: #FFFFFF;
+            background: #4F8208;
+        }
+        .paginatio{
+            margin-left: 435px;
+            width: 281.5px;
+            height: 30px;
+            font-size: 16px;
+            font-family: 'Arial';
+            margin-top: -36px;
+        }
+        .cayebankrefund,.refund10thaugust{
+            margin-left: 10px;
+        }
+        .refund10thaugust2{
+            margin-left: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Arial';
+        }
+        .refund10thaugust3{
+            margin-left: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Arial';
+            background: #D2D2D2;
+        }
+}
+
+
+
+@media (max-width: 768px) {
+    .wholetransactionhistory{
+        width: 100%;
+        margin: auto;
+    }
+    .transactionhistory{
+        width: 100%;
+        margin: auto;
+        background: #F9F9F9;
+        padding: 10px;
+        /* margin-left: 245px; */
+    }
+    .horizontalinegreen{
+        border: .5px solid #707070;
+        display:block;
+        width: 100%;               
+        background-color:#4F8208;
+        height: 3px;
+        margin-top:-5px;
+      }
+
+      th{
+        width: 100%;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+        background: #D2D2D2;
+    }
+    td{
+        width: 100%;
+        height: 17px;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+    }
+    .TABLE{
+        height: 36px;   
+    }
+    .Table{
+        width: 100%;
+    }
+    .cayepmt{
+    widows: 35% !important;
+    }
+    .wholetable{
+        margin-top: 11px;
+        width: 100%;
+    }
+    .pagination{
+        margin-top: 11px;
+    }
+    .showing14{
+        width: 100%;
+        height: 17px;
+        font-size: 14px;
+        font-family: 'Arial';
+        color: #464642;
+    }
+    .pageleft{
+        padding: 5px;
+        color: #464642;
+    }
+    .pageleftgo{
+        padding: 5px;
+        color: #FFFFFF;
+        background: #4F8208;
+    }
+    .paginatio{
+        margin-left: 125px;
+        width: 63%;
+        height: 30px;
+        font-size: 12px;
+        font-family: 'Arial';
+        margin-top: -36px;
+    }
+    .cayebankrefund,.refund10thaugust{
+        margin-left: 20px;
+    }
+    .refund10thaugust2{
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Arial';
+    }
+    .refund10thaugust3{
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Arial';
+        background: #D2D2D2;
+    }
+}
+
+
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+  only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+    
+  /* tr:nth-child(odd) {
+    background: #ccc;
+  }
+   */
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 46%;
+    height: 236px;
+    margin-top: 0px;
+  }
+  
+
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial';
+    background-color: #D2D2D2;
+    margin-left: -6px;
+  }
+
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: "Transaction ID"; }
+  td:nth-of-type(2):before { content: "Gross Service Fee"; }
+  td:nth-of-type(3):before { content: "Medisave Payable"; }
+  td:nth-of-type(4):before { content: "Net Service Fee"; }
+  
+}

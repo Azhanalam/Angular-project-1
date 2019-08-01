@@ -1,10 +1,11 @@
-<div class="bodywidth">
+<div class="wholetransactionhistory">
 
-    <app-header-after></app-header-after>
-    <div id="container">
+    <app-header-transaction-modified></app-header-transaction-modified>
+    <div class="transactionhistory">
+      <hr class="horizontal1">
         <p class="ViewTransaction">View Transaction</p>
 
-        <div class="container">
+        
             <div class="row">
               <div class="col-sm">
                 <h6 class="CayeContribution">CAYE Refund Request</h6>
@@ -13,10 +14,10 @@
                <p class="DownloadPdf">Download PDF</p>
               </div>
             </div>
-          </div>
+          
         <!-- <h6 class="CayeContribution">CAYE Refund Request</h6> -->
 
-        <div class="container">
+       
             <div class="row">
               <div class="col-sm">
                 <p class="Submitter">CPF Submission No.</p>
@@ -27,9 +28,9 @@
                <p class="AccountNo">POSB account:xxx-xx123-4</p>
               </div>
             </div>
-          </div>
+          
 
-          <div class="container">
+          
               <div class="row">
                 <div class="col-sm">
                   <p class="Submitter">Entity Name</p>
@@ -40,9 +41,9 @@
                  <p class="AccountNo">POSB account:xxx-xx123-4</p>
                 </div>
               </div>
-            </div>
+            
 
-            <div class="container">
+            
                 <div class="row">
                   <div class="col-sm">
                     <p class="Submitter">Submitter NRIC/FIN</p>
@@ -53,69 +54,69 @@
                    <p class="AccountNo">Processed</p>
                   </div>
                 </div>
-              </div>
-
-              <table class="table table-bordered table-striped table-responsive TABLE">
+             
+                <div class="table-responsive Table">
+              <table class="table table-bordered table-striped TABLE">
                   <thead class="TableHead">
                     <tr>
-                      <th scope="col" style="width: 25%">Transaction Details</th>
-                      <th scope="col"style="width: 40%">Refund Reason</th>
-                      <th scope="col" style="width: 35%">Refund Status</th>
+                      <th scope="col" class="transactiondetails">Transaction Details</th>
+                      <th scope="col" class="transactiondetails">Refund Reason</th>
+                      <th scope="col" class="transactiondetails">Refund Status</th>
                     </tr>
                   </thead>
 
                   <tbody>
                      <tr> 
                       <td>
-                        <h6>NRIC:</h6>
-                        <p style="margin-top: -8px;">S1234567A</p>
-                        <h6>Transaction No.</h6>
-                        <p style="margin-top: -8px;">CAYEPMT00002</p>
+                        <h6 class="NRICC">NRIC:</h6>
+                        <p>S1234567A</p>
+                        <h6 class="NRICC">Transaction No.</h6>
+                        <p>CAYEPMT00002</p>
                       </td>
                       <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt
                       </td>
                       <td>
-                        <h6>Refund Amount:</h6>
-                        <p style="margin-top: -8px;">$ 5.00</p>
-                        <h6>Rejected</h6>
-                        <p style="margin-top: -8px;">Rejected reason goes here...</p>
+                        <h6 class="NRICC">Refund Amount:</h6>
+                        <p>$ 5.00</p>
+                        <h6 class="NRICC">Rejected</h6>
+                        <p>Rejected reason goes here...</p>
                       </td>
                     </tr>
 
                     <tr> 
                         <td>
-                          <h6>NRIC:</h6>
-                          <p style="margin-top: -8px;">S1234567A</p>
-                          <h6>Transaction No.</h6>
-                          <p style="margin-top: -8px;">CAYEPMT00002</p>
+                          <h6 class="NRICC">NRIC:</h6>
+                          <p>S1234567A</p>
+                          <h6 class="NRICC">Transaction No.</h6>
+                          <p>CAYEPMT00002</p>
                         </td>
                         <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                           sed do eiusmod tempor incididunt
                         </td>
                         <td>
-                          <h6>Refund Amount:</h6>
-                          <p style="margin-top: -8px;">$ 5.00</p>
-                          <h6>Sucessful</h6>
+                          <h6 class="NRICC">Refund Amount:</h6>
+                          <p>$ 5.00</p>
+                          <h6 class="NRICC">Sucessful</h6>
                           <!-- <p style="margin-top: -8px;">Rejected reason goes here...</p> -->
                         </td>
                       </tr>
 
                       <tr> 
                           <td>
-                            <h6>NRIC:</h6>
-                            <p style="margin-top: -8px;">S1234567A</p>
-                            <h6>Transaction No.</h6>
-                            <p style="margin-top: -8px;">CAYEPMT00002</p>
+                            <h6 class="NRICC">NRIC:</h6>
+                            <p>S1234567A</p>
+                            <h6 class="NRICC">Transaction No.</h6>
+                            <p>CAYEPMT00002</p>
                           </td>
                           <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt
                           </td>
                           <td>
-                            <h6>Refund Amount:</h6>
-                            <p style="margin-top: -8px;">$ 5.00</p>
-                            <h6>Rejected</h6>
-                            <p style="margin-top: -8px;">Rejected reason goes here...</p>
+                            <h6 class="NRICC">Refund Amount:</h6>
+                            <p>$ 5.00</p>
+                            <h6 class="NRICC">Rejected</h6>
+                            <p>Rejected reason goes here...</p>
                           </td>
                         </tr>
                   </tbody>
@@ -127,8 +128,7 @@
                       </tr>
                     </thead>
                   </table>
-
-      <button type="button" class="btn btn-secondary btn-sm BUT"  style="border: none;
-       border-radius: 0;">Back</button>
+                </div>
+      <button type="button" class="btn btn-secondary btn-sm BUT">Back</button>
       </div>
       </div>

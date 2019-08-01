@@ -148,7 +148,7 @@
                       <p class="TRANSACTION">Transaction Type</p>
                     </div>
 
-                    <div class="dropdown">
+                    <div name="wgtmsr" id="wgtmsr" class="dropdown">
                     <select class="dropdownbutton4" (change)="all($event)">
                       <option value="All" class="dropdowncontent">All</option>
                       <option value="Refund/Request" class="dropdowncontent">Refund/Request</option>
@@ -163,16 +163,15 @@
                         </div> -->
 
                   </div>
-
-                  <div class="APPLY">
-                      <button class="BUTTON2">Apply</button>
-                    </div>
                 </div>
               </div>
         </div>
       </div>
+      <div class="APPLY">
+        <button class="BUTTON2">Apply</button>
+      </div>
 </div>
-<div class="transactionhistorydate">
+<div class="transactionhistorydate2">
     <p class="transactionhistorydateaugust"><b> Transaction History as of 31 Oct 2018 </b>- (Aug 2018 - Oct 2018)</p>
   </div>
 
@@ -238,36 +237,42 @@
         <table class="table table-striped table-bordered TABLE">
          <thead style="text-align:center">
            <tr>
-             <th scope="col" style="width:35%">Transaction No.</th>
-             <th scope="col" style="width:22%">Transaction Type</th>
-             <th scope="col">Date</th>
-             <th scope="col">Status</th>
+             <th scope="col" style="width:40%">Transaction ID</th>
+             <th scope="col" style="width:22%">Gross Service Fee</th>
+             <th scope="col">Medisave Payable</th>
+             <th scope="col">Net Service Fee</th>
            </tr>
          </thead>
          <tbody>
            <tr>
-             <td style="width:35%"><p><a href="">CAYEPMT00001</a> (Bank)</p></td>
-             <td>CAYE Contribution</td>
-             <td>15 August 2018</td>
-             <td style="width:24%">Processed <p>(3 rejected records)</p></td>
+             <td style="width:35%"><p><a href="">CAYERFD00002</a> (Bank)</p>
+              <p class="refund10thaugust">Refund - 10 AUG 2018</p>
+            </td>
+             <td>$ -</td>
+             <td>$ (5.00)</td>
+             <td style="width:24%">$ -</td>
            </tr>
            <tr>
-             <td style="width:35%"><a href="">CAYEPMT00002</a></td>
-             <td>Refund</td>
-             <td>15 August 2018</td>
-             <td>Rejected</td>
+            <td style="width:35%"><p><a href="">CAYERFD00001</a> (Bank)</p>
+              <p class="refund10thaugust">CAYE Contribution - 15 AUG 2018</p>
+            </td>
+             <td>$ 100.00</td>
+             <td>$ 5.00</td>
+             <td>$ 95.00</td>
            </tr>
            <tr>
-             <td style="width:35%"><p><a href="">CAYEPMT00003</a> (Online DDA)</p></td>
-             <td>CAYE Contribution</td>
-             <td>15 August 2018</td>
-             <td>Pending Deduction</td>
+             <td style="width:35%"><p><a href="">CAYEPMT00003</a> (Online DDA)</p>
+              <p class="refund10thaugust">CAYE Contribution - 15 OCT 2018</p>
+            </td>
+             <td>$ 100.00</td>
+             <td>$ 5.00</td>
+             <td>$ 95.00</td>
            </tr>
            <tr>
-             <td style="width:35%"><a href="">CAYEPMT00001</a></td>
-             <td>Update Entity Information</td>
-             <td>15 August 2018</td>
-             <td>Processed</td>
+             <th style="width:35%">Total Amount:</th>
+             <th>$ 200.00</th>
+             <th>$ 5.00</th>
+             <th>$ 190.00</th>
            </tr>
            </tbody>
         </table>

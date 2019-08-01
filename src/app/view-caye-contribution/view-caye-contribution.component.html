@@ -1,12 +1,12 @@
-<div class="bodywidth">
-
-  <app-header-after></app-header-after>
-  <div id="container">
+<div class="wholetransactionhistory">
+  <app-header-transaction-modified></app-header-transaction-modified>
+  <div class="transactionhistory">
+    <hr class="horizontal1">
 
     <p class="ViewTransaction">View Transaction</p>
     <!-- <h6 class="CayeContribution">CAYE Contribution</h6> -->
 
-    <div class="container">
+    
         <div class="row">
           <div class="col-sm">
             <h6 class="CayeContribution">CAYE Contribution</h6>
@@ -15,10 +15,10 @@
            <p class="DownloadPdf">Download PDF</p>
           </div>
         </div>
-      </div>
+      
 
-    <div class="container">
-        <div class="row">
+   
+        <div class="row cpfsubmissionrow">
           <div class="col-sm">
             <p class="CPFSubmit">CPF Submission No.</p>
             <p class="CPFNumber">1992123456-MSE-01</p>
@@ -32,10 +32,10 @@
           <p class="Bank">Bank</p>
           </div>
         </div>
-      </div>
+      
 
-      <div class="container">
-          <div class="row">
+      
+          <div class="row cpfsubmissionrow">
             <div class="col-sm">
               <p class="EntityName">Entity Name</p>
               <p class="NanyangPolytechnic">CAYE Nanyang Polytechnic</p>
@@ -49,10 +49,10 @@
             <p class="Date2">24 Aug 2018</p>
             </div>
           </div>
-        </div>
+        
 
-        <div class="container">
-            <div class="row">
+        
+            <div class="row cpfsubmissionrow">
               <div class="col-sm">
                 <p class="Submitter">Submitter NRIC/FIN</p>
                 <p class="submitterNo">S1234123A</p>
@@ -62,7 +62,7 @@
                <p class="AccountNo">POSB account:xxx-xx123-4</p>
               </div>
             </div>
-          </div>
+          
 
           <div class="card">
               <div class="card-body">
@@ -80,8 +80,9 @@
             </div>
 
 <ng-container *ngIf="show">
+  <div class="table-responsive wholetable">
 
-  <table class="table table-bordered table-striped table-responsive TABLE">
+  <table class="table table-bordered table-stripedTABLE">
     <thead class="TableHead">
       <tr>
         <th scope="col">S/N</th>
@@ -145,6 +146,7 @@
           </tr>
         </thead>
     </table>
+  </div>
     </ng-container>
             
 
@@ -165,7 +167,8 @@
       
 <ng-container *ngIf="show1">
 
-<table class="table table-bordered table-striped table-responsive TABLE">
+  <div class="table-responsive wholetable">
+<table class="table table-bordered table-striped TABLE">
 <thead class="TableHead">
 <tr>
   <th scope="col">S/N</th>
@@ -215,6 +218,7 @@
     </tr>
   </thead>
 </table>
+</div>
 </ng-container>
 
 <button type="button" class="btn btn-secondary btn-sm BUT" style="border: none;

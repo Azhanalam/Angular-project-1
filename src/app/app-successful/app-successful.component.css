@@ -1,46 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  [class*="column-"] {
-    float: left;
-    padding: 15px 15px 15px 5px;
-  }
-  
-  html {
-    font-family: "Lucida Sans", sans-serif;
-  }
-  
-  
-  .aside {
-    /* background-color: #33b5e5; */
-    /* padding: 15px; */
-    /* color: #ffffff; */
-    /* text-align: center; */
-    font-size: 10px;
-    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
-    border: 1px solid grey;
-  }
-  
-  
-  /* For mobile phones: */
-  [class*="column-"] {
-    width: 100%;
-  }
-  
-  .sidebar{
-  padding:1px 15px 50px 15px
-  }
 
-  .bodywidth{
-    width:100%; margin-left:0%; background-color:#f2f2f3;
-  }
-  
-  @media only screen and (min-width: 768px) {
-  .sidebar{
-  padding:1px 15px 300px 15px
-  }
-  }
-  
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .column-1 {width: 8.33%;}
@@ -64,8 +22,28 @@
   }
   
   
-  
   @media (min-width: 768px) {
+    .wholeacknowledge{
+      width: 970px;
+      margin:auto;
+    }
+    .acknowledgementwhole{
+      width: 697.5px;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      margin-left: 241px;
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 698px;               
+      background-color:#707070;
+      height: 1px;
+      margin-top:0;
+      /* margin-left: 15px; */
+    }
     .LIST{
         /* width:78%; */
         margin-left:10px;
@@ -76,14 +54,14 @@
           font-size: 20px;
       }
       .CONTRIBUTE{
-          margin-left:10px;
-          width:100%;
+        margin-top: 20px;
       }
       .CAYE{
-        color: green;
-        font-size: 26px;
-        margin-left: -13px;
-        
+        color: #4F8208;
+        font-size: 28px;
+        font-family: 'Arial';
+        width: 503px;
+        height: 31px;
       }
       .style1{
         border: 0.5px solid gray;
@@ -91,45 +69,89 @@
         margin-left: 20%;
       }
       .QUICK{
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-top: 20px;
       }
       .quick{
-        font-size: 15px;
-        font-weight: 500;
-        margin-top: -16px;
-        margin-left: -11px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Arial';
+        color: #464642;
+        width: 91px;
+        height: 17px;
       }
       .TotalService{
-        font-weight: 700;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+      }
+      .Table{
+        width: 696.5px;
+        margin-top: 20px;
       }
      .thead{
-      background-color: rgb(189, 188, 188);
+      background-color: #D2D2D2;
+      width: 696.5px;
+     }
+     .schoolofengg{
+      text-decoration: underline;
+      /* font-weight: bold; */
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #0070C0 !important;
+      text-decoration: underline !important;
      }
       .statement{
-        margin-left: -47px;
+        margin-left: 0;
+        width: 215px;
+        height: 57px;
      }
       .statement1{
-         margin-left: -64px;
+        margin-left: -14px;
+        width: 215px;
+        height: 50px;
       }
       .statement2{
-        margin-left: -94px;
+        margin-left: -14px;
+        width: 215px;
+        height: 50px;
      }
-     .table{
-         width: 90%;
-         margin-top:6px;
-     }
+    
      .TableFooter{
-      background-color: rgb(189, 188, 188);
+      background-color: #D2D2D2;
      }
      .AMOUNT{
          text-align:start;
+         font-size: 16px;
+         font-family: 'Arial';
+         color: #464642;
+         height: 17px;
      }
      .AMOUNT1{
-        text-align:end;
-        font-weight:400;
+      text-align: start;
+      font-weight: bold;
+      font-size: 16px;
+      color: #464642;
+      font-family: 'Arial';
+      width: 114px;
+      height: 17px;
     }
     .AMOUNT2{
-        font-weight:400;
+      text-align: start;
+      font-weight: bold;
+      font-size: 16px;
+      color: #464642;
+      font-family: 'Arial';
+      width: 114px;
+      height: 17px;
+    }
+    .AMOUNT3{
+      font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    width: 180px;
+    height: 17px;
     }
 
     .bodywidth{
@@ -137,110 +159,372 @@
     }
     .MyCaye{
       margin-left: 3px;
-    font-weight: 500;
-    margin-top: 17px;
-    font-size: 15px;
+      font-weight: bold;
+      margin-top: 29px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      width: 219px;
+      height: 17px;
     }
     .MyPending{
-      font-weight: 500;
-    margin-top: 18px;
-    font-size: 15px;
-    margin-left: 14px;
+      margin-left: 357px;
+      font-weight: bold;
+      margin-top: -85px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      width: 240px;
+      height: 17px;
     }
     .cardTransaction{
-      width: 44% !important;
-      margin-left: 303px !important;
-      margin-top: -51px !important;
+      margin-left: 357px !important;
+    margin-top: -1px !important;
     }
     .card{
-      margin-left: -192px;
-      margin-top: 43px;
-      width: 44%;
-      height: 50px;
+      margin-top: 10px;
+    width: 340px;
+    height: 59px;
     }
     .card-body{
       margin-left: -10px;
       margin-top: -7px;
     }
+    .card-body2{
+      margin-left: -10px;
+      margin-top: -7px;
+    }
+    .twodrafts{
+      cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-top: 10px;
+    color: #464642;
+    margin-left: 10px;
+    }
+    .twodrafts2{
+      cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-top: 10px;
+    color: #464642;
+    margin-left: 10px;
+    }
     .SuccessfulPayment{
-      margin-top: 17px;
-      margin-left: 1px;
-      font-size: 15px;
+      margin-top: 20px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-family: 'Arial';
+    width: 473px;
+    height: 17px;
+    color: #464642;
     }
     #rcorners3 {
-      background: #73AD21;
+      background: #4F8208;
       padding: 1.5px;
-      width: 111%;
+      width: 340px;
       height: 1px;
-      margin-top: -9px;
-      margin-left: -9px;
+      margin-top: 17px;
+      margin-left: -3px;
+    } 
+    #rcorners4 {
+      background: #4F8208;
+      padding: 1.5px;
+      width: 340px;
+      height: 1px;
+      margin-top: 28px;
+      margin-left: 10px;
+    } 
+     
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .wholeacknowledge{
+      width: 100%;
+      margin:auto;
+    }
+    .acknowledgementwhole{
+      width:100%;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      /* margin-left: 241px; */
+    }
+    hr {
+      border: 0;
+      display:block;
+      width: 100%;               
+      background-color:#707070;
+      height: 1px;
+      margin-top:0;
+    }
+    .LIST{
+        margin-left:10px;
+        margin-top: 10px;
+      }
+      .wel{
+          font-weight: bold;
+          font-size: 20px;
+      }
+      .CONTRIBUTE{
+        margin-top: 20px;
+      }
+      .CAYE{
+        color: #4F8208;
+        font-size: 21px;
+        font-family: 'Arial';
+        width: 100%;
+        height: 31px;
+      }
+      .style1{
+        border: 0.5px solid gray;
+        width: 100%;
+        margin-left: 20%;
+      }
+      .QUICK{
+        margin-left: 0px;
+        margin-top: 20px;
+      }
+      .quick{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Arial';
+        color: #464642;
+        width: 100%;
+        height: 17px;
+      }
+      .TotalService{
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Arial';
+        color: #464642;
+      }
+      .Table{
+        width:100%;
+        margin-top: 20px;
+      }
+     .thead{
+      background-color: #D2D2D2;
+     }
+     .schoolofengg{
+      text-decoration: underline;
+      /* font-weight: bold; */
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #0070C0 !important;
+      text-decoration: underline !important;
+     }
+      .statement{
+        margin-left: 0;
+        width: 100%;
+        height: 80px;
+        margin-top: 20px;
+     }
+      .statement1{
+        width: 100%;
+        height: 67px;
+        margin-top: 20px;
+      }
+      .statement2{
+        margin-left: -2px;
+        width: 100%;
+        height: 77px;
+        margin-top: 20px;
+     }
+    
+     .TableFooter{
+      background-color: #D2D2D2;
+      height: 275px;
+     }
+     .AMOUNT{
+         text-align:start;
+         font-size: 16px;
+         font-family: 'Arial';
+         color: #464642;
+         height: 17px;
+     }
+     .AMOUNT1{
+      text-align: start;
+      font-weight: bold;
+      font-size: 16px;
+      color: #464642;
+      font-family: 'Arial';
+      width: 100%;
+      height: 17px;
+      margin-top: 50px;
+    }
+    .AMOUNT2{
+      text-align: start;
+      font-weight: bold;
+      font-size: 16px;
+      color: #464642;
+      font-family: 'Arial';
+      width: 100%;
+      height: 17px;
+    }
+    .AMOUNT3{
+      font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    width: 100%;
+    height: 17px;
+    }
+
+    .bodywidth{
+      width:65%; margin-left:17.5%; background-color:#f2f2f3;
+    }
+    .MyCaye{
+    margin-left: 7px;
+    font-weight: bold;
+    margin-top: 29px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    width: 100%;
+    height: 17px;
+    }
+    .MyPending{
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      width: 100%;
+      height: 17px;
+      margin-left: 7px;
+    }
+    .cardTransaction{
+    margin-top: 0 !important;
+    }
+    .card{
+      margin-top: 10px;
+      width: 98%;
+      height: 59px;
+      margin-left: 4px;
+    }
+    .card-body{
+      margin-left: -10px;
+      margin-top: -7px;
+    }
+    .twodrafts{
+      cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-top: 10px;
+    color: #464642;
+    margin-left: 10px;
+    }
+    .card-body2{
+      margin-left: -10px;
+      margin-top: -7px;
+    }
+    .twodrafts2{
+      cursor: pointer;
+      font-size: 16px;
+      font-family: 'Arial';
+      margin-top: 20px;
+      color: #464642;
+      margin-left: 20px;
+    }
+    .SuccessfulPayment{
+      margin-top: 20px;
+      margin-left: 0px;
+      font-size: 12px;
+      font-family: 'Arial';
+      width: 100%;
+      height: 17px;
+      color: #464642;
+    }
+    #rcorners3 {
+      background: #4F8208;
+      padding: 1.5px;
+      width: 104%;
+      height: 1px;
+      margin-top: 17px;
+      margin-left: -2px;
+    } 
+    #rcorners4 {
+      background: #4F8208;
+    padding: 1.5px;
+    width: 97%;
+    height: 1px;
+    margin-top: 17px;
+    margin-left: 11px;
     } 
      
   }
  
-  /* .Digit{
-    text-decoration: underline;
-    color: rgb(83, 83, 212);
-  } */
-  .row{
-    text-align: center;
-  }
-
-
-
-
-
-
-  @media only screen and (max-width: 768px) and (min-width: 400px) {
     
-    .statement1{
-      margin-left: 0px;
-   }
-   .statement2{
-     margin-left: 0px;
+  /*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+  only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
   }
 
-  .col-sm{
-    padding:0;
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
   }
 
-  .table {
-    width: 98%;
-    margin-top: 17px;
+  tr {
+    margin: 0 0 1rem 0;
+  }
+    
+  /* tr:nth-child(odd) {
+    background: #ccc;
+  }
+   */
+  td {
+    position: relative;
+    padding-left: 46% !important;
+    height: 88px !important;
+    margin-top: 0px;
+  }
+
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 45%;
+    height: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial';
+    background-color: #D2D2D2;
+    margin-left: -6px;
+  }
+
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: "CSN Name"; }
+  td:nth-of-type(2):before { content: "Fees"; }
+  td:nth-of-type(3):before { content: ""; }
+  td:nth-of-type(4):before { content: ""; }
+  td:nth-of-type(5):before { content: "Total CAYE Payments"; }
+  
+  
+  
 }
-.TableFooter{
-  background-color: rgb(189, 188, 188) !important;
- }
- .thead{
-  background-color: rgb(189, 188, 188) !important;
- }
- .MyCaye{
-  margin-left: 3px !important;
-  font-weight: 500 !important;
-  margin-top: 17px !important;
-}
-.MyPending{
-  font-weight: 500 !important;
-  margin-top: 18px !important;
-  margin-left: 61px !important;
-}
-.cardTransaction{
-  width: 42%;
-  margin-left: 324px;
-  margin-top: -51px;
-}
-.card{
-  margin-left: -205px !important;
-  margin-top: 43px !important;
-  width: 40% !important;
-  height: 50px !important;
-}
-.card-body{
-  margin-left: -10px !important;
-  margin-top: -7px !important;
-}
-.SuccessfulPayment{
-  margin-top: 17px !important;
-  margin-left: 2px !important;
-}
-     }

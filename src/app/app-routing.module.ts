@@ -43,9 +43,11 @@ import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.c
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
+// import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 
 
 const routes: Routes = [
+  // {path:'table',component:TablehistoryComponent},
   {path:'headernicole',component:HeadernicoleComponent},
   {path:'transactionhistorynew',component:TransactionhistorynewComponent},
   {path:'header',component:HeaderMakecayeModifiedComponent},

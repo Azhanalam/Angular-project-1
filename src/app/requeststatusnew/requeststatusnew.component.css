@@ -337,7 +337,7 @@
       columns: #464642;
     }
     .thank{
-      /* margin-left: 15px; */
+     /* padding-left: 0; */
       margin-top: 20px;
     }
     .thankyou{
@@ -347,6 +347,9 @@
       font-weight: bold;
       font-family: 'Arial';
       font-size: 16px;
+    }
+    .YOURAPPLICATIONTAKES{
+      padding-left: 0;
     }
     .gridcontainer{
       margin-left: 4px;
@@ -407,7 +410,7 @@
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-    padding-left: 45%;
+    padding-left: 46%;
     height: 55px;
     margin-top: 0px;
     /* margin: auto; */
@@ -417,7 +420,7 @@
     position: absolute;
     top: 0;
     left: 6px;
-    width: 40%;
+    width: 45%;
     height: 100%;
     padding-right: 10px;
     white-space: nowrap;
@@ -425,6 +428,7 @@
     font-weight: bold;
     font-family: 'Arial';
     background-color: #D2D2D2;
+    margin-left: -6px;
   }
 
   /*
