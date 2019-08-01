@@ -41,6 +41,9 @@ import { SummarynewComponent } from './summarynew/summarynew.component';
 import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
+
+
+
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
 // import { TablehistoryComponent } from './tablehistory/tablehistory.component';

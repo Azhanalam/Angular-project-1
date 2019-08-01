@@ -68,6 +68,8 @@ import { HeaderTransactionModifiedComponent } from './header-transaction-modifie
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
 import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 
+// import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
+
 
 @NgModule({
   declarations: [
@@ -117,6 +119,9 @@ import { TablehistoryComponent } from './tablehistory/tablehistory.component';
     ViewCayeRefundReqComponent,
     HeaderMakecayeModifiedComponent,
     HeaderRegloginModifiedComponent,
+
+    HeaderTransactionModifiedComponent,
+
     TransactionhistorynewComponent,
     HeaderTransactionModifiedComponent,
     HeadernicoleComponent,

@@ -1,266 +1,386 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  @media (min-width: 768px) {
+    .wholeacknowledge{
+      width: 970px;
+      margin:auto;
+    }
+    .acknowledgementwhole{
+      width: 697.5px;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      margin-left: 241px;
+    }
+    .acknowledge{
+      margin-left: 0px;
+    }
+    .acknowledgement{
+      width: 229px;
+      height: 31px;
+      font-size: 28px;
+      font-family: 'Arial';
+      color: #4F8208;
+      font-weight: normal;
+    }
+  .transactionsuccessful{
+    width: 681px;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #436F07;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+  .transaction{
+    width: 697.5px;
+    height: 44px;
+    /* margin-left: 15px; */
+    margin-top: 23px;
+    background: #DFF0D8;
+    border: .5px solid #D6E9C6;
+    }
+    .TABLEDIV{
+      margin-top: 20px;
+      width: 697.5px;
+      /* margin-left: 15px; */
+    }
+    .Table{
+      width: 697.5px;
+    }
+    th{
+      height: 36px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+      background: #D2D2D2;
+    }
+    td{
+      width: 199px;
+      height: 35px;
+      font-size: 16px;
+      font-family: 'Arial';
+      columns: #464642;
+    }
+    .thank{
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    .thankyou{
+      width: 86px;
+      height: 17px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+    }
+    .gridcontainer{
+      margin-left: -10px;
+      margin-top: 10px;
+    }
+    .yourapplication{
+    width: 681px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    }
+    .GRID{
+      margin-left: 10px;
+    }
+    .checkstatus{
+      width: 681px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 10px;
+    }
+    .visitwebsite{
+      width: 681px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 10px;
+    }
+    .status{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .servicestandard{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .horizontalline{
+      margin-top: 51.5px;
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 698px;
+      background-color:#707070;
+      height: 1px;
+      margin-top:0;
+      /* margin-left: 15px; */
+    }
+    .BACKTOMAIN{
+      /* margin-left: 15px; */
+      margin-top: 20px;
+    }
+    .backtomain{
+      width: 93px;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+      font-weight: normal;
+    }
+    .TABLE{
+      width: 696.5px;
+    margin-top: 20px;
+    }
+  }
 
 
-.stepwizard-step {
-    display: table-cell;
-    text-align: center;
+
+
+
+
+  @media (max-width: 768px) {
+    .wholeacknowledge{
+      width: 100%;
+      margin:auto;
+    }
+    .acknowledgementwhole{
+      width: 100%;
+      margin: auto;
+      background: #F9F9F9;
+      padding: 10px;
+      /* margin-left: 241px; */
+    }
+    .acknowledge{
+      margin-left: 0px;
+    }
+    .acknowledgement{
+      width: 100%;
+      height: 31px;
+      font-size: 24px;
+      font-family: 'Arial';
+      color: #4F8208;
+      font-weight: normal;
+    }
+  .transactionsuccessful{
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #436F07;
+    margin-top: 10px;
+    }
+  .transaction{
+    width: 100%;
+    height: 79px;
+    margin-top: 20px;
+    background: #DFF0D8;
+    border: .5px solid #D6E9C6;
+    }
+    .TABLEDIV{
+      margin-top: 20px;
+      /* margin-left: 15px; */
+    }
+    .Table{
+      width: 100%;
+    }
+    th{
+      height: 36px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+      background: #D2D2D2;
+    }
+    td{
+      width: 100%;
+      height: 35px;
+      font-size: 16px;
+      font-family: 'Arial';
+      columns: #464642;
+    }
+    .thank{
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    .thankyou{
+      width: 100%;
+      height: 17px;
+      color: #464642;
+      font-weight: bold;
+      font-family: 'Arial';
+      font-size: 16px;
+    }
+    .gridcontainer{
+      margin-left: -10px;
+      margin-top: 10px;
+    }
+    .yourapplication{
+      width: 100%;
+    /* height: 17px; */
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    margin-bottom:0;
+    }
+    .GRID{
+      margin-left: 10px;
+    }
+    .checkstatus{
+      width: 100%;
+      /* height: 17px; */
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 20px;
+      margin-bottom:0;
+    }
+    .visitwebsite{
+      width: 100%;
+      /* height: 17px; */
+      font-size: 16px;
+      font-family: 'Arial';
+      color: #464642;
+      margin-top: 20px;
+    }
+    .status{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .servicestandard{
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+    }
+    .horizontalline{
+      margin-top: 0;;
+    }
+    hr {
+      border: 0;
+      /* clear:both; */
+      display:block;
+      width: 100%;
+      background-color:#707070;
+      height: 1px;
+      margin-top:0;
+      /* margin-left: 15px; */
+    }
+    .BACKTOMAIN{
+      /* margin-left: 15px; */
+      margin-top: 10px;
+    }
+    .backtomain{
+      width: 100%;
+      height: 17px;
+      font-size: 16px;
+      font-family: 'Arial';
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      color: #0070C0 !important;
+      font-weight: normal;
+    }
+    .TABLE{
+    margin-top: 20px;
+    }
+
+  }
+
+
+
+
+  /*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+  only screen
+  and (max-width: 760px), (min-device-width: 768px)
+  and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  /* tr:nth-child(odd) {
+    background: #ccc;
+  }
+   */
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
     position: relative;
-}
+    padding-left: 45%;
+    height: 55px;
+    margin-top: 0px;
+    /* margin: auto; */
+  }
 
-* {
-  box-sizing: border-box;
-}
-[class*="column-"] {
-  float: left;
-  padding: 15px 15px 15px 5px;
-}
-
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
-
-
-.aside {
-  /* background-color: #33b5e5; */
-  /* padding: 15px; */
-  /* color: #ffffff; */
-  /* text-align: center; */
-  font-size: 10px;
-  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
-  border: 1px solid grey;
-}
-
-
-.dot1 {
-  height: 35px;
-  width: 35px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  padding:5px;
-  margin-left:0px;
-  margin-bottom: 10px;
- border: 2px solid grey;
-}
-
-.dot2 {
-  height: 35px;
-  width: 35px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  padding:5px;
-  margin-left:22%;
-  border: 2px solid grey;
-  color:grey;
-}
-
-
-.dot3 {
-  height: 35px;
-  width: 35px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  padding:5px;
-  margin-left:22%;
-  border: 2px solid #49712d;
-  color:#49712d;
-}
-
-.step1{
-margin-left:0px; color: grey; font-weight:500
-}
-
-.step2{
-margin-left:22.5%; color:grey; font-weight:500
-}
-
-.step3{
-margin-left:22%; color: #49712d; font-weight:500
-}
-
-/* For mobile phones: */
-[class*="column-"] {
-  width: 100%;
-}
-
-.sidebar{
-padding:1px 15px 50px 15px
-}
-#container {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-/* p{
-  font-weight: bold;
-} */
-.LIST{
-  width:92%;
-  margin-left:3%;
-}
-
-.style1{
-  border: 0.5px solid gray;
-}
-th{
-  background:#969691;
-
-}
-td{
-  background:#c6c6c0;
-
-}
-.H5{
-  color:#077712;
-  font-size:30px;
-}
-.P{
-  font-weight: bold;
-}
-.P1{
-  font-weight: lighter;
-}
-
-.message{
-  color:#49712d; 
-  background-color:rgb(199, 239, 199);
-   padding:10px 465px 10px 10px; 
-   margin-bottom:20px
-}
-
-@media only screen and (min-width: 768px) {
-.sidebar{
-padding:1px 15px 300px 15px
-}
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .column-1 {width: 8.33%;}
-  .column-2 {width: 16.66%;}
-  .column-3 {width: 12%;}
-  .column-4 {width: 33.33%;}
-  .column-5 {width: 41.66%;}
-  .column-6 {width: 50%;}
-  .column-7 {width: 58.33%;}
-  .column-8 {width: 66.66%;}
-  .column-9 {width: 75%;}
-  .column-10 {width: 83.33%;}
-  .column-11 {width: 91.66%;}
-  .column-12 {width: 100%;}
-}
-
-
-
-@media (min-width: 768px) {
-  
-  /* p{
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 40%;
+    height: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
     font-weight: bold;
-  } */
-  .LIST{
-    width:78%;
-    margin-left:18%;
+    font-family: 'Arial';
+    background-color: #D2D2D2;
   }
 
-  .style1{
-    border: 0.5px solid gray;
-  }
-  th{
-    background:#969691;
-  }
-  td{
-    background:#c6c6c0;
-  }
-  .H5{
-    color:#077712;
-    font-size:30px;
-  }
-  .P{
-    font-weight: bold;
-  }
-  .P1{
-    font-weight: lighter;
-  }
-  .Service{
-      margin-top: -40px;
-      margin-left: 290px;
-      font-weight: 100;
-  }
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: "Service Name"; }
+  td:nth-of-type(2):before { content: "Transaction No"; }
+  td:nth-of-type(3):before { content: "Transaction Date"; }
 
-  .dot1 {
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    padding:5px;
-    margin-left:0px;
-    margin-bottom: 10px;
-   border: 2px solid grey;
-  }
-
-  .dot2 {
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    padding:5px;
-    margin-left:22%;
-    border: 2px solid grey;
-    color:grey;
-  }
-
-  
-  .dot3 {
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    padding:5px;
-    margin-left:22%;
-    border: 2px solid #49712d;
-    color:#49712d;
-  }
-
-.step1{
-  margin-left:0px; color: grey; font-weight:500
-}
-
-.step2{
-  margin-left:22.5%; color:grey; font-weight:500
-}
-
-.step3{
-  margin-left:22%; color:#49712d; font-weight:500
-}
-
-.message{
-  color:#49712d; 
-  background-color:rgb(199, 239, 199);
-   padding:10px 465px 10px 10px; 
-   margin-bottom:20px
-}
-}
-
-@media only screen and (max-width: 768px) and (min-width: 400px) {
-  .LIST{
-    width:68%;
-    margin-left:30%;
-  }
-
-  .message{
-    color:#49712d; 
-    background-color:rgb(199, 239, 199);
-     padding:10px 4px 10px 10px; 
-     margin-bottom:20px
-  }
 }

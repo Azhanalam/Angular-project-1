@@ -1,61 +1,70 @@
-<app-header-makecaye></app-header-makecaye>
+<app-header-makecaye-modified></app-header-makecaye-modified>
+<div class="bodywidth">
 <div>
     <!-- <p style="margin-top:15px">Welcome, <b>NANYANG POLYTECHNIC (UEN:1992123456)</b>  </p> -->
     <div id="container">
-        <span class="heading" >
-            <span style="font-size: 1.5rem;">Make CAYE Contribution</span>   
+        <p class="heading" >
+            Make CAYE Contribution
              <!-- <a class="links" style="color:blue"><u >Download</u> | <u >Print</u></a>    -->
-           </span>
-           <div style="width:100%; padding:1px 15px 0px 15px;">
+           </p>
+
+           <div class="steps">
+               <span class="step1" >Step</span>
+                <span class="step2" >Step</span><br/>
+                <!-- <span class="step3" >Step</span><br/>  -->
+               <span  class="dot1">1</span> <span class="dot2">2</span>
+               <!-- <span class="dot3">3</span> -->
+            <!-- <br/> -->
+             </div>
+
+
+
+           <!-- <div style="width:100%; padding:1px 15px 0px 15px;">
               <span class="step1" >Step</span>
                <span class="step2" >Step</span>
-               <span class="step3" >Step</span><br/> 
+               <span class="step3" >Step</span><br/>
               <span  class="dot1">1</span> <span class="dot2">2</span><span class="dot3">3</span>
            <br/>
-            </div>
-            <p style="background-color: #49712d; color: white; padding: 10px;">Verify details in the payment.</p>
-           
-     
-      <!-- <div class="table-responsive"> -->
-          <table class="table table-borderless" style="width:100%">
-            <tbody>
-              <tr>
-                  <td scope="row" style="padding:0px">CSN Name</td>
-                </tr>
-                <tr>
-                  <th style="padding:0px;">
-                     School of Engineering</th>
-                </tr>
-              <tr>
-                  <td scope="row" style="padding:0px;padding-top:10px">Unique Entity Number</td>
-                  </tr>
-                  <tr>
-                  <th style="padding:0px;">1992123456</th>
-              </tr>
-              <tr>
-                  <td scope="row" style="padding:0px;padding-top:10px">Submission No.</td>
-                  </tr><tr>
-                  <th style="padding:0px">1992123456-MSE-01</th>
-              </tr>
-            </tbody>
-  </table>
-        <!-- </div>  -->
+            </div> -->
+            <p style="font-weight: bold;
+            font-family:Arial;
+              font-size: 16px;
+              margin-top: 19px;
+              margin-bottom: 0px;
+              padding-left: 0px;">CSN Name</p>
+              <p style="font-size: 16px;
+                margin-bottom: 0px;
+                padding-left:0px">School of Engineering</p>
 
- 
+            <p style="font-size: 16px;
+              margin-top: 20px;
+              font-weight: bold;
+              font-family:Arial;
+              padding-left: 0px;
+              margin-bottom: 0;">Submission No.</p>
+            <p style="font-size: 16px;
+              margin-bottom: 20px;
+              padding-left:0px">1992123456-MSE-01
+              <span class="download" >Download PDF</span>
+            </p>
+
+
+
+
       <div class="table-responsive" >
-    <table class="table table-striped table-bordered" style="width:100%; border-bottom: 1px solid #49712d!important;">
-        <thead style="text-align:center">
+    <table class="table table-striped table-bordered" style="width:100%; font-size:16px;font-family:Arial;margin-bottom:0px;">
+        <thead style="text-align:left;background-color:#D2D2D2">
           <tr>
-            <th scope="col">S/N</th>
-            <th scope="col" style="text-align:center">CPF Acc No. 
+            <th scope="col" style="padding-bottom:29px;">S/N</th>
+            <th scope="col" style="padding-bottom:29px;">NRIC
              </th>
-            <th scope="col">Service Fee</th>
-            <th scope="col">MediSave Payable</th>
-            <th scope="col">Net Service Fee</th>
-            <th scope="col" class="hasTooltip">Payment Ref No.</th>
+            <th scope="col" style="text-align:justify;" >Gross<br/> Service Fee</th>
+            <th scope="col" style="text-align:justify;">MediSave<br/> Payable &nbsp;<i class="fas fa-question-circle"></i></th>
+            <th scope="col" style="text-align:justify;">Net Service<br/> Fee &nbsp;<i class="fas fa-question-circle"></i></th>
+            <th scope="col" class="hasTooltip" style="padding-bottom:29px;">Invoice Number</th>
           </tr>
         </thead>
-        <tbody style="text-align:center">
+        <tbody style="text-align:left;overflow-y:scroll;">
           <tr>
             <th scope="row">1</th>
             <td style="text-align:center">S1234567A</td>
@@ -97,77 +106,99 @@
                 <td>TX12345SH</td>
               </tr>
           <tr>
+          <tr>
               <!-- <th scope="row"></th> -->
-              <td colspan="2" style="background-color: #343a40;color: white;border: none;">
-                <b>Total Amount:</b></td>
-              <td style="background-color: #343a40;color: white;border: none;"><b>$ 600.00</b></td>
-              <td style="background-color: #343a40;color: white;border: none;"><b>$ 15.00</b></td>
-              <td style="background-color: #343a40;color: white;border: none;"><b>$ 585.00</b></td>
-              <td style="background-color: #343a40;color: white;border: none;"><b>Records: 8</b></td>
+              <td colspan="2" style="background-color: #D2D2D2;border: none;">
+                <b>Total:</b></td>
+              <td style="background-color: #D2D2D2;border: none;"><b>$ 800.00</b></td>
+              <td style="background-color: #D2D2D2;border: none;"><b>$ 40.00</b></td>
+              <td style="background-color: #D2D2D2;border: none;"><b>$ 760.00</b></td>
+              <td style="background-color: #D2D2D2;border: none;"><b>Records: 8</b></td>
             </tr>
+
         </tbody>
       </table>
     </div>
-    <p style="    background-color: rgba(0, 0, 0, 0.13);
-    padding: 10px;
-    width: 80%;"><b>Total CAYE contributions into Medisave Account</b></p>
-    <span style="background-color:#49712d;
-    padding: 10px;
-    height: 44px;
-    width: 20%;
-    color: white;"><b>$</b><span style="float:right"><b>40.00</b></span></span>
+    <p class="summary" >Total CAYE contributions into Medisave Account
+  <span style="float:right">$40.00</span></p>
 
-    <p>Select Payment Method</p>
+    <p style="font-size:16px;font-family:Arial;font-weight:bold;padding-left:0">Select Payment Method</p>
+    <!-- <div style="width:340px;border:0.5px solid #707070;border-bottom:2px solid #4F8208;height:99px">
+
+        <span style="font-size: 14px;
+        margin-top: 15px;
+        margin-left: 10px;
+        font-weight: bold;padding-left:0;">
+        <p style="float:left;">1) Deduction Date</p>
+        <input type="text" placeholder="DD/MM/YYYY" style="width:150px !important;font-size:16px;float:left;">
+        <button style="color:white; background-color:#246399;width:94px;height:60px;">Direct Debit</button>
+      </span> -->
+      <!-- <img src="../../assets/DirectDebit.png" (click)="acknowledge2()" class="directdebit" style="margin-left:13%;margin-top: -17px;"> -->
+    <!-- </div> -->
+    <div  class="payment1" >
+      <div style="float:left;">
+        <p style="font-size: 14px;
+        margin-top: 15px;
+        margin-left: 21px;
+        font-weight: bold;padding-left:0;">1) Deduction Date</p>
+        <input type="text" placeholder="DD/MM/YYYY" style="width:150px !important;font-size:16px;margin-left:36.5px">
+      </div>
+      <div style="float:right;">
+        <button style="color: white;
+    background-color: #246399;
+    width: 94px;
+    height: 60px;
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;">Direct Debit</button>
+      </div>
+    </div>
+    <div class="payment2" >
+      <div style="float:left;">
+        <p style="font-size: 14px;
+        margin-top: 15px;
+        margin-left: 21px;
+        font-weight: bold;padding-left:0;">2) </p>
+
+      </div>
+      <div >
+        <!-- <button style="color: white;
+    background-color: #246399;
+    width: 94px;
+    height: 60px;
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;">Direct Debit</button> -->
+    <img src="../../assets/enets.jpeg" (click)="enets()" class="enets" style="    width: 88px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 88px;
+    /* margin-bottom: 18px; */
+    margin-right: 10px;
+    padding: 0;">
+
+      </div>
+
+
   </div>
-    <br/>
+<button class="backbtn" (click)="back()" type="submit">Back</button>
+</div>
 
-
-
-    <!-- <div class="table-responsive"> style="width:50%"  style="width:100%;    margin-left: 18%;"-->
-    <table class="table table-borderless tabmargin" >
-      <tbody>
-        <!-- <tr>
-        <th style="width:50%">Total Record(s) : 3</th>
-        <th style="text-align:center">Payment Method</th>
-      </tr> -->
-      <tr>
-          <th class="tabwidth">1)
-         <span style="margin-left:10%"> Deduction Date<br/>
-          <input type="text" value="{{fullDate}}" style="text-align:center;margin-left:13%" size="10"><img src="../../assets/calendar.png" width="4%">
-         </span>
-            <img src="../../assets/DirectDebit.png" (click)="acknowledge2()" class="directdebit" style="margin-left:13%;margin-top: -17px;">
-            
-            
-          </th>
-            
-         
-          <th class="tabwidth">2) 
-              <!-- <span style="margin-left:10%"> Deduction Date<br/> -->
-                <!-- <input type="text" value="{{fullDate}}" style="text-align:center;margin-left:13%" size="10"><img src="../../assets/calendar.png" width="4%"> -->
-               <!-- </span> -->
-            <img src="../../assets/ENETS.png" (click)="enets()" class="enets" style="">
-          </th>
-          <!-- <th></th>
-          <th></th> -->
-        </tr>
-        <tr>
-          <th>
-              <button class="backbtn" (click)="back()" type="submit">Back</button> 
-          </th>
-          <!-- <td style="text-align:center">
-              Deduction on<br/>
-              <input type="text" value="{{fullDate}}" style="text-align:center;" size="10"><img src="../../assets/calendar.png" >
-             
-            </td> -->
-        </tr>
-      </tbody>
-    </table>
-  <!-- </div> -->
 </div>
 
  <!-- <div class="stepwizard">
         <div class="stepwizard-row setup-panel">
-          
+
             <div class="stepwizard-step"><span style="color:rgb(75, 74, 74)" class="STEP">Step</span><br/>
                 <a   class="btn btn-light btn-circle1"><span style="color:rgb(75, 74, 74);">1</span></a>
             </div>
@@ -182,7 +213,7 @@
         <!-- <a class="links" style="color:blue"><u >Download</u> | <u >Print</u></a>    -->
       <!-- </span> -->
     <!-- <span></span>  -->
-    
+
     <!-- <div class="table-responsive">
         <table class="table table-borderless" style="width:100%;border-bottom:0px">
             <tbody>
@@ -225,7 +256,7 @@
       </table>
     </div> -->
 
-      <!-- <span style="margin-top:1%;margin-bottom:1%"><b>Total CAYE Contributions into MediSave Account</b></span> 
+      <!-- <span style="margin-top:1%;margin-bottom:1%"><b>Total CAYE Contributions into MediSave Account</b></span>
       <span class="right"><b>15.00</b></span> -->
       <!-- <br/> -->
 
@@ -241,12 +272,12 @@
   <!-- <button class="directdebit"  (click)="acknowledge2()"><img src="../../assets/DirectDebit.png"></button>
   <button  class="enets"  (click)="enets()"><img src="../../assets/ENETS.png"></button> -->
 <!-- </span> -->
-<!--     
+<!--
 <p></p>
     <button class="backbtn" (click)="back()" type="submit">Back</button>  -->
     <!-- <button class="nextbtn" (click)="next()" type="submit">Next</button>  -->
    <!-- <span class="deduction" >Deduction on<br/>
        <input type="text" value="{{dateNow}}" style="text-align:center;" size="10"><img src="../../assets/calendar.png" >
       </span> -->
- 
+
 <!-- </div> -->

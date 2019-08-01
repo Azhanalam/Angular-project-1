@@ -1,23 +1,24 @@
-<app-header-makecaye></app-header-makecaye>
+<app-header-makecaye-modified></app-header-makecaye-modified>
+<div class="bodywidth">
 <div id="container">
     <h4 class="heading">
-        CAYE Contribution Submissions
+        Pending CAYE Transactions
       </h4>
       <p class="message">
         You have <b><u>2</u></b> CAYE Contributions pending deduction</p>
-      <p ><b>Important Notes</b></p>
+      <p style="margin-top:10px;font-size:18px;font-family:arial;"><b>Important Notes</b></p>
       <div class="notes">
       <ul style="margin-bottom:0px;padding-left:20px">
-        <li style="margin-bottom: 5px;">Please select the 'CSN' if you would like to ammend.</li>
+        <li style="margin-bottom: 10px;margin-top:20px">Please select the 'CSN' if you would like to ammend.</li>
         <!-- <br/> -->
-        <li style="margin-bottom: 5px;">All submissions will no longer be available for ammend <b>2 days before deduction date.</b> </li>
+        <li style="margin-bottom: 10px;">All submissions will no longer be available for ammend <b>2 days before deduction date.</b> </li>
         <!-- <br/> -->
-        <li style="margin-bottom: 5px;">All submissions will be cancelled once the submission has been deleted.</li>
+        <li style="margin-bottom: 10px;">All submissions will be cancelled once the submission has been deleted.</li>
       </ul>
     </div>
-    
-    <table class="table table-striped table-bordered" style="margin-top:20px; margin-bottom:10px">
-        <thead class="thead-dark">
+<div class="table-responsive" style="overflow-x: scroll;">
+    <table class="table table-striped table-bordered" style="margin-top:20px; margin-bottom:10px;font-size:16px;font-family:arial;">
+      <thead style="background-color:#D2D2D2">
           <tr>
             <th scope="col">S/N</th>
             <th scope="col">CSN No.</th>
@@ -27,24 +28,24 @@
         </thead>
         <tbody>
           <tr class="table-light" >
-            <th style="background-color:rgb(199, 235, 239);" scope="row">1</th>
-            <td style="background-color:rgb(199, 235, 239);"><a href="totalcontribution" style="text-decoration:underline">199213456-MSE-01</a></td>
-            <td style="background-color:rgb(199, 235, 239);">01/08/2018</td>
-            <td style="background-color:rgb(199, 235, 239);">01/08/2018<img src="../assets/trash3.png" width="5%" style="float:right"></td>
-           
+            <th  scope="row">1</th>
+            <td ><a href="totalcontribution" style="text-decoration:underline">199213456-MSE-01</a></td>
+            <td >01/08/2018</td>
+            <td >01/08/2018<img src="../assets/trash3.png" style="float:right" class="dustbin"></td>
+
           </tr>
           <tr class="table-light">
-            <th style="background-color:rgb(199, 235, 239);" scope="row">2</th>
-            <td style="background-color:rgb(199, 235, 239);"><a href="" style="text-decoration:underline">199213456-MSE-03</a></td>
-            <td style="background-color:rgb(199, 235, 239);">01/08/2018</td>
-            <td style="background-color:rgb(199, 235, 239);">01/08/2018<img src="../assets/trash3.png" width="5%" style="float:right"></td>
-           
+            <th  scope="row">2</th>
+            <td ><a href="" style="text-decoration:underline">199213456-MSE-03</a></td>
+            <td >01/08/2018</td>
+            <td >01/08/2018<img src="../assets/trash3.png"  style="float:right" class="dustbin"></td>
+
           </tr>
         </tbody>
       </table>
 
-      
+</div>
       </div>
 
-      <button class="submitbutton"(click)="AppSuccess()" type="submit">
-        Back to Main</button>
+      <button  class="backbtn" (click)="back()" type="submit">Back</button>
+      </div>
