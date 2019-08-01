@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     border-top:1px solid grey;
     border-bottom:1px solid grey;
-    padding:5px 5px 5px 5px;
+    /* padding:5px 5px 5px 5px; */
     width:100%;
   }
 
@@ -18,8 +18,18 @@
       padding:10px 70px 10px 10px;
        margin-bottom:10px;
   }
-  .heading{
+  /* .heading{
     padding:5px 0px 5px 0px; margin-left:-5px; color:#49712d;font-weight:545;width:100%
+  } */
+
+  .heading{
+    color: #4F8208;
+    font-size: 28px;
+    width: 100%;
+    margin-top: 9.5px;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: 0;
+    font-family: arial;
   }
 
   @media only screen and (min-width: 768px) {
@@ -27,16 +37,21 @@
       display: flex;
       flex-wrap: wrap;
       border-top:1px solid grey;
-      border-bottom:1px solid grey;
-      padding:5px 5px 0px 5px;
-      width:78%;
+      border-bottom:2px solid #4F8208;
+      /* padding:5px 5px 0px 5px; */
+      width:696px;
+      margin-left:258px;
     }
 
     .notes{
-      padding:10px 542px 10px 10px;
+      /* padding:10px 542px 10px 10px; */
+      width:697px;
+      height:124px;
       border:1px solid black;
       background-color: white;
-      
+      font-size:16px;
+      font-family:arial;
+
     }
 
     table{
@@ -44,25 +59,34 @@
     }
 
     .dustbin{
-      width:5%;
+      width:27px;
       float:right;
     }
-    
+
     .message{
-      color:#49712d;
-       background-color:rgb(199, 239, 199);
-        padding:10px 562px 10px 10px;
-         margin-bottom:10px;
+      margin-bottom: 10px;
+          width: 697.5px;
+          height: 44px;
+          color: #436F07;
+          padding: 13px 6.5px 6px 10px;
+          background-color: #DFF0D8;
+          font-size:16px;
+          font-family:arial;
+          border:0.5px solid #D6E9C6;
+    }
+
+    .bodywidth{
+      width:970px;
+      margin:auto;
     }
   }
 
-  @media only screen and (max-width: 768px) and (min-width: 400px) {
+  /* @media only screen and (max-width: 768px) and (min-width: 400px) {
   #container {
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    padding: 5px 5px 0px 5px;
     width: 68%;
 }
 
@@ -77,6 +101,6 @@
   padding:10px 5px 10px 10px;
   border:1px solid black;
   background-color: white;
-  
+
 }
-  }
+  } */

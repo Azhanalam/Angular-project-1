@@ -41,10 +41,12 @@ import { SummarynewComponent } from './summarynew/summarynew.component';
 import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
+// import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
 
 
 const routes: Routes = [
-  {path:'header-reglogin',component:HeaderRegloginModifiedComponent}
+  // {path:'header-reuse',component: HeaderReuseComponent },
+  {path:'header-reglogin',component:HeaderRegloginModifiedComponent},
   {path:'header',component:HeaderModifiedComponent},
   {path:'header-makecaye',component:HeaderMakecayeModifiedComponent},
   {path:'header-transaction',component:HeaderTransactionModifiedComponent},
