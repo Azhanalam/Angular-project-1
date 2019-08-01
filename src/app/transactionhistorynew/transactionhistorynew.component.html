@@ -1,0 +1,297 @@
+<div class="wholetransactionhistory">
+<app-header-transaction-modified></app-header-transaction-modified>
+<div class="transactionhistory">
+  <hr class="horizontal1">
+<div class="viewtransaction">
+  <p class="viewtransactionhistory">View Transaction History</p>
+</div>
+
+<div class="showhidebutton">
+<button class="BUTTON" (click)="toggle()">{{buttonName}}</button>
+</div>
+
+
+<div class="wholetable" *ngIf="!(show)">
+    <div class="transactionhistorydate">
+        <p class="transactionhistorydateaugust"><b> Transaction History as of 31 Oct 2018 </b>- (Aug 2018 - Oct 2018)</p>
+      </div>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered TABLE">
+         <thead style="text-align:center">
+           <tr>
+             <th scope="col" style="width:35%">Transaction No.</th>
+             <th scope="col" style="width:22%">Transaction Type</th>
+             <th scope="col">Date</th>
+             <th scope="col">Status</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td style="width:35%"><p><a href="">CAYEPMT00001</a> (Bank)</p></td>
+             <td>CAYE Contribution</td>
+             <td>15 August 2018</td>
+             <td style="width:24%">Processed <p>(3 rejected records)</p></td>
+           </tr>
+           <tr>
+             <td style="width:35%"><a href="">CAYEPMT00002</a></td>
+             <td>Refund</td>
+             <td>15 August 2018</td>
+             <td>Rejected</td>
+           </tr>
+           <tr>
+             <td style="width:35%"><p><a href="">CAYEPMT00003</a> (Online DDA)</p></td>
+             <td>CAYE Contribution</td>
+             <td>15 August 2018</td>
+             <td>Pending Deduction</td>
+           </tr>
+           <tr>
+             <td style="width:35%"><a href="">CAYEPMT00001</a></td>
+             <td>Update Entity Information</td>
+             <td>15 August 2018</td>
+             <td>Processed</td>
+           </tr>
+           </tbody>
+        </table>
+       </div>
+       <hr class="horizontalinegreen">
+<div class="pagination" >
+    <span class="showing14">Showing 1-4 of 4</span>
+  </div>
+<div class="paginatio">
+    <a href="#" class="pageleft">&lt;&lt;</a>
+    <a href="#" class="pageleft">|</a>
+    <a href="#" class="pageleft">&lt;</a>
+    <a href="#" class="pageleft">Page</a>
+    <a href="#" class="pageleft">1</a>
+    <a href="#" class="pageleft">of 1</a>
+    <a href="#" class="pageleftgo">Go</a>
+    <a href="#" class="pageleft">&gt;</a>
+    <a href="#" class="pageleft">|</a>
+    <a href="#" class="pageleft">&gt;&gt;</a>
+  </div>
+
+</div>
+
+
+<div *ngIf="show">
+
+    <div class="container inputcontainer">
+  <div class="row">
+    <div class="col">
+        <div class="container">
+            <div class="row wholedropdown">
+
+              <div class="col col-lg-6 firstcolumn">
+                <div class="CSNNAME">
+                  <p class="csnname">CSN Name</p>
+                </div>
+                  <div class="dropdown">
+                      <button class="btn dropdown-toggle dropdownbutton" type="button" data-toggle="dropdown">School of Engineering</button>
+                    </div>
+              </div>
+              <div class="PERIOD">
+                  <p class="period">Period</p>
+                </div>
+              <div class="col col-lg-2 secondcolumn">
+                  <div class="dropdown">
+                      <button class="btn dropdown-toggle dropdownbutton1" type="button" data-toggle="dropdown">Aug 2018</button>
+                    </div>
+              </div>
+              <div class="TO">
+                <p class="to">to</p>
+              </div>
+              <div class="col col-lg-2 secondcolumn2">
+                  <div class="dropdown">
+                      <button class="btn dropdown-toggle dropdownbutton1" type="button" data-toggle="dropdown">Oct 2018</button>
+                    </div>
+              </div> 
+            </div>
+          </div>
+    </div> 
+  </div>
+
+
+  <div class="row">
+      <div class="col">
+          <div class="container">
+              <div class="row wholedropdown">
+  
+                <div class="col col-lg-4 firstcolumn">
+                  <div class="CSNNAME">
+                    <p class="csnname">NRIC</p>
+                  </div>
+                    <div class="dropdown">
+                        <p class="dropdownbutton2">S/TXXXXXXXA</p>
+                        <!-- <button class="btn dropdown-toggle dropdownbutton2" type="button" data-toggle="dropdown">S/TXXXXXXXA</button> -->
+                      </div>
+                </div>
+                <div class="sortaccordingto">
+                    <p class="sortaccording">Sort according to</p>
+                  </div>
+                <div class="col col-lg-4 secondcolumn3">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle dropdownbutton3" type="button" data-toggle="dropdown">Latest Transaction</button>
+                      </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <div class="row wholedropdown">
+    
+                  <div class="col col-lg-4 firstcolumn">
+                    <div class="TransactionType">
+                      <p class="TRANSACTION">Transaction Type</p>
+                    </div>
+
+                    <div class="dropdown">
+                    <select class="dropdownbutton4" (change)="all($event)">
+                      <option value="All" class="dropdowncontent">All</option>
+                      <option value="Refund/Request" class="dropdowncontent">Refund/Request</option>
+                    </select>
+                  </div>
+                      <!-- <div class="dropdown">
+                          <button class="btn dropdown-toggle dropdownbutton4" type="button" data-toggle="dropdown">{{dropdown}}
+                          <ul class="dropdown-menu dropdowncontent">
+                              <li class="refundreq"><a (click)="toggle1()">{{dropdown}}</a></li>
+                            </ul>
+                          </button>
+                        </div> -->
+
+                  </div>
+
+                  <div class="APPLY">
+                      <button class="BUTTON2">Apply</button>
+                    </div>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>
+<div class="transactionhistorydate">
+    <p class="transactionhistorydateaugust"><b> Transaction History as of 31 Oct 2018 </b>- (Aug 2018 - Oct 2018)</p>
+  </div>
+
+  <div class="wholetable" *ngIf="!isNameSelected">
+<div class="table-responsive Table">
+    <table class="table table-striped table-bordered TABLE">
+     <thead style="text-align:center">
+       <tr>
+         <th scope="col" style="width:35%">Transaction No.</th>
+         <th scope="col" style="width:22%">Transaction Type</th>
+         <th scope="col">Date</th>
+         <th scope="col">Status</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td style="width:35%"><p><a href="">CAYEPMT00001</a> (Bank)</p></td>
+         <td>CAYE Contribution</td>
+         <td>15 August 2018</td>
+         <td style="width:24%">Processed <p>(3 rejected records)</p></td>
+       </tr>
+       <tr>
+         <td style="width:35%"><a href="">CAYEPMT00002</a></td>
+         <td>Refund</td>
+         <td>15 August 2018</td>
+         <td>Rejected</td>
+       </tr>
+       <tr>
+         <td style="width:35%"><p><a href="">CAYEPMT00003</a> (Online DDA)</p></td>
+         <td>CAYE Contribution</td>
+         <td>15 August 2018</td>
+         <td>Pending Deduction</td>
+       </tr>
+       <tr>
+         <td style="width:35%"><a href="">CAYEPMT00001</a></td>
+         <td>Update Entity Information</td>
+         <td>15 August 2018</td>
+         <td>Processed</td>
+       </tr>
+       </tbody>
+    </table>
+   </div>
+   <hr class="horizontalinegreen">
+<div class="pagination" >
+<span class="showing14">Showing 1-4 of 4</span>
+</div>
+<div class="paginatio">
+<a href="#" class="pageleft">&lt;&lt;</a>
+<a href="#" class="pageleft">|</a>
+<a href="#" class="pageleft">&lt;</a>
+<a href="#" class="pageleft">Page</a>
+<a href="#" class="pageleft">1</a>
+<a href="#" class="pageleft">of 1</a>
+<a href="#" class="pageleftgo">Go</a>
+<a href="#" class="pageleft">&gt;</a>
+<a href="#" class="pageleft">|</a>
+<a href="#" class="pageleft">&gt;&gt;</a>
+</div>
+</div>
+
+<div *ngIf="isNameSelected">
+    <div class="table-responsive Table">
+        <table class="table table-striped table-bordered TABLE">
+         <thead style="text-align:center">
+           <tr>
+             <th scope="col" style="width:35%">Transaction No.</th>
+             <th scope="col" style="width:22%">Transaction Type</th>
+             <th scope="col">Date</th>
+             <th scope="col">Status</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td style="width:35%"><p><a href="">CAYEPMT00001</a> (Bank)</p></td>
+             <td>CAYE Contribution</td>
+             <td>15 August 2018</td>
+             <td style="width:24%">Processed <p>(3 rejected records)</p></td>
+           </tr>
+           <tr>
+             <td style="width:35%"><a href="">CAYEPMT00002</a></td>
+             <td>Refund</td>
+             <td>15 August 2018</td>
+             <td>Rejected</td>
+           </tr>
+           <tr>
+             <td style="width:35%"><p><a href="">CAYEPMT00003</a> (Online DDA)</p></td>
+             <td>CAYE Contribution</td>
+             <td>15 August 2018</td>
+             <td>Pending Deduction</td>
+           </tr>
+           <tr>
+             <td style="width:35%"><a href="">CAYEPMT00001</a></td>
+             <td>Update Entity Information</td>
+             <td>15 August 2018</td>
+             <td>Processed</td>
+           </tr>
+           </tbody>
+        </table>
+       </div>
+       <hr class="horizontalinegreen">
+<div class="pagination" >
+<span class="showing14">Showing 1-4 of 4</span>
+</div>
+<div class="paginatio">
+<a href="#" class="pageleft">&lt;&lt;</a>
+<a href="#" class="pageleft">|</a>
+<a href="#" class="pageleft">&lt;</a>
+<a href="#" class="pageleft">Page</a>
+<a href="#" class="pageleft">1</a>
+<a href="#" class="pageleft">of 1</a>
+<a href="#" class="pageleftgo">Go</a>
+<a href="#" class="pageleft">&gt;</a>
+<a href="#" class="pageleft">|</a>
+<a href="#" class="pageleft">&gt;&gt;</a>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>

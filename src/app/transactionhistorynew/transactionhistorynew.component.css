@@ -1,0 +1,329 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  @media (min-width: 768px) {
+    .wholetransactionhistory{
+        width: 970px;
+        margin: auto;
+    }
+    .transactionhistory{
+        width: 697.5px;
+        margin: auto;
+        background: #F9F9F9;
+        padding: 10px;
+        margin-left: 245px;
+    }
+    hr {
+        border: 0;
+        display:block;
+        width: 705px;               
+        background-color:#707070;
+        height: 1px;
+        margin-top: 0px;
+      }
+      .horizontal{
+        border: 0;
+        display:block;
+        width: 705px;               
+        background-color:#707070;
+        height: 1px;
+        margin-top: 20.5px;
+      }
+      .horizontalinegreen{
+        border: .5px solid #707070;
+        display:block;
+        width: 696px;               
+        background-color:#4F8208;
+        height: 3px;
+        margin-top:-5px;
+      }
+      .viewtransaction{
+        margin-top: 10px;
+      }
+      .viewtransactionhistory{
+        width: 309px;
+        height: 31px;
+        font-size: 28px;
+        font-family: 'Arial';
+        color: #4F8208;
+      }
+      .showhidebutton{
+        margin-left: 550px;
+        margin-top: 20px;
+      }
+    .BUTTON{
+    width: 145px;
+    height: 40px;
+    font-size: 16px;
+    color: #464642;
+    background: #D2D2D2;
+    font-family: 'Arial';
+    border: none;
+  }
+  .BUTTON2{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    color: #464642;
+    background: #D2D2D2;
+    font-family: 'Arial';
+    border: none;
+  }
+  .APPLY{
+    margin-left: 352px;
+  }
+  .BUTTON:focus,.BUTTON2:focus {
+       outline: none; 
+    }
+.transactionhistorydate{
+    margin-top: 10px;
+    }
+.transactionhistorydateaugust{
+    width: 458px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+}
+th{
+    width: 120px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    background: #D2D2D2;
+}
+td{
+    width: 172px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+}
+.TABLE{
+    height: 36px;   
+}
+.Table{
+    width: 696px;
+}
+.cayepmt{
+widows: 35% !important;
+}
+.wholetable{
+    margin-top: 11px;
+    width: 696px;
+}
+.pagination{
+    margin-top: 11px;
+}
+.showing14{
+    width: 133px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+}
+.pageleft{
+    padding: 5px;
+    color: #464642;
+}
+.pageleftgo{
+    padding: 5px;
+    color: #FFFFFF;
+    background: #4F8208;
+}
+.paginatio{
+    margin-left: 435px;
+    width: 281.5px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-top: -36px;
+}
+.inputcontainer{
+    width: 696px;
+    height: 226px;
+    background: #F1F1F1;
+    margin-top: 10px;
+}
+.firstcolumn{
+    width: 345.5px;
+    height: 40px;
+    border: .5px solid #707070;
+    background: #FFFFFF;
+}
+.dropdownbutton{
+    width: 147px;
+    height: 17px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: -12px;
+}
+.dropdownbutton2{
+    width: 147px;
+    height: 17px;
+    margin-top: 17px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: -3px;
+}
+.dropdownbutton::after{
+    margin-left: 145px;
+}
+.dropdownbutton1::after{
+    margin-left: 14px;
+}
+.dropdownbutton3::after{
+    margin-left: 63px;
+}
+.dropdownbutton1{
+    width: 69px;
+    height: 17px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: -12px;
+}
+.dropdownbutton3{
+    width: 69px;
+    height: 17px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: -12px;
+}
+.wholedropdown{
+    margin-top: 32px;
+}
+.secondcolumn{
+    width: 135.5px;
+    height: 40px;
+    border: .5px solid #707070;
+    background: #FFFFFF;
+    margin-left: -50px;
+}
+.secondcolumn3{
+    width: 135.5px;
+    height: 40px;
+    border: .5px solid #707070;
+    background: #FFFFFF;
+    margin-left: -131px;
+}
+
+.secondcolumn2{
+    width: 135.5px;
+    height: 40px;
+    border: .5px solid #707070;
+    background: #FFFFFF;
+    margin-left: 33px;
+}
+.TO{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.to{
+    font-size: 14px;
+    font-family: 'Arial';
+    font-weight: bold;
+    width: 13px;
+    height: 16px;
+    color: #464642;
+}
+.CSNNAME{
+    margin-top: -26px;
+    margin-left: -15px;
+}
+.csnname{
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    width: 82px;
+    height: 17px;
+    color: #464642;
+}
+.PERIOD{
+    margin-top: -24px;
+    margin-left: 30px;
+}
+.period{
+    font-size: 16px;
+    font-family: 'Arial';
+    width: 50px;
+    height: 17px;
+    color: #464642;
+    font-weight: bold;
+}
+.sortaccordingto{
+    margin-top: -24px;
+    margin-left: 30px; 
+}
+.sortaccording{
+    font-size: 16px;
+    font-family: 'Arial';
+    width: 133px;
+    height: 17px;
+    color: #464642;
+    font-weight: bold;
+}
+.TransactionType{
+    margin-top: -26px;
+    margin-left: -15px;
+}
+.TRANSACTION{
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    width: 131px;
+    height: 17px;
+    color: #464642;
+}
+.dropdownbutton4{
+    width: 215px;
+    height: 36px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: -12px;
+    border: none;
+}
+.dropdownbutton4:focus{
+    outline: none;
+    
+}
+.dropdownbutton4::after{
+    margin-left: 176px;
+}
+.dropdowncontent{
+    margin-top: 3px;
+    width: 215px;
+    margin-left: 0;
+}
+.refundreq{
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: -10px;
+    color: #464642;
+}
+
+
+  }

@@ -408,7 +408,7 @@
     }
   .heading{
       /* margin-left: 15px; */
-      font-size: 28px;
+      font-size: 24px;
       width: 100%;
       height: 31px;
       color: #4F8208;
@@ -596,7 +596,7 @@
       margin-left: -15px;
   }
  .telephoneoffice{
-  width: 100%;
+  width: 140px;
   height: 17px;
   font-size: 16px;
   font-weight: bold;
@@ -680,7 +680,7 @@
       margin-left: -15px;
   }
   .blockhouseno{
-      width: 100%;
+      width: 140px;
       height: 17px;
       font-size: 16px;
       font-weight: bold;
@@ -697,7 +697,7 @@
       margin-top: 5px;
   }
   .LEVEL{
-      margin-left: 0;
+      margin-left: -1px;
   }
   .levelunitno{
       width: 100%;

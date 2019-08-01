@@ -41,11 +41,17 @@ import { SummarynewComponent } from './summarynew/summarynew.component';
 import { AcknowledgenewComponent } from './acknowledgenew/acknowledgenew.component';
 import { RequeststatusnewComponent } from './requeststatusnew/requeststatusnew.component';
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
-// import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
+
+
+
+import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
+import { HeadernicoleComponent } from './headernicole/headernicole.component';
 
 
 const routes: Routes = [
-  // {path:'header-reuse',component: HeaderReuseComponent },
+  {path:'headernicole',component:HeadernicoleComponent},
+  {path:'transactionhistorynew',component:TransactionhistorynewComponent},
+  {path:'header',component:HeaderMakecayeModifiedComponent},
   {path:'header-reglogin',component:HeaderRegloginModifiedComponent},
   {path:'header',component:HeaderModifiedComponent},
   {path:'header-makecaye',component:HeaderMakecayeModifiedComponent},

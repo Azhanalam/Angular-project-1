@@ -1,15 +1,44 @@
 /* Made with love by Mutiullah Samim*/
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
-
-body{
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 12%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  body{
+    background-image: url('https://image.freepik.com/free-photo/bright-scenic-day-environment-background_1253-545.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 657px;
+    font-family: 'Numans', sans-serif;
+    height:100vh;
+    }
+  @media (min-width: 768px) {
+/* body{
 background-image: url('https://image.freepik.com/free-photo/bright-scenic-day-environment-background_1253-545.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 657px;
 font-family: 'Numans', sans-serif;
 height:100vh;
-}
+} */
 
 .container{
 height: 100%;
@@ -18,11 +47,11 @@ align-content: center;
 
 .card{
 height: 370px;
-margin-top:150px;
+margin-top:auto;
 margin-bottom: auto;
 width:320px;
 background:#f7f8f9;
-height:350px;
+height:290px;
 /* background-color: rgba(0,0,0,0.5) !important; */
 }
 
@@ -48,10 +77,12 @@ top: -45px;
 }
 
 .input-group-prepend span{
-width: 50px;
-background-color:gray;
-color: black;
-border:0 !important;
+    width: 40px;
+    background-color: gray;
+    color: black;
+    border: 0 !important;
+    font-size: 16px;
+    height: 40px;
 }
 
 input:focus{
@@ -61,7 +92,10 @@ box-shadow: 0 0 0 0 !important;
 }
 
 .remember{
-color: black;
+    color: black;
+    font-size: 12px;
+    /* margin: auto; */
+    margin-top: 10px;
 }
 
 .remember input
@@ -73,9 +107,13 @@ margin-right: 5px;
 }
 
 .login_btn{
-color: white;
-background-color:#2c74f9;
-width: 100px;
+    color: white;
+    background-color: #2c74f9 !important;
+    width: 292px;
+    height: 34px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Arial'
 }
 
 .login_btn:hover{
@@ -93,4 +131,108 @@ color: black;
 }
 a:hover{
 color:#2c74f9;
+}
+.INPUT{
+    height: 40px;
+}
+  }
+  @media (max-width: 768px){
+    [class*="col-"] {
+      width: 100%;
+    }
+    .container{
+        height: 100%;
+        align-content: center;
+        }
+        
+        .card{
+        margin: auto;
+        /* margin-top:150px; */
+        margin-bottom: auto;
+        width:90%;
+        background:#f7f8f9;
+        height:290px;
+        /* background-color: rgba(0,0,0,0.5) !important; */
+        }
+        
+        /* .social_icon span{
+        font-size: 60px;
+        margin-left: 10px;
+        color: gray;
+        } */
+        
+        .social_icon span:hover{
+        color: white;
+        cursor: pointer;
+        }
+        
+        .card-header h3{
+        color: white;
+        }
+        
+        .social_icon{
+        position: absolute;
+        right: 20px;
+        top: -45px;
+        }
+        
+        .input-group-prepend span{
+            width: 40px;
+            background-color: gray;
+            color: black;
+            border: 0 !important;
+            font-size: 16px;
+            height: 40px;
+        }
+        
+        input:focus{
+        outline: 0 0 0 0  !important;
+        box-shadow: 0 0 0 0 !important;
+        
+        }
+        
+        .remember{
+            color: black;
+            font-size: 12px;
+            /* margin: auto; */
+            margin-top: 10px;
+        }
+        
+        .remember input
+        {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+        }
+        
+        .login_btn{
+            color: white;
+            background-color: #2c74f9;
+            width: 100%;
+            height: 34px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: 'Arial'
+        }
+        
+        .login_btn:hover{
+        color: white;
+        background-color:#525d72;
+        }
+        
+        .links{
+        color: white;
+        }
+        
+        a{
+        margin-left: 4px;
+        color: black;
+        }
+        a:hover{
+        color:#2c74f9;
+        }
+        .INPUT{
+            height: 40px;
+        }
 }

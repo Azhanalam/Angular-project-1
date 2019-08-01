@@ -63,7 +63,9 @@ import { HeaderMakecayeModifiedComponent } from './header-makecaye-modified/head
 import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/header-reglogin-modified.component';
 
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
+import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 import { HeaderTransactionModifiedComponent } from './header-transaction-modified/header-transaction-modified.component';
+import { HeadernicoleComponent } from './headernicole/headernicole.component';
 
 // import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
 
@@ -116,8 +118,12 @@ import { HeaderTransactionModifiedComponent } from './header-transaction-modifie
     ViewCayeRefundReqComponent,
     HeaderMakecayeModifiedComponent,
     HeaderRegloginModifiedComponent,
+
     HeaderTransactionModifiedComponent
-    // HeaderReuseComponent
+
+    TransactionhistorynewComponent,
+    HeaderTransactionModifiedComponent,
+    HeadernicoleComponent
   ],
   imports: [
     MatListModule,
