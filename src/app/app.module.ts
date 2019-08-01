@@ -119,7 +119,7 @@ import { HeadernicoleComponent } from './headernicole/headernicole.component';
     HeaderMakecayeModifiedComponent,
     HeaderRegloginModifiedComponent,
 
-    HeaderTransactionModifiedComponent
+    HeaderTransactionModifiedComponent,
 
     TransactionhistorynewComponent,
     HeaderTransactionModifiedComponent,
