@@ -34,6 +34,7 @@
     }
     .acknowledge{
       margin-left: 0px;
+      margin-top: 20px;
     }
     .acknowledgement{
       width: 229px;
@@ -49,14 +50,14 @@
     font-size: 16px;
     font-family: 'Arial';
     color: #436F07;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 10px;
     }
   .transaction{
     width: 697.5px;
     height: 44px;
     /* margin-left: 15px; */
-    margin-top: 23px;
+    margin-top: 20px;
     background: #DFF0D8;
     border: .5px solid #D6E9C6;
     }
@@ -89,7 +90,7 @@
     }
     .thankyou{
       width: 86px;
-      height: 17px;
+      /* height: 17px; */
       color: #464642;
       font-weight: bold;
       font-family: 'Arial';
@@ -136,7 +137,7 @@
       color: #0070C0 !important;
     }
     .horizontalline{
-      margin-top: 51.5px;
+      margin-top: 71px;
     }
     hr {
       border: 0;
@@ -164,7 +165,7 @@
     }
     .TABLE{
       width: 696.5px;
-    margin-top: 20px;
+    margin-top: 25px;
     }
   }
 
@@ -187,6 +188,7 @@
     }
     .acknowledge{
       margin-left: 0px;
+      margin-top: 20px;
     }
     .acknowledgement{
       width: 100%;
@@ -199,7 +201,7 @@
   .transactionsuccessful{
     width: 100%;
     height: 20px;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Arial';
     color: #436F07;
     margin-top: 10px;
@@ -239,7 +241,7 @@
     }
     .thankyou{
       width: 100%;
-      height: 17px;
+      /* height: 17px; */
       color: #464642;
       font-weight: bold;
       font-family: 'Arial';
@@ -288,7 +290,7 @@
       color: #0070C0 !important;
     }
     .horizontalline{
-      margin-top: 0;;
+      margin-top: 20px;
     }
     hr {
       border: 0;
@@ -364,7 +366,7 @@
   td:before {
     position: absolute;
     top: 0;
-    left: 6px;
+    left: 0px;
     width: 45%;
     height: 100%;
     padding-right: 10px;
