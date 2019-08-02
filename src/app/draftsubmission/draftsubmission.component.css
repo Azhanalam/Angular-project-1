@@ -14,7 +14,7 @@
   .message{
     margin-bottom: 10px;
         width: 100%;
-        /* height: 44px; */
+        margin-top: 20px;
         color: #436F07;
         padding: 13px 6.5px 6px 10px;
         background-color: #DFF0D8;
@@ -33,7 +33,7 @@
     padding:5px 0px 5px 0px; margin-left:-5px; color:#49712d;font-weight:545;width:100%
   } */
 
-  .heading{
+  .heading1{
     color: #4F8208;
     font-size: 28px;
     width: 100%;
@@ -100,7 +100,7 @@
     .message{
       margin-bottom: 10px;
           width: 697.5px;
-          height: 44px;
+          /* height: 44px; */
           color: #436F07;
           padding: 13px 6.5px 6px 10px;
           background-color: #DFF0D8;
