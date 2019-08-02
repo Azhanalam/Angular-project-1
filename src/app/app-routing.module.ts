@@ -48,11 +48,12 @@ import { TransactionhistorynewComponent } from './transactionhistorynew/transact
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
 // import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 
+import { FooterModifiedComponent } from './footer-modified/footer-modified.component';
 
 const routes: Routes = [
 
   {path:'header-old',component:HeaderComponent},
-
+  {path:'footer-modified',component:FooterModifiedComponent},
   {path:'headernicole',component:HeadernicoleComponent},
   {path:'transactionhistorynew',component:TransactionhistorynewComponent},
   {path:'header-caye',component:HeaderMakecayeModifiedComponent},
