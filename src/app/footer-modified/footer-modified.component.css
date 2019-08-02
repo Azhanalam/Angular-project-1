@@ -74,6 +74,12 @@ li a{
 }
 
   @media only screen and (min-width: 768px) {
+    .cpfboard{
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: 'Arial';
+    }
     li a{
       display:inline;
     }

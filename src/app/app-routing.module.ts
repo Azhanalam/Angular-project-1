@@ -45,13 +45,13 @@ import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 
 
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
-// import { Footernew2Component } from './footernew2/footernew2.component';
+import { FooternewComponent } from './footernew/footernew.component';
 // import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 
 import { FooterModifiedComponent } from './footer-modified/footer-modified.component';
 
 const routes: Routes = [
-  // {path:'footernew2',component:Footernew2Component},
+  {path:'footernew',component:FooternewComponent},
 
   {path:'header-old',component:HeaderComponent},
   {path:'footer-modified',component:FooterModifiedComponent},
