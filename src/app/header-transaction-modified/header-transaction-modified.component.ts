@@ -40,10 +40,11 @@ export class HeaderTransactionModifiedComponent implements OnInit {
           console.log("flag value",this.screenflag);
         }
 
-
+      }
 
         logout(){
           this.router.navigate([""]);
         }
+        
 
 }

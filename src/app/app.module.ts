@@ -67,6 +67,8 @@ import { TransactionhistorynewComponent } from './transactionhistorynew/transact
 import { HeaderTransactionModifiedComponent } from './header-transaction-modified/header-transaction-modified.component';
 import { HeadernicoleComponent } from './headernicole/headernicole.component';
 import { TablehistoryComponent } from './tablehistory/tablehistory.component';
+import { FooternewComponent } from './footernew/footernew.component';
+import { Footernew2Component } from './footernew2/footernew2.component';
 
 // import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
 
@@ -125,7 +127,9 @@ import { TablehistoryComponent } from './tablehistory/tablehistory.component';
     TransactionhistorynewComponent,
     HeaderTransactionModifiedComponent,
     HeadernicoleComponent,
-    TablehistoryComponent
+    TablehistoryComponent,
+    FooternewComponent,
+    Footernew2Component
   ],
   imports: [
     MatListModule,
