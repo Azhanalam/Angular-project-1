@@ -22,7 +22,7 @@
 
   }
 
-  .heading{
+  .heading1{
     /* padding:5px 0px 5px 0px;  */
     /* margin-left:-5px;  */
     color:#4F8208;
@@ -154,7 +154,7 @@
 
   @media only screen and (min-width: 768px) {
     .leftfile{
-      width:116px;
+      width:117px;
     }
 
     .rightfile{
@@ -234,16 +234,16 @@
         /* background-color:#f2f2f3; */
       }
 
-     
+
           /* margin-left: 265px;
           /* width: 281.5px; */
           /*height: 30px;
           font-size: 16px;
           font-family: 'Arial'; */
           /* margin-top: -36px; */
-      
 
-      
+
+
 
 .steps{
   width:698px;
@@ -548,6 +548,7 @@ margin-top: 10px;
       width:78px;
       height:40px;
       margin-left: 258px;
+      margin-right:0;
       /* margin-top: 1%; */
       /* margin-bottom:1%; */
 
@@ -561,6 +562,7 @@ margin-top: 10px;
     width:116px;
     height:40px;
     margin-left:20px;
+    margin-right:0;
   }
 
   .submitbtn{
@@ -778,8 +780,8 @@ text-decoration: none;
 	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
 	*/
 	@media
-  only screen 
-  and (max-width: 760px), (min-device-width: 768px) 
+  only screen
+  and (max-width: 760px), (min-device-width: 768px)
   and (max-device-width: 1024px)  {
 
   /* Force table to not be like tables anymore */
@@ -797,7 +799,7 @@ text-decoration: none;
   tr {
     margin: 0 0 1rem 0;
   }
-    
+
   /* tr:nth-child(odd) {
     background: #ccc;
   }
@@ -836,5 +838,5 @@ text-decoration: none;
   td:nth-of-type(3):before { content: "NRIC"; }
   td:nth-of-type(4):before { content: "Gross Service Fee"; }
   td:nth-of-type(5):before { content: " Invoice No."; }
-  
+
 }

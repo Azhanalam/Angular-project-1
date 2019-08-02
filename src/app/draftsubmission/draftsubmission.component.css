@@ -23,6 +23,13 @@
         border:0.5px solid #D6E9C6;
   }
 
+  ul li{
+    margin-left:15px;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
   /* .message{
     color:#49712d;
      background-color:rgb(199, 239, 199);
@@ -152,8 +159,8 @@
   } */
 
   @media
-  only screen 
-  and (max-width: 760px), (min-device-width: 768px) 
+  only screen
+  and (max-width: 760px), (min-device-width: 768px)
   and (max-device-width: 1024px)  {
 
   /* Force table to not be like tables anymore */
@@ -171,7 +178,7 @@
   tr {
     margin: 0 0 1rem 0;
   }
-    
+
   /* tr:nth-child(odd) {
     background: #ccc;
   }
@@ -209,5 +216,5 @@
   td:nth-of-type(2):before { content: "Last Saved Date"; }
   td:nth-of-type(3):before { content: "Transaction No."; }
   td:nth-of-type(4):before { content: "Draft Reference No."; }
-  
+
 }
