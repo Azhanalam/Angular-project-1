@@ -54,6 +54,7 @@
     height: 31px;
     color: #4F8208;
     font-family: 'Arial';
+    margin-top: 10px;
     }
     .box1{
       width: 698px;
@@ -120,13 +121,13 @@
       }
       .horizontal1{
         border: 0;
-        /* clear:both; */
-        display:block;
-        width: 705px;
-        background-color:#707070;
-        height: 1px;
-        margin-top: 20.5px;
-        /* margin-left: 15px; */
+      display: block;
+      width: 705px;
+      background-color: #707070;
+      height: 1px;
+      /* margin-top: 20.5px; */
+      margin-left: 256px;
+      margin-bottom: 0;
       }
       .part1{
         margin-top: 21px;

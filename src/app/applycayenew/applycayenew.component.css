@@ -20,6 +20,17 @@
 
   }
 
+  .horizontal1{
+    border: 0;
+    /* clear:both; */
+    display:block;
+    width: 696px;
+    background-color:#707070;
+    height: 1px;
+    /* margin-top: 40.5px; */
+    /* margin-left: 23.5px; */
+  }
+
   @media (min-width: 768px) {
     .wholeapplycaye{
       width: 970px;
@@ -29,16 +40,18 @@
       width: 697.5px;
       margin: auto;
       background: #F9F9F9;
-      padding: 10px;
-      margin-left: 240px;
+      /* padding: 10px; */
+      margin-left: 256px;
     }
     .heading{
+      margin-top:20px;
         /* margin-left: 15px; */
         font-size: 28px;
         width: 602px;
         height: 31px;
         color: #4F8208;
         font-family: 'Arial';
+        
         }
     .CAYECSN{
      margin-top: 20px;

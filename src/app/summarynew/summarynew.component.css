@@ -13,11 +13,11 @@
     .column-11 {width: 91.66%;}
     .column-12 {width: 100%;}
   }
-  
+
   #container {
     display: flex;
     flex-wrap: wrap;
-  
+
   }
 
   @media (min-width: 768px) {
@@ -83,7 +83,7 @@
           .step2{
             margin-left:30.5%; color:#737373;font-weight:500;font-size: 16px;font-family: 'Arial';
           }
-          
+
           .step3{
             margin-left:22.6%; color: #4F8208;font-weight:500;font-size: 16px;font-family: 'Arial';
           }
@@ -91,7 +91,7 @@
             border: 0;
             /* clear:both; */
             display:block;
-            width: 696px;               
+            width: 696px;
             background-color:#707070;
             height: 1px;
             margin-top: 0px;
@@ -101,17 +101,17 @@
             border: 0;
             /* clear:both; */
             display:block;
-            width: 705px;               
+            width: 705px;
             background-color:#707070;
             height: 1px;
-            margin-top: 20.5px;
-            /* margin-left: 15px; */
+            /* margin-top: 20.5px; */
+            margin-left: 256px;
           }
           .horizontal{
             border: 0;
             /* clear:both; */
             display:block;
-            width: 696px;               
+            width: 696px;
             background-color:#707070;
             height: 1px;
             margin-top: 20.5px;
@@ -451,7 +451,7 @@
         .step2{
           margin-left:25%; color:#D2D2D2;  font-weight:500;font-size: 16px;
         }
-        
+
         .step3{
           margin-left:24%;color: #4F8208;font-weight:500;font-size: 16px;
         }
@@ -459,7 +459,7 @@
           border: 0;
           /* clear:both; */
           display:block;
-          width: 100%;               
+          width: 100%;
           background-color:#707070;
           height: 1px;
           margin-top: 0px;
@@ -469,7 +469,7 @@
           border: 0;
           /* clear:both; */
           display:block;
-          width: 100%;               
+          width: 100%;
           background-color:#707070;
           height: 1px;
           margin-top: 20.5px;

@@ -42,6 +42,7 @@
       font-family: 'Arial';
       color: #4F8208;
       font-weight: normal;
+      margin-top:10px;
     }
   .transactionsuccessful{
     width: 681px;
@@ -198,15 +199,15 @@
     }
   .transactionsuccessful{
     width: 100%;
-    height: 20px;
+    /* height: 20px; */
     font-size: 15px;
     font-family: 'Arial';
     color: #436F07;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     }
   .transaction{
     width: 100%;
-    height: 79px;
+    height: 93px;
     margin-top: 20px;
     background: #DFF0D8;
     border: .5px solid #D6E9C6;
@@ -239,7 +240,7 @@
     }
     .thankyou{
       width: 100%;
-      height: 17px;
+      /* height: 17px; */
       color: #464642;
       font-weight: bold;
       font-family: 'Arial';
@@ -261,7 +262,7 @@
     }
     .checkstatus{
       width: 100%;
-      height: 17px;
+      /* height: 17px; */
       font-size: 16px;
       font-family: 'Arial';
       color: #464642;
@@ -273,7 +274,7 @@
       font-size: 16px;
       font-family: 'Arial';
       color: #464642;
-      margin-top: 48px;
+      /* margin-top: 48px; */
     }
     .status{
       text-decoration: underline !important;
@@ -295,7 +296,7 @@
       width: 100%;
       background-color:#707070;
       height: 1px;
-      margin-top:0;
+      margin-top:20px;
       /* margin-left: 15px; */
     }
     .BACKTOMAIN{
