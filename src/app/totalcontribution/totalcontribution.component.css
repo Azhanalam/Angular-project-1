@@ -37,7 +37,7 @@
     width:100%
   } */
 
-  .heading{
+  .heading1{
     /* padding:5px 0px 5px 0px;  */
     /* margin-left:-5px;  */
     color:#4F8208;
@@ -501,7 +501,7 @@ border-bottom:1pt solid black;
 }
   @media only screen and (min-width: 768px) {
     .download{
-      margin-left:430px;text-decoration:underline;color:#0070C0;
+      margin-left:425px;text-decoration:underline;color:#0070C0;
     }
     .summary{
       background-color: #D2D2D2;font-size:16px;font-weight: bold;
