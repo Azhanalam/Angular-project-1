@@ -65,10 +65,10 @@ import { HeaderRegloginModifiedComponent } from './header-reglogin-modified/head
 import { ApplycayenewComponent } from './applycayenew/applycayenew.component';
 import { TransactionhistorynewComponent } from './transactionhistorynew/transactionhistorynew.component';
 import { HeaderTransactionModifiedComponent } from './header-transaction-modified/header-transaction-modified.component';
-import { HeadernicoleComponent } from './headernicole/headernicole.component';
 import { TablehistoryComponent } from './tablehistory/tablehistory.component';
 import { FooternewComponent } from './footernew/footernew.component';
 import { Footernew2Component } from './footernew2/footernew2.component';
+import { FooterModifiedComponent } from './footer-modified/footer-modified.component';
 
 // import { HeaderReuseComponent } from './header-reuse/header-reuse.component';
 
@@ -126,10 +126,11 @@ import { Footernew2Component } from './footernew2/footernew2.component';
 
     TransactionhistorynewComponent,
     HeaderTransactionModifiedComponent,
-    HeadernicoleComponent,
     TablehistoryComponent,
     FooternewComponent,
-    Footernew2Component
+    Footernew2Component,
+    TablehistoryComponent,
+    FooterModifiedComponent
   ],
   imports: [
     MatListModule,
