@@ -78,7 +78,7 @@
         font-family: 'Arial';
         color: #464642;
         width: 91px;
-        height: 17px;
+        /* height: 17px; */
       }
       .TotalService{
         font-weight: bold;
@@ -108,12 +108,12 @@
         height: 57px;
      }
       .statement1{
-        margin-left: -14px;
+        margin-left: 10px;
         width: 215px;
         height: 50px;
       }
       .statement2{
-        margin-left: -14px;
+        margin-left: 15px;
         width: 215px;
         height: 50px;
      }
@@ -159,32 +159,30 @@
     }
     .MyCaye{
       margin-left: 3px;
-      font-weight: bold;
-      margin-top: 29px;
-      font-size: 16px;
-      font-family: 'Arial';
-      color: #464642;
-      width: 219px;
-      height: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    width: 219px;
     }
     .MyPending{
       margin-left: 357px;
-      font-weight: bold;
-      margin-top: -85px;
-      font-size: 16px;
-      font-family: 'Arial';
-      color: #464642;
-      width: 240px;
-      height: 17px;
+    font-weight: bold;
+    margin-top: -102px;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #464642;
+    width: 240px;
     }
     .cardTransaction{
       margin-left: 357px !important;
     margin-top: -1px !important;
     }
     .card{
-      margin-top: 10px;
+      /* margin-top: 10px; */
     width: 340px;
-    height: 59px;
+    height: 70px;
     }
     .card-body{
       margin-left: -10px;
@@ -198,7 +196,7 @@
       cursor: pointer;
     font-size: 16px;
     font-family: 'Arial';
-    margin-top: 10px;
+    margin-top: 0px;
     color: #464642;
     margin-left: 10px;
     }
@@ -208,24 +206,24 @@
     font-family: 'Arial';
     margin-top: 20px;
     color: #464642;
-    margin-left: 10px;
+    margin-left: 30px;
     }
     .SuccessfulPayment{
       margin-top: 20px;
     margin-left: 0px;
     font-size: 16px;
     font-family: 'Arial';
-    width: 473px;
-    height: 17px;
+    /* width: 473px;
+    height: 17px; */
     color: #464642;
     }
     #rcorners3 {
       background: #4F8208;
       padding: 1.5px;
       width: 340px;
-      height: 1px;
-      margin-top: 17px;
-      margin-left: -3px;
+      /* height: 1px; */
+      margin-top: 20px;
+      margin-left: -11px;
     }
     #rcorners4 {
       background: #4F8208;
@@ -281,7 +279,7 @@
       }
       .CAYE{
         color: #4F8208;
-        font-size: 21px;
+        font-size: 19px;
         font-family: 'Arial';
         width: 100%;
         /* height: 31px; */
@@ -400,7 +398,7 @@
       font-family: 'Arial';
       color: #464642;
       width: 100%;
-      height: 17px;
+      /* height: 17px; */
       margin-left: 7px;
     }
     .cardTransaction{
@@ -418,11 +416,11 @@
     }
     .twodrafts{
       cursor: pointer;
-    font-size: 16px;
-    font-family: 'Arial';
-    margin-top: 10px;
-    color: #464642;
-    margin-left: 10px;
+      font-size: 16px;
+      font-family: 'Arial';
+      margin-top: 0px;
+      color: #464642;
+      margin-left: 0;
     }
     .card-body2{
       margin-left: -10px;
@@ -442,24 +440,24 @@
       font-size: 12px;
       font-family: 'Arial';
       width: 100%;
-      height: 17px;
+      /* height: 17px; */
       color: #464642;
     }
     #rcorners3 {
       background: #4F8208;
       padding: 1.5px;
-      width: 104%;
+      width: 110%;
       height: 1px;
-      margin-top: 17px;
-      margin-left: -2px;
+      margin-top: 9px;
+      margin-left: -9px;
     }
     #rcorners4 {
       background: #4F8208;
-    padding: 1.5px;
-    width: 97%;
-    height: 1px;
-    margin-top: 17px;
-    margin-left: 11px;
+      padding: 1.5px;
+      width: 97%;
+      height: 1px;
+      margin-top: 9px;
+      margin-left: 11px;
     }
 
   }
