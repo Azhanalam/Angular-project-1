@@ -115,11 +115,12 @@
 
   .serprovider{
     /* padding:15px 15px 0px 0px; */
-    font-size:22px;
+    font-size:21px !important;
     margin-left:10px ;
     margin-right: 48.5px;
     margin-top: 15px;
     font-weight: 400;
+    font-family:arial;
   }
 
   .onlineser{
